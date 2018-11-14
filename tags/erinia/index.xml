@@ -3,7 +3,7 @@
  <title>Your Title - erinia</title>
  <link href="http://example.com/tags/erinia/index.xml" rel="self"/>
  <link href="http://example.com/tag/erinia.html"/>
- <updated>2018-11-14T15:34:58-02:00</updated>
+ <updated>2018-11-14T15:50:50-02:00</updated>
  <id>http://example.com/tag/erinia.html</id>
  <author>
    <name>Author Here</name>
@@ -173,7 +173,7 @@
    <link href="http://example.com/2006/05/18/quadro-comemorativo-150-jogos-daqui"/>
    <updated>2006-05-18T00:00:00-03:00</updated>
    <id>http://example.com/2006/05/18/quadro-comemorativo-150-jogos-daqui</id>
-   <content type="html">&lt;p&gt;Mais uma vez o &lt;span style=&quot;color: rgb(255, 153, 0); font-weight: bold;&quot;&gt;jogosdaqui&lt;/span&gt; comemora uma nova marca, no dia 18 de maio de 2005 chegamos a 150 &amp;lt;a href=”/jogosdaqui.github.io-staging”/index.php?p=cl&amp;amp;t=19”&amp;gt;jogos&amp;lt;/a&amp;gt;
+   <content type="html">&lt;p&gt;Mais uma vez o &lt;span style=&quot;color: rgb(255, 153, 0); font-weight: bold;&quot;&gt;jogosdaqui&lt;/span&gt; comemora uma nova marca, no dia 18 de maio de 2005 chegamos a 150 &lt;a href=&quot;/jogosdaqui.github.io-staging/index.php?p=cl&amp;amp;t=19&quot;&gt;jogos&lt;/a&gt;
  nacionais cadastrados no site. &lt;br /&gt;&lt;br /&gt;Confira abaixo o quadro comemorativo com os 150 jogos e aproveite para conhecer mais sobre os jogos nacionais.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -575,7 +575,7 @@
    <link href="http://example.com/2005/12/05/enquete-no-mundo-erinia"/>
    <updated>2005-12-05T00:00:00-02:00</updated>
    <id>http://example.com/2005/12/05/enquete-no-mundo-erinia</id>
-   <content type="html">&lt;p&gt;Visando atender aos pedidos dos jogadores do &amp;lt;a href=”/jogosdaqui.github.io-staging”/2005/08/27/erinia/”&amp;gt;Erinia&amp;lt;/a&amp;gt;
+   <content type="html">&lt;p&gt;Visando atender aos pedidos dos jogadores do &lt;a href=&quot;/jogosdaqui.github.io-staging/2005/08/27/erinia/&quot;&gt;Erinia&lt;/a&gt;
 , foi montada uma pequena enquete com 5 perguntas, sobre macumbas e eventos, além de oferecer um espaço para que os jogadores possam colocar seus comentários a respeito do jogo.&lt;/p&gt;
 
 &lt;p&gt;Para participar da enquente, &lt;a href=&quot;http://www.ignisgames.com.br/erinia/pesquisa_jogadores.php&quot;&gt;clique aqui&lt;/a&gt;

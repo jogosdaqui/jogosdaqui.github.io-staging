@@ -3,7 +3,7 @@
  <title>Your Title - sbgames</title>
  <link href="http://example.com/tags/sbgames/index.xml" rel="self"/>
  <link href="http://example.com/tag/sbgames.html"/>
- <updated>2018-11-14T15:34:58-02:00</updated>
+ <updated>2018-11-14T15:50:50-02:00</updated>
  <id>http://example.com/tag/sbgames.html</id>
  <author>
    <name>Author Here</name>
@@ -375,7 +375,7 @@ Al&amp;#233;m de  muito bem acabado, o game tem um estilo bem pr&amp;#243;prio e
    <link href="http://example.com/2006/09/29/sbgames-2006-em-recife"/>
    <updated>2006-09-29T00:00:00-03:00</updated>
    <id>http://example.com/2006/09/29/sbgames-2006-em-recife</id>
-   <content type="html">&lt;p&gt;A edição 2006 do evento que se consolidou como o maior evento do país para pesquisadores e desenvolvedores de jogos será realizada em Recife entre os dias 08 e 10 de novembro.&lt;br /&gt;&lt;br /&gt;Se você quer conhecer mais sobre como os jogos eletrônicos são produzidos, não pode perder a SBGames.&lt;br /&gt;&lt;br /&gt;&amp;lt;a href=”/jogosdaqui.github.io-staging”/index.php?p=c&amp;amp;id=485”&amp;gt;Leia mais…&amp;lt;/a&amp;gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;A edição 2006 do evento que se consolidou como o maior evento do país para pesquisadores e desenvolvedores de jogos será realizada em Recife entre os dias 08 e 10 de novembro.&lt;br /&gt;&lt;br /&gt;Se você quer conhecer mais sobre como os jogos eletrônicos são produzidos, não pode perder a SBGames.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/index.php?p=c&amp;amp;id=485&quot;&gt;Leia mais…&lt;/a&gt;&lt;/p&gt;
 
 </content>
  </entry>
@@ -385,7 +385,7 @@ Al&amp;#233;m de  muito bem acabado, o game tem um estilo bem pr&amp;#243;prio e
    <link href="http://example.com/2005/12/14/palestra-pequeno-guardiao-do-tempo"/>
    <updated>2005-12-14T00:00:00-02:00</updated>
    <id>http://example.com/2005/12/14/palestra-pequeno-guardiao-do-tempo</id>
-   <content type="html">&lt;p&gt;Os desenvolvedores do jogo &amp;lt;a href=”/jogosdaqui.github.io-staging”/2005/12/01/pequeno-guardiao-do-tempo/”&amp;gt;Pequeno Guardião do Tempo,&amp;lt;/a&amp;gt;
+   <content type="html">&lt;p&gt;Os desenvolvedores do jogo &lt;a href=&quot;/jogosdaqui.github.io-staging/2005/12/01/pequeno-guardiao-do-tempo/&quot;&gt;Pequeno Guardião do Tempo,&lt;/a&gt;
  campeão do Festival de Jogos Independentes do SBGames 2005, estarão numa palestra na Universidade Veiga de Almeida dia 17 de dezembro.&lt;/p&gt;
 
 &lt;p&gt;Se você quer conhecer mais sobre o jogo, não pode perder esta oportunidade.&lt;/p&gt;
@@ -402,12 +402,12 @@ Al&amp;#233;m de  muito bem acabado, o game tem um estilo bem pr&amp;#243;prio e
    <id>http://example.com/2005/11/25/resultado-do-festival-de-jogos-independentes</id>
    <content type="html">&lt;p&gt;Segundo Rodrigo Damazio, Chair do Festival de Jogos Independentes do SBGames 2005, o resultado da premiação foi:&lt;/p&gt;
 
-&lt;p&gt;1o. Lugar com 33% dos votos - &amp;lt;a href=”/jogosdaqui.github.io-staging”/2005/12/01/pequeno-guardiao-do-tempo/”&amp;gt;Pequeno Guardião do Tempo&amp;lt;/a&amp;gt;&lt;/p&gt;
+&lt;p&gt;1o. Lugar com 33% dos votos - &lt;a href=&quot;/jogosdaqui.github.io-staging/2005/12/01/pequeno-guardiao-do-tempo/&quot;&gt;Pequeno Guardião do Tempo&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;ganharam uma GeForce 6800 GS, um jogo City of Villains e um curso de desenvolvimento de jogos no valor de R$ 6000.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;2o. Lugar com 32% dos votos (apenas 1 a menos que o 1o.) - &amp;lt;a href=”/jogosdaqui.github.io-staging”/2005/11/21/bola-de-gude/”&amp;gt;Bola de Gude&amp;lt;/a&amp;gt;&lt;/p&gt;
+&lt;p&gt;2o. Lugar com 32% dos votos (apenas 1 a menos que o 1o.) - &lt;a href=&quot;/jogosdaqui.github.io-staging/2005/11/21/bola-de-gude/&quot;&gt;Bola de Gude&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;ganham uma GeForce 6200, um jogo Serious Sam II e o livro GPU Gems 2.&lt;/li&gt;
 &lt;/ul&gt;
@@ -429,7 +429,7 @@ Al&amp;#233;m de  muito bem acabado, o game tem um estilo bem pr&amp;#243;prio e
    <id>http://example.com/2005/11/23/jogos-em-debate</id>
    <content type="html">&lt;p&gt;A empresa &lt;a href=&quot;http://www.hoplon.com/&quot;&gt;Hoplon Infotainment&lt;/a&gt;
  está chamando a atenção de todo o País. Na próxima quinta-feira, dia 24, o presidente da empresa, Tarqüínio Teles, estará participando de uma mesa redonda no Simpósio Brasileiro de Games (&lt;a href=&quot;http://sbgames.org/&quot;&gt;SBGames 2005&lt;/a&gt;
-) junto com Marcelo Minutti (Brasil Telecom) e Julio Vieitez (Level Up/Ragnarok). O tema do debate será “Jogos on-line: mercado e desenvolvimento”. Tarqüínio recebeu o convite por ser o principal mentor do maior projeto de desenvolvimento de game executado no Brasil, o &amp;lt;a href=”/jogosdaqui.github.io-staging”/2005/09/21/taikodom/”&amp;gt;Taikodom&amp;lt;/a&amp;gt;
+) junto com Marcelo Minutti (Brasil Telecom) e Julio Vieitez (Level Up/Ragnarok). O tema do debate será “Jogos on-line: mercado e desenvolvimento”. Tarqüínio recebeu o convite por ser o principal mentor do maior projeto de desenvolvimento de game executado no Brasil, o &lt;a href=&quot;/jogosdaqui.github.io-staging/2005/09/21/taikodom/&quot;&gt;Taikodom&lt;/a&gt;
 .&lt;/p&gt;
 
 &lt;p&gt;O jogo é um RPG virtual, o primeiro de ação espacial totalmente desenvolvido no País. Em 22 meses de trabalhos, o Taikodom recebeu R$ 5 milhões em investimentos e será comercializado a partir do próximo mês. A Hoplon espera que 25 mil usuários iniciem os acessos logo após o lançamento do jogo. O SBGames 2005 acontece em São Paulo, de 23 a 25 de novembro.&lt;/p&gt;
@@ -445,9 +445,9 @@ Al&amp;#233;m de  muito bem acabado, o game tem um estilo bem pr&amp;#243;prio e
 
 &lt;ul style=&quot;text-align: justify;&quot;&gt;
 &lt;ul&gt;
-	&lt;li style=&quot;text-align: justify;&quot;&gt;17 - &amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/index.php?p=c&amp;amp;id=142&quot;&amp;gt;&lt;span class=&quot;linkPagingCL&quot;&gt;IN Games 2005/2&lt;/span&gt;&amp;lt;/a&amp;gt;
+	&lt;li style=&quot;text-align: justify;&quot;&gt;17 - &lt;a href=&quot;/jogosdaqui.github.io-staging/index.php?p=c&amp;amp;id=142&quot;&gt;&lt;span class=&quot;linkPagingCL&quot;&gt;IN Games 2005/2&lt;/span&gt;&lt;/a&gt;
  (São Leopoldo- RS)&lt;/li&gt;
-	&lt;li style=&quot;text-align: justify;&quot;&gt;23 a 25 - &amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/index.php?p=c&amp;amp;id=70&quot;&amp;gt;SBGames&amp;lt;/a&amp;gt;
+	&lt;li style=&quot;text-align: justify;&quot;&gt;23 a 25 - &lt;a href=&quot;/jogosdaqui.github.io-staging/index.php?p=c&amp;amp;id=70&quot;&gt;SBGames&lt;/a&gt;
  (São Paulo - SP)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/ul&gt;

@@ -3,7 +3,7 @@
  <title>Your Title - southlogic-studios</title>
  <link href="http://example.com/tags/southlogic-studios/index.xml" rel="self"/>
  <link href="http://example.com/tag/southlogic-studios.html"/>
- <updated>2018-11-14T15:34:58-02:00</updated>
+ <updated>2018-11-14T15:50:50-02:00</updated>
  <id>http://example.com/tag/southlogic-studios.html</id>
  <author>
    <name>Author Here</name>
@@ -16,9 +16,9 @@
    <id>http://example.com/2015/05/14/starlit-adventures-novo-lancamento-da-rockhead-games</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.starlitadventures.com/&quot; target=&quot;_blank&quot;&gt;Starlit Adventures&lt;/a&gt;
  é o novo game da gaúcha &lt;a href=&quot;http://rockheadgames.com/&quot; target=&quot;_blank&quot;&gt;Rockhead Games&lt;/a&gt;
-, de jogos como &amp;lt;a href=”/jogosdaqui.github.io-staging”/2013/05/20/master-of-words/”&amp;gt;Master of Words&amp;lt;/a&amp;gt;
- e Pixel Shaper, foi fundada em 2010 por Christian Lykawka e Fernando D’Andrea, os mesmos que anos antes fundaram a Southlogic Studios, famosa por games como &amp;lt;a href=”/jogosdaqui.github.io-staging”/2005/09/20/guimo/”&amp;gt;Guimo&amp;lt;/a&amp;gt;
- e &amp;lt;a href=”/jogosdaqui.github.io-staging”/2005/09/20/trophy-hunter-2003/”&amp;gt;Trophy Hunter 2003&amp;lt;/a&amp;gt;
+, de jogos como &lt;a href=&quot;/jogosdaqui.github.io-staging/2013/05/20/master-of-words/&quot;&gt;Master of Words&lt;/a&gt;
+ e Pixel Shaper, foi fundada em 2010 por Christian Lykawka e Fernando D’Andrea, os mesmos que anos antes fundaram a Southlogic Studios, famosa por games como &lt;a href=&quot;/jogosdaqui.github.io-staging/2005/09/20/guimo/&quot;&gt;Guimo&lt;/a&gt;
+ e &lt;a href=&quot;/jogosdaqui.github.io-staging/2005/09/20/trophy-hunter-2003/&quot;&gt;Trophy Hunter 2003&lt;/a&gt;
 .&lt;/p&gt;
 
 &lt;h2 id=&quot;lançamento-mundial&quot;&gt;Lançamento mundial&lt;/h2&gt;
@@ -61,7 +61,7 @@
    <link href="http://example.com/2015/04/24/cobertura-do-evento-powerup-2"/>
    <updated>2015-04-24T00:00:00-03:00</updated>
    <id>http://example.com/2015/04/24/cobertura-do-evento-powerup-2</id>
-   <content type="html">&lt;p&gt;Quarta-feira na universade Feevale aconteceu a segunda edição do evento &amp;lt;a title=”PowerUp #2” href=”/jogosdaqui.github.io-staging”/2015/04/17/powerup-2/”&amp;gt;PowerUp&amp;lt;/a&amp;gt;
+   <content type="html">&lt;p&gt;Quarta-feira na universade Feevale aconteceu a segunda edição do evento &lt;a title=&quot;PowerUp #2&quot; href=&quot;/jogosdaqui.github.io-staging/2015/04/17/powerup-2/&quot;&gt;PowerUp&lt;/a&gt;
 , o jogosdaqui esteve lá para apreciar as palestras e alguns jogos que foram desenvolvidos durante a Ludum Dare.&lt;/p&gt;
 
 &lt;p&gt;O evento teve auditório lotado e foi dividido em dois momentos, o primeiro com duas palestras de desenvolvedores de jogos e o segundo momento onde jogos produzidos durante a última Ludum Dare receberam feedback de empresas associadas a ADjogosRS.&lt;/p&gt;

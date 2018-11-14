@@ -3,7 +3,7 @@
  <title>Your Title - powerup</title>
  <link href="http://example.com/tags/powerup/index.xml" rel="self"/>
  <link href="http://example.com/tag/powerup.html"/>
- <updated>2018-11-14T15:34:58-02:00</updated>
+ <updated>2018-11-14T15:50:50-02:00</updated>
  <id>http://example.com/tag/powerup.html</id>
  <author>
    <name>Author Here</name>
@@ -36,7 +36,7 @@
    <link href="http://example.com/2015/04/24/cobertura-do-evento-powerup-2"/>
    <updated>2015-04-24T00:00:00-03:00</updated>
    <id>http://example.com/2015/04/24/cobertura-do-evento-powerup-2</id>
-   <content type="html">&lt;p&gt;Quarta-feira na universade Feevale aconteceu a segunda edição do evento &amp;lt;a title=”PowerUp #2” href=”/jogosdaqui.github.io-staging”/2015/04/17/powerup-2/”&amp;gt;PowerUp&amp;lt;/a&amp;gt;
+   <content type="html">&lt;p&gt;Quarta-feira na universade Feevale aconteceu a segunda edição do evento &lt;a title=&quot;PowerUp #2&quot; href=&quot;/jogosdaqui.github.io-staging/2015/04/17/powerup-2/&quot;&gt;PowerUp&lt;/a&gt;
 , o jogosdaqui esteve lá para apreciar as palestras e alguns jogos que foram desenvolvidos durante a Ludum Dare.&lt;/p&gt;
 
 &lt;p&gt;O evento teve auditório lotado e foi dividido em dois momentos, o primeiro com duas palestras de desenvolvedores de jogos e o segundo momento onde jogos produzidos durante a última Ludum Dare receberam feedback de empresas associadas a ADjogosRS.&lt;/p&gt;
@@ -76,10 +76,10 @@
    <updated>2015-04-18T00:00:00-03:00</updated>
    <id>http://example.com/2015/04/18/checkpoint-2</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging&amp;quot;/2015/04/17/axis-game-day&quot;&gt;O evento AXIS Game Day, que acontece hoje, com diversas palestras de gamedevs brasileiros&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/04/17/axis-game-day&quot;&gt;O evento AXIS Game Day, que acontece hoje, com diversas palestras de gamedevs brasileiros&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;2&quot;&gt;#2&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging&amp;quot;/2015/04/17/powerup-2&quot;&gt;Anunciado o evento PowerUp #2 da AdJogosRS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/04/17/powerup-2&quot;&gt;Anunciado o evento PowerUp #2 da AdJogosRS&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;3&quot;&gt;#3&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/cupcake_se/status/58919325451778867&quot;&gt;A Cupcake anunciou que participará do evento eMerge Americas 2015 entre 1 e 5 de maio em Miami&lt;/a&gt;&lt;/p&gt;

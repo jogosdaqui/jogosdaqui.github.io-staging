@@ -3,7 +3,7 @@
  <title>Your Title - long-hat-house</title>
  <link href="http://example.com/tags/long-hat-house/index.xml" rel="self"/>
  <link href="http://example.com/tag/long-hat-house.html"/>
- <updated>2018-11-14T15:34:58-02:00</updated>
+ <updated>2018-11-14T15:50:50-02:00</updated>
  <id>http://example.com/tag/long-hat-house.html</id>
  <author>
    <name>Author Here</name>
@@ -14,7 +14,7 @@
    <link href="http://example.com/2015/05/17/games-brasileiros-finalistas-no-big-festival-2015"/>
    <updated>2015-05-17T00:00:00-03:00</updated>
    <id>http://example.com/2015/05/17/games-brasileiros-finalistas-no-big-festival-2015</id>
-   <content type="html">&lt;p&gt;A organização do &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/03/27/big-festival-2015/”&amp;gt;BIG Festival&amp;lt;/a&amp;gt;
+   <content type="html">&lt;p&gt;A organização do &lt;a href=&quot;/jogosdaqui.github.io-staging/2015/03/27/big-festival-2015/&quot;&gt;BIG Festival&lt;/a&gt;
 , primeiro e único festival de jogos independentes da América Latina, revelou durante a semana os finalistas da edição de 2015.&lt;/p&gt;
 
 &lt;p&gt;Apesar de ser um evento de âmbito continental, o festival, por ser realizado no Brasil, tem uma categoria chamada “Revelação Brasil”, que privilegia os games produzidos no país, onde podemos conferir vários jogos daqui bem conhecidos.&lt;/p&gt;

@@ -3,7 +3,7 @@
  <title>Your Title - ps3</title>
  <link href="http://example.com/tags/ps3/index.xml" rel="self"/>
  <link href="http://example.com/tag/ps3.html"/>
- <updated>2018-11-14T15:34:58-02:00</updated>
+ <updated>2018-11-14T15:50:50-02:00</updated>
  <id>http://example.com/tag/ps3.html</id>
  <author>
    <name>Author Here</name>
@@ -14,7 +14,7 @@
    <link href="http://example.com/2015/05/05/revelado-novo-game-da-qubyte-interactive-recruits"/>
    <updated>2015-05-05T00:00:00-03:00</updated>
    <id>http://example.com/2015/05/05/revelado-novo-game-da-qubyte-interactive-recruits</id>
-   <content type="html">&lt;p&gt;Semana passada &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/04/30/qubyte-interactive-produzindo-novo-game/”&amp;gt;anunciamos&amp;lt;/a&amp;gt;
+   <content type="html">&lt;p&gt;Semana passada &lt;a href=&quot;/jogosdaqui.github.io-staging/2015/04/30/qubyte-interactive-produzindo-novo-game/&quot;&gt;anunciamos&lt;/a&gt;
  que a gamedev brasileira QUByte Interactive estava produzindo um novo game  de estratégia com muitos elementos de ação, inspirado em clássicos top-down shooter, como Cannon Fodder do SNES.&lt;/p&gt;
 
 &lt;p&gt;Hoje a QUbyte revelou oficialmente o jogo, trata-se de &lt;a href=&quot;http://www.recruitsgame.com/&quot; target=&quot;_blank&quot;&gt;Recruits - Make Heroes. Make History&lt;/a&gt;
