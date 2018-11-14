@@ -3,7 +3,7 @@
  <title>Your Title - crowdfunding</title>
  <link href="http://example.com/tags/crowdfunding/index.xml" rel="self"/>
  <link href="http://example.com/tag/crowdfunding.html"/>
- <updated>2018-11-14T14:28:53-02:00</updated>
+ <updated>2018-11-14T15:07:27-02:00</updated>
  <id>http://example.com/tag/crowdfunding.html</id>
  <author>
    <name>Author Here</name>
@@ -169,7 +169,7 @@ Fizemos uma lista dos games que conhecemos que estão em campanha atualmente. Co
 
 &lt;p&gt;A equipe também está procurando ONGs e instituições que tratem essas condições para que as crianças tenham acesso ao jogo desde cedo.&lt;/p&gt;
 
-&lt;p&gt;O game foi um dos &lt;a href=&quot;/2015/06/09/conheca-os-games-selecionados-no-big-starter/&quot;&gt;8 selecionados&lt;/a&gt;
+&lt;p&gt;O game foi um dos &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/06/09/conheca-os-games-selecionados-no-big-starter/”&amp;gt;8 selecionados&amp;lt;/a&amp;gt;
  no BIG Starter 2015 do BIG Festival e recebeu o prêmio de Melhor Jogo Educativo.&lt;/p&gt;
 
 &lt;h2 id=&quot;vídeo-de-fófuuu&quot;&gt;Vídeo de Fófuuu&lt;/h2&gt;
@@ -184,7 +184,7 @@ Fizemos uma lista dos games que conhecemos que estão em campanha atualmente. Co
    <link href="http://example.com/2015/07/21/crowdfunding-de-satellite-rush"/>
    <updated>2015-07-21T00:00:00-03:00</updated>
    <id>http://example.com/2015/07/21/crowdfunding-de-satellite-rush</id>
-   <content type="html">&lt;p&gt;Quando postamos sobre &lt;a href=&quot;/2014/05/22/splitplay-apresenta-satellite-rush/&quot; target=&quot;_blank&quot;&gt;Satellite Rush&lt;/a&gt;
+   <content type="html">&lt;p&gt;Quando postamos sobre &amp;lt;a href=”/jogosdaqui.github.io-staging”/2014/05/22/splitplay-apresenta-satellite-rush/” target=”_blank”&amp;gt;Satellite Rush&amp;lt;/a&amp;gt;
  em 2014, o game da carioca Kimeric Labs estava apenas iniciando sua pre-order na loja brasileira &lt;a href=&quot;http://www.splitplay.com.br&quot; target=&quot;_blank&quot;&gt;SplitPlay&lt;/a&gt;
 , agora a gamedev indie está buscando financiamento coletivo através do &lt;a href=&quot;https://www.kickstarter.com/projects/680602475/satellite-rush-sci-fi-roguelike-shooter&quot; target=&quot;_blank&quot;&gt;Kickstarter&lt;/a&gt;
  para melhorar ainda mais o game.&lt;/p&gt;
@@ -218,7 +218,7 @@ Fizemos uma lista dos games que conhecemos que estão em campanha atualmente. Co
    <link href="http://example.com/2015/07/16/crowdfunding-de-magic-master-atinge-25-da-meta"/>
    <updated>2015-07-16T00:00:00-03:00</updated>
    <id>http://example.com/2015/07/16/crowdfunding-de-magic-master-atinge-25-da-meta</id>
-   <content type="html">&lt;p&gt;Há alguns dias falamos do início da campanha de &lt;a href=&quot;/2015/07/06/crowdfunding-de-magic-master/&quot;&gt;crowdfunding do game Master Magic&lt;/a&gt;
+   <content type="html">&lt;p&gt;Há alguns dias falamos do início da campanha de &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/07/06/crowdfunding-de-magic-master/”&amp;gt;crowdfunding do game Master Magic&amp;lt;/a&amp;gt;
  da produtora brasileira Mopix. Hoje recebemos uma boa notícia: o jogo já atingiu 25% de sua meta na campanha que ainda tem 45 dias até seu deadline.&lt;/p&gt;
 
 &lt;h2 id=&quot;vídeo-de-gameplay-de-magic-master&quot;&gt;Vídeo de gameplay de Magic Master&lt;/h2&gt;
@@ -293,7 +293,7 @@ r feita pelos seus criadores que conquistou mais de US$ 500.000 para a produçã
 &lt;h2 id=&quot;plataformas-e-lançamento&quot;&gt;Plataformas e lançamento&lt;/h2&gt;
 &lt;p&gt;O jogo que está em desenvolvimento há apenas 7 meses tem previsão de lançamento para o primeiro semestre de 2016, saindo inicialmente para Windows e Mac, mas a equipe de desenvolvimento não descarta a possibilidade do game sair para consoles.&lt;/p&gt;
 
-&lt;p&gt;O game foi um dos &lt;a href=&quot;/2015/06/09/conheca-os-games-selecionados-no-big-starter/&quot;&gt;8 selecionados&lt;/a&gt;
+&lt;p&gt;O game foi um dos &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/06/09/conheca-os-games-selecionados-no-big-starter/”&amp;gt;8 selecionados&amp;lt;/a&amp;gt;
  no BIG Starter 2015 do BIG Festival.&lt;/p&gt;
 &lt;h2 id=&quot;teaser-de-massive-madness&quot;&gt;Teaser de Massive Madness&lt;/h2&gt;
 &lt;center&gt;
@@ -323,9 +323,9 @@ r feita pelos seus criadores que conquistou mais de US$ 500.000 para a produçã
 
 &lt;p&gt;Além do vídeo acima, também já falamos do CKE em outros momentos:&lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;/2015/04/09/previa-de-gryphon-knight-epic/&quot;&gt;Prévia de Gryphon Knight Epic&lt;/a&gt;
+	&lt;li&gt;&amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/2015/04/09/previa-de-gryphon-knight-epic/&quot;&amp;gt;Prévia de Gryphon Knight Epic&amp;lt;/a&amp;gt;
 &lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;/2015/05/06/insert-coins-gryphon-knight-epic-gameplay-e-entrevista/&quot;&gt;Insert Coins: Gryphon Knight Epic – Gameplay e Entrevista&lt;/a&gt;
+	&lt;li&gt;&amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/2015/05/06/insert-coins-gryphon-knight-epic-gameplay-e-entrevista/&quot;&amp;gt;Insert Coins: Gryphon Knight Epic – Gameplay e Entrevista&amp;lt;/a&amp;gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
@@ -336,14 +336,14 @@ r feita pelos seus criadores que conquistou mais de US$ 500.000 para a produçã
    <link href="http://example.com/2015/05/10/campanha-do-turbolink-no-collective-esta-chegando-ao-fim"/>
    <updated>2015-05-10T00:00:00-03:00</updated>
    <id>http://example.com/2015/05/10/campanha-do-turbolink-no-collective-esta-chegando-ao-fim</id>
-   <content type="html">&lt;p&gt;A campanha do &lt;a href=&quot;/2015/04/03/previa-de-turbolink/&quot;&gt;game brasileiro TurboLink&lt;/a&gt;
- está chegando ao fim na plataforma Square Enix Collective, mas ainda faltam votos para que a produtora de Final Fantasy apóie o game na sua &lt;a href=&quot;/2015/04/14/turbolink-no-square-enix-collective/&quot;&gt;campanha no Kickstarter&lt;/a&gt;
+   <content type="html">&lt;p&gt;A campanha do &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/04/03/previa-de-turbolink/”&amp;gt;game brasileiro TurboLink&amp;lt;/a&amp;gt;
+ está chegando ao fim na plataforma Square Enix Collective, mas ainda faltam votos para que a produtora de Final Fantasy apóie o game na sua &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/04/14/turbolink-no-square-enix-collective/”&amp;gt;campanha no Kickstarter&amp;lt;/a&amp;gt;
 .&lt;/p&gt;
 
 &lt;h2 id=&quot;status-da-campanha-no-collective&quot;&gt;Status da campanha no Collective&lt;/h2&gt;
 &lt;p&gt;Segundo a equipe de desenvolvimento do game, falta um pouco menos de 50% da meta de votos para que o apoio da gigante japonesa vire realidade.&lt;/p&gt;
 
-&lt;p&gt;Vale lembrar que o game da Division Five recentemente conseguiu ser &lt;a href=&quot;/2015/05/05/turbolink-aprovado-no-steam-greenlight/&quot;&gt;aprovado no Steam Greenlight&lt;/a&gt;
+&lt;p&gt;Vale lembrar que o game da Division Five recentemente conseguiu ser &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/05/05/turbolink-aprovado-no-steam-greenlight/”&amp;gt;aprovado no Steam Greenlight&amp;lt;/a&amp;gt;
 , que sabemos ser uma conquista mais difícil ainda.&lt;/p&gt;
 
 &lt;h2 id=&quot;dê-seu-voto-de-apoio&quot;&gt;Dê seu voto de apoio&lt;/h2&gt;
@@ -379,15 +379,15 @@ também liberou para a imprensa vários dados bem interessantes sobre seu primei
 &lt;h2 id=&quot;os-jogos-mais-baixados&quot;&gt;Os jogos mais baixados&lt;/h2&gt;
 &lt;p&gt;Abaixo a lista atual de jogos mais baixados. Destaque para Chroma Squad que já está em quarto lugar na lista, mas foi lançado apenas na semana passada:&lt;/p&gt;
 &lt;ol&gt;
-	&lt;li&gt;&lt;a href=&quot;/2015/03/27/soul-gambler-gratuito-e-kickstarter-de-face-it/&quot;&gt;Soul Gambler: Dark Arts Edition&lt;/a&gt;
+	&lt;li&gt;&amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/2015/03/27/soul-gambler-gratuito-e-kickstarter-de-face-it/&quot;&amp;gt;Soul Gambler: Dark Arts Edition&amp;lt;/a&amp;gt;
 &lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;/2015/04/28/phoenix-force/&quot;&gt;Phoenix Force&lt;/a&gt;
+	&lt;li&gt;&amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/2015/04/28/phoenix-force/&quot;&amp;gt;Phoenix Force&amp;lt;/a&amp;gt;
 &lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;/2015/04/06/imagens-da-semana-1/&quot;&gt;Tormenta: O Desafio dos Deuses&lt;/a&gt;
+	&lt;li&gt;&amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/2015/04/06/imagens-da-semana-1/&quot;&amp;gt;Tormenta: O Desafio dos Deuses&amp;lt;/a&amp;gt;
 &lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;/2015/04/30/chroma-squad-no-steam-o-dia-chegou/&quot;&gt;Chroma Squad&lt;/a&gt;
+	&lt;li&gt;&amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/2015/04/30/chroma-squad-no-steam-o-dia-chegou/&quot;&amp;gt;Chroma Squad&amp;lt;/a&amp;gt;
 &lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;/2015/05/02/checkpoint-4/&quot;&gt;Aritana Pena de Arpia&lt;/a&gt;
+	&lt;li&gt;&amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/2015/05/02/checkpoint-4/&quot;&amp;gt;Aritana Pena de Arpia&amp;lt;/a&amp;gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -430,15 +430,15 @@ também liberou para a imprensa vários dados bem interessantes sobre seu primei
    <content type="html">&lt;p&gt;Acabamos de receber uma grande notícia: TurboLink, game da brasileira Division Five, recebeu a luz verde na plataforma &lt;a href=&quot;http://steamcommunity.com/sharedfiles/filedetails/?id=429961096&quot; target=&quot;_blank&quot;&gt;Greenlight&lt;/a&gt;
 , ou seja, num futuro próximo devemos ter esse belo jogo de corrida high-tech no Steam.&lt;/p&gt;
 
-&lt;p&gt;A equipe de desenvolvimento do game ainda tem uma grande batalha pela frente, pois sua campanha no &lt;a href=&quot;/2015/04/14/turbolink-no-square-enix-collective/&quot; target=&quot;_blank&quot;&gt;Square Enix Collective&lt;/a&gt;
+&lt;p&gt;A equipe de desenvolvimento do game ainda tem uma grande batalha pela frente, pois sua campanha no &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/04/14/turbolink-no-square-enix-collective/” target=”_blank”&amp;gt;Square Enix Collective&amp;lt;/a&amp;gt;
  está ativa e precisa dos jogadores para ser aprovada e assim o game poderá ser apoiado no Kickstarter pele Square Enix ou até financiado pela empresa.&lt;/p&gt;
 &lt;h2 id=&quot;conheça-o-turbolink&quot;&gt;Conheça o TurboLink&lt;/h2&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;/2015/04/03/previa-de-turbolink/&quot;&gt;Prévia de TurboLink&lt;/a&gt;
+	&lt;li&gt;&amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/2015/04/03/previa-de-turbolink/&quot;&amp;gt;Prévia de TurboLink&amp;lt;/a&amp;gt;
 &lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;/2015/04/14/turbolink-no-square-enix-collective/&quot;&gt;TurboLink no Square Enix Collective&lt;/a&gt;
+	&lt;li&gt;&amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/2015/04/14/turbolink-no-square-enix-collective/&quot;&amp;gt;TurboLink no Square Enix Collective&amp;lt;/a&amp;gt;
 &lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;/2015/04/23/lancado-a-demo-de-turbolink/&quot;&gt;Lançada a demo de TurboLink&lt;/a&gt;
+	&lt;li&gt;&amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/2015/04/23/lancado-a-demo-de-turbolink/&quot;&amp;gt;Lançada a demo de TurboLink&amp;lt;/a&amp;gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -457,16 +457,16 @@ também liberou para a imprensa vários dados bem interessantes sobre seu primei
    <link href="http://example.com/2015/04/30/chroma-squad-no-steam-o-dia-chegou"/>
    <updated>2015-04-30T00:00:00-03:00</updated>
    <id>http://example.com/2015/04/30/chroma-squad-no-steam-o-dia-chegou</id>
-   <content type="html">&lt;p&gt;A &lt;a href=&quot;/tags/behold-studios/&quot;&gt;Behold Studios&lt;/a&gt;
+   <content type="html">&lt;p&gt;A &amp;lt;a href=”/jogosdaqui.github.io-staging”/tags/behold-studios/”&amp;gt;Behold Studios&amp;lt;/a&amp;gt;
 , que já fez bonito com games como &lt;a href=&quot;http://beholdstudios.com.br/games/knights-of-pen-paper/&quot; target=&quot;_blank&quot;&gt;Knights of Pen &amp;amp; Paper&lt;/a&gt;
  e &lt;a href=&quot;http://beholdstudios.com.br/games/monster-jam/&quot; target=&quot;_blank&quot;&gt;Monster Jam&lt;/a&gt;
 , é a protagonista de um dos mais esperados lançamentos do ano, claro que estamos falando de &lt;a href=&quot;http://chromasquad.com/&quot; target=&quot;_blank&quot;&gt;Chroma Squad&lt;/a&gt;
  a grande empreitada que começou em meados de 2013 numa &lt;a href=&quot;https://www.kickstarter.com/projects/1893273284/chroma-squad-manager-game-with-japanese-style-supe/&quot; target=&quot;_blank&quot;&gt;campanha no Kickstarter&lt;/a&gt;
- e que agora culmina no lançamento do jogo no &lt;a href=&quot;/tags/steam/&quot;&gt;Steam&lt;/a&gt;
+ e que agora culmina no lançamento do jogo no &amp;lt;a href=”/jogosdaqui.github.io-staging”/tags/steam/”&amp;gt;Steam&amp;lt;/a&amp;gt;
 .&lt;/p&gt;
 
-&lt;p&gt;Chorma Squad é um &lt;a href=&quot;/tags/indie/&quot;&gt;indie&lt;/a&gt;
- game com uma estética pixel art e uma jogabilidade bem original, que mescla gerenciamento de um estúdio de super sentai (Changeman, Power Rangers, etc) com &lt;a href=&quot;/tags/rpg/&quot;&gt;RPG&lt;/a&gt;
+&lt;p&gt;Chorma Squad é um &amp;lt;a href=”/jogosdaqui.github.io-staging”/tags/indie/”&amp;gt;indie&amp;lt;/a&amp;gt;
+ game com uma estética pixel art e uma jogabilidade bem original, que mescla gerenciamento de um estúdio de super sentai (Changeman, Power Rangers, etc) com &amp;lt;a href=”/jogosdaqui.github.io-staging”/tags/rpg/”&amp;gt;RPG&amp;lt;/a&amp;gt;
  tático.&lt;/p&gt;
 
 &lt;p&gt;Confira abaixo o trailer de lançamento na versão português:&lt;/p&gt;
@@ -484,7 +484,7 @@ também liberou para a imprensa vários dados bem interessantes sobre seu primei
    <link href="http://example.com/2015/04/14/turbolink-no-square-enix-collective"/>
    <updated>2015-04-14T00:00:00-03:00</updated>
    <id>http://example.com/2015/04/14/turbolink-no-square-enix-collective</id>
-   <content type="html">&lt;p&gt;No início de abril fizemos uma &lt;a href=&quot;/2015/04/03/previa-de-turbolink/&quot;&gt;prévia de TurboLink&lt;/a&gt;
+   <content type="html">&lt;p&gt;No início de abril fizemos uma &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/04/03/previa-de-turbolink/”&amp;gt;prévia de TurboLink&amp;lt;/a&amp;gt;
  jogo de corrida da brasileira Division Five, agora chegou a hora de apoiar o game numa nova fase, pois começou a campanha do TurboLink no Square Enix Collective.&lt;/p&gt;
 
 &lt;p&gt;Collective, mas o que é isso? É uma plataforma pré-Kickstarter, onde os desenvolvedores podem expor sua ideia de game antes de começar a campanha de crowdfunding financeiro, funciona assim:&lt;/p&gt;
@@ -494,7 +494,7 @@ também liberou para a imprensa vários dados bem interessantes sobre seu primei
 	&lt;li&gt;Se o game obtiver sucesso no Kickstarter e ainda for aprovado nos critérios da empresa, a Square Enix poderá se dispor a distribuí-lo.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Gostou do que viu na nossa &lt;a href=&quot;/2015/04/03/previa-de-turbolink/&quot;&gt;prévia do TurboLink&lt;/a&gt;
+&lt;p&gt;Gostou do que viu na nossa &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/04/03/previa-de-turbolink/”&amp;gt;prévia do TurboLink&amp;lt;/a&amp;gt;
 ? Então cadastre-se no Collective e vote “Sim” no projeto para ajudar o game a receber o apoio da Square Enix: &lt;a href=&quot;http://collective.square-enix.com/projects/106/turbolink&quot;&gt;http://collective.square-enix.com/projects/106/turbolink&lt;/a&gt;&lt;/p&gt;
 
 </content>
@@ -551,7 +551,7 @@ também liberou para a imprensa vários dados bem interessantes sobre seu primei
    <link href="http://example.com/2015/03/30/splitplay-dobra-de-tamanho-em-apenas-um-fim-de-semana"/>
    <updated>2015-03-30T00:00:00-03:00</updated>
    <id>http://example.com/2015/03/30/splitplay-dobra-de-tamanho-em-apenas-um-fim-de-semana</id>
-   <content type="html">&lt;p&gt;Na sexta-feira &lt;a href=&quot;/2015/03/27/soul-gambler-gratuito-e-kickstarter-de-face-it/&quot;&gt;noticiamos aqui&lt;/a&gt;
+   <content type="html">&lt;p&gt;Na sexta-feira &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/03/27/soul-gambler-gratuito-e-kickstarter-de-face-it/”&amp;gt;noticiamos aqui&amp;lt;/a&amp;gt;
  a promoção do SplitPlay para o game Soul Gambler que visava ajudar na campanha do KickStarter do game Face It, da brasileira Tlön Studios.&lt;/p&gt;
 
 &lt;p&gt;Hoje entramos em contato com o pessoal da SplitPlay e recebemos uma grande notícia: o SplitPlay dobrou de tamanho durante a promoção, ultrapassando a marca de &lt;strong&gt;80 mil usuários&lt;/strong&gt; registrados. Apenas durante o final de semana a loja online recebeu mais de &lt;strong&gt;500 mil acessos&lt;/strong&gt;.&lt;/p&gt;
@@ -560,8 +560,8 @@ também liberou para a imprensa vários dados bem interessantes sobre seu primei
 
 &lt;p&gt;Como a equipe do SplitPlay mencionou e nós assinamos embaixo, &lt;strong&gt;&amp;gt; esse fim de semana foi um marco para o mercado brasileiro de games e mostra como o público tem interesse pelos jogos daqui&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Veja posts sobre o &lt;a href=&quot;/tags/splitplay/&quot;&gt;SplitPlay&lt;/a&gt;
- e a &lt;a href=&quot;/tags/tlon-studios/&quot;&gt;Tlön Studios&lt;/a&gt;
+&lt;p&gt;Veja posts sobre o &amp;lt;a href=”/jogosdaqui.github.io-staging”/tags/splitplay/”&amp;gt;SplitPlay&amp;lt;/a&amp;gt;
+ e a &amp;lt;a href=”/jogosdaqui.github.io-staging”/tags/tlon-studios/”&amp;gt;Tlön Studios&amp;lt;/a&amp;gt;
  no jogosdaqui.&lt;/p&gt;
 </content>
  </entry>

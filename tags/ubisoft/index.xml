@@ -3,7 +3,7 @@
  <title>Your Title - ubisoft</title>
  <link href="http://example.com/tags/ubisoft/index.xml" rel="self"/>
  <link href="http://example.com/tag/ubisoft.html"/>
- <updated>2018-11-14T14:28:53-02:00</updated>
+ <updated>2018-11-14T15:07:27-02:00</updated>
  <id>http://example.com/tag/ubisoft.html</id>
  <author>
    <name>Author Here</name>
@@ -14,7 +14,7 @@
    <link href="http://example.com/2015/04/24/cobertura-do-evento-powerup-2"/>
    <updated>2015-04-24T00:00:00-03:00</updated>
    <id>http://example.com/2015/04/24/cobertura-do-evento-powerup-2</id>
-   <content type="html">&lt;p&gt;Quarta-feira na universade Feevale aconteceu a segunda edição do evento &lt;a title=&quot;PowerUp #2&quot; href=&quot;/2015/04/17/powerup-2/&quot;&gt;PowerUp&lt;/a&gt;
+   <content type="html">&lt;p&gt;Quarta-feira na universade Feevale aconteceu a segunda edição do evento &amp;lt;a title=”PowerUp #2” href=”/jogosdaqui.github.io-staging”/2015/04/17/powerup-2/”&amp;gt;PowerUp&amp;lt;/a&amp;gt;
 , o jogosdaqui esteve lá para apreciar as palestras e alguns jogos que foram desenvolvidos durante a Ludum Dare.&lt;/p&gt;
 
 &lt;p&gt;O evento teve auditório lotado e foi dividido em dois momentos, o primeiro com duas palestras de desenvolvedores de jogos e o segundo momento onde jogos produzidos durante a última Ludum Dare receberam feedback de empresas associadas a ADjogosRS.&lt;/p&gt;

@@ -3,7 +3,7 @@
  <title>Your Title - mac</title>
  <link href="http://example.com/tags/mac/index.xml" rel="self"/>
  <link href="http://example.com/tag/mac.html"/>
- <updated>2018-11-14T14:28:53-02:00</updated>
+ <updated>2018-11-14T15:07:27-02:00</updated>
  <id>http://example.com/tag/mac.html</id>
  <author>
    <name>Author Here</name>
@@ -233,7 +233,7 @@ no Steam.&lt;/p&gt;
 
 &lt;p&gt;A equipe também está procurando ONGs e instituições que tratem essas condições para que as crianças tenham acesso ao jogo desde cedo.&lt;/p&gt;
 
-&lt;p&gt;O game foi um dos &lt;a href=&quot;/2015/06/09/conheca-os-games-selecionados-no-big-starter/&quot;&gt;8 selecionados&lt;/a&gt;
+&lt;p&gt;O game foi um dos &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/06/09/conheca-os-games-selecionados-no-big-starter/”&amp;gt;8 selecionados&amp;lt;/a&amp;gt;
  no BIG Starter 2015 do BIG Festival e recebeu o prêmio de Melhor Jogo Educativo.&lt;/p&gt;
 
 &lt;h2 id=&quot;vídeo-de-fófuuu&quot;&gt;Vídeo de Fófuuu&lt;/h2&gt;
@@ -272,7 +272,7 @@ r feita pelos seus criadores que conquistou mais de US$ 500.000 para a produçã
 &lt;h2 id=&quot;plataformas-e-lançamento&quot;&gt;Plataformas e lançamento&lt;/h2&gt;
 &lt;p&gt;O jogo que está em desenvolvimento há apenas 7 meses tem previsão de lançamento para o primeiro semestre de 2016, saindo inicialmente para Windows e Mac, mas a equipe de desenvolvimento não descarta a possibilidade do game sair para consoles.&lt;/p&gt;
 
-&lt;p&gt;O game foi um dos &lt;a href=&quot;/2015/06/09/conheca-os-games-selecionados-no-big-starter/&quot;&gt;8 selecionados&lt;/a&gt;
+&lt;p&gt;O game foi um dos &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/06/09/conheca-os-games-selecionados-no-big-starter/”&amp;gt;8 selecionados&amp;lt;/a&amp;gt;
  no BIG Starter 2015 do BIG Festival.&lt;/p&gt;
 &lt;h2 id=&quot;teaser-de-massive-madness&quot;&gt;Teaser de Massive Madness&lt;/h2&gt;
 &lt;center&gt;
@@ -287,7 +287,7 @@ r feita pelos seus criadores que conquistou mais de US$ 500.000 para a produçã
    <link href="http://example.com/2015/06/13/lancada-versao-pc-de-carcara-asas-da-justica"/>
    <updated>2015-06-13T00:00:00-03:00</updated>
    <id>http://example.com/2015/06/13/lancada-versao-pc-de-carcara-asas-da-justica</id>
-   <content type="html">&lt;p&gt;No final de maio &lt;a href=&quot;/2015/05/28/carcara-asas-da-justica/&quot;&gt;falamos do game Carcará - Asas da Justiça&lt;/a&gt;
+   <content type="html">&lt;p&gt;No final de maio &amp;lt;a href=”/jogosdaqui.github.io-staging”/2015/05/28/carcara-asas-da-justica/”&amp;gt;falamos do game Carcará - Asas da Justiça&amp;lt;/a&amp;gt;
  que, naquele momento, tinha versão apenas para Android.&lt;/p&gt;
 
 &lt;p&gt;A equipe da Supernova Indie Games entrou em contato conosco para informar a boa notícia: o game acaba de ganhar sua versão PC, disponível para &lt;a href=&quot;http://www.mediafire.com/download/0drde200ahdi5pl/carcara_mac_5_1.4.zip&quot; target=&quot;_blank&quot;&gt;Mac&lt;/a&gt;
@@ -326,9 +326,9 @@ r feita pelos seus criadores que conquistou mais de US$ 500.000 para a produçã
 
 &lt;p&gt;Além do vídeo acima, também já falamos do CKE em outros momentos:&lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;/2015/04/09/previa-de-gryphon-knight-epic/&quot;&gt;Prévia de Gryphon Knight Epic&lt;/a&gt;
+	&lt;li&gt;&amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/2015/04/09/previa-de-gryphon-knight-epic/&quot;&amp;gt;Prévia de Gryphon Knight Epic&amp;lt;/a&amp;gt;
 &lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;/2015/05/06/insert-coins-gryphon-knight-epic-gameplay-e-entrevista/&quot;&gt;Insert Coins: Gryphon Knight Epic – Gameplay e Entrevista&lt;/a&gt;
+	&lt;li&gt;&amp;lt;a href=&quot;/jogosdaqui.github.io-staging&quot;/2015/05/06/insert-coins-gryphon-knight-epic-gameplay-e-entrevista/&quot;&amp;gt;Insert Coins: Gryphon Knight Epic – Gameplay e Entrevista&amp;lt;/a&amp;gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
@@ -339,9 +339,9 @@ r feita pelos seus criadores que conquistou mais de US$ 500.000 para a produçã
    <link href="http://example.com/2015/04/23/lancado-a-demo-de-turbolink"/>
    <updated>2015-04-23T00:00:00-03:00</updated>
    <id>http://example.com/2015/04/23/lancado-a-demo-de-turbolink</id>
-   <content type="html">&lt;p&gt;No início do mês fizemos uma &lt;a title=&quot;Prévia de TurboLink&quot; href=&quot;/2015/04/03/previa-de-turbolink/&quot;&gt;prévia de TurboLink&lt;/a&gt;
+   <content type="html">&lt;p&gt;No início do mês fizemos uma &amp;lt;a title=”Prévia de TurboLink” href=”/jogosdaqui.github.io-staging”/2015/04/03/previa-de-turbolink/”&amp;gt;prévia de TurboLink&amp;lt;/a&amp;gt;
 , hoje a Division Five liberou a &lt;a href=&quot;http://collective.square-enix.com/projects/106/turbolink/updates/92/turbolink-demo-download-here&quot; target=&quot;_blank&quot;&gt;demo pública&lt;/a&gt;
- do game que está em votação no &lt;a title=&quot;TurboLink no Square Enix Collective&quot; href=&quot;/2015/04/14/turbolink-no-square-enix-collective/&quot;&gt;Collective da Square Enix&lt;/a&gt;
+ do game que está em votação no &amp;lt;a title=”TurboLink no Square Enix Collective” href=”/jogosdaqui.github.io-staging”/2015/04/14/turbolink-no-square-enix-collective/”&amp;gt;Collective da Square Enix&amp;lt;/a&amp;gt;
 .&lt;/p&gt;
 
 &lt;p&gt;Os jogadores poderão testar a demo com um torneio de 6 pistas, 4 carros, suporte ao controle do Xbox 360 e a implementação inicial da inteligência artificial do game.&lt;/p&gt;

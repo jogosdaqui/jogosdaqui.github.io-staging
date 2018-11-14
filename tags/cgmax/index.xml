@@ -3,7 +3,7 @@
  <title>Your Title - cgmax</title>
  <link href="http://example.com/tags/cgmax/index.xml" rel="self"/>
  <link href="http://example.com/tag/cgmax.html"/>
- <updated>2018-11-14T14:28:53-02:00</updated>
+ <updated>2018-11-14T15:07:27-02:00</updated>
  <id>http://example.com/tag/cgmax.html</id>
  <author>
    <name>Author Here</name>
@@ -25,7 +25,7 @@
    <link href="http://example.com/2005/12/14/palestra-pequeno-guardiao-do-tempo"/>
    <updated>2005-12-14T00:00:00-02:00</updated>
    <id>http://example.com/2005/12/14/palestra-pequeno-guardiao-do-tempo</id>
-   <content type="html">&lt;p&gt;Os desenvolvedores do jogo &lt;a href=&quot;/2005/12/01/pequeno-guardiao-do-tempo/&quot;&gt;Pequeno Guardião do Tempo,&lt;/a&gt;
+   <content type="html">&lt;p&gt;Os desenvolvedores do jogo &amp;lt;a href=”/jogosdaqui.github.io-staging”/2005/12/01/pequeno-guardiao-do-tempo/”&amp;gt;Pequeno Guardião do Tempo,&amp;lt;/a&amp;gt;
  campeão do Festival de Jogos Independentes do SBGames 2005, estarão numa palestra na Universidade Veiga de Almeida dia 17 de dezembro.&lt;/p&gt;
 
 &lt;p&gt;Se você quer conhecer mais sobre o jogo, não pode perder esta oportunidade.&lt;/p&gt;

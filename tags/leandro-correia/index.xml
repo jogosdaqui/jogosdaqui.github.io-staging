@@ -3,7 +3,7 @@
  <title>Your Title - leandro-correia</title>
  <link href="http://example.com/tags/leandro-correia/index.xml" rel="self"/>
  <link href="http://example.com/tag/leandro-correia.html"/>
- <updated>2018-11-14T14:28:53-02:00</updated>
+ <updated>2018-11-14T15:07:27-02:00</updated>
  <id>http://example.com/tag/leandro-correia.html</id>
  <author>
    <name>Author Here</name>
@@ -14,7 +14,7 @@
    <link href="http://example.com/2006/05/18/quadro-comemorativo-150-jogos-daqui"/>
    <updated>2006-05-18T00:00:00-03:00</updated>
    <id>http://example.com/2006/05/18/quadro-comemorativo-150-jogos-daqui</id>
-   <content type="html">&lt;p&gt;Mais uma vez o &lt;span style=&quot;color: rgb(255, 153, 0); font-weight: bold;&quot;&gt;jogosdaqui&lt;/span&gt; comemora uma nova marca, no dia 18 de maio de 2005 chegamos a 150 &lt;a href=&quot;/index.php?p=cl&amp;amp;t=19&quot;&gt;jogos&lt;/a&gt;
+   <content type="html">&lt;p&gt;Mais uma vez o &lt;span style=&quot;color: rgb(255, 153, 0); font-weight: bold;&quot;&gt;jogosdaqui&lt;/span&gt; comemora uma nova marca, no dia 18 de maio de 2005 chegamos a 150 &amp;lt;a href=”/jogosdaqui.github.io-staging”/index.php?p=cl&amp;amp;t=19”&amp;gt;jogos&amp;lt;/a&amp;gt;
  nacionais cadastrados no site. &lt;br /&gt;&lt;br /&gt;Confira abaixo o quadro comemorativo com os 150 jogos e aproveite para conhecer mais sobre os jogos nacionais.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -390,7 +390,7 @@
    <link href="http://example.com/2005/11/15/comecam-as-venda-do-smart-panda"/>
    <updated>2005-11-15T00:00:00-02:00</updated>
    <id>http://example.com/2005/11/15/comecam-as-venda-do-smart-panda</id>
-   <content type="html">&lt;p&gt;Nesta terça-feira, 15 de novembro, foi posto a venda o jogo educacional &lt;a href=&quot;/2005/09/30/smart-panda/&quot;&gt;Smart Panda&lt;/a&gt;
+   <content type="html">&lt;p&gt;Nesta terça-feira, 15 de novembro, foi posto a venda o jogo educacional &amp;lt;a href=”/jogosdaqui.github.io-staging”/2005/09/30/smart-panda/”&amp;gt;Smart Panda&amp;lt;/a&amp;gt;
 .&lt;/p&gt;
 
 &lt;p&gt;O jogo usa elementos de ação para ensinar operações matemáticas básicas de uma maneira muito divertida.Smart Panda pode ser comprado diretamente pela internet.&lt;/p&gt;
@@ -440,10 +440,10 @@
    <id>http://example.com/2005/09/30/smart-panda</id>
    <content type="html">&lt;p&gt;Conheça Smart Panda, um jogo diferente de tudo o que você já viu. Controle um simpático urso panda e tente resolver um a um todos os problemas matemáticos que surgem no alto da tela. Fácil? Não…&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2005/09/LeandroCorreia_SmartPanda_2.jpg&quot;&gt;
-&lt;/a&gt;
- &lt;a href=&quot;/wp-content/uploads/2005/09/LeandroCorreia_SmartPanda_3.jpg&quot;&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;a href=”/jogosdaqui.github.io-staging”/wp-content/uploads/2005/09/LeandroCorreia_SmartPanda_2.jpg”&amp;gt;
+&amp;lt;/a&amp;gt;
+ &amp;lt;a href=”/jogosdaqui.github.io-staging”/wp-content/uploads/2005/09/LeandroCorreia_SmartPanda_3.jpg”&amp;gt;
+&amp;lt;/a&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;Em Smart Panda, existem diversos inimigos que farão de tudo para atrapalhar você. Caranguejos, escorpiões, gatos, macacos, bolas de praia, corvos e até nuvens carregadas de eletricidade estão à espreita para atrasar o pobre panda. Acabando o tempo (representado por uma barra verde à esquerda da tela, é GAME OVER).&lt;/p&gt;
 

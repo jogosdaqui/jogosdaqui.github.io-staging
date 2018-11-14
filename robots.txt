@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: /jogosdaqui.github.io-staging%22/sitemap.xml

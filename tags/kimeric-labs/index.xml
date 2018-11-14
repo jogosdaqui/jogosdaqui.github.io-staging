@@ -3,7 +3,7 @@
  <title>Your Title - kimeric-labs</title>
  <link href="http://example.com/tags/kimeric-labs/index.xml" rel="self"/>
  <link href="http://example.com/tag/kimeric-labs.html"/>
- <updated>2018-11-14T14:28:53-02:00</updated>
+ <updated>2018-11-14T15:07:27-02:00</updated>
  <id>http://example.com/tag/kimeric-labs.html</id>
  <author>
    <name>Author Here</name>
@@ -14,7 +14,7 @@
    <link href="http://example.com/2015/07/21/crowdfunding-de-satellite-rush"/>
    <updated>2015-07-21T00:00:00-03:00</updated>
    <id>http://example.com/2015/07/21/crowdfunding-de-satellite-rush</id>
-   <content type="html">&lt;p&gt;Quando postamos sobre &lt;a href=&quot;/2014/05/22/splitplay-apresenta-satellite-rush/&quot; target=&quot;_blank&quot;&gt;Satellite Rush&lt;/a&gt;
+   <content type="html">&lt;p&gt;Quando postamos sobre &amp;lt;a href=”/jogosdaqui.github.io-staging”/2014/05/22/splitplay-apresenta-satellite-rush/” target=”_blank”&amp;gt;Satellite Rush&amp;lt;/a&amp;gt;
  em 2014, o game da carioca Kimeric Labs estava apenas iniciando sua pre-order na loja brasileira &lt;a href=&quot;http://www.splitplay.com.br&quot; target=&quot;_blank&quot;&gt;SplitPlay&lt;/a&gt;
 , agora a gamedev indie está buscando financiamento coletivo através do &lt;a href=&quot;https://www.kickstarter.com/projects/680602475/satellite-rush-sci-fi-roguelike-shooter&quot; target=&quot;_blank&quot;&gt;Kickstarter&lt;/a&gt;
  para melhorar ainda mais o game.&lt;/p&gt;

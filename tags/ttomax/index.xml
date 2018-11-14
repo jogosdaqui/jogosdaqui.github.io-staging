@@ -3,7 +3,7 @@
  <title>Your Title - ttomax</title>
  <link href="http://example.com/tags/ttomax/index.xml" rel="self"/>
  <link href="http://example.com/tag/ttomax.html"/>
- <updated>2018-11-14T14:28:53-02:00</updated>
+ <updated>2018-11-14T15:07:27-02:00</updated>
  <id>http://example.com/tag/ttomax.html</id>
  <author>
    <name>Author Here</name>
@@ -173,8 +173,8 @@
    <link href="http://example.com/2006/11/21/newsabragames-novembro-2006"/>
    <updated>2006-11-21T00:00:00-02:00</updated>
    <id>http://example.com/2006/11/21/newsabragames-novembro-2006</id>
-   <content type="html">&lt;p&gt;No ar a edição de novembro da newsletter da Abragames. Neste mês a NewsAbragames inaugura um novo formato, mais interativo, proporcionando um contato maior entre a Abragames e os jogadores.&lt;br /&gt;&lt;br /&gt;Nesta edição uma review do jogo &lt;a href=&quot;/index.php?p=c&amp;amp;id=136&quot;&gt;Ottomax&lt;/a&gt;
- da &lt;a href=&quot;/index.php?p=cl&amp;amp;t=19&amp;amp;idd=48&quot;&gt;Insolita Studios&lt;/a&gt;
+   <content type="html">&lt;p&gt;No ar a edição de novembro da newsletter da Abragames. Neste mês a NewsAbragames inaugura um novo formato, mais interativo, proporcionando um contato maior entre a Abragames e os jogadores.&lt;br /&gt;&lt;br /&gt;Nesta edição uma review do jogo &amp;lt;a href=”/jogosdaqui.github.io-staging”/index.php?p=c&amp;amp;id=136”&amp;gt;Ottomax&amp;lt;/a&amp;gt;
+ da &amp;lt;a href=”/jogosdaqui.github.io-staging”/index.php?p=cl&amp;amp;t=19&amp;amp;idd=48”&amp;gt;Insolita Studios&amp;lt;/a&amp;gt;
 , também veja como participar do Prêmio Criatividade no Combate à Pirataria e confira os destaques na mídia sobre desenvolvimento de jogos no Brasil.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.dcoder.com.br//abragames/index.php&quot; target=&quot;_blank&quot;&gt;Acesse a newsletter…&lt;/a&gt;&lt;/p&gt;
 
 </content>
@@ -185,7 +185,7 @@
    <link href="http://example.com/2006/05/18/quadro-comemorativo-150-jogos-daqui"/>
    <updated>2006-05-18T00:00:00-03:00</updated>
    <id>http://example.com/2006/05/18/quadro-comemorativo-150-jogos-daqui</id>
-   <content type="html">&lt;p&gt;Mais uma vez o &lt;span style=&quot;color: rgb(255, 153, 0); font-weight: bold;&quot;&gt;jogosdaqui&lt;/span&gt; comemora uma nova marca, no dia 18 de maio de 2005 chegamos a 150 &lt;a href=&quot;/index.php?p=cl&amp;amp;t=19&quot;&gt;jogos&lt;/a&gt;
+   <content type="html">&lt;p&gt;Mais uma vez o &lt;span style=&quot;color: rgb(255, 153, 0); font-weight: bold;&quot;&gt;jogosdaqui&lt;/span&gt; comemora uma nova marca, no dia 18 de maio de 2005 chegamos a 150 &amp;lt;a href=”/jogosdaqui.github.io-staging”/index.php?p=cl&amp;amp;t=19”&amp;gt;jogos&amp;lt;/a&amp;gt;
  nacionais cadastrados no site. &lt;br /&gt;&lt;br /&gt;Confira abaixo o quadro comemorativo com os 150 jogos e aproveite para conhecer mais sobre os jogos nacionais.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;

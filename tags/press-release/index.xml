@@ -3,7 +3,7 @@
  <title>Your Title - press-release</title>
  <link href="http://example.com/tags/press-release/index.xml" rel="self"/>
  <link href="http://example.com/tag/press-release.html"/>
- <updated>2018-11-14T14:28:53-02:00</updated>
+ <updated>2018-11-14T15:07:27-02:00</updated>
  <id>http://example.com/tag/press-release.html</id>
  <author>
    <name>Author Here</name>
@@ -20,10 +20,10 @@
 
 &lt;p&gt;Segundo a TILT online, nas próximas versões do Game Console será possível jogar adventures online e acessar jogos de desenvolvedores independentes, tudo através da interface intuitiva do Game Console.&lt;/p&gt;
 
-&lt;p&gt;Veja no &lt;a style=&quot;font-weight: bold; color: #ff9900;&quot; href=&quot;/tags/tilt&quot;&gt;jogosdaqui&lt;/a&gt;
+&lt;p&gt;Veja no &amp;lt;a style=”font-weight: bold; color: #ff9900;” href=”/jogosdaqui.github.io-staging”/tags/tilt”&amp;gt;jogosdaqui&amp;lt;/a&amp;gt;
  alguns jogos da TILT online que estão disponíveis no Game Console.&lt;/p&gt;
 
-&lt;p&gt;Confira o &lt;a href=&quot;/2005/09/24/tilt-online-game-console-playon-1-2/&quot;&gt;press release&lt;/a&gt;
+&lt;p&gt;Confira o &amp;lt;a href=”/jogosdaqui.github.io-staging”/2005/09/24/tilt-online-game-console-playon-1-2/”&amp;gt;press release&amp;lt;/a&amp;gt;
 .&lt;/p&gt;
 
 &lt;p&gt;Mais informações sobre o lançamento no site oficial do &lt;a href=&quot;http://www.tilt.net/playon/&quot;&gt;Game Console&lt;/a&gt;
