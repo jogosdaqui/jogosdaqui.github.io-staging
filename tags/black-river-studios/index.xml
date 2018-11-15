@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - black-river-studios</title>
- <link href="http://example.com/tags/black-river-studios/index.xml" rel="self"/>
- <link href="http://example.com/tag/black-river-studios.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/black-river-studios.html</id>
+ <title>jogosdaqui - black-river-studios</title>
+ <link href="/jogosdaqui.github.io-staging//tags/black-river-studios/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/black-river-studios.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/black-river-studios.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Imagens da semana #13</title>
-   <link href="http://example.com/2015/09/14/imagens-da-semana-13"/>
+   <link href="/jogosdaqui.github.io-staging//2015/09/14/imagens-da-semana-13"/>
    <updated>2015-09-14T00:00:00-03:00</updated>
-   <id>http://example.com/2015/09/14/imagens-da-semana-13</id>
+   <id>/jogosdaqui.github.io-staging//2015/09/14/imagens-da-semana-13</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/betuiau/status/640987759080030208&quot;&gt;O artista Betu Souza apresentando a NPC do novo modo endless do game Relic Hunters Zero&lt;/a&gt;&lt;/p&gt;
 &lt;video width=&quot;640&quot; height=&quot;360&quot; autoplay=&quot;&quot; muted=&quot;&quot; loop=&quot;&quot;&gt;

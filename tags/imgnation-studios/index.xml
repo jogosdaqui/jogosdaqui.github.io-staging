@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - imgnation-studios</title>
- <link href="http://example.com/tags/imgnation-studios/index.xml" rel="self"/>
- <link href="http://example.com/tag/imgnation-studios.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/imgnation-studios.html</id>
+ <title>jogosdaqui - imgnation-studios</title>
+ <link href="/jogosdaqui.github.io-staging//tags/imgnation-studios/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/imgnation-studios.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/imgnation-studios.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Imagens da semana #5</title>
-   <link href="http://example.com/2015/05/04/imagens-da-semana-5"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/04/imagens-da-semana-5"/>
    <updated>2015-05-04T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/04/imagens-da-semana-5</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/04/imagens-da-semana-5</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/OdinGameStudio/status/59271652605208985&quot;&gt;Foto da equipe da Odin Game Studio em pleno testes do game Better later than DEAD&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;

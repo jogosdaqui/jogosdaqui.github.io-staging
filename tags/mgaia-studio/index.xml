@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - mgaia-studio</title>
- <link href="http://example.com/tags/mgaia-studio/index.xml" rel="self"/>
- <link href="http://example.com/tag/mgaia-studio.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/mgaia-studio.html</id>
+ <title>jogosdaqui - mgaia-studio</title>
+ <link href="/jogosdaqui.github.io-staging//tags/mgaia-studio/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/mgaia-studio.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/mgaia-studio.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Imagens da semana #13</title>
-   <link href="http://example.com/2015/09/14/imagens-da-semana-13"/>
+   <link href="/jogosdaqui.github.io-staging//2015/09/14/imagens-da-semana-13"/>
    <updated>2015-09-14T00:00:00-03:00</updated>
-   <id>http://example.com/2015/09/14/imagens-da-semana-13</id>
+   <id>/jogosdaqui.github.io-staging//2015/09/14/imagens-da-semana-13</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/betuiau/status/640987759080030208&quot;&gt;O artista Betu Souza apresentando a NPC do novo modo endless do game Relic Hunters Zero&lt;/a&gt;&lt;/p&gt;
 &lt;video width=&quot;640&quot; height=&quot;360&quot; autoplay=&quot;&quot; muted=&quot;&quot; loop=&quot;&quot;&gt;
@@ -70,9 +70,9 @@
  
  <entry>
    <title>Imagens da semana #11</title>
-   <link href="http://example.com/2015/06/15/imagens-da-semana-11"/>
+   <link href="/jogosdaqui.github.io-staging//2015/06/15/imagens-da-semana-11"/>
    <updated>2015-06-15T00:00:00-03:00</updated>
-   <id>http://example.com/2015/06/15/imagens-da-semana-11</id>
+   <id>/jogosdaqui.github.io-staging//2015/06/15/imagens-da-semana-11</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/Danilo_Noites/status/60829012477494886&quot;&gt;Danilo Dias da JoyMasher mostrando uma brincadeira no texto de Odallus ao utilizar o termo Out There Somewhere, nome do game do Studio MiniBoss”&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -113,9 +113,9 @@
  
  <entry>
    <title>Checkpoint #9</title>
-   <link href="http://example.com/2015/06/11/checkpoint-9"/>
+   <link href="/jogosdaqui.github.io-staging//2015/06/11/checkpoint-9"/>
    <updated>2015-06-11T00:00:00-03:00</updated>
-   <id>http://example.com/2015/06/11/checkpoint-9</id>
+   <id>/jogosdaqui.github.io-staging//2015/06/11/checkpoint-9</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/05/30/a-cidade-dos-que-descem-pela-escada-terceiro-andar&quot;&gt;Falamos do livro-game A Cidade Dos Que Descem Pela Escada: Terceiro Andar&lt;/a&gt;&lt;/p&gt;
 
@@ -159,9 +159,9 @@
  
  <entry>
    <title>Imagens da semana #9</title>
-   <link href="http://example.com/2015/06/01/imagens-da-semana-9"/>
+   <link href="/jogosdaqui.github.io-staging//2015/06/01/imagens-da-semana-9"/>
    <updated>2015-06-01T00:00:00-03:00</updated>
-   <id>http://example.com/2015/06/01/imagens-da-semana-9</id>
+   <id>/jogosdaqui.github.io-staging//2015/06/01/imagens-da-semana-9</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/Ninja_Garage/status/60414279507551027&quot;&gt;A concept art de uma galinha mecanizada feita pelo pessoal da Ninja Garage Studio. Provavelmente para o game Massive Madness&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -202,9 +202,9 @@
  
  <entry>
    <title>Imagens da semana #8</title>
-   <link href="http://example.com/2015/05/25/imagens-da-semana-8"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/25/imagens-da-semana-8"/>
    <updated>2015-05-25T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/25/imagens-da-semana-8</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/25/imagens-da-semana-8</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/JoyMasher/status/60006121953443020&quot;&gt;A JoyMasher polindo o design dos personagens de Odallus&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -251,9 +251,9 @@
  
  <entry>
    <title>Imagens da semana #5</title>
-   <link href="http://example.com/2015/05/04/imagens-da-semana-5"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/04/imagens-da-semana-5"/>
    <updated>2015-05-04T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/04/imagens-da-semana-5</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/04/imagens-da-semana-5</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/OdinGameStudio/status/59271652605208985&quot;&gt;Foto da equipe da Odin Game Studio em pleno testes do game Better later than DEAD&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -288,9 +288,9 @@
  
  <entry>
    <title>Imagens da semana #4</title>
-   <link href="http://example.com/2015/04/27/imagens-da-semana-4"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/27/imagens-da-semana-4"/>
    <updated>2015-04-27T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/27/imagens-da-semana-4</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/27/imagens-da-semana-4</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/beholdstudios/status/59095331509502361&quot;&gt;A Behold Studios filmando o trailer de lançamento de Chroma Squad&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -337,9 +337,9 @@
  
  <entry>
    <title>Tank Invaders atinge mais de 300 mil downloads</title>
-   <link href="http://example.com/2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads"/>
    <updated>2015-04-15T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads</id>
    <content type="html">&lt;p&gt;Como diria o General Rogers: “Temos novidades do campo de batalha, soldado!”.&lt;/p&gt;
 
 &lt;p&gt;Na semana passada falamos de &lt;a href=&quot;/jogosdaqui.github.io-staging/2015/04/08/tank-invaders&quot;&gt;Tank Invaders&lt;/a&gt;
@@ -354,9 +354,9 @@
  
  <entry>
    <title>Imagens da semana #2</title>
-   <link href="http://example.com/2015/04/13/imagens-da-semana-2"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/13/imagens-da-semana-2"/>
    <updated>2015-04-13T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/13/imagens-da-semana-2</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/13/imagens-da-semana-2</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/g1/status/585017153042194432&quot;&gt;O game de plataforma old-school Super Doomed’n Damned, desenvolvido pelo brasileiro Claudio Lins em parceria com uma empresa espanhola, deve ser lançado ainda em 2015 para Xbox One, Wii U e PC&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -409,9 +409,9 @@
  
  <entry>
    <title>Tank Invaders</title>
-   <link href="http://example.com/2015/04/08/tank-invaders"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/08/tank-invaders"/>
    <updated>2015-04-08T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/08/tank-invaders</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/08/tank-invaders</id>
    <content type="html">&lt;p&gt;No jogo para &lt;a href=&quot;https://itunes.apple.com/app/id815229338&quot;&gt;iOS&lt;/a&gt;, &lt;a href=&quot;https://play.google.com/store/apps/details?id=br.com.mothergaia.tank&quot;&gt;Android&lt;/a&gt; e &lt;a href=&quot;http://windowsphone.com/s?appid=c24702ff-0328-45d8-b28a-6c3d178fa9eb&quot;&gt;Windows Phone&lt;/a&gt; você é um soldado no controle de mísseis, metralhadoras, pulsos eletromagnéticos, armas nucleares e uma infinidade de power-ups. Seu objetivo é destruir Terror, o maligno líder militar das forças inimigas.&lt;/p&gt;
 
 &lt;p&gt;A melhor definição o estilo do game Tank Invaders da Mgaia Studio é o que a própria empresa dá: o único FPS shoot’em up.  A visão do jogo, como pode ser visto nas imagens e vídeo abaixo é no  estilo de clássicos shoot’em up, entretanto você não vê a sua “nave”, pois a visão é primeira pessoa, então chegamos a definição de estilo dado pelo Mgaia.&lt;/p&gt;

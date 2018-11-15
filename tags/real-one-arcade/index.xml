@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - real-one-arcade</title>
- <link href="http://example.com/tags/real-one-arcade/index.xml" rel="self"/>
- <link href="http://example.com/tag/real-one-arcade.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/real-one-arcade.html</id>
+ <title>jogosdaqui - real-one-arcade</title>
+ <link href="/jogosdaqui.github.io-staging//tags/real-one-arcade/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/real-one-arcade.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/real-one-arcade.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Chip$ será lançado no Brasil</title>
-   <link href="http://example.com/2005/11/17/chip-sera-lancado-no-brasil"/>
+   <link href="/jogosdaqui.github.io-staging//2005/11/17/chip-sera-lancado-no-brasil"/>
    <updated>2005-11-17T00:00:00-02:00</updated>
-   <id>http://example.com/2005/11/17/chip-sera-lancado-no-brasil</id>
+   <id>/jogosdaqui.github.io-staging//2005/11/17/chip-sera-lancado-no-brasil</id>
    <content type="html">&lt;p&gt;O jogo &lt;a href=&quot;/jogosdaqui.github.io-staging/2005/11/16/chip/&quot;&gt;Chip$&lt;/a&gt;
  será lançado em breve no Brasil, informa Alexandre Perucia, co-fundador da Nology Software.&lt;/p&gt;
 

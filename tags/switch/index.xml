@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - switch</title>
- <link href="http://example.com/tags/switch/index.xml" rel="self"/>
- <link href="http://example.com/tag/switch.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/switch.html</id>
+ <title>jogosdaqui - switch</title>
+ <link href="/jogosdaqui.github.io-staging//tags/switch/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/switch.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/switch.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Blazing Chrome vai desafiar jogadores no Nintendo Switch, PlayStation 4 e PC no começo de 2019</title>
-   <link href="http://example.com/2018/11/14/blazing-chrome-vai-desafiar-jogadores"/>
+   <link href="/jogosdaqui.github.io-staging//2018/11/14/blazing-chrome-vai-desafiar-jogadores"/>
    <updated>2018-11-14T00:00:00-02:00</updated>
-   <id>http://example.com/2018/11/14/blazing-chrome-vai-desafiar-jogadores</id>
+   <id>/jogosdaqui.github.io-staging//2018/11/14/blazing-chrome-vai-desafiar-jogadores</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;Novo vídeo mostra imagens inéditas e repletas de experiências eletrizantes dos nossos heróis adentrando as bases inimigas&lt;/p&gt;
 &lt;/blockquote&gt;

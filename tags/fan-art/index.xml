@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - fan-art</title>
- <link href="http://example.com/tags/fan-art/index.xml" rel="self"/>
- <link href="http://example.com/tag/fan-art.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/fan-art.html</id>
+ <title>jogosdaqui - fan-art</title>
+ <link href="/jogosdaqui.github.io-staging//tags/fan-art/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/fan-art.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/fan-art.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Fan arts de Chroma Squad</title>
-   <link href="http://example.com/2015/05/07/fan-arts-de-chroma-squad"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/07/fan-arts-de-chroma-squad"/>
    <updated>2015-05-07T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/07/fan-arts-de-chroma-squad</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/07/fan-arts-de-chroma-squad</id>
    <content type="html">&lt;p&gt;Com o grande lançamento de &lt;a href=&quot;http://chromasquad.com/&quot;&gt;Chroma Squad&lt;/a&gt; no último dia 30, surgiram diversas imagens feitas por jogadores que aguardavam ansiosamente pelo game. O jogosdaqui selecionou as mais bonitas. Confira!&lt;/p&gt;
 
 &lt;h2 id=&quot;fan-arts-de-chroma-squad&quot;&gt;Fan arts de Chroma Squad&lt;/h2&gt;

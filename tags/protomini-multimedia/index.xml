@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - protomini-multimedia</title>
- <link href="http://example.com/tags/protomini-multimedia/index.xml" rel="self"/>
- <link href="http://example.com/tag/protomini-multimedia.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/protomini-multimedia.html</id>
+ <title>jogosdaqui - protomini-multimedia</title>
+ <link href="/jogosdaqui.github.io-staging//tags/protomini-multimedia/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/protomini-multimedia.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/protomini-multimedia.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Imagens da semana #9</title>
-   <link href="http://example.com/2015/06/01/imagens-da-semana-9"/>
+   <link href="/jogosdaqui.github.io-staging//2015/06/01/imagens-da-semana-9"/>
    <updated>2015-06-01T00:00:00-03:00</updated>
-   <id>http://example.com/2015/06/01/imagens-da-semana-9</id>
+   <id>/jogosdaqui.github.io-staging//2015/06/01/imagens-da-semana-9</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/Ninja_Garage/status/60414279507551027&quot;&gt;A concept art de uma galinha mecanizada feita pelo pessoal da Ninja Garage Studio. Provavelmente para o game Massive Madness&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -54,9 +54,9 @@
  
  <entry>
    <title>Checkpoint #8</title>
-   <link href="http://example.com/2015/05/29/checkpoint-8"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/29/checkpoint-8"/>
    <updated>2015-05-29T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/29/checkpoint-8</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/29/checkpoint-8</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://steamcommunity.com/sharedfiles/filedetails/updates/25536644&quot;&gt;Post da Protomini Multimedia no Steam agradecendo a comunidade pelo game Bernie Needs Love ter recebido o sinal verde na plataforma Greenlight&lt;/a&gt;&lt;/p&gt;
 
@@ -91,9 +91,9 @@
  
  <entry>
    <title>Checkpoint #7</title>
-   <link href="http://example.com/2015/05/22/checkpoint-7"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/22/checkpoint-7"/>
    <updated>2015-05-22T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/22/checkpoint-7</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/22/checkpoint-7</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/05/14/demo-reel-da-odin-game-studio/&quot;&gt;Confira o demo reel da Odin Game Studio&lt;/a&gt;&lt;/p&gt;
 

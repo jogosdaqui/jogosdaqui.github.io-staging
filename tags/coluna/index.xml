@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - coluna</title>
- <link href="http://example.com/tags/coluna/index.xml" rel="self"/>
- <link href="http://example.com/tag/coluna.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/coluna.html</id>
+ <title>jogosdaqui - coluna</title>
+ <link href="/jogosdaqui.github.io-staging//tags/coluna/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/coluna.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/coluna.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Imagens da semana #13</title>
-   <link href="http://example.com/2015/09/14/imagens-da-semana-13"/>
+   <link href="/jogosdaqui.github.io-staging//2015/09/14/imagens-da-semana-13"/>
    <updated>2015-09-14T00:00:00-03:00</updated>
-   <id>http://example.com/2015/09/14/imagens-da-semana-13</id>
+   <id>/jogosdaqui.github.io-staging//2015/09/14/imagens-da-semana-13</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/betuiau/status/640987759080030208&quot;&gt;O artista Betu Souza apresentando a NPC do novo modo endless do game Relic Hunters Zero&lt;/a&gt;&lt;/p&gt;
 &lt;video width=&quot;640&quot; height=&quot;360&quot; autoplay=&quot;&quot; muted=&quot;&quot; loop=&quot;&quot;&gt;
@@ -70,9 +70,9 @@
  
  <entry>
    <title>Toren: primeiras impressões</title>
-   <link href="http://example.com/2015/07/16/toren-primeiras-impresoes"/>
+   <link href="/jogosdaqui.github.io-staging//2015/07/16/toren-primeiras-impresoes"/>
    <updated>2015-07-16T00:00:00-03:00</updated>
-   <id>http://example.com/2015/07/16/toren-primeiras-impresoes</id>
+   <id>/jogosdaqui.github.io-staging//2015/07/16/toren-primeiras-impresoes</id>
    <content type="html">&lt;p&gt;No dia do lançamento de Toren publicamos uma &lt;a href=&quot;/jogosdaqui.github.io-staging/2015/05/12/entrevista-alessandro-martinello-diretor-criativo-de-toren/&quot;&gt;entrevista com Alessandro Martinello&lt;/a&gt;, onde o diretor criativo de Swordtales falava sobre o processo de criação do jogo, desafios e expectativas. Agora chegou a hora de publicarmos as primeiras impressões da equipe do canal Insert Coins em relação ao game.&lt;/p&gt;
 
 &lt;h2 id=&quot;gameplay-com-bom-humor&quot;&gt;Gameplay com bom humor&lt;/h2&gt;
@@ -97,9 +97,9 @@
  
  <entry>
    <title>Imagens da semana #12</title>
-   <link href="http://example.com/2015/06/22/imagens-da-semana-12"/>
+   <link href="/jogosdaqui.github.io-staging//2015/06/22/imagens-da-semana-12"/>
    <updated>2015-06-22T00:00:00-03:00</updated>
-   <id>http://example.com/2015/06/22/imagens-da-semana-12</id>
+   <id>/jogosdaqui.github.io-staging//2015/06/22/imagens-da-semana-12</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/BallisticGame/status/60909733429161984&quot;&gt;A Aquiris Game Studio convocando os jogadores de Ballistic para contribuir na classe The Vanguard&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -134,9 +134,9 @@
  
  <entry>
    <title>Imagens da semana #11</title>
-   <link href="http://example.com/2015/06/15/imagens-da-semana-11"/>
+   <link href="/jogosdaqui.github.io-staging//2015/06/15/imagens-da-semana-11"/>
    <updated>2015-06-15T00:00:00-03:00</updated>
-   <id>http://example.com/2015/06/15/imagens-da-semana-11</id>
+   <id>/jogosdaqui.github.io-staging//2015/06/15/imagens-da-semana-11</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/Danilo_Noites/status/60829012477494886&quot;&gt;Danilo Dias da JoyMasher mostrando uma brincadeira no texto de Odallus ao utilizar o termo Out There Somewhere, nome do game do Studio MiniBoss”&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -177,9 +177,9 @@
  
  <entry>
    <title>Checkpoint #9</title>
-   <link href="http://example.com/2015/06/11/checkpoint-9"/>
+   <link href="/jogosdaqui.github.io-staging//2015/06/11/checkpoint-9"/>
    <updated>2015-06-11T00:00:00-03:00</updated>
-   <id>http://example.com/2015/06/11/checkpoint-9</id>
+   <id>/jogosdaqui.github.io-staging//2015/06/11/checkpoint-9</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/05/30/a-cidade-dos-que-descem-pela-escada-terceiro-andar&quot;&gt;Falamos do livro-game A Cidade Dos Que Descem Pela Escada: Terceiro Andar&lt;/a&gt;&lt;/p&gt;
 
@@ -223,9 +223,9 @@
  
  <entry>
    <title>Imagens da semana #10</title>
-   <link href="http://example.com/2015/06/08/imagens-da-semana-10"/>
+   <link href="/jogosdaqui.github.io-staging//2015/06/08/imagens-da-semana-10"/>
    <updated>2015-06-08T00:00:00-03:00</updated>
-   <id>http://example.com/2015/06/08/imagens-da-semana-10</id>
+   <id>/jogosdaqui.github.io-staging//2015/06/08/imagens-da-semana-10</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/gametek_brasil/status/60540813063429324&quot;&gt;O game Cannibal da GameTek recebe o novo mapa Vila Micena&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -266,9 +266,9 @@
  
  <entry>
    <title>Imagens da semana #9</title>
-   <link href="http://example.com/2015/06/01/imagens-da-semana-9"/>
+   <link href="/jogosdaqui.github.io-staging//2015/06/01/imagens-da-semana-9"/>
    <updated>2015-06-01T00:00:00-03:00</updated>
-   <id>http://example.com/2015/06/01/imagens-da-semana-9</id>
+   <id>/jogosdaqui.github.io-staging//2015/06/01/imagens-da-semana-9</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/Ninja_Garage/status/60414279507551027&quot;&gt;A concept art de uma galinha mecanizada feita pelo pessoal da Ninja Garage Studio. Provavelmente para o game Massive Madness&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -309,9 +309,9 @@
  
  <entry>
    <title>Checkpoint #8</title>
-   <link href="http://example.com/2015/05/29/checkpoint-8"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/29/checkpoint-8"/>
    <updated>2015-05-29T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/29/checkpoint-8</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/29/checkpoint-8</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://steamcommunity.com/sharedfiles/filedetails/updates/25536644&quot;&gt;Post da Protomini Multimedia no Steam agradecendo a comunidade pelo game Bernie Needs Love ter recebido o sinal verde na plataforma Greenlight&lt;/a&gt;&lt;/p&gt;
 
@@ -346,9 +346,9 @@
  
  <entry>
    <title>Imagens da semana #8</title>
-   <link href="http://example.com/2015/05/25/imagens-da-semana-8"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/25/imagens-da-semana-8"/>
    <updated>2015-05-25T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/25/imagens-da-semana-8</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/25/imagens-da-semana-8</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/JoyMasher/status/60006121953443020&quot;&gt;A JoyMasher polindo o design dos personagens de Odallus&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -395,9 +395,9 @@
  
  <entry>
    <title>Checkpoint #7</title>
-   <link href="http://example.com/2015/05/22/checkpoint-7"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/22/checkpoint-7"/>
    <updated>2015-05-22T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/22/checkpoint-7</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/22/checkpoint-7</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/05/14/demo-reel-da-odin-game-studio/&quot;&gt;Confira o demo reel da Odin Game Studio&lt;/a&gt;&lt;/p&gt;
 
@@ -470,9 +470,9 @@
  
  <entry>
    <title>Imagens da semana #7</title>
-   <link href="http://example.com/2015/05/18/imagens-da-semana-7"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/18/imagens-da-semana-7"/>
    <updated>2015-05-18T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/18/imagens-da-semana-7</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/18/imagens-da-semana-7</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/JoyMasher/status/59886620722427494&quot;&gt;A JoyMasher avisando que Odallus também sairá em português&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -519,9 +519,9 @@
  
  <entry>
    <title>Checkpoint #6</title>
-   <link href="http://example.com/2015/05/14/checkpoint-6"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/14/checkpoint-6"/>
    <updated>2015-05-14T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/14/checkpoint-6</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/14/checkpoint-6</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/CurveDigital/status/59775538841977241&quot;&gt;A Curve Digital anunciou que publicará o game Porcupine da Big Green Pillow ainda este mês&lt;/a&gt;&lt;/p&gt;
 
@@ -553,9 +553,9 @@
  
  <entry>
    <title>Imagens da semana #6</title>
-   <link href="http://example.com/2015/05/11/imagens-da-semana-6"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/11/imagens-da-semana-6"/>
    <updated>2015-05-11T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/11/imagens-da-semana-6</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/11/imagens-da-semana-6</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/JoyMasher/status/59519658913787904&quot;&gt;Desenho da artista Amora B. para Haggis, protagonista do game Odallus da brasileira JoyMasher&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -602,9 +602,9 @@
  
  <entry>
    <title>Checkpoint #5</title>
-   <link href="http://example.com/2015/05/09/checkpoint-5"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/09/checkpoint-5"/>
    <updated>2015-05-09T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/09/checkpoint-5</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/09/checkpoint-5</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/ICONGames/status/59452353241723289&quot;&gt;A Icon Games comemorando a marca de 180.000 downloads de seu game Escape from Alcatraz&lt;/a&gt;&lt;/p&gt;
 
@@ -648,9 +648,9 @@
  
  <entry>
    <title>Nova coluna no jogosdaqui: Insert Coins</title>
-   <link href="http://example.com/2015/05/06/nova-coluna-no-jogosdaqui-insert-coins"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/06/nova-coluna-no-jogosdaqui-insert-coins"/>
    <updated>2015-05-06T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/06/nova-coluna-no-jogosdaqui-insert-coins</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/06/nova-coluna-no-jogosdaqui-insert-coins</id>
    <content type="html">&lt;p&gt;O jogosdaqui fechou parceria com o canal do &lt;a href=&quot;http://www.youtube.com/insertcoinsplay&quot;&gt;YouTube Insert Coins&lt;/a&gt; e dessa parceria surgiu a &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/insert-coins/&quot;&gt;coluna Insert Coins&lt;/a&gt; no jogosdaqui.&lt;/p&gt;
 
 &lt;h2 id=&quot;conheça-o-insert-coins&quot;&gt;Conheça o Insert Coins&lt;/h2&gt;
@@ -669,9 +669,9 @@
  
  <entry>
    <title>Imagens da semana #5</title>
-   <link href="http://example.com/2015/05/04/imagens-da-semana-5"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/04/imagens-da-semana-5"/>
    <updated>2015-05-04T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/04/imagens-da-semana-5</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/04/imagens-da-semana-5</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/OdinGameStudio/status/59271652605208985&quot;&gt;Foto da equipe da Odin Game Studio em pleno testes do game Better later than DEAD&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -706,9 +706,9 @@
  
  <entry>
    <title>Checkpoint #4</title>
-   <link href="http://example.com/2015/05/02/checkpoint-4"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/02/checkpoint-4"/>
    <updated>2015-05-02T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/02/checkpoint-4</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/02/checkpoint-4</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://gamereporter.uol.com.br/mundo-canibal-apocalipse-steam&quot;&gt;O game Mundo Canibal Apocalipse chega no Steam Greenlight. Jogo e voto obrigatórios para quem gosta do humor dos irmãos Piologo&lt;/a&gt;&lt;/p&gt;
 
@@ -755,9 +755,9 @@
  
  <entry>
    <title>Imagens da semana #4</title>
-   <link href="http://example.com/2015/04/27/imagens-da-semana-4"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/27/imagens-da-semana-4"/>
    <updated>2015-04-27T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/27/imagens-da-semana-4</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/27/imagens-da-semana-4</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/beholdstudios/status/59095331509502361&quot;&gt;A Behold Studios filmando o trailer de lançamento de Chroma Squad&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -804,9 +804,9 @@
  
  <entry>
    <title>Checkpoint #3</title>
-   <link href="http://example.com/2015/04/26/checkpoint-3"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/26/checkpoint-3"/>
    <updated>2015-04-26T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/26/checkpoint-3</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/26/checkpoint-3</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/04/21/museu-do-videogame-itinerante&quot;&gt;Evento do Museu do Videogame Itinerante, onde os jogadores podem conhecer e jogar clássicos das décadas de 70, 80, 90 e 2000&lt;/a&gt;&lt;/p&gt;
 
@@ -832,9 +832,9 @@
  
  <entry>
    <title>Imagens da semana #3</title>
-   <link href="http://example.com/2015/04/20/imagens-da-semana-3"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/20/imagens-da-semana-3"/>
    <updated>2015-04-20T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/20/imagens-da-semana-3</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/20/imagens-da-semana-3</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/TorenGame/status/58765465763735142&quot;&gt;Na primeira imagem da semana ficamos com a arte ‘The Tower’ do game brasileiro Toren.&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -893,9 +893,9 @@
  
  <entry>
    <title>Checkpoint #2</title>
-   <link href="http://example.com/2015/04/18/checkpoint-2"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/18/checkpoint-2"/>
    <updated>2015-04-18T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/18/checkpoint-2</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/18/checkpoint-2</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/04/17/axis-game-day&quot;&gt;O evento AXIS Game Day, que acontece hoje, com diversas palestras de gamedevs brasileiros&lt;/a&gt;&lt;/p&gt;
 
@@ -913,9 +913,9 @@
  
  <entry>
    <title>Checkpoint #1</title>
-   <link href="http://example.com/2015/04/16/checkpoint-1"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/16/checkpoint-1"/>
    <updated>2015-04-16T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/16/checkpoint-1</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/16/checkpoint-1</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/TawStudio/status/58853869170393088&quot;&gt;A homenagem do pessoal da Taw Studio a seu co-fundador, diretor e game designer Lucas Jock, falecido no último dia 13&lt;/a&gt;&lt;/p&gt;
 
@@ -938,9 +938,9 @@
  
  <entry>
    <title>Imagens da semana #2</title>
-   <link href="http://example.com/2015/04/13/imagens-da-semana-2"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/13/imagens-da-semana-2"/>
    <updated>2015-04-13T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/13/imagens-da-semana-2</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/13/imagens-da-semana-2</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/g1/status/585017153042194432&quot;&gt;O game de plataforma old-school Super Doomed’n Damned, desenvolvido pelo brasileiro Claudio Lins em parceria com uma empresa espanhola, deve ser lançado ainda em 2015 para Xbox One, Wii U e PC&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -993,9 +993,9 @@
  
  <entry>
    <title>Imagens da semana #1</title>
-   <link href="http://example.com/2015/04/06/imagens-da-semana-1"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/06/imagens-da-semana-1"/>
    <updated>2015-04-06T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/06/imagens-da-semana-1</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/06/imagens-da-semana-1</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/ReizaStudios/status/581786360798949376&quot;&gt;A primeira screenshot da semana vem da paranaense Reiza Studios e seu simulador de corrida Game Stock Car Extreme que recebeu um novo update e entre as novidades está a adição da pista histórica de Bologina na Itália.&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;

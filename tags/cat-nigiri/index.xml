@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - cat-nigiri</title>
- <link href="http://example.com/tags/cat-nigiri/index.xml" rel="self"/>
- <link href="http://example.com/tag/cat-nigiri.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/cat-nigiri.html</id>
+ <title>jogosdaqui - cat-nigiri</title>
+ <link href="/jogosdaqui.github.io-staging//tags/cat-nigiri/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/cat-nigiri.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/cat-nigiri.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Dino Zone</title>
-   <link href="http://example.com/2015/04/16/dino-zone"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/16/dino-zone"/>
    <updated>2015-04-16T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/16/dino-zone</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/16/dino-zone</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;Um pequeno grupo de cientistas viaja no tempo, de volta ao período Cretáceo e tem que enfrentar o professor Nigel Racik e sua horda de dinossauros.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -43,9 +43,9 @@
  
  <entry>
    <title>Checkpoint #1</title>
-   <link href="http://example.com/2015/04/16/checkpoint-1"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/16/checkpoint-1"/>
    <updated>2015-04-16T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/16/checkpoint-1</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/16/checkpoint-1</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/TawStudio/status/58853869170393088&quot;&gt;A homenagem do pessoal da Taw Studio a seu co-fundador, diretor e game designer Lucas Jock, falecido no último dia 13&lt;/a&gt;&lt;/p&gt;
 
@@ -68,9 +68,9 @@
  
  <entry>
    <title>Imagens da semana #2</title>
-   <link href="http://example.com/2015/04/13/imagens-da-semana-2"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/13/imagens-da-semana-2"/>
    <updated>2015-04-13T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/13/imagens-da-semana-2</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/13/imagens-da-semana-2</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/g1/status/585017153042194432&quot;&gt;O game de plataforma old-school Super Doomed’n Damned, desenvolvido pelo brasileiro Claudio Lins em parceria com uma empresa espanhola, deve ser lançado ainda em 2015 para Xbox One, Wii U e PC&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;

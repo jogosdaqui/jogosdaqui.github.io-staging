@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - southbox-game-studio</title>
- <link href="http://example.com/tags/southbox-game-studio/index.xml" rel="self"/>
- <link href="http://example.com/tag/southbox-game-studio.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/southbox-game-studio.html</id>
+ <title>jogosdaqui - southbox-game-studio</title>
+ <link href="/jogosdaqui.github.io-staging//tags/southbox-game-studio/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/southbox-game-studio.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/southbox-game-studio.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Imagens da semana #12</title>
-   <link href="http://example.com/2015/06/22/imagens-da-semana-12"/>
+   <link href="/jogosdaqui.github.io-staging//2015/06/22/imagens-da-semana-12"/>
    <updated>2015-06-22T00:00:00-03:00</updated>
-   <id>http://example.com/2015/06/22/imagens-da-semana-12</id>
+   <id>/jogosdaqui.github.io-staging//2015/06/22/imagens-da-semana-12</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/BallisticGame/status/60909733429161984&quot;&gt;A Aquiris Game Studio convocando os jogadores de Ballistic para contribuir na classe The Vanguard&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -48,9 +48,9 @@
  
  <entry>
    <title>Imagens da semana #10</title>
-   <link href="http://example.com/2015/06/08/imagens-da-semana-10"/>
+   <link href="/jogosdaqui.github.io-staging//2015/06/08/imagens-da-semana-10"/>
    <updated>2015-06-08T00:00:00-03:00</updated>
-   <id>http://example.com/2015/06/08/imagens-da-semana-10</id>
+   <id>/jogosdaqui.github.io-staging//2015/06/08/imagens-da-semana-10</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/gametek_brasil/status/60540813063429324&quot;&gt;O game Cannibal da GameTek recebe o novo mapa Vila Micena&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;

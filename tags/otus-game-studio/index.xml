@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - otus-game-studio</title>
- <link href="http://example.com/tags/otus-game-studio/index.xml" rel="self"/>
- <link href="http://example.com/tag/otus-game-studio.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/otus-game-studio.html</id>
+ <title>jogosdaqui - otus-game-studio</title>
+ <link href="/jogosdaqui.github.io-staging//tags/otus-game-studio/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/otus-game-studio.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/otus-game-studio.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Imagens da semana #3</title>
-   <link href="http://example.com/2015/04/20/imagens-da-semana-3"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/20/imagens-da-semana-3"/>
    <updated>2015-04-20T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/20/imagens-da-semana-3</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/20/imagens-da-semana-3</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/TorenGame/status/58765465763735142&quot;&gt;Na primeira imagem da semana ficamos com a arte ‘The Tower’ do game brasileiro Toren.&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -72,9 +72,9 @@
  
  <entry>
    <title>BRING #4 - Mostra Brasiliense de Indie Games</title>
-   <link href="http://example.com/2015/04/07/bring-4-mostra-brasiliense-de-indie-games"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/07/bring-4-mostra-brasiliense-de-indie-games"/>
    <updated>2015-04-07T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/07/bring-4-mostra-brasiliense-de-indie-games</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/07/bring-4-mostra-brasiliense-de-indie-games</id>
    <content type="html">&lt;p&gt;A BRING, Mostra Brasiliense de Indie Games chega na sua quarta edição que será realizada na Indie House da Behold Studios, Otus Game Studio e BadMinions, estúdios que resolveram compartilhar um espaço comum de trabalho.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Para os jogadores:&lt;/strong&gt;
@@ -101,9 +101,9 @@ Prazo para inscrição dos jogos é 08 de abril. Podem ser inscritos jogos em al
  
  <entry>
    <title>Teaser de Fragmentorum Alba</title>
-   <link href="http://example.com/2015/03/25/teaser-de-fragmentorum-alba"/>
+   <link href="/jogosdaqui.github.io-staging//2015/03/25/teaser-de-fragmentorum-alba"/>
    <updated>2015-03-25T00:00:00-03:00</updated>
-   <id>http://example.com/2015/03/25/teaser-de-fragmentorum-alba</id>
+   <id>/jogosdaqui.github.io-staging//2015/03/25/teaser-de-fragmentorum-alba</id>
    <content type="html">&lt;p&gt;Fragmentorum Alba é o primeiro game da startup gaúcha Otus Game Studio.&lt;/p&gt;
 
 &lt;blockquote&gt;

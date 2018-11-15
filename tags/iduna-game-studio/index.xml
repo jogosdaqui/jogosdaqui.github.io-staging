@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - iduna-game-studio</title>
- <link href="http://example.com/tags/iduna-game-studio/index.xml" rel="self"/>
- <link href="http://example.com/tag/iduna-game-studio.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/iduna-game-studio.html</id>
+ <title>jogosdaqui - iduna-game-studio</title>
+ <link href="/jogosdaqui.github.io-staging//tags/iduna-game-studio/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/iduna-game-studio.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/iduna-game-studio.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Imagens da semana #13</title>
-   <link href="http://example.com/2015/09/14/imagens-da-semana-13"/>
+   <link href="/jogosdaqui.github.io-staging//2015/09/14/imagens-da-semana-13"/>
    <updated>2015-09-14T00:00:00-03:00</updated>
-   <id>http://example.com/2015/09/14/imagens-da-semana-13</id>
+   <id>/jogosdaqui.github.io-staging//2015/09/14/imagens-da-semana-13</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/betuiau/status/640987759080030208&quot;&gt;O artista Betu Souza apresentando a NPC do novo modo endless do game Relic Hunters Zero&lt;/a&gt;&lt;/p&gt;
 &lt;video width=&quot;640&quot; height=&quot;360&quot; autoplay=&quot;&quot; muted=&quot;&quot; loop=&quot;&quot;&gt;
@@ -70,9 +70,9 @@
  
  <entry>
    <title>Checkpoint #8</title>
-   <link href="http://example.com/2015/05/29/checkpoint-8"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/29/checkpoint-8"/>
    <updated>2015-05-29T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/29/checkpoint-8</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/29/checkpoint-8</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://steamcommunity.com/sharedfiles/filedetails/updates/25536644&quot;&gt;Post da Protomini Multimedia no Steam agradecendo a comunidade pelo game Bernie Needs Love ter recebido o sinal verde na plataforma Greenlight&lt;/a&gt;&lt;/p&gt;
 
@@ -107,9 +107,9 @@
  
  <entry>
    <title>Imagens da semana #8</title>
-   <link href="http://example.com/2015/05/25/imagens-da-semana-8"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/25/imagens-da-semana-8"/>
    <updated>2015-05-25T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/25/imagens-da-semana-8</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/25/imagens-da-semana-8</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/JoyMasher/status/60006121953443020&quot;&gt;A JoyMasher polindo o design dos personagens de Odallus&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -156,9 +156,9 @@
  
  <entry>
    <title>Imagens da semana #7</title>
-   <link href="http://example.com/2015/05/18/imagens-da-semana-7"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/18/imagens-da-semana-7"/>
    <updated>2015-05-18T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/18/imagens-da-semana-7</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/18/imagens-da-semana-7</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/JoyMasher/status/59886620722427494&quot;&gt;A JoyMasher avisando que Odallus também sairá em português&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;

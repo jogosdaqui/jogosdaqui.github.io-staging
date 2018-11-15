@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - documentario</title>
- <link href="http://example.com/tags/documentario/index.xml" rel="self"/>
- <link href="http://example.com/tag/documentario.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/documentario.html</id>
+ <title>jogosdaqui - documentario</title>
+ <link href="/jogosdaqui.github.io-staging//tags/documentario/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/documentario.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/documentario.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Documentário "Indústria de Games no Brasil"</title>
-   <link href="http://example.com/2013/06/13/documentario-industria-de-games-no-brasil"/>
+   <link href="/jogosdaqui.github.io-staging//2013/06/13/documentario-industria-de-games-no-brasil"/>
    <updated>2013-06-13T00:00:00-03:00</updated>
-   <id>http://example.com/2013/06/13/documentario-industria-de-games-no-brasil</id>
+   <id>/jogosdaqui.github.io-staging//2013/06/13/documentario-industria-de-games-no-brasil</id>
    <content type="html">&lt;p&gt;O vídeo tem cerca 30 minutos e conta com a participação de:&lt;/p&gt;
 
 &lt;ul&gt;

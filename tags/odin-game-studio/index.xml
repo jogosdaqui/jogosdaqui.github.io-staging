@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - odin-game-studio</title>
- <link href="http://example.com/tags/odin-game-studio/index.xml" rel="self"/>
- <link href="http://example.com/tag/odin-game-studio.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/odin-game-studio.html</id>
+ <title>jogosdaqui - odin-game-studio</title>
+ <link href="/jogosdaqui.github.io-staging//tags/odin-game-studio/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/odin-game-studio.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/odin-game-studio.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Começa o early access de Better late than DEAD</title>
-   <link href="http://example.com/2015/07/23/comeca-o-early-access-de-better-late-than-dead"/>
+   <link href="/jogosdaqui.github.io-staging//2015/07/23/comeca-o-early-access-de-better-late-than-dead"/>
    <updated>2015-07-23T00:00:00-03:00</updated>
-   <id>http://example.com/2015/07/23/comeca-o-early-access-de-better-late-than-dead</id>
+   <id>/jogosdaqui.github.io-staging//2015/07/23/comeca-o-early-access-de-better-late-than-dead</id>
    <content type="html">&lt;p&gt;O survival game Better late than DEAD que está sendo desenvolvido pela &lt;a href=&quot;http://odingamestudio.com.br/&quot; target=&quot;_blank&quot;&gt;Odin Game Studio&lt;/a&gt;
  desde o início do ano começou seu early access no Steam hoje: &lt;a href=&quot;http://store.steampowered.com/app/352950&quot; target=&quot;_blank&quot;&gt;http://store.steampowered.com/app/352950&lt;/a&gt;&lt;/p&gt;
 
@@ -30,9 +30,9 @@
  
  <entry>
    <title>Checkpoint #9</title>
-   <link href="http://example.com/2015/06/11/checkpoint-9"/>
+   <link href="/jogosdaqui.github.io-staging//2015/06/11/checkpoint-9"/>
    <updated>2015-06-11T00:00:00-03:00</updated>
-   <id>http://example.com/2015/06/11/checkpoint-9</id>
+   <id>/jogosdaqui.github.io-staging//2015/06/11/checkpoint-9</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/05/30/a-cidade-dos-que-descem-pela-escada-terceiro-andar&quot;&gt;Falamos do livro-game A Cidade Dos Que Descem Pela Escada: Terceiro Andar&lt;/a&gt;&lt;/p&gt;
 
@@ -76,9 +76,9 @@
  
  <entry>
    <title>Checkpoint #7</title>
-   <link href="http://example.com/2015/05/22/checkpoint-7"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/22/checkpoint-7"/>
    <updated>2015-05-22T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/22/checkpoint-7</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/22/checkpoint-7</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/05/14/demo-reel-da-odin-game-studio/&quot;&gt;Confira o demo reel da Odin Game Studio&lt;/a&gt;&lt;/p&gt;
 
@@ -151,9 +151,9 @@
  
  <entry>
    <title>Demo Reel da Odin Game Studio</title>
-   <link href="http://example.com/2015/05/14/demo-reel-da-odin-game-studio"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/14/demo-reel-da-odin-game-studio"/>
    <updated>2015-05-14T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/14/demo-reel-da-odin-game-studio</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/14/demo-reel-da-odin-game-studio</id>
    <content type="html">&lt;p&gt;A &lt;a href=&quot;http://www.odingamestudio.com.br&quot; target=&quot;_blank&quot;&gt;Odin Game Studio&lt;/a&gt;
 , gamedev brasileira conhecida por games como &lt;a title=&quot;Heist and Run&quot; href=&quot;/jogosdaqui.github.io-staging/2013/04/11/heist-and-run/&quot;&gt;Heist and Run&lt;/a&gt;
 , liberou um demo reel com alguns de seus games produzidos e em produção até o momento.&lt;/p&gt;
@@ -175,9 +175,9 @@
  
  <entry>
    <title>Imagens da semana #6</title>
-   <link href="http://example.com/2015/05/11/imagens-da-semana-6"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/11/imagens-da-semana-6"/>
    <updated>2015-05-11T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/11/imagens-da-semana-6</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/11/imagens-da-semana-6</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/JoyMasher/status/59519658913787904&quot;&gt;Desenho da artista Amora B. para Haggis, protagonista do game Odallus da brasileira JoyMasher&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -224,9 +224,9 @@
  
  <entry>
    <title>Imagens da semana #5</title>
-   <link href="http://example.com/2015/05/04/imagens-da-semana-5"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/04/imagens-da-semana-5"/>
    <updated>2015-05-04T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/04/imagens-da-semana-5</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/04/imagens-da-semana-5</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/OdinGameStudio/status/59271652605208985&quot;&gt;Foto da equipe da Odin Game Studio em pleno testes do game Better later than DEAD&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -261,9 +261,9 @@
  
  <entry>
    <title>Checkpoint #4</title>
-   <link href="http://example.com/2015/05/02/checkpoint-4"/>
+   <link href="/jogosdaqui.github.io-staging//2015/05/02/checkpoint-4"/>
    <updated>2015-05-02T00:00:00-03:00</updated>
-   <id>http://example.com/2015/05/02/checkpoint-4</id>
+   <id>/jogosdaqui.github.io-staging//2015/05/02/checkpoint-4</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://gamereporter.uol.com.br/mundo-canibal-apocalipse-steam&quot;&gt;O game Mundo Canibal Apocalipse chega no Steam Greenlight. Jogo e voto obrigatórios para quem gosta do humor dos irmãos Piologo&lt;/a&gt;&lt;/p&gt;
 
@@ -310,9 +310,9 @@
  
  <entry>
    <title>Axis Game Day</title>
-   <link href="http://example.com/2015/04/17/axis-game-day"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/17/axis-game-day"/>
    <updated>2015-04-17T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/17/axis-game-day</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/17/axis-game-day</id>
    <content type="html">&lt;p&gt;A &lt;a href=&quot;http://www.axis.art.br&quot; target=&quot;_blank&quot;&gt;AXIS-Gnomon School of Visual Effects&lt;/a&gt;
  realizará amanhã, dia 18/04/15, o AXIS Game Day.&lt;/p&gt;
 
@@ -332,9 +332,9 @@
  
  <entry>
    <title>Checkpoint #1</title>
-   <link href="http://example.com/2015/04/16/checkpoint-1"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/16/checkpoint-1"/>
    <updated>2015-04-16T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/16/checkpoint-1</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/16/checkpoint-1</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/TawStudio/status/58853869170393088&quot;&gt;A homenagem do pessoal da Taw Studio a seu co-fundador, diretor e game designer Lucas Jock, falecido no último dia 13&lt;/a&gt;&lt;/p&gt;
 
@@ -357,9 +357,9 @@
  
  <entry>
    <title>Imagens da semana #2</title>
-   <link href="http://example.com/2015/04/13/imagens-da-semana-2"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/13/imagens-da-semana-2"/>
    <updated>2015-04-13T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/13/imagens-da-semana-2</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/13/imagens-da-semana-2</id>
    <content type="html">&lt;h2 id=&quot;1&quot;&gt;#1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/g1/status/585017153042194432&quot;&gt;O game de plataforma old-school Super Doomed’n Damned, desenvolvido pelo brasileiro Claudio Lins em parceria com uma empresa espanhola, deve ser lançado ainda em 2015 para Xbox One, Wii U e PC&lt;/a&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -412,9 +412,9 @@
  
  <entry>
    <title>Novos vídeos de Better late than DEAD e Police Tactics</title>
-   <link href="http://example.com/2014/05/15/novos-videos-de-better-late-than-dead-e-police-tactics"/>
+   <link href="/jogosdaqui.github.io-staging//2014/05/15/novos-videos-de-better-late-than-dead-e-police-tactics"/>
    <updated>2014-05-15T00:00:00-03:00</updated>
-   <id>http://example.com/2014/05/15/novos-videos-de-better-late-than-dead-e-police-tactics</id>
+   <id>/jogosdaqui.github.io-staging//2014/05/15/novos-videos-de-better-late-than-dead-e-police-tactics</id>
    <content type="html">&lt;p&gt;A paulistana &lt;a href=&quot;http://www.odingamestudio.com.br/&quot; target=&quot;_blank&quot;&gt;Odin Game Studio&lt;/a&gt;
  liberou dois vídeos mostrando um pouco dos testes de gampleay de seus games em desenvolvimento &lt;a href=&quot;http://www.betterlatethandeadgame.com/&quot; target=&quot;_blank&quot;&gt;Better late than DEAD&lt;/a&gt;
  e &lt;a href=&quot;http://www.policetacticsgame.com/&quot; target=&quot;_blank&quot;&gt;Police Tactics&lt;/a&gt;
@@ -441,9 +441,9 @@ Pelas imagens que vemos nos v&amp;#237;deos, podemos aguardar grandes games da O
  
  <entry>
    <title>Heist and Run</title>
-   <link href="http://example.com/2013/04/11/heist-and-run"/>
+   <link href="/jogosdaqui.github.io-staging//2013/04/11/heist-and-run"/>
    <updated>2013-04-11T00:00:00-03:00</updated>
-   <id>http://example.com/2013/04/11/heist-and-run</id>
+   <id>/jogosdaqui.github.io-staging//2013/04/11/heist-and-run</id>
    <content type="html">&lt;p&gt;A &lt;a href=&quot;http://www.odingamestudio.com.br/&quot; target=&quot;_blank&quot;&gt;Odin Game Studio&lt;/a&gt;
  estréia no mundo mobile com o game Heist and Run.&lt;/p&gt;
 

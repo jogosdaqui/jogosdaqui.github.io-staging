@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - playlore</title>
- <link href="http://example.com/tags/playlore/index.xml" rel="self"/>
- <link href="http://example.com/tag/playlore.html"/>
- <updated>2018-11-15T17:18:20-02:00</updated>
- <id>http://example.com/tag/playlore.html</id>
+ <title>jogosdaqui - playlore</title>
+ <link href="/jogosdaqui.github.io-staging//tags/playlore/index.xml" rel="self"/>
+ <link href="/jogosdaqui.github.io-staging/tag/playlore.html"/>
+ <updated>2018-11-15T21:56:39-02:00</updated>
+ <id>/jogosdaqui.github.io-staging/tag/playlore.html</id>
  <author>
-   <name>Author Here</name>
+   <name>jogosdaqui</name>
  </author>
  
  <entry>
    <title>Entrevista: Claudio Lins</title>
-   <link href="http://example.com/2015/04/22/entrevista-claudio-lins"/>
+   <link href="/jogosdaqui.github.io-staging//2015/04/22/entrevista-claudio-lins"/>
    <updated>2015-04-22T00:00:00-03:00</updated>
-   <id>http://example.com/2015/04/22/entrevista-claudio-lins</id>
+   <id>/jogosdaqui.github.io-staging//2015/04/22/entrevista-claudio-lins</id>
    <content type="html">&lt;p&gt;O jogosdaqui entrevistou o gamedev brasileiro Claudio Lins, desenvolvedor do game Doomed’n Damned e que agora está trabalhando no seu novo jogo, o Super Doomed’n Damned que será lançado Xbox One, Wii U e PC&lt;/p&gt;
 
 &lt;h2 id=&quot;fale-um-pouco-da-tua-trajetória-como-chegaste-ao-gamedev&quot;&gt;Fale um pouco da tua trajetória, como chegaste ao gamedev?&lt;/h2&gt;
