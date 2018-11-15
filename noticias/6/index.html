@@ -89,6 +89,12 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          console.log(value);
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
       noResultsText: 'Nenhum resultado encontrado',
       limit: 20,
       sortMiddleware: function(a, b) {
@@ -104,24 +110,38 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
       <article class="page">
   <div class="entry">
     <div class="posts">
+ 
 
+    
+    
+    
+    <article class="post">
+
+    <h1><a href="/jogosdaqui.github.io-staging/2015/04/21/museu-do-videogame-itinerante">Museu do videogame Itinerante</a></h1>
+
+    <div class="entry">
+     
+ 
+
+<center>
+  
+    
+      <img src="/jogosdaqui.github.io-staging/images/galleries/2015/04/21/museu-do-videogame-itinerante/logo.jpg" style="max-height: 200px; border-radius: 10%;"/> 
+      
+ </center>
+    
+    Reconhecido pelo Ibram (Instituto Brasileiro de Museus), o Museu do Videogame Itinerante é o primeiro museu do gênero do Brasil, onde os jogadores tem a oportunidade de conhecer 42 anos de evolução dos consoles de videogames e jogar os maiores clássicos do entretenimento digital das décadas de 70, 80, 90...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2015/04/21/museu-do-videogame-itinerante" class="read-more">Leia mais</a>
+    </article>
+
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/17/powerup-2">PowerUp #2</a></h1>
@@ -145,6 +165,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/04/17/powerup-2" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/16/dino-zone">Dino Zone</a></h1>
@@ -217,6 +240,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/04/16/dino-zone" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads">Tank Invaders atinge mais de 300 mil downloads</a></h1>
@@ -238,6 +264,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/02/street-skates">Street Skates</a></h1>
@@ -256,6 +300,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/04/02/street-skates" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/01/teaser-trailer-de-full-metal-wars">Teaser Trailer de Full Metal Wars</a></h1>
@@ -282,6 +329,9 @@ Confira o teaser trailer abaixo:
     <a href="/jogosdaqui.github.io-staging/2015/04/01/teaser-trailer-de-full-metal-wars" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/03/31/the-tap-masters">The Tap Masters</a></h1>
@@ -304,6 +354,9 @@ Confira o teaser trailer abaixo:
     <a href="/jogosdaqui.github.io-staging/2015/03/31/the-tap-masters" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/03/30/splitplay-dobra-de-tamanho-em-apenas-um-fim-de-semana">SplitPlay dobra de tamanho em apenas um fim de semana</a></h1>
@@ -329,6 +382,9 @@ Confira o teaser trailer abaixo:
     <a href="/jogosdaqui.github.io-staging/2015/03/30/splitplay-dobra-de-tamanho-em-apenas-um-fim-de-semana" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/03/30/manifesto-games-vence-concurso-nacional">Manifesto Games vence concurso nacional</a></h1>
@@ -347,6 +403,24 @@ Confira o teaser trailer abaixo:
     <a href="/jogosdaqui.github.io-staging/2015/03/30/manifesto-games-vence-concurso-nacional" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/03/27/soul-gambler-gratuito-e-kickstarter-de-face-it">Soul Gambler gratuito e Kickstarter de Face It</a></h1>
@@ -366,24 +440,6 @@ Confira o teaser trailer abaixo:
     </div>
 
     <a href="/jogosdaqui.github.io-staging/2015/03/27/soul-gambler-gratuito-e-kickstarter-de-face-it" class="read-more">Leia mais</a>
-    </article>
-
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2015/03/25/teaser-de-fragmentorum-alba">Teaser de Fragmentorum Alba</a></h1>
-
-    <div class="entry">
-     
- 
-
-<center>
-  
- </center>
-    
-    Fragmentorum Alba é o primeiro game da startup gaúcha Otus Game Studio. O jogo se passa em 1964, quando um professor britânico recebe uma mensagem gravada em uma fita. Conforme ele tenta desvendar o estranho conteúdo da gravação, coisas estranhas começam a acontecer, sempre relacionadas a eletrônicos e tecnologia. Acreditando...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2015/03/25/teaser-de-fragmentorum-alba" class="read-more">Leia mais</a>
     </article>
 
 </div>
@@ -419,20 +475,6 @@ Confira o teaser trailer abaixo:
   </div>
 </article>
 
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     </div>
   
     <div class="wrapper-footer">

@@ -89,6 +89,12 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          console.log(value);
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
       noResultsText: 'Nenhum resultado encontrado',
       limit: 20,
       sortMiddleware: function(a, b) {
@@ -104,24 +110,14 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
       <article class="page">
   <div class="entry">
     <div class="posts">
+ 
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/06/10/previa-de-my-night-job-da-webcore-games">Prévia de My Night Job da Webcore Games</a></h1>
@@ -146,6 +142,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/06/10/previa-de-my-night-job-da-webcore-games" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/06/09/conheca-os-games-selecionados-no-big-starter">Conheça os games selecionados no BIG Starter 2015</a></h1>
@@ -172,6 +171,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/06/09/conheca-os-games-selecionados-no-big-starter" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/26/previa-de-alkimya-da-bad-minions">Prévia de Alkimya da Bad Minions</a></h1>
@@ -217,6 +219,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/26/previa-de-alkimya-da-bad-minions" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/19/previa-de-cannibal-da-gametek">Prévia de Cannibal da GameTek</a></h1>
@@ -250,6 +255,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/19/previa-de-cannibal-da-gametek" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/13/previa-de-horizon-chase-da-aquiris-game-studio">Prévia de Horizon Chase da Aquiris Game Studio</a></h1>
@@ -278,6 +301,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/13/previa-de-horizon-chase-da-aquiris-game-studio" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/05/turbolink-aprovado-no-steam-greenlight">TurboLink aprovado no Steam Greenlight</a></h1>
@@ -296,6 +322,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/05/turbolink-aprovado-no-steam-greenlight" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/27/previa-de-starlit-adventures">Prévia de Starlit Adventures</a></h1>
@@ -314,6 +343,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/04/27/previa-de-starlit-adventures" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/14/turbolink-no-square-enix-collective">TurboLink no Square Enix Collective</a></h1>
@@ -332,6 +364,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/04/14/turbolink-no-square-enix-collective" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/09/previa-de-gryphon-knight-epic">Prévia de Gryphon Knight Epic</a></h1>
@@ -388,6 +423,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/04/09/previa-de-gryphon-knight-epic" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/03/previa-de-turbolink">Prévia de TurboLink</a></h1>
@@ -459,20 +512,6 @@
   </div>
 </article>
 
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     </div>
   
     <div class="wrapper-footer">

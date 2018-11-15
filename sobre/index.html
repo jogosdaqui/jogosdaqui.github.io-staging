@@ -87,6 +87,12 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          console.log(value);
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
       noResultsText: 'Nenhum resultado encontrado',
       limit: 20,
       sortMiddleware: function(a, b) {
@@ -102,20 +108,6 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
       <article class="page">
   <div class="entry">
     <a href="https://github.com/jogosdaqui/jogosdaqui.github.io-jekyll">
@@ -163,12 +155,12 @@ Se você não tem conhecimentos de programação ou HTML, você ainda pode colab
 
 <h1>Estatísticas</h1>
 <ul>
-    <li><b>Notícias</b>: <a href="/jogosdaqui.github.io-staging/noticias">356</a></li>
+    <li><b>Notícias</b>: <a href="/jogosdaqui.github.io-staging/noticias">359</a></li>
     <li><b>Prévias</b>: <a href="/jogosdaqui.github.io-staging/previas">64</a></li>
-    <li><b>Jogos</b>: <a href="/jogosdaqui.github.io-staging/jogos">189</a></li>
+    <li><b>Jogos</b>: <a href="/jogosdaqui.github.io-staging/jogos">192</a></li>
     <li><b>Entrevistas</b>: <a href="/jogosdaqui.github.io-staging/entrevistas">8</a></li>
-    <li><b>Eventos</b>: <a href="/jogosdaqui.github.io-staging/eventos">44</a></li>
-    <li><b>Colunas</b>: <a href="/jogosdaqui.github.io-staging/colunas">25</a></li>
+    <li><b>Eventos</b>: <a href="/jogosdaqui.github.io-staging/eventos">34</a></li>
+    <li><b>Colunas</b>: <a href="/jogosdaqui.github.io-staging/colunas">26</a></li>
 </ul>
 
 <h1>Como entre em contato?</h1>
@@ -177,20 +169,6 @@ Entre em contato conosco via Twitter pelo <a href="https://twitter.com/jogosdaqu
   </div>
 </article>
 
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     </div>
   
     <div class="wrapper-footer">

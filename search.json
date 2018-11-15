@@ -163,7 +163,7 @@
     {
       "title"    : "Odallus - The Dark Call: primeiras impressões",
       "category" : "",
-      "tags"     : "insert-coins, video, joymasher, big-festival, evento",
+      "tags"     : "insert-coins, video, joymasher, column",
       "url"      : "/jogosdaqui.github.io-staging/2015/08/24/odallus-the-dark-call-primeiras-impressoes",
       "date"     : "2015-08-24 00:00:00 -0300"
     } ,
@@ -1275,7 +1275,7 @@
     {
       "title"    : "Mr. Bree+ no Steam",
       "category" : "",
-      "tags"     : "sbgames, evento, steam, video, greenlight, big-festival, taw-studio",
+      "tags"     : "steam, video, big-festival, taw-studio",
       "url"      : "/jogosdaqui.github.io-staging/2014/05/02/mr-bree-no-steam",
       "date"     : "2014-05-02 00:00:00 -0300"
     } ,
@@ -1331,7 +1331,7 @@
     {
       "title"    : "V de Vinagre",
       "category" : "",
-      "tags"     : "sbgames, evento, video, facebook, flux-game-studio, concurso",
+      "tags"     : "sbgames, video, facebook, flux-game-studio",
       "url"      : "/jogosdaqui.github.io-staging/2013/06/17/v-de-vinagre",
       "date"     : "2013-06-17 00:00:00 -0300"
     } ,
@@ -1339,7 +1339,7 @@
     {
       "title"    : "Documentário &quot;Indústria de Games no Brasil&quot;",
       "category" : "",
-      "tags"     : "abragames, sbgames, evento",
+      "tags"     : "abragames, sbgames, documentario",
       "url"      : "/jogosdaqui.github.io-staging/2013/06/13/documentario-industria-de-games-no-brasil",
       "date"     : "2013-06-13 00:00:00 -0300"
     } ,
@@ -1387,7 +1387,7 @@
     {
       "title"    : "BioTest",
       "category" : "",
-      "tags"     : "ios, android, video",
+      "tags"     : "ios, android, video, unicamp",
       "url"      : "/jogosdaqui.github.io-staging/2013/05/13/biotest",
       "date"     : "2013-05-13 00:00:00 -0300"
     } ,
@@ -1603,7 +1603,7 @@
     {
       "title"    : "BGS 2012 alcança 100.000 visitantes",
       "category" : "",
-      "tags"     : "bgs, evento",
+      "tags"     : "bgs",
       "url"      : "/jogosdaqui.github.io-staging/2012/10/26/bgs-2012-alcanca-100-000-visitantes",
       "date"     : "2012-10-26 00:00:00 -0200"
     } ,
@@ -1875,7 +1875,7 @@
     {
       "title"    : "Os fatos do ano",
       "category" : "",
-      "tags"     : "ios, miniboss, ovni-studios, ps3, psp, bgs, evento, zeebo, e-games, ubisoft, concurso",
+      "tags"     : "miniboss, ovni-studios, bgs, evento, zeebo, e-games, ubisoft",
       "url"      : "/jogosdaqui.github.io-staging/2010/12/31/os-fatos-do-ano-2",
       "date"     : "2010-12-31 00:00:00 -0200"
     } ,
@@ -2721,18 +2721,10 @@
     } ,
   
     {
-      "title"    : "Quadro comemorativo &amp;#39;150 jogos daqui&amp;#39;",
+      "title"    : "Quadro comemorativo &quot;jogos daqui&quot;",
       "category" : "",
       "tags"     : "meantime, reality-show, palmsoft-tecnologia, mobile, continuum, rts, erinia, espaco-informatica, green-land-studios, icon-games, corrida, oniria, nology, lumen-technology, roko-loko, show-do-milhao, hoplon, tilt, leandro-correia, puzzle, esporte, oniria-entertainment, preloud, ttomax, calibre, FPS",
       "url"      : "/jogosdaqui.github.io-staging/2006/05/18/quadro-comemorativo-150-jogos-daqui",
-      "date"     : "2006-05-18 00:00:00 -0300"
-    } ,
-  
-    {
-      "title"    : "150 jogos daqui",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/jogosdaqui.github.io-staging/2006/05/18/150-jogos-daqui",
       "date"     : "2006-05-18 00:00:00 -0300"
     } ,
   
@@ -3027,7 +3019,7 @@
     {
       "title"    : "Ayrton Senna&amp;#39;s Best Lap",
       "category" : "",
-      "tags"     : "meantime",
+      "tags"     : "meantime, corrida",
       "url"      : "/jogosdaqui.github.io-staging/2006/04/22/ayrton-sennas-best-lap",
       "date"     : "2006-04-22 00:00:00 -0300"
     } ,
@@ -3173,22 +3165,6 @@
       "category" : "",
       "tags"     : "jogosbr",
       "url"      : "/jogosdaqui.github.io-staging/2006/03/30/jogosbr-prazo-final",
-      "date"     : "2006-03-30 00:00:00 -0300"
-    } ,
-  
-    {
-      "title"    : "InfoBrasil TI &amp; Telecom",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/jogosdaqui.github.io-staging/2006/03/30/infobrasil-ti-telecom",
-      "date"     : "2006-03-30 00:00:00 -0300"
-    } ,
-  
-    {
-      "title"    : "Evento InfoBrasil TI &amp; Telecom",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/jogosdaqui.github.io-staging/2006/03/30/evento-infobrasil-ti-telecom",
       "date"     : "2006-03-30 00:00:00 -0300"
     } ,
   

@@ -88,6 +88,12 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          console.log(value);
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
       noResultsText: 'Nenhum resultado encontrado',
       limit: 20,
       sortMiddleware: function(a, b) {
@@ -103,24 +109,14 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
       <article class="page">
   <div class="entry">
     <div class="posts">
+ 
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/25/game-brasileiro-paper-cat-ajuda-ongs">Game brasileiro Paper Cat ajuda ONGs</a></h1>
@@ -146,6 +142,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/08/25/game-brasileiro-paper-cat-ajuda-ongs" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/20/racketboy-da-double-dash-studios">RacketBoy da Double Dash Studios</a></h1>
@@ -171,6 +170,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/08/20/racketboy-da-double-dash-studios" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/30/previa-de-relic-hunters-zero">Prévia de Relic Hunters Zero</a></h1>
@@ -196,6 +198,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/30/previa-de-relic-hunters-zero" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/28/gryphon-knight-epic-ganha-data-de-lancamento">Gryphon Knight Epic ganha data de lançamento</a></h1>
@@ -217,6 +222,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/28/gryphon-knight-epic-ganha-data-de-lancamento" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/22/previa-de-fofuuu-da-beltri-studio">Prévia de Fófuuu da Beltri Studio</a></h1>
@@ -240,6 +263,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/22/previa-de-fofuuu-da-beltri-studio" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/07/previa-de-unnamed-fiasco">Prévia de Unnamed Fiasco</a></h1>
@@ -271,6 +297,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/07/previa-de-unnamed-fiasco" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/01/previa-de-dengue-over-da-ilusis-interactive">Prévia de Dengue Over da Ilusis Interactive</a></h1>
@@ -289,6 +318,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/01/previa-de-dengue-over-da-ilusis-interactive" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/06/20/previa-de-dog-duty-da-zanardi-liza">Prévia de Dog Duty da Zanardi & Liza</a></h1>
@@ -321,6 +353,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/06/20/previa-de-dog-duty-da-zanardi-liza" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/06/17/previa-de-peronio-pop-up-book-da-ovni-studios">Prévia de Peronio Pop-Up Book da Ovni Studios</a></h1>
@@ -365,6 +400,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/06/17/previa-de-peronio-pop-up-book-da-ovni-studios" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/06/16/previa-de-massive-madness-da-ninja-garage-studio">Prévia de Massive Madness da Ninja Garage Studio</a></h1>
@@ -425,20 +478,6 @@
   </div>
 </article>
 
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     </div>
   
     <div class="wrapper-footer">

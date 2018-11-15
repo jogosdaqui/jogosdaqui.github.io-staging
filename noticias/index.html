@@ -88,6 +88,12 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          console.log(value);
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
       noResultsText: 'Nenhum resultado encontrado',
       limit: 20,
       sortMiddleware: function(a, b) {
@@ -103,24 +109,14 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
       <article class="page">
   <div class="entry">
     <div class="posts">
+ 
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/10/23/side-quest-da-miris-mind-no-greenlight">Side Quest da Miris Mind no Greenlight</a></h1>
@@ -146,6 +142,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/10/23/side-quest-da-miris-mind-no-greenlight" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/10/05/chroma-squad-tactical-rpg-005-pulando-a-cerca">Chroma Squad Tactical RPG #005 - Pulando a cerca</a></h1>
@@ -177,6 +176,9 @@ Playthrough Chroma Squad
     <a href="/jogosdaqui.github.io-staging/2015/10/05/chroma-squad-tactical-rpg-005-pulando-a-cerca" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/30/xmile-e-playmove-firmam-parceria">Xmile e Playmove firmam parceria</a></h1>
@@ -202,6 +204,9 @@ Playthrough Chroma Squad
     <a href="/jogosdaqui.github.io-staging/2015/09/30/xmile-e-playmove-firmam-parceria" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/04/ballistic-overkill-devtalk-02">Ballistic Overkill - DevTalk #02</a></h1>
@@ -223,6 +228,24 @@ Playthrough Chroma Squad
     <a href="/jogosdaqui.github.io-staging/2015/09/04/ballistic-overkill-devtalk-02" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/31/streaming-de-odallus-the-dark-call-no-twitch">Streaming de Odallus - The Dark call no Twitch</a></h1>
@@ -244,6 +267,9 @@ Playthrough Chroma Squad
     <a href="/jogosdaqui.github.io-staging/2015/08/31/streaming-de-odallus-the-dark-call-no-twitch" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/29/games-brasileiros-em-crowdfunding">Games brasileiros em crowdfunding</a></h1>
@@ -265,6 +291,9 @@ Playthrough Chroma Squad
     <a href="/jogosdaqui.github.io-staging/2015/08/29/games-brasileiros-em-crowdfunding" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/18/bundle-de-30-games-brasileiros-totalmente-gratuitos">Bundle de 30 games brasileiros totalmente gratuitos</a></h1>
@@ -283,6 +312,9 @@ Playthrough Chroma Squad
     <a href="/jogosdaqui.github.io-staging/2015/08/18/bundle-de-30-games-brasileiros-totalmente-gratuitos" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/14/horizon-chase-se-aproxima-do-grid-de-largada">Horizon Chase se aproxima do grid de largada</a></h1>
@@ -308,6 +340,9 @@ Playthrough Chroma Squad
     <a href="/jogosdaqui.github.io-staging/2015/08/14/horizon-chase-se-aproxima-do-grid-de-largada" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/07/chroma-squad-tactical-rpg-004-potencial-ilimitado">Chroma Squad Tactical RPG #004 - Potencial Ilimitado</a></h1>
@@ -339,6 +374,24 @@ Playthrough Chroma Squad
     <a href="/jogosdaqui.github.io-staging/2015/08/07/chroma-squad-tactical-rpg-004-potencial-ilimitado" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/06/games-brasileiros-com-desconto">Games brasileiros com desconto</a></h1>
@@ -390,20 +443,6 @@ Playthrough Chroma Squad
   </div>
 </article>
 
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     </div>
   
     <div class="wrapper-footer">

@@ -3,7 +3,7 @@
  <title>Your Title - video</title>
  <link href="http://example.com/tags/video/index.xml" rel="self"/>
  <link href="http://example.com/tag/video.html"/>
- <updated>2018-11-15T00:12:58-02:00</updated>
+ <updated>2018-11-15T09:38:46-02:00</updated>
  <id>http://example.com/tag/video.html</id>
  <author>
    <name>Author Here</name>
@@ -27,11 +27,14 @@
 
 &lt;p&gt;O jogo conta com diversas fases, com direito a chefões e fases bônus.&lt;/p&gt;
 
+&lt;center&gt;
+        &lt;img src=&quot;/jogosdaqui.github.io-staging/images/galleries/2015/11/11/mikura-going-home/QuadroAQuadro_Mikura.png &quot; /&gt;
+      &lt;/center&gt;
+
 &lt;h2 id=&quot;plataforma&quot;&gt;Plataforma&lt;/h2&gt;
 &lt;p&gt;O game nasceu originalmente numa versão muito simples para o antigo sistema operacional BADA da Samsung, depois de alguns anos os gamedevs decidiram criar essa versão definitiva de Mikura Going Home.&lt;/p&gt;
 
-&lt;p&gt;O jogo está disponível gratuitamente para &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.qaq.mikurafree&amp;amp;hl=pt_BR&quot; target=&quot;_blank&quot;&gt;Android no Google Play&lt;/a&gt;
- e ainda existem planos para uma versão iOS.&lt;/p&gt;
+&lt;p&gt;O jogo está disponível gratuitamente para &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.qaq.mikurafree&amp;amp;hl=pt_BR&quot;&gt;Android no Google Play&lt;/a&gt; e ainda existem planos para uma versão iOS.&lt;/p&gt;
 
 &lt;h2 id=&quot;trailer-de-mikura-going-home&quot;&gt;Trailer de Mikura Going Home&lt;/h2&gt;
 &lt;center&gt;
@@ -464,14 +467,13 @@ Fizemos uma lista dos games que conhecemos que estão em campanha atualmente. Co
    <link href="http://example.com/2015/08/24/odallus-the-dark-call-primeiras-impressoes"/>
    <updated>2015-08-24T00:00:00-03:00</updated>
    <id>http://example.com/2015/08/24/odallus-the-dark-call-primeiras-impressoes</id>
-   <content type="html">&lt;p&gt;Falamos algumas vezes no jogosdaqui sobre o aclamado game de ação e exploração retrô da brasileira JoyMasher: &lt;a href=&quot;http://joymasher.com/odallus/&quot; target=&quot;_blank&quot;&gt;Odallus - The Dark Call&lt;/a&gt;
-:&lt;/p&gt;
+   <content type="html">&lt;p&gt;Falamos algumas vezes no jogosdaqui sobre o aclamado game de ação e exploração retrô da brasileira JoyMasher: &lt;a href=&quot;http://joymasher.com/odallus/&amp;quot;&quot;&gt;Odallus - The Dark Call&lt;/a&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/05/17/games-brasileiros-finalistas-no-big-festival-2015/&quot;&gt;Games brasileiros finalistas no BIG Festival 2015&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/07/02/versao-beta-de-odallus-the-dark-call/&quot;&gt;Versão beta de Odallus - The Dark Call&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/07/15/lancamento-de-odallus-the-dark-call/&quot;&gt;Lançamento de Odallus: The Dark Call&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/05/17/games-brasileiros-finalistas-no-big-festival-2015/&quot;&gt;Games brasileiros finalistas no BIG Festival 2015&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/07/02/versao-beta-de-odallus-the-dark-call/&quot;&gt;Versão beta de Odallus - The Dark Call&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/07/15/lancamento-de-odallus-the-dark-call/&quot;&gt;Lançamento de Odallus: The Dark Call&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Agora chegou a hora de conferirmos as primeiras impressões da equipe do canal Insert Coins sobre a obra-prima da JoyMasher.&lt;/p&gt;
 
@@ -1757,13 +1759,13 @@ Confira o vídeo abaixo e veja como o estúdio ICTV e seu time de rangers irá d
    <link href="http://example.com/2015/05/17/games-brasileiros-finalistas-no-big-festival-2015"/>
    <updated>2015-05-17T00:00:00-03:00</updated>
    <id>http://example.com/2015/05/17/games-brasileiros-finalistas-no-big-festival-2015</id>
-   <content type="html">&lt;p&gt;A organização do &lt;a href=&quot;/jogosdaqui.github.io-staging/2015/03/27/big-festival-2015/&quot;&gt;BIG Festival&lt;/a&gt;
-, primeiro e único festival de jogos independentes da América Latina, revelou durante a semana os finalistas da edição de 2015.&lt;/p&gt;
+   <content type="html">&lt;p&gt;A organização do &lt;a href=&quot;/jogosdaqui.github.io-staging/2015/03/27/big-festival-2015/&quot;&gt;BIG Festival&lt;/a&gt;, primeiro e único festival de jogos independentes da América Latina, revelou durante a semana os finalistas da edição de 2015.&lt;/p&gt;
 
 &lt;p&gt;Apesar de ser um evento de âmbito continental, o festival, por ser realizado no Brasil, tem uma categoria chamada “Revelação Brasil”, que privilegia os games produzidos no país, onde podemos conferir vários jogos daqui bem conhecidos.&lt;/p&gt;
-&lt;h2 id=&quot;primeiro-game-nacional-finalista-na-categoria-melhor-jogo&quot;&gt;Primeiro game nacional finalista na categoria Melhor jogo&lt;/h2&gt;
 
+&lt;h2 id=&quot;primeiro-game-nacional-finalista-na-categoria-melhor-jogo&quot;&gt;Primeiro game nacional finalista na categoria Melhor jogo&lt;/h2&gt;
 &lt;p&gt;A grata supresa deste ano ficou com o game Treeker: Os Óculos Perdidos da Blubox Soft que se tornou o primeiro game brasileiro entre os cinco finalistas na categoria “Melhor jogo”, além disso também concorre nas categorias “Melhor arte” e “Revelação Brasil”. Outro fato interessante sobre Treeker: a Blubox Soft possui apenas um integrante, o gamedev Fernando Paulo.&lt;/p&gt;
+
 &lt;h2 id=&quot;games-brasileiros-finalistas&quot;&gt;Games brasileiros finalistas&lt;/h2&gt;
 &lt;p&gt;Os finalistas brasileiros deste ano são: Momodora III, Treeker: Os Óculos Perdidos​, Odallus​​, Magenta Arcade​ e Toren.&lt;/p&gt;
 
@@ -1775,6 +1777,7 @@ Confira o vídeo abaixo e veja como o estúdio ICTV e seu time de rangers irá d
 &lt;center&gt;
         &lt;iframe src=&quot;https://www.youtube.com/embed/pUbnXidUhY4 &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
       &lt;/center&gt;
+
 &lt;h2 id=&quot;treeker-os-óculos-perdidos&quot;&gt;​Treeker: Os Óculos Perdidos​&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;da Blubox Soft&lt;/p&gt;
@@ -1782,6 +1785,7 @@ Confira o vídeo abaixo e veja como o estúdio ICTV e seu time de rangers irá d
 &lt;center&gt;
         &lt;iframe src=&quot;https://www.youtube.com/embed/R-TBq6AYmbs &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
       &lt;/center&gt;
+
 &lt;h2 id=&quot;odallus---the-dark-call&quot;&gt;Odallus​​ - The Dark Call&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;da JoyMasher&lt;/p&gt;
@@ -1789,6 +1793,7 @@ Confira o vídeo abaixo e veja como o estúdio ICTV e seu time de rangers irá d
 &lt;center&gt;
         &lt;iframe src=&quot;https://www.youtube.com/embed/tiGoUvoLgkI &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
       &lt;/center&gt;
+
 &lt;h2 id=&quot;magenta-arcade&quot;&gt;​Magenta Arcade​&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;da Long Hat House&lt;/p&gt;
@@ -1796,6 +1801,7 @@ Confira o vídeo abaixo e veja como o estúdio ICTV e seu time de rangers irá d
 &lt;center&gt;
         &lt;iframe src=&quot;https://www.youtube.com/embed/zHUnJrvzS14 &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
       &lt;/center&gt;
+
 &lt;h2 id=&quot;toren&quot;&gt;​Toren​&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;da Swordtales&lt;/p&gt;
@@ -1803,118 +1809,80 @@ Confira o vídeo abaixo e veja como o estúdio ICTV e seu time de rangers irá d
 &lt;center&gt;
         &lt;iframe src=&quot;https://www.youtube.com/embed/JjSu--jB4Zs &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
       &lt;/center&gt;
+
 &lt;h2 id=&quot;lista-completa-dos-finalistas-do-big-festival-2015&quot;&gt;Lista completa dos finalistas do BIG Festival 2015&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Melhor jogo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;melhor-jogo&quot;&gt;Melhor jogo&lt;/h3&gt;
+
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/841&quot; target=&quot;_blank&quot;&gt;​Treeker: Os Óculos Perdidos​&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/923&quot; target=&quot;_blank&quot;&gt;​Mekazoo​&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/958&quot; target=&quot;_blank&quot;&gt;​Lumino City​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/966&quot; target=&quot;_blank&quot;&gt;​This War of Mine​&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1169&quot; target=&quot;_blank&quot;&gt;​Event[0]​&lt;/a&gt;
-​&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/841&quot;&gt;​Treeker: Os Óculos Perdidos​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/923&quot;&gt;​Mekazoo​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/958&quot;&gt;​Lumino City​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/966&quot;&gt;​This War of Mine​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1169&quot;&gt;​Event[0]​&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Revelação Brasil&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;revelação-brasil&quot;&gt;Revelação Brasil&lt;/h3&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/755&quot; target=&quot;_blank&quot;&gt;​Momodora III​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/841&quot; target=&quot;_blank&quot;&gt;​Treeker: Os Óculos Perdidos​&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/920&quot; target=&quot;_blank&quot;&gt;​Odallus​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1061&quot; target=&quot;_blank&quot;&gt;​Magenta Arcade​&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1088&quot; target=&quot;_blank&quot;&gt;​Toren​&lt;/a&gt;
-&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/755&quot;&gt;​Momodora III​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/841&quot;&gt;​Treeker: Os Óculos Perdidos​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/920&quot;&gt;​Odallus​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1061&quot;&gt;​Magenta Arcade​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1088&quot;&gt;​Toren​&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Melhor gameplay&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;melhor-gameplay&quot;&gt;Melhor gameplay&lt;/h3&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/747&quot; target=&quot;_blank&quot;&gt;​A Good Snowman Is Hard To Build​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/848&quot;&gt;Klang&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1066&quot; target=&quot;_blank&quot;&gt;​Okhlos​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1193&quot; target=&quot;_blank&quot;&gt;​Big Action Mega Fight!​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1274&quot; target=&quot;_blank&quot;&gt;​Circa Infinity​&lt;/a&gt;
-​&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/747&quot;&gt;​A Good Snowman Is Hard To Build​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/848&quot;&gt;Klang&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1066&quot;&gt;​Okhlos​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1193&quot;&gt;​Big Action Mega Fight!​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1274&quot;&gt;​Circa Infinity​&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Inovação&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;inovação&quot;&gt;Inovação&lt;/h3&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/794&quot; target=&quot;_blank&quot;&gt;Nova-111​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/806&quot; target=&quot;_blank&quot;&gt;​Find the Line​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/818&quot; target=&quot;_blank&quot;&gt;​Plug &amp;amp; Play​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1069&quot; target=&quot;_blank&quot;&gt;​Tribal &amp;amp; Error​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1169&quot; target=&quot;_blank&quot;&gt;​Event[0]​&lt;/a&gt;
-​&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/794&quot;&gt;Nova-111​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/806&quot;&gt;​Find the Line​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/818&quot;&gt;​Plug &amp;amp; Play​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1069&quot;&gt;​Tribal &amp;amp; Error​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1169&quot;&gt;​Event[0]​&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Melhor som&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;melhor-som&quot;&gt;Melhor som&lt;/h3&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/800&quot; target=&quot;_blank&quot;&gt;​Apotheon​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/848&quot;&gt;Klang&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/873&quot; target=&quot;_blank&quot;&gt;​Inside My Radio​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/923&quot; target=&quot;_blank&quot;&gt;​Mekazoo​&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1086&quot; target=&quot;_blank&quot;&gt;​Thumper​&lt;/a&gt;
-&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/800&quot;&gt;​Apotheon​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/848&quot;&gt;Klang&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/873&quot;&gt;​Inside My Radio​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/923&quot;&gt;​Mekazoo​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1086&quot;&gt;​Thumper​&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Educação &amp;amp; Aprendizado&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;educação--aprendizado&quot;&gt;Educação &amp;amp; Aprendizado&lt;/h3&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/811&quot;&gt;Synonymy&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/857&quot; target=&quot;_blank&quot;&gt;Learn Japanese with Tako - Hiragana, Katakana, Kanji and Romaji​&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/930&quot; target=&quot;_blank&quot;&gt;​Niche - a genetics survival game​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1035&quot; target=&quot;_blank&quot;&gt;​Wyz&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1035&quot; target=&quot;_blank&quot;&gt;​&lt;/a&gt;
-&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1107&quot; target=&quot;_blank&quot;&gt;​OVERPAINT​&lt;/a&gt;
-​&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/811&quot;&gt;Synonymy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/857&quot;&gt;Learn Japanese with Tako - Hiragana, Katakana, Kanji and Romaji​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/930&quot;&gt;​Niche - a genetics survival game​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1035&quot;&gt;​Wyz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1107&quot;&gt;​OVERPAINT​&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Melhor narrativa&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;melhor-narrativa&quot;&gt;Melhor narrativa&lt;/h3&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/812&quot; target=&quot;_blank&quot;&gt;​ULTRAWORLD​&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/869&quot; target=&quot;_blank&quot;&gt;​Three Fourths Home​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/884&quot; target=&quot;_blank&quot;&gt;​Dead Synchronicity: Tomorrow Comes Today​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/966&quot; target=&quot;_blank&quot;&gt;​This War of Mine​&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1169&quot; target=&quot;_blank&quot;&gt;​Event[0]​&lt;/a&gt;
-​&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/812&quot;&gt;​ULTRAWORLD​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/869&quot;&gt;​Three Fourths Home​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/884&quot;&gt;​Dead Synchronicity: Tomorrow Comes Today​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/966&quot;&gt;​This War of Mine​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1169&quot;&gt;​Event[0]​&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Melhor arte&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;melhor-arte&quot;&gt;Melhor arte&lt;/h3&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/818&quot; target=&quot;_blank&quot;&gt;Plug &amp;amp; Play​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/841&quot; target=&quot;_blank&quot;&gt;​Treeker: Os Óculos Perdidos​&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/958&quot; target=&quot;_blank&quot;&gt;​Lumino City​&lt;/a&gt;
-​&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/966&quot; target=&quot;_blank&quot;&gt;​This War of Mine​&lt;/a&gt;
-&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1014&quot; target=&quot;_blank&quot;&gt;​The Coral Cave​&lt;/a&gt;
-​&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/818&quot;&gt;Plug &amp;amp; Play​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/841&quot;&gt;​Treeker: Os Óculos Perdidos​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/958&quot;&gt;​Lumino City​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/966&quot;&gt;​This War of Mine​&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bigfestival.com.br/jogos/ver/1014&quot;&gt;​The Coral Cave​&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
@@ -2860,31 +2828,24 @@ e diverta-se.&lt;/p&gt;
    <link href="http://example.com/2014/05/02/mr-bree-no-steam"/>
    <updated>2014-05-02T00:00:00-03:00</updated>
    <id>http://example.com/2014/05/02/mr-bree-no-steam</id>
-   <content type="html">&lt;p&gt;A equipe da brasileira &lt;a href=&quot;http://tawstudio.com/&quot; target=&quot;_blank&quot;&gt;Taw Studio&lt;/a&gt;
- está de parabéns, pois após muito trabalho e dedicação na &lt;a href=&quot;http://jogosdaqui.blog.uol.com.br/arch2013-05-01_2013-05-31.html#2013_05-02_19_08_27-154784552-0&quot; target=&quot;_blank&quot;&gt;campanha Greenlight&lt;/a&gt;
-, seu fantástico game &lt;a href=&quot;http://store.steampowered.com/app/264220/&quot; target=&quot;_blank&quot;&gt;Mr. Bree+&lt;/a&gt;
- foi finalmente lançado 
-na &lt;a href=&quot;http://store.steampowered.com/app/264220/&quot; target=&quot;_blank&quot;&gt;Steam&lt;/a&gt;
-, a maior plataforma de distribuição de jogos do mundo!&lt;/p&gt;
+   <content type="html">&lt;p&gt;A equipe da brasileira &lt;a href=&quot;http://tawstudio.com/&quot;&gt;Taw Studio&lt;/a&gt; está de parabéns, pois após muito trabalho e dedicação na &lt;a href=&quot;http://jogosdaqui.blog.uol.com.br/arch2013-05-01_2013-05-31.html#2013_05-02_19_08_27-154784552-0&quot;&gt;campanha Greenlight&lt;/a&gt;, seu fantástico game &lt;a href=&quot;http://store.steampowered.com/app/264220/&quot;&gt;Mr. Bree+&lt;/a&gt;foi finalmente lançado 
+na &lt;a href=&quot;http://store.steampowered.com/app/264220/&quot;&gt;Steam&lt;/a&gt;, a maior plataforma de distribuição de jogos do mundo!&lt;/p&gt;
 
 &lt;p&gt;Para quem ainda não conhece Mr. Bree+, leia um pouco do jogo descrito pela própria equipe de desenvolvimento:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Mr. Bree+ é um game de aventura e plataforma hardcore, totalmente desafiador, enriquecido com um incrível aspecto visual e musical.&lt;br /&gt;
 São 60 níveis de puro desafio, revelando ao longo do progresso, eventos passados obscuros que contam a história do nosso herói, um porco fazendeiro, pai de família, o Mr. Bree.&lt;br /&gt;
-Uma boa comparação para exemplificar a mecânica do jogo são alguns dos jogos que nós amamos: Super Meat Boy, Megaman and Castlevania!&quot;
-&lt;br /&gt;&lt;/p&gt;
+Uma boa comparação para exemplificar a mecânica do jogo são alguns dos jogos que nós amamos: Super Meat Boy, Megaman and Castlevania!&quot;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;div&gt;&lt;br /&gt;
+
 &lt;center&gt;
         &lt;iframe src=&quot;https://www.youtube.com/embed/mzrQbqYW4KI &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
       &lt;/center&gt;
- 
-O game j&amp;#225; foi premiado diversas vezes, como: Melhor jogo para PC (SBGames 2012), Melhor trilha sonora original (Game Music Brasil 2012), Melhor som (SBGames 2012), Melhor Arte (SBGames 2011) e Brasil Revelation (Big Festival 2012).
- 
-Mr. Bree+ ter&amp;#225; um desconto de 33% na Steam durante sua semana de lan&amp;#231;amento, ent&amp;#227;o aproveite, &lt;a href=&quot;http://store.steampowered.com/app/264220/&quot; target=&quot;_blank&quot;&gt;acesse sua conta Steam e diverta-se&lt;/a&gt;
-.
-&lt;/div&gt;
+
+&lt;p&gt;O game já foi premiado diversas vezes, como: Melhor jogo para PC (SBGames 2012), Melhor trilha sonora original (Game Music Brasil 2012), Melhor som (SBGames 2012), Melhor Arte (SBGames 2011) e Brasil Revelation (Big Festival 2012).&lt;/p&gt;
+
+&lt;p&gt;Mr. Bree+ terá um desconto de 33% na Steam durante sua semana de lançamento, então aproveite, &lt;a href=&quot;http://store.steampowered.com/app/264220/&quot;&gt;acesse sua conta Steam e diverta-se&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -2925,8 +2886,7 @@ Gostou? Então baixe Nhom diretamente do &lt;a href=&quot;https://play.google.co
    <link href="http://example.com/2013/06/17/v-de-vinagre"/>
    <updated>2013-06-17T00:00:00-03:00</updated>
    <id>http://example.com/2013/06/17/v-de-vinagre</id>
-   <content type="html">&lt;p&gt;A Flux Game Studio, vencedora no final de 2012 do concurso de Criação de Game de Educação Financeira da SBGames e Banco do Brasil, está antenada com que acontece no país, pois acaba de lançar o game &lt;a href=&quot;https://apps.facebook.com/vdevinagre/&quot; target=&quot;_blank&quot;&gt;V de Vinagre&lt;/a&gt;
- que ironiza a violência ocorrida nos últimos manifestos no RJ e SP.&lt;/p&gt;
+   <content type="html">&lt;p&gt;A Flux Game Studio, vencedora no final de 2012 do concurso de Criação de Game de Educação Financeira da SBGames e Banco do Brasil, está antenada com que acontece no país, pois acaba de lançar o game &lt;a href=&quot;https://apps.facebook.com/vdevinagre/&quot;&gt;V de Vinagre&lt;/a&gt; que ironiza a violência ocorrida nos últimos manifestos no RJ e SP.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“Um roteiro no qual o manifestante precisa fugir da polícia por portar potes de vinagre em sua mochila poderia muito bem ser de um game 100% de ficção&quot;, afirma Paulo Luis Santos, Diretor de Criação da Flux e um dos desenvolvedores do projeto.&lt;/p&gt;
@@ -2938,10 +2898,13 @@ Gostou? Então baixe Nhom diretamente do &lt;a href=&quot;https://play.google.co
         &lt;iframe src=&quot;https://www.youtube.com/embed/6IYUbNcFSnw &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
       &lt;/center&gt;
 
-&lt;p&gt;O game foi desenvolvido no formato Game Jam, uma mini-maratona de 18 horas de trabalho.&amp;gt;  “Optamos por fazer tudo muito rapidamente por dois motivos: primeiramente, nos propusemos este desafio de fazer um jogo em pouco tempo; e, depois, porque o assunto é urgente e não poderíamos investir muito tempo em polimentos - valia mais a pena lançar de uma vez do que perder o timing”, detalha Juliano Gomes, Programador Líder do game.&lt;/p&gt;
+&lt;p&gt;O game foi desenvolvido no formato Game Jam, uma mini-maratona de 18 horas de trabalho.&lt;/p&gt;
 
-&lt;p&gt;Jogue diretamente no Facebook: &lt;a href=&quot;https://apps.facebook.com/vdevinagre/&quot; target=&quot;_blank&quot;&gt;V de Vinagre&lt;/a&gt;
-.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Optamos por fazer tudo muito rapidamente por dois motivos: primeiramente, nos propusemos este desafio de fazer um jogo em pouco tempo; e, depois, porque o assunto é urgente e não poderíamos investir muito tempo em polimentos - valia mais a pena lançar de uma vez do que perder o timing”, detalha Juliano Gomes, Programador Líder do game.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jogue diretamente no Facebook: &lt;a href=&quot;https://apps.facebook.com/vdevinagre/&quot;&gt;V de Vinagre&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -2997,8 +2960,7 @@ Gostou? Então baixe Nhom diretamente do &lt;a href=&quot;https://play.google.co
    <link href="http://example.com/2013/05/13/biotest"/>
    <updated>2013-05-13T00:00:00-03:00</updated>
    <id>http://example.com/2013/05/13/biotest</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.biotest-app.com/&quot; target=&quot;_blank&quot;&gt;BioTest&lt;/a&gt;
- foi desenvolvido pelo LTE (Laboratório de Tecnologia Educacional do Instituto de Biologia da UNICAMP) e é o primeiro game para iOS e Android licenciado pela UNICAMP.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.biotest-app.com/&quot;&gt;BioTest&lt;/a&gt; foi desenvolvido pelo LTE (Laboratório de Tecnologia Educacional do Instituto de Biologia da UNICAMP) e é o primeiro game para iOS e Android licenciado pela UNICAMP.&lt;/p&gt;
 
 &lt;p&gt;Nas últimas duas décadas o LTE tem desenvolvido softwares didáticos e jogos educacionais e agora está lançado seu primeiro game mobile.&lt;/p&gt;
 
@@ -3008,10 +2970,8 @@ Gostou? Então baixe Nhom diretamente do &lt;a href=&quot;https://play.google.co
         &lt;iframe src=&quot;https://www.youtube.com/embed/-QR2GhQShGM &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
       &lt;/center&gt;
 
-&lt;p&gt;&lt;span style=&quot;color: #222222; font-family: arial, sans-serif; font-size: 13.333333969116211px;&quot;&gt;O jogo está disponível na &lt;a href=&quot;https://play.google.com/store/apps/details?id=br.com.gamescamp.biotest&quot; target=&quot;_blank&quot;&gt;Google Play por U$0.99&lt;/a&gt;
- e na &lt;a href=&quot;https://itunes.apple.com/us/app/biotest/id636941373&quot; target=&quot;_blank&quot;&gt;Apple Store por U$1.99&lt;/a&gt;
-.&lt;/span&gt;&lt;/p&gt;
-
+&lt;h2 id=&quot;plataformas&quot;&gt;Plataformas&lt;/h2&gt;
+&lt;p&gt;O jogo está disponível na &lt;a href=&quot;https://play.google.com/store/apps/details?id=br.com.gamescamp.biotest&quot;&gt;Google Play por U$0.99&lt;/a&gt; e na &lt;a href=&quot;https://itunes.apple.com/us/app/biotest/id636941373&quot;&gt;Apple Store por U$1.99&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  

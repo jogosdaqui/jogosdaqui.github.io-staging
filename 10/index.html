@@ -89,6 +89,12 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          console.log(value);
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
       noResultsText: 'Nenhum resultado encontrado',
       limit: 20,
       sortMiddleware: function(a, b) {
@@ -104,22 +110,12 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
       <div class="posts">
+ 
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/09/checkpoint-5">Checkpoint #5</a></h1>
@@ -141,6 +137,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/09/checkpoint-5" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/08/ganhadores-da-promocao-do-game-recruits">Ganhadores da promoção do game Recruits</a></h1>
@@ -159,6 +158,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/08/ganhadores-da-promocao-do-game-recruits" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/08/distorcoes-ganha-novos-videos">Distorções ganha novos vídeos</a></h1>
@@ -177,6 +179,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/08/distorcoes-ganha-novos-videos" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/07/splitplay-um-ano-em-numeros">SplitPlay, um ano em números</a></h1>
@@ -202,6 +207,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/07/splitplay-um-ano-em-numeros" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/07/fan-arts-de-chroma-squad">Fan arts de Chroma Squad</a></h1>
@@ -234,6 +257,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/07/fan-arts-de-chroma-squad" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/06/nova-coluna-no-jogosdaqui-insert-coins">Nova coluna no jogosdaqui: Insert Coins</a></h1>
@@ -255,6 +281,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/06/nova-coluna-no-jogosdaqui-insert-coins" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/06/insert-coins-gryphon-knight-epic-gameplay-e-entrevista">Insert Coins: Gryphon Knight Epic - Gameplay e Entrevista</a></h1>
@@ -276,6 +305,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/06/insert-coins-gryphon-knight-epic-gameplay-e-entrevista" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/05/turbolink-aprovado-no-steam-greenlight">TurboLink aprovado no Steam Greenlight</a></h1>
@@ -294,6 +326,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/05/turbolink-aprovado-no-steam-greenlight" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/05/revelado-novo-game-da-qubyte-interactive-recruits">Revelado novo game da QUByte Interactive: Recruits</a></h1>
@@ -315,6 +350,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/05/revelado-novo-game-da-qubyte-interactive-recruits" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/05/promocao-do-game-recruits-make-heroes-make-history">Promoção do game Recruits - Make Heroes. Make History.</a></h1>
@@ -363,20 +416,6 @@
     
 </ul>
 
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     </div>
   
     <div class="wrapper-footer">

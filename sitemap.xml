@@ -1165,14 +1165,6 @@
 <lastmod>2006-03-29T00:00:00-03:00</lastmod>
 </url>
 <url>
-<loc>/jogosdaqui.github.io-staging/2006/03/30/evento-infobrasil-ti-telecom</loc>
-<lastmod>2006-03-30T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>/jogosdaqui.github.io-staging/2006/03/30/infobrasil-ti-telecom</loc>
-<lastmod>2006-03-30T00:00:00-03:00</lastmod>
-</url>
-<url>
 <loc>/jogosdaqui.github.io-staging/2006/03/30/jogosbr-prazo-final</loc>
 <lastmod>2006-03-30T00:00:00-03:00</lastmod>
 </url>
@@ -1391,10 +1383,6 @@
 <url>
 <loc>/jogosdaqui.github.io-staging/2006/05/17/taikodom-alfa-teste-2006</loc>
 <lastmod>2006-05-17T00:00:00-03:00</lastmod>
-</url>
-<url>
-<loc>/jogosdaqui.github.io-staging/2006/05/18/150-jogos-daqui</loc>
-<lastmod>2006-05-18T00:00:00-03:00</lastmod>
 </url>
 <url>
 <loc>/jogosdaqui.github.io-staging/2006/05/18/quadro-comemorativo-150-jogos-daqui</loc>
@@ -3229,6 +3217,9 @@
 <loc>/jogosdaqui.github.io-staging/tags/taw-studio/</loc>
 </url>
 <url>
+<loc>/jogosdaqui.github.io-staging/tags/unicamp/</loc>
+</url>
+<url>
 <loc>/jogosdaqui.github.io-staging/tags/windows-phone/</loc>
 </url>
 <url>
@@ -3239,6 +3230,9 @@
 </url>
 <url>
 <loc>/jogosdaqui.github.io-staging/tags/frozen-logic-studios/</loc>
+</url>
+<url>
+<loc>/jogosdaqui.github.io-staging/tags/documentario/</loc>
 </url>
 <url>
 <loc>/jogosdaqui.github.io-staging/tags/flux-game-studio/</loc>
@@ -3490,6 +3484,9 @@
 <loc>/jogosdaqui.github.io-staging/tags/double-dash/</loc>
 </url>
 <url>
+<loc>/jogosdaqui.github.io-staging/tags/column/</loc>
+</url>
+<url>
 <loc>/jogosdaqui.github.io-staging/tags/overlord-game-studio/</loc>
 </url>
 <url>
@@ -3536,9 +3533,6 @@
 </url>
 <url>
 <loc>/jogosdaqui.github.io-staging/eventos/4/</loc>
-</url>
-<url>
-<loc>/jogosdaqui.github.io-staging/eventos/5/</loc>
 </url>
 <url>
 <loc>/jogosdaqui.github.io-staging/</loc>
@@ -3803,6 +3797,9 @@
 </url>
 <url>
 <loc>/jogosdaqui.github.io-staging/jogos/19/</loc>
+</url>
+<url>
+<loc>/jogosdaqui.github.io-staging/jogos/20/</loc>
 </url>
 <url>
 <loc>/jogosdaqui.github.io-staging/noticias/</loc>

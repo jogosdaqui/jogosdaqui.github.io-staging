@@ -88,6 +88,12 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          console.log(value);
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
       noResultsText: 'Nenhum resultado encontrado',
       limit: 20,
       sortMiddleware: function(a, b) {
@@ -103,24 +109,14 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
       <article class="page">
   <div class="entry">
     <div class="posts">
+ 
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/10/26/finalistas-do-festival-de-jogos-independentes-do-sbgames-2015">Finalistas do Festival de Jogos Independentes do SBGames 2015</a></h1>
@@ -142,6 +138,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/10/26/finalistas-do-festival-de-jogos-independentes-do-sbgames-2015" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/22/1o-hackajam">1º HackaJam</a></h1>
@@ -163,6 +162,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/09/22/1o-hackajam" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/03/brazil-gets-unreal-porto-alegre-e-florianopolis">Brazil Gets Unreal - Porto Alegre, Curitiba e Florianópolis</a></h1>
@@ -184,6 +186,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/09/03/brazil-gets-unreal-porto-alegre-e-florianopolis" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/02/concurso-souking-power-up">Concurso Souking - Power UP</a></h1>
@@ -211,27 +216,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/09/02/concurso-souking-power-up" class="read-more">Leia mais</a>
     </article>
 
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2015/08/24/odallus-the-dark-call-primeiras-impressoes">Odallus - The Dark Call: primeiras impressões</a></h1>
-
-    <div class="entry">
-     
- 
-
-<center>
-  
     
-      <img src="/jogosdaqui.github.io-staging/images/galleries/2015/08/24/odallus-the-dark-call-primeiras-impressoes/logo.png" style="max-height: 200px; border-radius: 10%;"/> 
-      
- </center>
     
-    Falamos algumas vezes no jogosdaqui sobre o aclamado game de ação e exploração retrô da brasileira JoyMasher: Odallus - The Dark Call : Games brasileiros finalistas no BIG Festival 2015 Versão beta de Odallus - The Dark Call Lançamento de Odallus: The Dark Call Agora chegou a hora de conferirmos...
-    </div>
+    
+        <br>
 
-    <a href="/jogosdaqui.github.io-staging/2015/08/24/odallus-the-dark-call-primeiras-impressoes" class="read-more">Leia mais</a>
-    </article>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/06/12/1o-minas-games-festival">1º Minas Games Festival</a></h1>
@@ -250,6 +252,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/06/12/1o-minas-games-festival" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/23/viii-gamepad-seminario-de-games-e-tecnologia">VIII Gamepad – Seminário de Games e Tecnologia</a></h1>
@@ -268,27 +273,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/23/viii-gamepad-seminario-de-games-e-tecnologia" class="read-more">Leia mais</a>
     </article>
 
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2015/05/17/games-brasileiros-finalistas-no-big-festival-2015">Games brasileiros finalistas no BIG Festival 2015</a></h1>
-
-    <div class="entry">
-     
- 
-
-<center>
-  
     
-      <img src="/jogosdaqui.github.io-staging/images/galleries/2015/05/17/games-brasileiros-finalistas-no-big-festival-2015/logo.jpg" style="max-height: 200px; border-radius: 10%;"/> 
-      
- </center>
     
-    A organização do BIG Festival , primeiro e único festival de jogos independentes da América Latina, revelou durante a semana os finalistas da edição de 2015. Apesar de ser um evento de âmbito continental, o festival, por ser realizado no Brasil, tem uma categoria chamada “Revelação Brasil”, que privilegia os...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2015/05/17/games-brasileiros-finalistas-no-big-festival-2015" class="read-more">Leia mais</a>
-    </article>
-
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/16/xiii-seja-semana-de-entretenimento-jogos-e-animacao">XIII SEJA (Semana de Entretenimento, Jogos e  Animação)</a></h1>
@@ -307,6 +294,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/16/xiii-seja-semana-de-entretenimento-jogos-e-animacao" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/01/brazil-gets-unreal">Brazil Gets Unreal</a></h1>
@@ -328,6 +318,76 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/01/brazil-gets-unreal" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+    <article class="post">
+
+    <h1><a href="/jogosdaqui.github.io-staging/2015/04/24/cobertura-do-evento-powerup-2">Cobertura do evento PowerUp #2</a></h1>
+
+    <div class="entry">
+     
+ 
+
+<center>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+ </center>
+    
+    Quarta-feira na universade Feevale aconteceu a segunda edição do evento PowerUp , o jogosdaqui esteve lá para apreciar as palestras e alguns jogos que foram desenvolvidos durante a Ludum Dare. O evento teve auditório lotado e foi dividido em dois momentos, o primeiro com duas palestras de desenvolvedores de jogos...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2015/04/24/cobertura-do-evento-powerup-2" class="read-more">Leia mais</a>
+    </article>
+
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
+    <article class="post">
+
+    <h1><a href="/jogosdaqui.github.io-staging/2015/04/17/axis-game-day">Axis Game Day</a></h1>
+
+    <div class="entry">
+     
+ 
+
+<center>
+  
+    
+      <img src="/jogosdaqui.github.io-staging/images/galleries/2015/04/17/axis-game-day/logo.jpg" style="max-height: 200px; border-radius: 10%;"/> 
+      
+ </center>
+    
+    A AXIS-Gnomon School of Visual Effects realizará amanhã, dia 18/04/15, o AXIS Game Day. O evento tem início com uma aula aberta do curso Character Creation for Games . Às 15 horas começam as palestras com profissionais da indústria gamedev da Odin Game Studio, Garage 227 Studios, Microsoft, Unity, IGDA...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2015/04/17/axis-game-day" class="read-more">Leia mais</a>
+    </article>
+
 </div>
 
 <!-- Pagination links -->
@@ -345,12 +405,10 @@
         
             <li ><a href="/jogosdaqui.github.io-staging/eventos/4/" title="">4</a></li>
         
-            <li ><a href="/jogosdaqui.github.io-staging/eventos/5/" title="">5</a></li>
-        
         
         
             <a href="/eventos/2/" class="next">&gt;</a>&nbsp;&nbsp;
-            <a href="/eventos/5/" class="next">&gt;&gt;</a>
+            <a href="/eventos/4/" class="next">&gt;&gt;</a>
          
     
 </ul>
@@ -358,20 +416,6 @@
   </div>
 </article>
 
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     </div>
   
     <div class="wrapper-footer">

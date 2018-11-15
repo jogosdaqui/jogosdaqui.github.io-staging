@@ -89,6 +89,12 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          console.log(value);
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
       noResultsText: 'Nenhum resultado encontrado',
       limit: 20,
       sortMiddleware: function(a, b) {
@@ -104,22 +110,12 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
       <div class="posts">
+ 
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/22/1o-hackajam">1º HackaJam</a></h1>
@@ -141,6 +137,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/09/22/1o-hackajam" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/14/imagens-da-semana-13">Imagens da semana #13</a></h1>
@@ -175,6 +174,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/09/14/imagens-da-semana-13" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/09/rock-life">Rock Life</a></h1>
@@ -198,6 +200,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/09/09/rock-life" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/04/ballistic-overkill-devtalk-02">Ballistic Overkill - DevTalk #02</a></h1>
@@ -219,6 +224,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/09/04/ballistic-overkill-devtalk-02" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/03/brazil-gets-unreal-porto-alegre-e-florianopolis">Brazil Gets Unreal - Porto Alegre, Curitiba e Florianópolis</a></h1>
@@ -240,6 +263,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/09/03/brazil-gets-unreal-porto-alegre-e-florianopolis" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/02/concurso-souking-power-up">Concurso Souking - Power UP</a></h1>
@@ -267,6 +293,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/09/02/concurso-souking-power-up" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/31/streaming-de-odallus-the-dark-call-no-twitch">Streaming de Odallus - The Dark call no Twitch</a></h1>
@@ -288,6 +317,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/08/31/streaming-de-odallus-the-dark-call-no-twitch" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/29/games-brasileiros-em-crowdfunding">Games brasileiros em crowdfunding</a></h1>
@@ -309,6 +341,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/08/29/games-brasileiros-em-crowdfunding" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/26/reord">ReOrd</a></h1>
@@ -334,6 +369,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/08/26/reord" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/25/game-brasileiro-paper-cat-ajuda-ongs">Game brasileiro Paper Cat ajuda ONGs</a></h1>
@@ -389,20 +442,6 @@
     
 </ul>
 
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     </div>
   
     <div class="wrapper-footer">

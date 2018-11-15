@@ -88,6 +88,12 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          console.log(value);
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
       noResultsText: 'Nenhum resultado encontrado',
       limit: 20,
       sortMiddleware: function(a, b) {
@@ -103,24 +109,14 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
       <article class="page">
   <div class="entry">
     <div class="posts">
+ 
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/11/11/mikura-going-home">Mikura Going Home</a></h1>
@@ -144,6 +140,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/11/11/mikura-going-home" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/11/04/jankentris">Jankentris</a></h1>
@@ -169,6 +168,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/11/04/jankentris" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/10/22/war-dogs">War Dogs</a></h1>
@@ -196,6 +198,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/10/22/war-dogs" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/10/16/max-quiz">Max Quiz</a></h1>
@@ -221,6 +226,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/10/16/max-quiz" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/10/07/zombiezoid-zenith">ZombieZoid - Zenith</a></h1>
@@ -242,6 +265,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/10/07/zombiezoid-zenith" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/25/pixuleco-o-jogo">Pixuleco - O Jogo</a></h1>
@@ -263,6 +289,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/09/25/pixuleco-o-jogo" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/09/rock-life">Rock Life</a></h1>
@@ -286,6 +315,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/09/09/rock-life" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/26/reord">ReOrd</a></h1>
@@ -311,6 +343,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/08/26/reord" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/30/a-cidade-dos-que-descem-pela-escada-terceiro-andar">A Cidade Dos Que Descem Pela Escada: Terceiro Andar</a></h1>
@@ -352,6 +387,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/30/a-cidade-dos-que-descem-pela-escada-terceiro-andar" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/28/carcara-asas-da-justica">Carcará - Asas da Justiça</a></h1>
@@ -413,7 +466,7 @@
         
         
             <a href="/jogos/2/" class="next">&gt;</a>&nbsp;&nbsp;
-            <a href="/jogos/19/" class="next">&gt;&gt;</a>
+            <a href="/jogos/20/" class="next">&gt;&gt;</a>
          
     
 </ul>
@@ -421,20 +474,6 @@
   </div>
 </article>
 
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     </div>
   
     <div class="wrapper-footer">

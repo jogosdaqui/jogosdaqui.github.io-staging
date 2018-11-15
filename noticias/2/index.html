@@ -89,6 +89,12 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          console.log(value);
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
       noResultsText: 'Nenhum resultado encontrado',
       limit: 20,
       sortMiddleware: function(a, b) {
@@ -104,24 +110,14 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
       <article class="page">
   <div class="entry">
     <div class="posts">
+ 
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/31/teaser-de-gameplay-de-horizon-chase">Teaser de gameplay de Horizon Chase</a></h1>
@@ -143,6 +139,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/31/teaser-de-gameplay-de-horizon-chase" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/31/crowdfunding-de-99vidas-o-jogo">Crowdfunding de 99Vidas o jogo</a></h1>
@@ -166,6 +165,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/31/crowdfunding-de-99vidas-o-jogo" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/24/gamedev-brasileira-arrecada-mais-de-us-78-000-em-campanha-de-crowdsourcing">Gamedev brasileira arrecada mais de US$ 78.000 em campanha de crowdsourcing</a></h1>
@@ -187,6 +189,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/24/gamedev-brasileira-arrecada-mais-de-us-78-000-em-campanha-de-crowdsourcing" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/23/comeca-o-early-access-de-better-late-than-dead">Começa o early access de Better late than DEAD</a></h1>
@@ -208,6 +213,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/23/comeca-o-early-access-de-better-late-than-dead" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/21/crowdfunding-de-satellite-rush">Crowdfunding de Satellite Rush</a></h1>
@@ -235,6 +258,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/21/crowdfunding-de-satellite-rush" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/20/playtable-busca-desenvolvedores">PlayTable busca desenvolvedores</a></h1>
@@ -260,6 +286,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/20/playtable-busca-desenvolvedores" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/16/crowdfunding-de-magic-master-atinge-25-da-meta">Crowdfunding de Magic Master atinge 25% da meta</a></h1>
@@ -283,6 +312,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/16/crowdfunding-de-magic-master-atinge-25-da-meta" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/15/lancamento-de-odallus-the-dark-call">Lançamento de Odallus: The Dark Call</a></h1>
@@ -308,6 +340,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/15/lancamento-de-odallus-the-dark-call" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/06/crowdfunding-de-magic-master">Crowdfunding de Magic Master</a></h1>
@@ -341,6 +376,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/07/06/crowdfunding-de-magic-master" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/04/chroma-squad-tactical-rpg-003-do-a-barrel-roll">Chroma Squad Tactical RPG #003 - DO A BARREL ROLL!</a></h1>
@@ -397,20 +450,6 @@
   </div>
 </article>
 
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     </div>
   
     <div class="wrapper-footer">

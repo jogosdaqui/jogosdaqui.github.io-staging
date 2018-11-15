@@ -3,7 +3,7 @@
  <title>Your Title - android</title>
  <link href="http://example.com/tags/android/index.xml" rel="self"/>
  <link href="http://example.com/tag/android.html"/>
- <updated>2018-11-15T00:12:58-02:00</updated>
+ <updated>2018-11-15T09:38:46-02:00</updated>
  <id>http://example.com/tag/android.html</id>
  <author>
    <name>Author Here</name>
@@ -27,11 +27,14 @@
 
 &lt;p&gt;O jogo conta com diversas fases, com direito a chefões e fases bônus.&lt;/p&gt;
 
+&lt;center&gt;
+        &lt;img src=&quot;/jogosdaqui.github.io-staging/images/galleries/2015/11/11/mikura-going-home/QuadroAQuadro_Mikura.png &quot; /&gt;
+      &lt;/center&gt;
+
 &lt;h2 id=&quot;plataforma&quot;&gt;Plataforma&lt;/h2&gt;
 &lt;p&gt;O game nasceu originalmente numa versão muito simples para o antigo sistema operacional BADA da Samsung, depois de alguns anos os gamedevs decidiram criar essa versão definitiva de Mikura Going Home.&lt;/p&gt;
 
-&lt;p&gt;O jogo está disponível gratuitamente para &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.qaq.mikurafree&amp;amp;hl=pt_BR&quot; target=&quot;_blank&quot;&gt;Android no Google Play&lt;/a&gt;
- e ainda existem planos para uma versão iOS.&lt;/p&gt;
+&lt;p&gt;O jogo está disponível gratuitamente para &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.qaq.mikurafree&amp;amp;hl=pt_BR&quot;&gt;Android no Google Play&lt;/a&gt; e ainda existem planos para uma versão iOS.&lt;/p&gt;
 
 &lt;h2 id=&quot;trailer-de-mikura-going-home&quot;&gt;Trailer de Mikura Going Home&lt;/h2&gt;
 &lt;center&gt;
@@ -1204,8 +1207,7 @@ A Rockhead promente para breve uma versão Windows Phone.&lt;/p&gt;
    <link href="http://example.com/2013/05/13/biotest"/>
    <updated>2013-05-13T00:00:00-03:00</updated>
    <id>http://example.com/2013/05/13/biotest</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.biotest-app.com/&quot; target=&quot;_blank&quot;&gt;BioTest&lt;/a&gt;
- foi desenvolvido pelo LTE (Laboratório de Tecnologia Educacional do Instituto de Biologia da UNICAMP) e é o primeiro game para iOS e Android licenciado pela UNICAMP.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.biotest-app.com/&quot;&gt;BioTest&lt;/a&gt; foi desenvolvido pelo LTE (Laboratório de Tecnologia Educacional do Instituto de Biologia da UNICAMP) e é o primeiro game para iOS e Android licenciado pela UNICAMP.&lt;/p&gt;
 
 &lt;p&gt;Nas últimas duas décadas o LTE tem desenvolvido softwares didáticos e jogos educacionais e agora está lançado seu primeiro game mobile.&lt;/p&gt;
 
@@ -1215,10 +1217,8 @@ A Rockhead promente para breve uma versão Windows Phone.&lt;/p&gt;
         &lt;iframe src=&quot;https://www.youtube.com/embed/-QR2GhQShGM &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
       &lt;/center&gt;
 
-&lt;p&gt;&lt;span style=&quot;color: #222222; font-family: arial, sans-serif; font-size: 13.333333969116211px;&quot;&gt;O jogo está disponível na &lt;a href=&quot;https://play.google.com/store/apps/details?id=br.com.gamescamp.biotest&quot; target=&quot;_blank&quot;&gt;Google Play por U$0.99&lt;/a&gt;
- e na &lt;a href=&quot;https://itunes.apple.com/us/app/biotest/id636941373&quot; target=&quot;_blank&quot;&gt;Apple Store por U$1.99&lt;/a&gt;
-.&lt;/span&gt;&lt;/p&gt;
-
+&lt;h2 id=&quot;plataformas&quot;&gt;Plataformas&lt;/h2&gt;
+&lt;p&gt;O jogo está disponível na &lt;a href=&quot;https://play.google.com/store/apps/details?id=br.com.gamescamp.biotest&quot;&gt;Google Play por U$0.99&lt;/a&gt; e na &lt;a href=&quot;https://itunes.apple.com/us/app/biotest/id636941373&quot;&gt;Apple Store por U$1.99&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  

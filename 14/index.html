@@ -89,6 +89,12 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          console.log(value);
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
       noResultsText: 'Nenhum resultado encontrado',
       limit: 20,
       sortMiddleware: function(a, b) {
@@ -104,22 +110,12 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
       <div class="posts">
+ 
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/07/bring-4-mostra-brasiliense-de-indie-games">BRING #4 - Mostra Brasiliense de Indie Games</a></h1>
@@ -138,6 +134,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/04/07/bring-4-mostra-brasiliense-de-indie-games" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/06/imagens-da-semana-1">Imagens da semana #1</a></h1>
@@ -170,6 +169,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/04/06/imagens-da-semana-1" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/03/previa-de-turbolink">Prévia de TurboLink</a></h1>
@@ -208,6 +210,9 @@
     <a href="/jogosdaqui.github.io-staging/2015/04/03/previa-de-turbolink" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/02/street-skates">Street Skates</a></h1>
@@ -226,6 +231,24 @@
     <a href="/jogosdaqui.github.io-staging/2015/04/02/street-skates" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/01/teaser-trailer-de-full-metal-wars">Teaser Trailer de Full Metal Wars</a></h1>
@@ -252,6 +275,9 @@ Confira o teaser trailer abaixo:
     <a href="/jogosdaqui.github.io-staging/2015/04/01/teaser-trailer-de-full-metal-wars" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/03/31/the-tap-masters">The Tap Masters</a></h1>
@@ -274,6 +300,9 @@ Confira o teaser trailer abaixo:
     <a href="/jogosdaqui.github.io-staging/2015/03/31/the-tap-masters" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/03/30/splitplay-dobra-de-tamanho-em-apenas-um-fim-de-semana">SplitPlay dobra de tamanho em apenas um fim de semana</a></h1>
@@ -299,6 +328,9 @@ Confira o teaser trailer abaixo:
     <a href="/jogosdaqui.github.io-staging/2015/03/30/splitplay-dobra-de-tamanho-em-apenas-um-fim-de-semana" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/03/30/manifesto-games-vence-concurso-nacional">Manifesto Games vence concurso nacional</a></h1>
@@ -317,6 +349,9 @@ Confira o teaser trailer abaixo:
     <a href="/jogosdaqui.github.io-staging/2015/03/30/manifesto-games-vence-concurso-nacional" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/03/27/soul-gambler-gratuito-e-kickstarter-de-face-it">Soul Gambler gratuito e Kickstarter de Face It</a></h1>
@@ -338,6 +373,24 @@ Confira o teaser trailer abaixo:
     <a href="/jogosdaqui.github.io-staging/2015/03/27/soul-gambler-gratuito-e-kickstarter-de-face-it" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/03/27/big-festival-2015">BIG Festival 2015 </a></h1>
@@ -389,20 +442,6 @@ Confira o teaser trailer abaixo:
     
 </ul>
 
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     </div>
   
     <div class="wrapper-footer">

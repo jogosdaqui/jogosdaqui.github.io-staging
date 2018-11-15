@@ -89,6 +89,12 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          console.log(value);
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
       noResultsText: 'Nenhum resultado encontrado',
       limit: 20,
       sortMiddleware: function(a, b) {
@@ -104,22 +110,12 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
       <div class="posts">
+ 
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2013/02/06/lava-girl-demolition-puzzle">Lava Girl - Demolition Puzzle</a></h1>
@@ -145,6 +141,9 @@
     <a href="/jogosdaqui.github.io-staging/2013/02/06/lava-girl-demolition-puzzle" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2013/01/25/10-let-game-fun-o-livro">10 LET GAME$ = "FUN" (o livro)</a></h1>
@@ -166,6 +165,9 @@
     <a href="/jogosdaqui.github.io-staging/2013/01/25/10-let-game-fun-o-livro" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2013/01/23/tribot">TriboT</a></h1>
@@ -191,6 +193,9 @@
     <a href="/jogosdaqui.github.io-staging/2013/01/23/tribot" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2013/01/02/resultado-da-enquete-quais-games-desenvolvidos-no-brasil-voce-jogou-em-2012">Resultado da enquete: "Quais games desenvolvidos no Brasil você jogou em 2012?"</a></h1>
@@ -209,6 +214,24 @@
     <a href="/jogosdaqui.github.io-staging/2013/01/02/resultado-da-enquete-quais-games-desenvolvidos-no-brasil-voce-jogou-em-2012" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2012/12/13/oniken-the-rescue-2">Oniken: The Rescue</a></h1>
@@ -231,6 +254,9 @@
     <a href="/jogosdaqui.github.io-staging/2012/12/13/oniken-the-rescue-2" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2012/12/05/crazy-bitsy-spider-2">Crazy Bitsy Spider</a></h1>
@@ -255,6 +281,9 @@
     <a href="/jogosdaqui.github.io-staging/2012/12/05/crazy-bitsy-spider-2" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2012/11/21/oniken-recebe-versao-para-mac-e-linux">Oniken recebe versão para Mac e Linux</a></h1>
@@ -281,6 +310,9 @@
     <a href="/jogosdaqui.github.io-staging/2012/11/21/oniken-recebe-versao-para-mac-e-linux" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2012/11/14/ballistic-entra-em-fase-de-beta-teste-2">Ballistic entra em fase de beta teste</a></h1>
@@ -302,6 +334,9 @@
     <a href="/jogosdaqui.github.io-staging/2012/11/14/ballistic-entra-em-fase-de-beta-teste-2" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2012/11/07/vrum-aprendendo-sobre-o-transito">VRUM - Aprendendo sobre o trânsito</a></h1>
@@ -324,6 +359,24 @@
     <a href="/jogosdaqui.github.io-staging/2012/11/07/vrum-aprendendo-sobre-o-transito" class="read-more">Leia mais</a>
     </article>
 
+    
+    
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2012/10/30/crystal-catcher">Crystal Catcher</a></h1>
@@ -383,20 +436,6 @@
     
 </ul>
 
-      <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     </div>
   
     <div class="wrapper-footer">
