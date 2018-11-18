@@ -107,7 +107,7 @@
     {
       "title"    : "ZombieZoid - Zenith",
       "category" : "",
-      "tags"     : "acao, steam, video, ps4, demo",
+      "tags"     : "adhoc-games, acao, steam, video, ps4, demo",
       "url"      : "/jogosdaqui.github.io-staging/2015/10/07/zombiezoid-zenith",
       "date"     : "2015-10-07 00:00:00 -0300"
     } ,
@@ -131,7 +131,7 @@
     {
       "title"    : "Pixuleco - O Jogo",
       "category" : "",
-      "tags"     : "icon-games, navegador",
+      "tags"     : "icon-games, web",
       "url"      : "/jogosdaqui.github.io-staging/2015/09/25/pixuleco-o-jogo",
       "date"     : "2015-09-25 00:00:00 -0300"
     } ,
@@ -1803,7 +1803,7 @@
     {
       "title"    : "Industrial Imperialism",
       "category" : "",
-      "tags"     : "palmsoft-tecnologia, mobile",
+      "tags"     : "palmsoft-tecnologia, web",
       "url"      : "/jogosdaqui.github.io-staging/2011/04/20/industrial-imperialism",
       "date"     : "2011-04-20 00:00:00 -0300"
     } ,
@@ -2123,7 +2123,7 @@
     {
       "title"    : "NewsAbragames Novembro/2006",
       "category" : "",
-      "tags"     : "abragames, ttomax",
+      "tags"     : "abragames, insolita-Studios",
       "url"      : "/jogosdaqui.github.io-staging/2006/11/21/newsabragames-novembro-2006",
       "date"     : "2006-11-21 00:00:00 -0200"
     } ,
@@ -2139,7 +2139,7 @@
     {
       "title"    : "Bunny Smash",
       "category" : "",
-      "tags"     : "palmsoft-tecnologia",
+      "tags"     : "palmsoft-tecnologia, mobile",
       "url"      : "/jogosdaqui.github.io-staging/2006/11/10/bunny-smash",
       "date"     : "2006-11-10 00:00:00 -0200"
     } ,
@@ -2683,7 +2683,7 @@
     {
       "title"    : "Ronaldinho no celular",
       "category" : "",
-      "tags"     : "meantime",
+      "tags"     : "meantime, mobile, futebol, esporte",
       "url"      : "/jogosdaqui.github.io-staging/2006/05/29/ronaldinho-no-celular",
       "date"     : "2006-05-29 00:00:00 -0300"
     } ,
@@ -2707,7 +2707,7 @@
     {
       "title"    : "Ronaldinho Total Control",
       "category" : "",
-      "tags"     : "meantime",
+      "tags"     : "meantime, mobile, utebol, esporte",
       "url"      : "/jogosdaqui.github.io-staging/2006/05/26/ronaldinho-total-control",
       "date"     : "2006-05-26 00:00:00 -0300"
     } ,
@@ -3115,7 +3115,7 @@
     {
       "title"    : "NewsAbragames - Abril/2006",
       "category" : "",
-      "tags"     : "abragames, hoplon",
+      "tags"     : "abragames, hoplon, delirus-entertainment",
       "url"      : "/jogosdaqui.github.io-staging/2006/04/14/newsabragames-abril-2006",
       "date"     : "2006-04-14 00:00:00 -0300"
     } ,
@@ -3323,7 +3323,7 @@
     {
       "title"    : "EonsGames ganha prêmio no Japão",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "eonsgames-entertainment, mobile",
       "url"      : "/jogosdaqui.github.io-staging/2006/03/23/eonsgames-ganha-premio-no-japao",
       "date"     : "2006-03-23 00:00:00 -0300"
     } ,
@@ -3331,7 +3331,7 @@
     {
       "title"    : "Digibunny",
       "category" : "",
-      "tags"     : "eonsgames-entertainment",
+      "tags"     : "eonsgames-entertainment, mobile",
       "url"      : "/jogosdaqui.github.io-staging/2006/03/23/digibunny",
       "date"     : "2006-03-23 00:00:00 -0300"
     } ,
@@ -4041,7 +4041,7 @@
     } ,
   
     {
-      "title"    : "PalmSoft Drag Racer",
+      "title"    : "Prévia: PalmSoft Drag Racer",
       "category" : "",
       "tags"     : "palmsoft-tecnologia, mobile",
       "url"      : "/jogosdaqui.github.io-staging/2005/12/21/palmsoft-drag-racer",
@@ -4147,7 +4147,7 @@
     {
       "title"    : "Palestra Pequeno Guardião do Tempo",
       "category" : "",
-      "tags"     : "sbgames, evento, cgmax",
+      "tags"     : "minhoca-games, evento, cgmax",
       "url"      : "/jogosdaqui.github.io-staging/2005/12/14/palestra-pequeno-guardiao-do-tempo",
       "date"     : "2005-12-14 00:00:00 -0200"
     } ,
@@ -4251,7 +4251,7 @@
     {
       "title"    : "Pequeno Guardião do Tempo",
       "category" : "",
-      "tags"     : "acao, ubisoft",
+      "tags"     : "acao, minhoca-games",
       "url"      : "/jogosdaqui.github.io-staging/2005/12/01/pequeno-guardiao-do-tempo",
       "date"     : "2005-12-01 00:00:00 -0200"
     } ,
@@ -4291,7 +4291,7 @@
     {
       "title"    : "Nishi Soul Mate",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "z80-software, mobile, tiro",
       "url"      : "/jogosdaqui.github.io-staging/2005/11/26/nishi-soul-mate",
       "date"     : "2005-11-26 00:00:00 -0200"
     } ,
@@ -4299,7 +4299,7 @@
     {
       "title"    : "Resultado do Festival de Jogos Independentes",
       "category" : "",
-      "tags"     : "abragames, linux, sbgames, evento, icon-games",
+      "tags"     : "abragames, sbgames, minhoca-games, icon-games",
       "url"      : "/jogosdaqui.github.io-staging/2005/11/25/resultado-do-festival-de-jogos-independentes",
       "date"     : "2005-11-25 00:00:00 -0200"
     } ,
@@ -4403,7 +4403,7 @@
     {
       "title"    : "Nishi Aqua Fight",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "z80-software, mobile, tiro",
       "url"      : "/jogosdaqui.github.io-staging/2005/11/21/nishi-aqua-fight",
       "date"     : "2005-11-21 00:00:00 -0200"
     } ,
@@ -4587,7 +4587,7 @@
     {
       "title"    : "Ottomax",
       "category" : "",
-      "tags"     : "ttomax",
+      "tags"     : "insolita-studios",
       "url"      : "/jogosdaqui.github.io-staging/2005/11/03/ottomax",
       "date"     : "2005-11-03 00:00:00 -0200"
     } ,
@@ -4715,7 +4715,7 @@
     {
       "title"    : "Warbots",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "delirus-entertainment",
       "url"      : "/jogosdaqui.github.io-staging/2005/10/19/warbots",
       "date"     : "2005-10-19 00:00:00 -0200"
     } ,
@@ -4859,7 +4859,7 @@
     {
       "title"    : "Jogo da Meantime em voos internacionais",
       "category" : "",
-      "tags"     : "meantime",
+      "tags"     : "meantime, mobile",
       "url"      : "/jogosdaqui.github.io-staging/2005/10/11/jogo-da-meantime-em-voos-internacionais",
       "date"     : "2005-10-11 00:00:00 -0300"
     } ,
@@ -4875,7 +4875,7 @@
     {
       "title"    : "Whiskeria Paradiso",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "mobile",
       "url"      : "/jogosdaqui.github.io-staging/2005/10/10/whiskeria-paradiso",
       "date"     : "2005-10-10 00:00:00 -0300"
     } ,
