@@ -3,11 +3,33 @@
  <title>jogosdaqui - tilt</title>
  <link href="/jogosdaqui.github.io-staging//tags/tilt/index.xml" rel="self"/>
  <link href="/jogosdaqui.github.io-staging/tag/tilt.html"/>
- <updated>2018-11-20T08:11:10-02:00</updated>
+ <updated>2018-11-20T08:15:45-02:00</updated>
  <id>/jogosdaqui.github.io-staging/tag/tilt.html</id>
  <author>
    <name>jogosdaqui</name>
  </author>
+ 
+ <entry>
+   <title>Horizon Chase se aproxima do grid de largada</title>
+   <link href="/jogosdaqui.github.io-staging//2015/08/14/horizon-chase-se-aproxima-do-grid-de-largada"/>
+   <updated>2015-08-14T00:00:00-03:00</updated>
+   <id>/jogosdaqui.github.io-staging//2015/08/14/horizon-chase-se-aproxima-do-grid-de-largada</id>
+   <content type="html">&lt;p&gt;Depois de 5 meses de desenvolvimento o tão esperado game de corrida retrô da &lt;a href=&quot;http://www.aquiris.com.br/&quot;&gt;Aquiris Game Studio&lt;/a&gt; á tem data de lançamento e é pra logo: no dia 20 de agosto os sortudos donos de iOS poderão apreciar Horizon Chase em primeira mão.&lt;/p&gt;
+
+&lt;p&gt;Segundo a gamedev gaúcha, Horizon Chase será um jogo premium, contendo 8 copas, 32 cidades, 73 pistas e 16 carros desbloqueáveis.&lt;/p&gt;
+
+&lt;p&gt;E pra quem sempre torce o nariz pra games de corrida em telas touch, a Aquiris criou 7 métodos diferentes de controle para cada estilo de jogo, tento desde controle por tilt até joystick bluetooth.&lt;/p&gt;
+
+&lt;p&gt;A equipe de desenvolvimento do game também está trabalhando numa versão PC, mas que ainda não tem data definida de lançamento. Fora o PC, o jogo poderá ser lançado para consoles. Donos de PS4 e Xbox One, cruzem os dedos.&lt;/p&gt;
+
+&lt;p&gt;Horizon Chase chega na App Store dia 20 de Agosto por apenas de $ 2,99.&lt;/p&gt;
+
+&lt;h2 id=&quot;trailer-de-lançamento-de-horizon-chase&quot;&gt;Trailer de lançamento de Horizon Chase&lt;/h2&gt;
+&lt;center&gt;
+        &lt;iframe src=&quot;https://www.youtube.com/embed/HQDVSRmhiP0 &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+      &lt;/center&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Checkpoint #9</title>
@@ -60,7 +82,8 @@
    <link href="/jogosdaqui.github.io-staging//2015/06/02/club-tilt-renato-degiovani-fala-sobre-a-abertura"/>
    <updated>2015-06-02T00:00:00-03:00</updated>
    <id>/jogosdaqui.github.io-staging//2015/06/02/club-tilt-renato-degiovani-fala-sobre-a-abertura</id>
-   <content type="html">&lt;p&gt;Renato Degiovani, primeiro projetista de jogos brasileiro anunciou recentemente a abertura do &lt;a href=&quot;http://www.clubtilt.net/&quot;&gt;club TILT&lt;/a&gt; para o público. Entramos em contato com o Degiovani para falar um pouco sobre o assunto. Confira:&lt;/p&gt;
+   <content type="html">&lt;p&gt;Renato Degiovani, primeiro projetista de jogos brasileiro anunciou recentemente a abertura do &lt;a href=&quot;http://www.clubtilt.net/&quot; target=&quot;_blank&quot;&gt;club TILT&lt;/a&gt;
+ para o público. Entramos em contato com o Degiovani para falar um pouco sobre o assunto. Confira:&lt;/p&gt;
 
 &lt;h2 id=&quot;para-contextualizar-o-leitor-fale-nos-um-pouco-sobre-o-que-é-o-club-tilt&quot;&gt;Para contextualizar o leitor, fale-nos um pouco sobre o que é o club TILT?&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -77,6 +100,9 @@
   &lt;p&gt;Renato Degiovani: O público alvo do club sempre foi um tipo específico de usuário de computador. Aquela pessoa que gosta e curte programação, que gosta de edição gráfica e principalmente que gosta de imaginar e criar mundos diversos e transformá-los em entretenimento ou jogos, não apenas para si mesmo como para compartilhar com os amigos.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;[caption id=”attachment_4012” align=”aligncenter” width=”400”]
+ Amazônia, um dos clássicos adventures disponbível no club TILT[/caption]&lt;/p&gt;
+
 &lt;h2 id=&quot;que-tipos-de-materiais-e-jogos-o-usuário-pode-encontrar-no-club&quot;&gt;Que tipos de materiais e jogos o usuário pode encontrar no Club?&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Renato Degiovani: Todos os jogos e matérias técnicas do club foram produzidos especificamente para ele e relacionam-se com o conceito de programação simples e divertida, daí a escolha do Delphi como ferramenta principal dessas produções. Dessa forma, o leitor encontra nas páginas do club muita programação em object pascal e projetos de jogos que ele pode adaptar ou modificar à vontade (a maioria dos projetos tem os fontes incluídos).&lt;/p&gt;
@@ -87,7 +113,8 @@
   &lt;p&gt;Renato Degiovani: O modelo de assinatura paga, para ser mantido, exigiria um investimento razoavelmente alto para adaptar o club às novas tendências de ambientes e ferramentas de programação. Por outro lado, apenas “fechar” o club e deletar o material que foi produzido ao longo de quase 20 anos pareceu não fazer sentido algum. Então resolvi contratar uma hospedagem específica para manter esse material na rede, não apenas como registro de uma parte da produção nacional de conteúdo sobre jogos, como para servir ainda para todos aqueles que gostam da programação aplicada na criação de jogos.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Ficou interessado? Então acesse o &lt;a href=&quot;http://www.clubtilt.net/&quot;&gt;club Tilt&lt;/a&gt; e divirta-se!&lt;/p&gt;
+&lt;p&gt;Ficou interessado? Então acesse o &lt;a href=&quot;http://www.clubtilt.net/&quot; target=&quot;_blank&quot;&gt;club Tilt&lt;/a&gt;
+ e divirta-se!&lt;/p&gt;
 </content>
  </entry>
  
