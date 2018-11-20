@@ -3,7 +3,7 @@
  <title>jogosdaqui - puzzle</title>
  <link href="/jogosdaqui.github.io-staging//tags/puzzle/index.xml" rel="self"/>
  <link href="/jogosdaqui.github.io-staging/tag/puzzle.html"/>
- <updated>2018-11-20T08:05:23-02:00</updated>
+ <updated>2018-11-20T08:11:10-02:00</updated>
  <id>/jogosdaqui.github.io-staging/tag/puzzle.html</id>
  <author>
    <name>jogosdaqui</name>
@@ -16,11 +16,11 @@
    <id>/jogosdaqui.github.io-staging//2015/08/26/reord</id>
    <content type="html">&lt;p&gt;Lembra daqueles brinquedos conhecidos como 8-puzzle ou quebra-cabeça de 8, onde numa grade 3x3 existiam 8 peças com números sequenciais e para vencer era preciso deslizar as peças utilizando o único espaço vago até que todas estivessem ordenadas?&lt;/p&gt;
 
-&lt;p&gt;Trazer esse gameplay simples de um brinquedo de infância para as telas &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/mobile&quot;&gt;mobile&lt;/a&gt; é a proposta do game ReOrd.&lt;/p&gt;
+&lt;p&gt;Trazer esse gameplay simples de um brinquedo de infância para as telas mobile é a proposta do game ReOrd.&lt;/p&gt;
 
 &lt;h2 id=&quot;reord&quot;&gt;ReOrd&lt;/h2&gt;
-&lt;p&gt;O game indie ReOrd foi desenvolvido pelo goiano Raphael Rodrigues que iniciou o projeto utilizando XNA para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/windows&quot;&gt;Windows&lt;/a&gt; Phone 7, passou pelo &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/open-source&quot;&gt;open source&lt;/a&gt; &lt;a href=&quot;https://github.com/mono/MonoGame&quot; target=&quot;_blank&quot;&gt;MonoGame&lt;/a&gt;
- para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/windows-phone&quot;&gt;Windows Phone&lt;/a&gt; 8 e acabou refazendo todo o game utilizando a Unity3D. Mesmo com todos os desafios enfrentados durante a produção de ReOrd, Raphael pretende continuar desenvolvendo games de forma independente:&lt;/p&gt;
+&lt;p&gt;O game indie ReOrd foi desenvolvido pelo goiano Raphael Rodrigues que iniciou o projeto utilizando XNA para Windows Phone 7, passou pelo open source &lt;a href=&quot;https://github.com/mono/MonoGame&quot; target=&quot;_blank&quot;&gt;MonoGame&lt;/a&gt;
+ para Windows Phone 8 e acabou refazendo todo o game utilizando a Unity3D. Mesmo com todos os desafios enfrentados durante a produção de ReOrd, Raphael pretende continuar desenvolvendo games de forma independente:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Esse será apenas ‘O primeiro de muitos’ nas stores (comenta Raphael)&lt;/p&gt;
@@ -30,12 +30,12 @@
 
 &lt;p&gt;Existem 9 fases/imagens diferentes que são desbloqueadas conforme o jogador avança no game.&lt;/p&gt;
 
-&lt;p&gt;Uma pena o jogo não contar com &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/trilha-sonora&quot;&gt;trilha sonora&lt;/a&gt;, ajudaria na experiência.&lt;/p&gt;
+&lt;p&gt;Uma pena o jogo não contar com trilha sonora, ajudaria na experiência.&lt;/p&gt;
 
 &lt;h2 id=&quot;plataformas&quot;&gt;Plataformas&lt;/h2&gt;
 &lt;p&gt;ReOrd é um game gratuito e está disponível para &lt;a href=&quot;http://windowsphone.com/s?appid=79bf8d67-8391-484e-a160-5f87c678c9a0&quot; target=&quot;_blank&quot;&gt;Windows Phone&lt;/a&gt;
  e &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.raphael.reord&quot; target=&quot;_blank&quot;&gt;Android&lt;/a&gt;
-. Existe a possibilidade de uma versão para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/ios&quot;&gt;iOS&lt;/a&gt; no futuro, mas nada certo ainda.&lt;/p&gt;
+. Existe a possibilidade de uma versão para iOS no futuro, mas nada certo ainda.&lt;/p&gt;
 
 </content>
  </entry>
@@ -46,7 +46,7 @@
    <updated>2013-03-18T00:00:00-03:00</updated>
    <id>/jogosdaqui.github.io-staging//2013/03/18/esquadrao-patada</id>
    <content type="html">&lt;p&gt;A desenvolvedora mato-grossense &lt;a href=&quot;http://www.pankekagames.com.br/&quot; target=&quot;_blank&quot;&gt;Pankeka Games&lt;/a&gt;
- já esteve no jogosdaqui em 2012 com seu &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/puzzle&quot;&gt;puzzle&lt;/a&gt; para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/ios&quot;&gt;iOS&lt;/a&gt;, o game à época era &lt;a href=&quot;http://jogosdaqui.blog.uol.com.br/arch2012-01-01_2012-01-31.html#2012_01-05_08_05_01-154784552-0&quot;&gt;Zigball&lt;/a&gt;
+ já esteve no jogosdaqui em 2012 com seu puzzle para iOS, o game à época era &lt;a href=&quot;http://jogosdaqui.blog.uol.com.br/arch2012-01-01_2012-01-31.html#2012_01-05_08_05_01-154784552-0&quot;&gt;Zigball&lt;/a&gt;
 . Agora é a vez de outro jogo para os aparelhos da Apple, esse também um puzzle: &lt;a href=&quot;http://www.pankekagames.com.br/esquadrao/&quot; target=&quot;_blank&quot;&gt;Esquadrão Patada&lt;/a&gt;
 .&lt;/p&gt;
 
@@ -71,13 +71,13 @@
    <content type="html">&lt;p&gt;Apesar de ter um gosto eclético para games e navegar bem entre todas as categorias, desde os games mais casuais até os mais hardcore, sempre tive uma predileção por puzzles. E foi por isso que recebi com grata surpresa o game BLLUBY, da brasileira &lt;a href=&quot;http://site.crazyminds.net/&quot;&gt;Crazy Minds&lt;/a&gt;, para iPhone, iPod e iPad.&lt;/p&gt;
 
 &lt;h2 id=&quot;blluby&quot;&gt;BLLUBY&lt;/h2&gt;
-&lt;p&gt;BLLUBY é um &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/puzzle&quot;&gt;puzzle&lt;/a&gt; que traz uma mecânica simples: em um ambiente de formas geométricas básicas, o jogador deve  levar um pequeno cubo azul até um outro cubo, marcado com um alvo na outra extremidade da fase, sendo que não deve passar novamente sobre os mesmo quadrados. Com essa mecânica, que pode ser descrita em poucas linhas, e com a adição de novos elementos, temos um jogo que certamente vai cativar os amantes de puzzles.&lt;/p&gt;
+&lt;p&gt;BLLUBY é um puzzle que traz uma mecânica simples: em um ambiente de formas geométricas básicas, o jogador deve  levar um pequeno cubo azul até um outro cubo, marcado com um alvo na outra extremidade da fase, sendo que não deve passar novamente sobre os mesmo quadrados. Com essa mecânica, que pode ser descrita em poucas linhas, e com a adição de novos elementos, temos um jogo que certamente vai cativar os amantes de puzzles.&lt;/p&gt;
 
 &lt;center&gt;
         &lt;iframe src=&quot;https://www.youtube.com/embed/KC0dPi8nhrs &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
       &lt;/center&gt;
 
-&lt;p&gt;A primeira vista a mecânica de BLLUBY lembra a de outro game brasileiro: &lt;a href=&quot;/jogosdaqui.github.io-staging/2006/03/07/fruzzle&quot;&gt;Fruzzle&lt;/a&gt; da &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/icon-games&quot;&gt;Icon Games&lt;/a&gt;, entretanto, os desenvolvedores da Crazy Minds foram além e adicionaram novos artifícios ao jogo.&lt;/p&gt;
+&lt;p&gt;A primeira vista a mecânica de BLLUBY lembra a de outro game brasileiro: Fruzzle da Icon Games, entretanto, os desenvolvedores da Crazy Minds foram além e adicionaram novos artifícios ao jogo.&lt;/p&gt;
 
 &lt;p&gt;Conforme o jogador vai avançando nas fases, percebe a adição de novas regras, como os quadrados amarelos que obrigam  o jogador a passar duas vezes sobre eles, ou os portais que “tele-transportam” o jogador para outro ponto da fase, entre outras adições.&lt;/p&gt;
 
@@ -96,7 +96,7 @@
   &lt;li&gt;Os menus poderiam ser um pouco mais rápidos.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Se você gosta de bons games para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/ios&quot;&gt;iOS&lt;/a&gt;, então deves conferir BLLUBY. Agora, se você gosta de puzzles e ainda gosta de bons games para iOS, então BLLUBY é, certamente, um “must have”.&lt;/p&gt;
+&lt;p&gt;Se você gosta de bons games para iOS, então deves conferir BLLUBY. Agora, se você gosta de puzzles e ainda gosta de bons games para iOS, então BLLUBY é, certamente, um “must have”.&lt;/p&gt;
 
 &lt;h2 id=&quot;versões&quot;&gt;Versões&lt;/h2&gt;
 &lt;p&gt;Você pode conferir BLLUBY em duas versões:&lt;/p&gt;
@@ -156,7 +156,7 @@
 
 &lt;p&gt;O jogador também pode fazer combos o que faz com que o pote de mel chegue no nível esperado mais rápido.&lt;/p&gt;
 
-&lt;p&gt;O jogo possui dois modos: Arcade Mode e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/puzzle&quot;&gt;Puzzle&lt;/a&gt; Mode. No arcade mode o que vale é a velocidade, nunca deixando o urso com fome. No puzzle mode, o importante é fazer as melhores jogadas para passar ao próximo nível.&lt;/p&gt;
+&lt;p&gt;O jogo possui dois modos: Arcade Mode e Puzzle Mode. No arcade mode o que vale é a velocidade, nunca deixando o urso com fome. No puzzle mode, o importante é fazer as melhores jogadas para passar ao próximo nível.&lt;/p&gt;
 
 </content>
  </entry>
@@ -174,13 +174,13 @@
 
 &lt;p&gt;Winguel é divido em 5 tipos de jogos diferentes, cada um com várias fases.
 Em cada um dos tipos de jogos você terá que localizar uma parte da sua nave.
-Na &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/demo&quot;&gt;demo&lt;/a&gt; que jogamos, apenas uma fase de cada tipo de jogo estava disponível.&lt;/p&gt;
+Na demo que jogamos, apenas uma fase de cada tipo de jogo estava disponível.&lt;/p&gt;
 &lt;h2 id=&quot;o-castelo&quot;&gt;O Castelo&lt;/h2&gt;
 
 &lt;p&gt;Um labirinto com visão superior. Winguel pode utilizar seu jetpack para voar sobre alguns obstáculos e precisa evitar os raios e os guardas da WUC.&lt;/p&gt;
 &lt;h2 id=&quot;a-pirâmide&quot;&gt;A Pirâmide&lt;/h2&gt;
 
-&lt;p&gt;Essa fase surpreende pela inusitada jogabilidade, apesar de ser um labirinto como no jogo “O Castelo”, o jogador não controla diretamente Winguel, mas a inclinação do &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/tabuleiro&quot;&gt;tabuleiro&lt;/a&gt; do labirinto e assim Winguel movimenta-se conforme a inclinação.&lt;/p&gt;
+&lt;p&gt;Essa fase surpreende pela inusitada jogabilidade, apesar de ser um labirinto como no jogo “O Castelo”, o jogador não controla diretamente Winguel, mas a inclinação do tabuleiro do labirinto e assim Winguel movimenta-se conforme a inclinação.&lt;/p&gt;
 &lt;h2 id=&quot;a-lagoa&quot;&gt;A Lagoa&lt;/h2&gt;
 
 &lt;p&gt;Winguel vai procurar mais uma parte de sua nave, agora embaixo d’água. Nade com cuidado, pois o barco dos agentes da WUC passa lançando minas e torpedos, mas não vá pra muito fundo na lagoa, pois lá estão as plantas carnivoras prontas para apreciar uma carne alienígena.&lt;/p&gt;
@@ -189,11 +189,11 @@ Na &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/demo&quot;&gt;demo&lt;/a&
 &lt;p&gt;Aqui a visão é lateral e Winguel tem novas habilidades, como: dar grandes pulos e golpes de karate. Destrua os agentes da WUC e utilize seu jetpack para ultrapassar os maiores obstáculos.&lt;/p&gt;
 &lt;h2 id=&quot;extras&quot;&gt;Extras&lt;/h2&gt;
 
-&lt;p&gt;Wallpapers, Colorir, Recortar e Blocos. Apenas Blocos estava disponível no demo. Blocos é um &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/puzzle&quot;&gt;puzzle&lt;/a&gt; no estilo Tetris, onde o jogador deve eliminar os blocos de mesma cor. As bombas podem ajudar, destruindo todos os blocos da mesma cor. Enquanto você se esforça no quebra-cabeça, Winguel faz altas piruetas e canta (ou fala) de forma engraçada.&lt;/p&gt;
+&lt;p&gt;Wallpapers, Colorir, Recortar e Blocos. Apenas Blocos estava disponível no demo. Blocos é um puzzle no estilo Tetris, onde o jogador deve eliminar os blocos de mesma cor. As bombas podem ajudar, destruindo todos os blocos da mesma cor. Enquanto você se esforça no quebra-cabeça, Winguel faz altas piruetas e canta (ou fala) de forma engraçada.&lt;/p&gt;
 
 &lt;p&gt;Um jogo casual, com um personagem carismático e uma variedade de jogabilidades. Gráficos muito bem elaborados, no melhor estilo “cartoon”. Som que combina com o enredo. Com tudo isso, Winguel promete ser mais um sucesso da Espaço Informática.&lt;/p&gt;
 
-&lt;p&gt;Baixe o demo do jogo &amp;lt;a href=”http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/2005/09/19/hades2&quot;&gt;hades2&lt;/a&gt;.com/winguel/windemo.zip”&amp;gt;aqui&amp;lt;/a&amp;gt;
+&lt;p&gt;Baixe o demo do jogo &lt;a href=&quot;http://www.hades2.com/winguel/windemo.zip&quot;&gt;aqui&lt;/a&gt;
  (65 MB).&lt;/p&gt;
 
 &lt;p&gt;Visite o site oficial: &lt;a href=&quot;http://www.winguel.com&quot; target=&quot;_blank&quot;&gt;www.winguel.com&lt;/a&gt;&lt;/p&gt;
@@ -240,7 +240,7 @@ Na &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/demo&quot;&gt;demo&lt;/a&
    <link href="/jogosdaqui.github.io-staging//2005/09/23/super-popcorn-machine"/>
    <updated>2005-09-23T00:00:00-03:00</updated>
    <id>/jogosdaqui.github.io-staging//2005/09/23/super-popcorn-machine</id>
-   <content type="html">&lt;p&gt;Você é capaz de estourar as pipocas de dois recipientes que estão em uma balança e mantê-los equilibrados ao mesmo tempo? Este é o grande desafio deste novo jogo de &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/puzzle&quot;&gt;puzzle&lt;/a&gt; da &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/nology&quot;&gt;Nology&lt;/a&gt;!&lt;/p&gt;
+   <content type="html">&lt;p&gt;Você é capaz de estourar as pipocas de dois recipientes que estão em uma balança e mantê-los equilibrados ao mesmo tempo? Este é o grande desafio deste novo jogo de puzzle da Nology!&lt;/p&gt;
 
 &lt;p&gt;Muita diversão está esperando você nestes três incríveis modos de jogo. Tente encarar o ritmo divertido e veloz do modo Action e teste sua inteligência nos modos Puzzle e Strategy!&lt;/p&gt;
 

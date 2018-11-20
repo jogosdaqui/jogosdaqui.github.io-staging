@@ -3,7 +3,7 @@
  <title>jogosdaqui - musigames</title>
  <link href="/jogosdaqui.github.io-staging//tags/musigames/index.xml" rel="self"/>
  <link href="/jogosdaqui.github.io-staging/tag/musigames.html"/>
- <updated>2018-11-20T08:05:23-02:00</updated>
+ <updated>2018-11-20T08:11:10-02:00</updated>
  <id>/jogosdaqui.github.io-staging/tag/musigames.html</id>
  <author>
    <name>jogosdaqui</name>
@@ -14,13 +14,13 @@
    <link href="/jogosdaqui.github.io-staging//2015/04/22/entrevista-claudio-lins"/>
    <updated>2015-04-22T00:00:00-03:00</updated>
    <id>/jogosdaqui.github.io-staging//2015/04/22/entrevista-claudio-lins</id>
-   <content type="html">&lt;p&gt;O jogosdaqui entrevistou o gamedev brasileiro Claudio Lins, desenvolvedor do game Doomed’n Damned e que agora está trabalhando no seu novo jogo, o Super Doomed’n Damned que será lançado &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/xbox&quot;&gt;Xbox&lt;/a&gt; One, Wii U e PC&lt;/p&gt;
+   <content type="html">&lt;p&gt;O jogosdaqui entrevistou o gamedev brasileiro Claudio Lins, desenvolvedor do game Doomed’n Damned e que agora está trabalhando no seu novo jogo, o Super Doomed’n Damned que será lançado Xbox One, Wii U e PC&lt;/p&gt;
 
 &lt;h2 id=&quot;fale-um-pouco-da-tua-trajetória-como-chegaste-ao-gamedev&quot;&gt;Fale um pouco da tua trajetória, como chegaste ao gamedev?&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Claudio: Eu estou trabalhando com games já há alguns anos, desde 99. E durante esse tempo trabalhei em cerca de 30 jogos pra diferentes plataformas. Tive uma empresa no Brasil com 3 outros sócios de 2002 a 2009 chamada &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/preloud&quot;&gt;Preloud&lt;/a&gt; Studios e trabalhei em outras empresas no Brasil como a &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/musigames&quot;&gt;Musigames&lt;/a&gt; e a &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/playlore&quot;&gt;Playlore&lt;/a&gt;, como também em empresas na Europa.&lt;/p&gt;
+  &lt;p&gt;Claudio: Eu estou trabalhando com games já há alguns anos, desde 99. E durante esse tempo trabalhei em cerca de 30 jogos pra diferentes plataformas. Tive uma empresa no Brasil com 3 outros sócios de 2002 a 2009 chamada Preloud Studios e trabalhei em outras empresas no Brasil como a Musigames e a Playlore, como também em empresas na Europa.&lt;/p&gt;
 
-  &lt;p&gt;Há um pouco mais de um ano abri a Arc-gen games aqui em Helsinki na Finlandia. Basicamente é uma empresa de um homem só. Ano passado terminei o Doomed’n Damned pra PC e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/mac&quot;&gt;Mac&lt;/a&gt;, feito na Construct 2, e esse ano estou fazendo o Super Doomed’n Damned para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/steam&quot;&gt;Steam&lt;/a&gt;, Wii U e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/xbox-one&quot;&gt;Xbox One&lt;/a&gt; com uma empresa parceira de Barcelona chamada Dolores Entertainment.&lt;/p&gt;
+  &lt;p&gt;Há um pouco mais de um ano abri a Arc-gen games aqui em Helsinki na Finlandia. Basicamente é uma empresa de um homem só. Ano passado terminei o Doomed’n Damned pra PC e Mac, feito na Construct 2, e esse ano estou fazendo o Super Doomed’n Damned para Steam, Wii U e Xbox One com uma empresa parceira de Barcelona chamada Dolores Entertainment.&lt;/p&gt;
 
   &lt;p&gt;Quando você aplica para consoles, eles olham o projeto e as pessoas envolvidas. O portfólio prévio dos membros é tao importante quanto o jogo proposto. Se eles aprovarem e gostarem do seu jogo, você está apto para desenvolver para o console. Tanto a Nintendo quanto a Microsoft tiveram processos bem parecidos e foi super tranquilo trabalhar com os dois.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -52,7 +52,7 @@
 
 &lt;h2 id=&quot;como-foi-a-vendagem-do-jogo-atingiu-as-expectativas&quot;&gt;Como foi a vendagem do jogo? Atingiu as expectativas?&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Claudio: Eu não tinha nenhuma expectativa real de quanto o jogo poderia vender de verdade. É muito difícil ter uma ideia sólida de quanto se espera das vendas de um jogo indie, desconhecido, sem grana pra marketing e fora do Steam. No geral estou satisfeito com as vendas na &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/humble-store&quot;&gt;Humble Store&lt;/a&gt;, Desura e dos bundles. Mais importante que a grana, que não foi lá essas coisas, foi alcance e a repercursão que o jogo gerou. Eu acredito que sem o jogo original seria bem mais complicado convencer a Microsoft ou a Nintendo de fazer as versões console. No geral os números de D’n D foram bem bons para um jogo com tão pouco recurso&lt;/p&gt;
+  &lt;p&gt;Claudio: Eu não tinha nenhuma expectativa real de quanto o jogo poderia vender de verdade. É muito difícil ter uma ideia sólida de quanto se espera das vendas de um jogo indie, desconhecido, sem grana pra marketing e fora do Steam. No geral estou satisfeito com as vendas na Humble Store, Desura e dos bundles. Mais importante que a grana, que não foi lá essas coisas, foi alcance e a repercursão que o jogo gerou. Eu acredito que sem o jogo original seria bem mais complicado convencer a Microsoft ou a Nintendo de fazer as versões console. No geral os números de D’n D foram bem bons para um jogo com tão pouco recurso&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;center&gt;
@@ -81,14 +81,14 @@
 
 &lt;h2 id=&quot;quais-as-diferenças-no-desenvolvimento-com-o-jogo-anterior&quot;&gt;Quais as diferenças no desenvolvimento com o jogo anterior?&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Claudio: Hoje em dia estou trabalhando com um programador da Dolores. Daniel Navarro, é um cara com bastante experiência em desenvolvimento em consoles, PC e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/mobile&quot;&gt;mobile&lt;/a&gt;, e isso tem ajudado muito na velocidade do desenvolvimento. No primeiro jogo muitas vezes eu fiquei preso em programação ou levei muito tempo para fazer alguma coisa que um programador de verdade levaria bem menos tempo. Sou formado em Design e sempre trabalhei como Designer ou Producer. Programação é algo que sempre foi meio “side quest” pra mim. Então, ter alguém para trabalhar mais no código me ajudou muito a focar no restante do conteúdo, coisa que no primeiro jogo eu tive que fazer tudo.&lt;/p&gt;
+  &lt;p&gt;Claudio: Hoje em dia estou trabalhando com um programador da Dolores. Daniel Navarro, é um cara com bastante experiência em desenvolvimento em consoles, PC e mobile, e isso tem ajudado muito na velocidade do desenvolvimento. No primeiro jogo muitas vezes eu fiquei preso em programação ou levei muito tempo para fazer alguma coisa que um programador de verdade levaria bem menos tempo. Sou formado em Design e sempre trabalhei como Designer ou Producer. Programação é algo que sempre foi meio “side quest” pra mim. Então, ter alguém para trabalhar mais no código me ajudou muito a focar no restante do conteúdo, coisa que no primeiro jogo eu tive que fazer tudo.&lt;/p&gt;
 
   &lt;p&gt;Se falando de tecnologia, a Unity abriu muitas portas. Hoje é possível fazer coisas que eu não teria como fazer no jogo anterior. E hoje o jogo tem que rodar em todas as plataformas, logo os testes levam mais tempo, coisa que eu não precisava me preocupar na primeira versão.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;o-jogo-será-publicado-para-xbox-one-wii-u-e-pc-alguma-probabilidade-de-sair-para-ps4&quot;&gt;O jogo será publicado para Xbox One, Wii U e PC. Alguma probabilidade de sair para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/ps4&quot;&gt;PS4&lt;/a&gt;?&lt;/h2&gt;
+&lt;h2 id=&quot;o-jogo-será-publicado-para-xbox-one-wii-u-e-pc-alguma-probabilidade-de-sair-para-ps4&quot;&gt;O jogo será publicado para Xbox One, Wii U e PC. Alguma probabilidade de sair para PS4?&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Claudio: Eu estou tentando PS4 e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/psvita&quot;&gt;PSVita&lt;/a&gt;, mas esses processos levam tempo. No momento eu não posso prometer, mas sim, eu gostaria bastante de lançar para plataformas Sony também&lt;/p&gt;
+  &lt;p&gt;Claudio: Eu estou tentando PS4 e PSVita, mas esses processos levam tempo. No momento eu não posso prometer, mas sim, eu gostaria bastante de lançar para plataformas Sony também&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;center&gt;
@@ -101,7 +101,7 @@
 
   &lt;p&gt;Eu acredito muito que o meio indie nacional vai continuar mandando bem como tem feito. Foco, sem querer dominar o mundo, projetos pequenos/médios e por ai vai. Acho que quando a ideia é legal e o pessoal empolgado, grana não é mais um problema tao grande para fazer o jogo virar realidade. E a facilidade de publicar o jogo no mercado, assim como o acesso as ferramentas, é muito mais fácil que antigamente.&lt;/p&gt;
 
-  &lt;p&gt;Não acho que os jogos nacionais devem tentar se espelhar nos Norte Americanos, nos AAA ou nos Japoneses. Mas sim continuar com essa identidade que eles estão criando de jogos indie com estilo e foco. Posso citar alguns amigos como o pessoal da &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/joymasher&quot;&gt;Joymasher&lt;/a&gt;, Behold, entre outros estúdios que estão fazendo muita coisa legal. A ideia não é dominar o mundo com um mega titulo, a ideia é conquistar um espaço e um nicho fiel. É nisso que eu acredito.&lt;/p&gt;
+  &lt;p&gt;Não acho que os jogos nacionais devem tentar se espelhar nos Norte Americanos, nos AAA ou nos Japoneses. Mas sim continuar com essa identidade que eles estão criando de jogos indie com estilo e foco. Posso citar alguns amigos como o pessoal da Joymasher, Behold, entre outros estúdios que estão fazendo muita coisa legal. A ideia não é dominar o mundo com um mega titulo, a ideia é conquistar um espaço e um nicho fiel. É nisso que eu acredito.&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
  </entry>
@@ -116,19 +116,19 @@
 &lt;p&gt;Alguns games citados, apesar de serem desenvolvidos no Brasil e por brasileiros, não eram games produzidos por empresas de origem nacional. Esses games foram desconsiderados, por uma simples razão: por serem de empresas estrangeiras e famosas, seus games já ganham atenção suficiente na mídia especializada, tanto nos outros países quanto aqui. Vale salientar que consideramos extremamente válido a vinda de empresas estrangeiras de desenvolvimento de jogos para o Brasil, pois sabemos que a troca de experiência entre essas empresas e as empresas locais, além da troca com os meios acadêmicos, sempre criam uma sinergia que traz benefício ao mercado de games.&lt;/p&gt;
 &lt;h3 id=&quot;dentre-os-games-mais-citados-estão&quot;&gt;Dentre os games mais citados, estão:&lt;/h3&gt;
 
-&lt;h2 id=&quot;taikodom-da-hoplon-infotainment&quot;&gt;Taikodom da &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/hoplon&quot;&gt;Hoplon&lt;/a&gt; Infotainment&lt;/h2&gt;
+&lt;h2 id=&quot;taikodom-da-hoplon-infotainment&quot;&gt;Taikodom da Hoplon Infotainment&lt;/h2&gt;
 &lt;p&gt;Provavelmente o maior game (em tempo de desenvolvimento e orçamento) já produzido no Brasil.&lt;/p&gt;
 
 &lt;h2 id=&quot;outlive-dacontinuum-entertainment&quot;&gt;Outlive da Continuum Entertainment&lt;/h2&gt;
 &lt;p&gt;A empresa não existe mais e o game já tem 10 anos, mesmo assim continua vivo na memória dos jogadores brasilieros.&lt;/p&gt;
 
-&lt;h2 id=&quot;freekscape-escape-from-hell-da-kidguru-studios&quot;&gt;Freekscape: Escape from Hell da &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/kidguru-studios&quot;&gt;Kidguru Studios&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;O primeiro game brasileiro lançado na PSN cativou os jogadores com seu herói carismático e level design inteligente. Se você tem um &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/psp&quot;&gt;PSP&lt;/a&gt; ou um &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/ps3&quot;&gt;PS3&lt;/a&gt; (mini) esse é um game obrigatório.&lt;/p&gt;
+&lt;h2 id=&quot;freekscape-escape-from-hell-da-kidguru-studios&quot;&gt;Freekscape: Escape from Hell da Kidguru Studios&lt;/h2&gt;
+&lt;p&gt;O primeiro game brasileiro lançado na PSN cativou os jogadores com seu herói carismático e level design inteligente. Se você tem um PSP ou um PS3 (mini) esse é um game obrigatório.&lt;/p&gt;
 
 &lt;h2 id=&quot;erinia-da-ignis-games&quot;&gt;Erinia da Ignis Games&lt;/h2&gt;
-&lt;p&gt;O primeiro &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/mmorpg&quot;&gt;MMORPG&lt;/a&gt; brasileiro continua vivo graças a comunidade de jogadores que ainda mantém servidores do jogo.&lt;/p&gt;
+&lt;p&gt;O primeiro MMORPG brasileiro continua vivo graças a comunidade de jogadores que ainda mantém servidores do jogo.&lt;/p&gt;
 
-&lt;h2 id=&quot;jules-unboxing-the-world-da-sulistas&quot;&gt;Jules: Unboxing the World da &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/sulistas&quot;&gt;Sulistas&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;jules-unboxing-the-world-da-sulistas&quot;&gt;Jules: Unboxing the World da Sulistas&lt;/h2&gt;
 &lt;p&gt;Com um personagem tão original e extrema qualidade técnica, Jules faz bonito no iPad (deve ganhar uma versão para iPhone).&lt;/p&gt;
 
 &lt;h3 id=&quot;as-empresas-com-mais-jogos-citados-foram&quot;&gt;As empresas com mais jogos citados foram&lt;/h3&gt;
@@ -143,7 +143,7 @@
 &lt;/li&gt;
 	&lt;li&gt;&lt;a href=&quot;http://www.greenlandstudios.com/&quot; target=&quot;_blank&quot;&gt;Green Land Studios&lt;/a&gt;
 &lt;/li&gt;
-	&lt;li&gt;&amp;lt;a href=&quot;http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/tags/invent4&quot;&gt;invent4&lt;/a&gt;.com/index-p.htm&quot; target=&quot;_blank&quot;&amp;gt;Invent4&amp;lt;/a&amp;gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.invent4.com/index-p.htm&quot; target=&quot;_blank&quot;&gt;Invent4&lt;/a&gt;
 &lt;/li&gt;
 	&lt;li&gt;&lt;a href=&quot;http://www.kidgurustudios.com/&quot; target=&quot;_blank&quot;&gt;KidGuru Studios&lt;/a&gt;
 &lt;/li&gt;
@@ -154,9 +154,9 @@
 &lt;h3 id=&quot;abaixo-a-lista-completa-dos-jogos-citados-começando-pelos-mais-votados&quot;&gt;Abaixo a lista completa dos jogos citados, começando pelos mais votados:&lt;/h3&gt;
 &lt;ol&gt;
 &lt;ol&gt;
-	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&amp;lt;a href=&quot;http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/2005/09/21/taikodom&quot;&gt;taikodom&lt;/a&gt;.com.br/&quot; target=&quot;_blank&quot;&amp;gt;Taikodom da Hoplon Infotainment&amp;lt;/a&amp;gt;
+	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.taikodom.com.br/&quot; target=&quot;_blank&quot;&gt;Taikodom da Hoplon Infotainment&lt;/a&gt;
 &lt;/li&gt;
-	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&amp;lt;a href=&quot;http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/tags/continuum&quot;&gt;continuum&lt;/a&gt;.com.br/&quot; target=&quot;_blank&quot;&amp;gt;Outilive da Continnum Entertainment&amp;lt;/a&amp;gt;
+	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.continuum.com.br/&quot; target=&quot;_blank&quot;&gt;Outilive da Continnum Entertainment&lt;/a&gt;
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.freekscape.com/&quot; target=&quot;_blank&quot;&gt;Freekscape: Escape from Hell da KidGuru Studios&lt;/a&gt;
 &lt;/li&gt;
@@ -164,7 +164,7 @@
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.julesunboxingtheworld.com/&quot; target=&quot;_blank&quot;&gt;Jules: Ungoxing the World da Sulistas&lt;/a&gt;
 &lt;/li&gt;
-	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&amp;lt;a href=&quot;http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/tags/perceptum&quot;&gt;perceptum&lt;/a&gt;.com/indexp.htm&quot; target=&quot;_blank&quot;&amp;gt;Incidente em Varginha da Perceptum&amp;lt;/a&amp;gt;
+	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.perceptum.com/indexp.htm&quot; target=&quot;_blank&quot;&gt;Incidente em Varginha da Perceptum&lt;/a&gt;
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://pt.wikipedia.org/wiki/Guimo&quot; target=&quot;_blank&quot;&gt;Guimo da Southlogic Studios&lt;/a&gt;
 &lt;/li&gt;
@@ -176,7 +176,7 @@
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://capoeiralegends.com.br/&quot; target=&quot;_blank&quot;&gt;Capoeira Legends da Donsoft Entertainment&lt;/a&gt;
 &lt;/li&gt;
-	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&amp;lt;a href=&quot;http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/2005/08/27/botzin&quot;&gt;botzin&lt;/a&gt;.net&quot; target=&quot;_blank&quot;&amp;gt;Botzin da Green Land Studios&amp;lt;/a&amp;gt;
+	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.botzin.net&quot; target=&quot;_blank&quot;&gt;Botzin da Green Land Studios&lt;/a&gt;
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.cavedays.net/&quot; target=&quot;_blank&quot;&gt;Cavedays da Insolita Studios&lt;/a&gt;
 &lt;/li&gt;
@@ -200,7 +200,7 @@
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.attackpinball.net/&quot; target=&quot;_blank&quot;&gt;Undead Attac da Attack Pinball Team&lt;/a&gt;
 &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/li&gt;
-	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&amp;lt;a href=&quot;http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/2005/09/20/brasfoot&quot;&gt;brasfoot&lt;/a&gt;.com/&quot; target=&quot;_blank&quot;&amp;gt;Brasfoot da Brasfoot.com&amp;lt;/a&amp;gt;
+	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.brasfoot.com/&quot; target=&quot;_blank&quot;&gt;Brasfoot da Brasfoot.com&lt;/a&gt;
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://bulletsofarevolver.blogspot.com/&quot; target=&quot;_blank&quot;&gt;Balas de um revolver de Diefox&lt;/a&gt;
 &lt;/li&gt;
@@ -230,13 +230,13 @@
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.notdoppler.com/kokimi.php&quot; target=&quot;_blank&quot;&gt;Kokimi da Jynx Playware&lt;/a&gt;
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;Restaurant Manager da Jynx Playware&lt;/li&gt;
-	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&amp;lt;a href=&quot;http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/tags/livetouch&quot;&gt;livetouch&lt;/a&gt;.com.br/Templates/portfolio_RiR.html&quot; target=&quot;_blank&quot;&amp;gt;Run in Rio da Livetouch&amp;lt;/a&amp;gt;
+	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.livetouch.com.br/Templates/portfolio_RiR.html&quot; target=&quot;_blank&quot;&gt;Run in Rio da Livetouch&lt;/a&gt;
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://studiominiboss.blogspot.com/&quot; target=&quot;_blank&quot;&gt;Talbot's Odissey da MiniBoss&lt;/a&gt;
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.mothergaia.com.br/portugues/cityrain.php&quot; target=&quot;_blank&quot;&gt;City Rain da Mother Gaia Studio&lt;/a&gt;
 &lt;/li&gt;
-	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&amp;lt;a href=&quot;http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/tags/musigames&quot;&gt;musigames&lt;/a&gt;.com/imusic-puzzle.html&quot; target=&quot;_blank&quot;&amp;gt;iMusic &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/puzzle&quot;&gt;Puzzle&lt;/a&gt; da MusiGames&amp;lt;/a&amp;gt;
+	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.musigames.com/imusic-puzzle.html&quot; target=&quot;_blank&quot;&gt;iMusic Puzzle da MusiGames&lt;/a&gt;
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://sites.google.com/site/nologygames/koko-arena&quot; target=&quot;_blank&quot;&gt;Koko Arena da Nology&lt;/a&gt;
 &lt;/li&gt;
@@ -250,7 +250,7 @@
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.indiepubgames.com/game/Painting_Rage&quot; target=&quot;_blank&quot;&gt;Painting Rage de Vinícius Canaã Medeiros Ruela e Luca Mattos Möller&lt;/a&gt;
 &lt;/li&gt;
-	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&amp;lt;a href=&quot;http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/tags/webcore&quot;&gt;webcore&lt;/a&gt;.com.br/portfolio/detalhes.php/surfinia&quot; target=&quot;_blank&quot;&amp;gt;Surfini da Webcore&amp;lt;/a&amp;gt;
+	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://www.webcore.com.br/portfolio/detalhes.php/surfinia&quot; target=&quot;_blank&quot;&gt;Surfini da Webcore&lt;/a&gt;
 &lt;/li&gt;
 	&lt;li style=&quot;list-style-type: decimal;&quot;&gt;&lt;a href=&quot;http://lasthopegame.wordpress.com/&quot; target=&quot;_blank&quot;&gt;Last Hope da Yellow Jam&lt;/a&gt;
 &lt;/li&gt;
