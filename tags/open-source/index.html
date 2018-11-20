@@ -84,20 +84,15 @@
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
+      fuzzy: false,
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
       templateMiddleware: function(prop, value, template) {
         if (prop === 'title') {
-          console.log(value);
           return value.replace(/&amp;#39;/g, "'")
         }
       },
       noResultsText: 'Nenhum resultado encontrado',
-      limit: 20,
-      sortMiddleware: function(a, b) {
-        var astr = String(a.section) + "-" + String(a.caption);
-        var bstr = String(b.section) + "-" + String(b.caption);
-        return astr.localeCompare(bstr)
-      }
+      limit: 30
     })
 </script>
 
@@ -110,6 +105,8 @@
 <ul>
 
   <li><a href="/jogosdaqui.github.io-staging/2018/11/15/jogosdaqui-open-source-e-colaborativo">jogosdaqui: open source e colaborativo</a> (15/11/2018)</li>
+
+  <li><a href="/jogosdaqui.github.io-staging/2015/07/30/previa-de-relic-hunters-zero">Prévia de Relic Hunters Zero</a> (30/07/2015)</li>
 
   <li><a href="/jogosdaqui.github.io-staging/2005/10/17/projeto-experimental-de-software-livre-da-tilt-online">Projeto experimental de Software Livre da TILT online</a> (17/10/2005)</li>
 

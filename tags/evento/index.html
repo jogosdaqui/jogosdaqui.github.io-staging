@@ -84,20 +84,15 @@
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
+      fuzzy: false,
       searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
       templateMiddleware: function(prop, value, template) {
         if (prop === 'title') {
-          console.log(value);
           return value.replace(/&amp;#39;/g, "'")
         }
       },
       noResultsText: 'Nenhum resultado encontrado',
-      limit: 20,
-      sortMiddleware: function(a, b) {
-        var astr = String(a.section) + "-" + String(a.caption);
-        var bstr = String(b.section) + "-" + String(b.caption);
-        return astr.localeCompare(bstr)
-      }
+      limit: 30
     })
 </script>
 
@@ -118,8 +113,6 @@
   <li><a href="/jogosdaqui.github.io-staging/2015/09/03/brazil-gets-unreal-porto-alegre-e-florianopolis">Brazil Gets Unreal - Porto Alegre, Curitiba e Florianópolis</a> (03/09/2015)</li>
 
   <li><a href="/jogosdaqui.github.io-staging/2015/09/02/concurso-souking-power-up">Concurso Souking - Power UP</a> (02/09/2015)</li>
-
-  <li><a href="/jogosdaqui.github.io-staging/2015/07/30/previa-de-relic-hunters-zero">Prévia de Relic Hunters Zero</a> (30/07/2015)</li>
 
   <li><a href="/jogosdaqui.github.io-staging/2015/07/22/previa-de-fofuuu-da-beltri-studio">Prévia de Fófuuu da Beltri Studio</a> (22/07/2015)</li>
 
