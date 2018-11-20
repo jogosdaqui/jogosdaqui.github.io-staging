@@ -3,11 +3,47 @@
  <title>jogosdaqui - entrevista</title>
  <link href="/jogosdaqui.github.io-staging//tags/entrevista/index.xml" rel="self"/>
  <link href="/jogosdaqui.github.io-staging/tag/entrevista.html"/>
- <updated>2018-11-20T09:05:05-02:00</updated>
+ <updated>2018-11-20T12:59:17-02:00</updated>
  <id>/jogosdaqui.github.io-staging/tag/entrevista.html</id>
  <author>
    <name>jogosdaqui</name>
  </author>
+ 
+ <entry>
+   <title>club TILT, Renato Degiovani fala sobre a abertura</title>
+   <link href="/jogosdaqui.github.io-staging//2015/06/02/club-tilt-renato-degiovani-fala-sobre-a-abertura"/>
+   <updated>2015-06-02T00:00:00-03:00</updated>
+   <id>/jogosdaqui.github.io-staging//2015/06/02/club-tilt-renato-degiovani-fala-sobre-a-abertura</id>
+   <content type="html">&lt;p&gt;Renato Degiovani, primeiro projetista de jogos brasileiro anunciou recentemente a abertura do &lt;a href=&quot;http://www.clubtilt.net/&quot;&gt;club TILT&lt;/a&gt; para o público. Entramos em contato com o Degiovani para falar um pouco sobre o assunto. Confira:&lt;/p&gt;
+
+&lt;h2 id=&quot;para-contextualizar-o-leitor-fale-nos-um-pouco-sobre-o-que-é-o-club-tilt&quot;&gt;Para contextualizar o leitor, fale-nos um pouco sobre o que é o club TILT?&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Renato Degiovani: O objetivo do club TILT sempre foi o de dar ao leitor um conteúdo editorial inédito e exclusivo sobre programação de jogos de computador, focando principalmente na mecânica de construção e lógica de programação. Não esquecendo também dos aspectos gráficos e lúdicos da criação. Como complemento, a minha ideia era a de suprir os leitores com elementos avulsos, tais como sons, modelos, imagens, etc, de modo a facilitar a criação dos jogos dos próprios leitores.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;quando-foi-que-surgiu-a-ideia-de-criá-lo&quot;&gt;Quando foi que surgiu a ideia de criá-lo?&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Renato Degiovani: A TILT online (base editorial dos jogos e matérias técnicas) foi lançada em fevereiro de 1997 e o club TILT 4 meses depois. Ele foi criado como uma extensão da TILT online, com o propósito de monetizar o conteúdo do site através de assinatura do leitor e não publicidade nas páginas.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;qual-é-o-público-alvo&quot;&gt;Qual é o público alvo?&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Renato Degiovani: O público alvo do club sempre foi um tipo específico de usuário de computador. Aquela pessoa que gosta e curte programação, que gosta de edição gráfica e principalmente que gosta de imaginar e criar mundos diversos e transformá-los em entretenimento ou jogos, não apenas para si mesmo como para compartilhar com os amigos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;que-tipos-de-materiais-e-jogos-o-usuário-pode-encontrar-no-club&quot;&gt;Que tipos de materiais e jogos o usuário pode encontrar no Club?&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Renato Degiovani: Todos os jogos e matérias técnicas do club foram produzidos especificamente para ele e relacionam-se com o conceito de programação simples e divertida, daí a escolha do Delphi como ferramenta principal dessas produções. Dessa forma, o leitor encontra nas páginas do club muita programação em object pascal e projetos de jogos que ele pode adaptar ou modificar à vontade (a maioria dos projetos tem os fontes incluídos).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;por-que-abri-lo&quot;&gt;Por que abri-lo?&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Renato Degiovani: O modelo de assinatura paga, para ser mantido, exigiria um investimento razoavelmente alto para adaptar o club às novas tendências de ambientes e ferramentas de programação. Por outro lado, apenas “fechar” o club e deletar o material que foi produzido ao longo de quase 20 anos pareceu não fazer sentido algum. Então resolvi contratar uma hospedagem específica para manter esse material na rede, não apenas como registro de uma parte da produção nacional de conteúdo sobre jogos, como para servir ainda para todos aqueles que gostam da programação aplicada na criação de jogos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ficou interessado? Então acesse o &lt;a href=&quot;http://www.clubtilt.net/&quot;&gt;club Tilt&lt;/a&gt; e divirta-se!&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Entrevista: Fernando Paulo, criador de Treeker</title>
@@ -369,7 +405,7 @@ E outra porque acreditamos que um jogo tão autoral quanto Toren deve ser antes 
    <link href="/jogosdaqui.github.io-staging//2006/03/28/entrevista-palmsoft-tecnologia"/>
    <updated>2006-03-28T00:00:00-03:00</updated>
    <id>/jogosdaqui.github.io-staging//2006/03/28/entrevista-palmsoft-tecnologia</id>
-   <content type="html">&lt;p&gt;A &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/palmsoft-tecnologia&quot;&gt;PalmSoft Tecnologia&lt;/a&gt; é uma empresa catarinense desenvolvedora de inúmeros jogos para celular, entre eles estão: os famosos &lt;a href=&quot;/jogosdaqui.github.io-staging/2005/10/13/crimson-after-dusk&quot;&gt;Crimson After Dusk&lt;/a&gt; e &lt;a href=&quot;/jogosdaqui.github.io-staging/2005/12/21/palmsoft-drag-racer&quot;&gt;PalmSoft Drag Racer&lt;/a&gt;.&lt;/p&gt;
+   <content type="html">&lt;p&gt;A &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/palmsoft-tecnologia&quot;&gt;PalmSoft Tecnologia&lt;/a&gt; é uma empresa catarinense desenvolvedora de inúmeros jogos para celular, entre eles estão: os famosos &lt;a href=&quot;/jogosdaqui.github.io-staging/2005/10/13/crimson-after-dusk&quot;&gt;Crimson After Dusk&lt;/a&gt; e &lt;a href=&quot;/jogosdaqui.github.io-staging/2006/01/23/palmsoft-drag-racer-2&quot;&gt;PalmSoft Drag Racer&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;O jogosdaqui entrevistou Dennis Kerr Coelho, 25 anos, diretor técnico da PalmSoft Tecnologia.&lt;/p&gt;
 
@@ -405,7 +441,7 @@ E outra porque acreditamos que um jogo tão autoral quanto Toren deve ser antes 
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2005/10/13/shadows-of-malquidious&quot;&gt;Shadows of Malquidious&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2006/01/23/war-of-malquidious-2&quot;&gt;War of Malquidious&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2005/12/21/palmsoft-drag-racer&quot;&gt;PalmSoft Drag Racer&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2006/01/23/palmsoft-drag-racer-2&quot;&gt;PalmSoft Drag Racer&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2006/01/31/fencer-duel&quot;&gt;Fencer Duel&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2005/12/19/red-hood-racing&quot;&gt;Red Hood Racing&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
