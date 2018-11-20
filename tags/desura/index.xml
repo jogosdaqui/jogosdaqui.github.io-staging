@@ -3,7 +3,7 @@
  <title>jogosdaqui - desura</title>
  <link href="/jogosdaqui.github.io-staging//tags/desura/index.xml" rel="self"/>
  <link href="/jogosdaqui.github.io-staging/tag/desura.html"/>
- <updated>2018-11-18T21:22:50-02:00</updated>
+ <updated>2018-11-20T08:05:23-02:00</updated>
  <id>/jogosdaqui.github.io-staging/tag/desura.html</id>
  <author>
    <name>jogosdaqui</name>
@@ -14,13 +14,13 @@
    <link href="/jogosdaqui.github.io-staging//2015/04/22/entrevista-claudio-lins"/>
    <updated>2015-04-22T00:00:00-03:00</updated>
    <id>/jogosdaqui.github.io-staging//2015/04/22/entrevista-claudio-lins</id>
-   <content type="html">&lt;p&gt;O jogosdaqui entrevistou o gamedev brasileiro Claudio Lins, desenvolvedor do game Doomed’n Damned e que agora está trabalhando no seu novo jogo, o Super Doomed’n Damned que será lançado Xbox One, Wii U e PC&lt;/p&gt;
+   <content type="html">&lt;p&gt;O jogosdaqui entrevistou o gamedev brasileiro Claudio Lins, desenvolvedor do game Doomed’n Damned e que agora está trabalhando no seu novo jogo, o Super Doomed’n Damned que será lançado &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/xbox&quot;&gt;Xbox&lt;/a&gt; One, Wii U e PC&lt;/p&gt;
 
 &lt;h2 id=&quot;fale-um-pouco-da-tua-trajetória-como-chegaste-ao-gamedev&quot;&gt;Fale um pouco da tua trajetória, como chegaste ao gamedev?&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Claudio: Eu estou trabalhando com games já há alguns anos, desde 99. E durante esse tempo trabalhei em cerca de 30 jogos pra diferentes plataformas. Tive uma empresa no Brasil com 3 outros sócios de 2002 a 2009 chamada Preloud Studios e trabalhei em outras empresas no Brasil como a Musigames e a Playlore, como também em empresas na Europa.&lt;/p&gt;
+  &lt;p&gt;Claudio: Eu estou trabalhando com games já há alguns anos, desde 99. E durante esse tempo trabalhei em cerca de 30 jogos pra diferentes plataformas. Tive uma empresa no Brasil com 3 outros sócios de 2002 a 2009 chamada &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/preloud&quot;&gt;Preloud&lt;/a&gt; Studios e trabalhei em outras empresas no Brasil como a &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/musigames&quot;&gt;Musigames&lt;/a&gt; e a &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/playlore&quot;&gt;Playlore&lt;/a&gt;, como também em empresas na Europa.&lt;/p&gt;
 
-  &lt;p&gt;Há um pouco mais de um ano abri a Arc-gen games aqui em Helsinki na Finlandia. Basicamente é uma empresa de um homem só. Ano passado terminei o Doomed’n Damned pra PC e Mac, feito na Construct 2, e esse ano estou fazendo o Super Doomed’n Damned para Steam, Wii U e Xbox One com uma empresa parceira de Barcelona chamada Dolores Entertainment.&lt;/p&gt;
+  &lt;p&gt;Há um pouco mais de um ano abri a Arc-gen games aqui em Helsinki na Finlandia. Basicamente é uma empresa de um homem só. Ano passado terminei o Doomed’n Damned pra PC e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/mac&quot;&gt;Mac&lt;/a&gt;, feito na Construct 2, e esse ano estou fazendo o Super Doomed’n Damned para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/steam&quot;&gt;Steam&lt;/a&gt;, Wii U e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/xbox-one&quot;&gt;Xbox One&lt;/a&gt; com uma empresa parceira de Barcelona chamada Dolores Entertainment.&lt;/p&gt;
 
   &lt;p&gt;Quando você aplica para consoles, eles olham o projeto e as pessoas envolvidas. O portfólio prévio dos membros é tao importante quanto o jogo proposto. Se eles aprovarem e gostarem do seu jogo, você está apto para desenvolver para o console. Tanto a Nintendo quanto a Microsoft tiveram processos bem parecidos e foi super tranquilo trabalhar com os dois.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -52,7 +52,7 @@
 
 &lt;h2 id=&quot;como-foi-a-vendagem-do-jogo-atingiu-as-expectativas&quot;&gt;Como foi a vendagem do jogo? Atingiu as expectativas?&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Claudio: Eu não tinha nenhuma expectativa real de quanto o jogo poderia vender de verdade. É muito difícil ter uma ideia sólida de quanto se espera das vendas de um jogo indie, desconhecido, sem grana pra marketing e fora do Steam. No geral estou satisfeito com as vendas na Humble Store, Desura e dos bundles. Mais importante que a grana, que não foi lá essas coisas, foi alcance e a repercursão que o jogo gerou. Eu acredito que sem o jogo original seria bem mais complicado convencer a Microsoft ou a Nintendo de fazer as versões console. No geral os números de D’n D foram bem bons para um jogo com tão pouco recurso&lt;/p&gt;
+  &lt;p&gt;Claudio: Eu não tinha nenhuma expectativa real de quanto o jogo poderia vender de verdade. É muito difícil ter uma ideia sólida de quanto se espera das vendas de um jogo indie, desconhecido, sem grana pra marketing e fora do Steam. No geral estou satisfeito com as vendas na &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/humble-store&quot;&gt;Humble Store&lt;/a&gt;, Desura e dos bundles. Mais importante que a grana, que não foi lá essas coisas, foi alcance e a repercursão que o jogo gerou. Eu acredito que sem o jogo original seria bem mais complicado convencer a Microsoft ou a Nintendo de fazer as versões console. No geral os números de D’n D foram bem bons para um jogo com tão pouco recurso&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;center&gt;
@@ -81,14 +81,14 @@
 
 &lt;h2 id=&quot;quais-as-diferenças-no-desenvolvimento-com-o-jogo-anterior&quot;&gt;Quais as diferenças no desenvolvimento com o jogo anterior?&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Claudio: Hoje em dia estou trabalhando com um programador da Dolores. Daniel Navarro, é um cara com bastante experiência em desenvolvimento em consoles, PC e mobile, e isso tem ajudado muito na velocidade do desenvolvimento. No primeiro jogo muitas vezes eu fiquei preso em programação ou levei muito tempo para fazer alguma coisa que um programador de verdade levaria bem menos tempo. Sou formado em Design e sempre trabalhei como Designer ou Producer. Programação é algo que sempre foi meio “side quest” pra mim. Então, ter alguém para trabalhar mais no código me ajudou muito a focar no restante do conteúdo, coisa que no primeiro jogo eu tive que fazer tudo.&lt;/p&gt;
+  &lt;p&gt;Claudio: Hoje em dia estou trabalhando com um programador da Dolores. Daniel Navarro, é um cara com bastante experiência em desenvolvimento em consoles, PC e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/mobile&quot;&gt;mobile&lt;/a&gt;, e isso tem ajudado muito na velocidade do desenvolvimento. No primeiro jogo muitas vezes eu fiquei preso em programação ou levei muito tempo para fazer alguma coisa que um programador de verdade levaria bem menos tempo. Sou formado em Design e sempre trabalhei como Designer ou Producer. Programação é algo que sempre foi meio “side quest” pra mim. Então, ter alguém para trabalhar mais no código me ajudou muito a focar no restante do conteúdo, coisa que no primeiro jogo eu tive que fazer tudo.&lt;/p&gt;
 
   &lt;p&gt;Se falando de tecnologia, a Unity abriu muitas portas. Hoje é possível fazer coisas que eu não teria como fazer no jogo anterior. E hoje o jogo tem que rodar em todas as plataformas, logo os testes levam mais tempo, coisa que eu não precisava me preocupar na primeira versão.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;o-jogo-será-publicado-para-xbox-one-wii-u-e-pc-alguma-probabilidade-de-sair-para-ps4&quot;&gt;O jogo será publicado para Xbox One, Wii U e PC. Alguma probabilidade de sair para PS4?&lt;/h2&gt;
+&lt;h2 id=&quot;o-jogo-será-publicado-para-xbox-one-wii-u-e-pc-alguma-probabilidade-de-sair-para-ps4&quot;&gt;O jogo será publicado para Xbox One, Wii U e PC. Alguma probabilidade de sair para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/ps4&quot;&gt;PS4&lt;/a&gt;?&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Claudio: Eu estou tentando PS4 e PSVita, mas esses processos levam tempo. No momento eu não posso prometer, mas sim, eu gostaria bastante de lançar para plataformas Sony também&lt;/p&gt;
+  &lt;p&gt;Claudio: Eu estou tentando PS4 e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/psvita&quot;&gt;PSVita&lt;/a&gt;, mas esses processos levam tempo. No momento eu não posso prometer, mas sim, eu gostaria bastante de lançar para plataformas Sony também&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;center&gt;
@@ -101,7 +101,7 @@
 
   &lt;p&gt;Eu acredito muito que o meio indie nacional vai continuar mandando bem como tem feito. Foco, sem querer dominar o mundo, projetos pequenos/médios e por ai vai. Acho que quando a ideia é legal e o pessoal empolgado, grana não é mais um problema tao grande para fazer o jogo virar realidade. E a facilidade de publicar o jogo no mercado, assim como o acesso as ferramentas, é muito mais fácil que antigamente.&lt;/p&gt;
 
-  &lt;p&gt;Não acho que os jogos nacionais devem tentar se espelhar nos Norte Americanos, nos AAA ou nos Japoneses. Mas sim continuar com essa identidade que eles estão criando de jogos indie com estilo e foco. Posso citar alguns amigos como o pessoal da Joymasher, Behold, entre outros estúdios que estão fazendo muita coisa legal. A ideia não é dominar o mundo com um mega titulo, a ideia é conquistar um espaço e um nicho fiel. É nisso que eu acredito.&lt;/p&gt;
+  &lt;p&gt;Não acho que os jogos nacionais devem tentar se espelhar nos Norte Americanos, nos AAA ou nos Japoneses. Mas sim continuar com essa identidade que eles estão criando de jogos indie com estilo e foco. Posso citar alguns amigos como o pessoal da &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/joymasher&quot;&gt;Joymasher&lt;/a&gt;, Behold, entre outros estúdios que estão fazendo muita coisa legal. A ideia não é dominar o mundo com um mega titulo, a ideia é conquistar um espaço e um nicho fiel. É nisso que eu acredito.&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
  </entry>
@@ -128,8 +128,8 @@ E se você curtiu o game, então aproveite para ajudá-lo a entrar Steam&lt;a hr
         &lt;iframe src=&quot;https://www.youtube.com/embed/1Gr77r8Ahg0 &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
       &lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;
-Ainda não conhece Oniken? Então essa é mais uma chance, o game está a venda no &lt;a href=&quot;http://www.desura.com/games/oniken&quot; target=&quot;_blank&quot;&gt;Desura&lt;/a&gt;
- por U$4,99, disponível para Windows, Linux e Mac, sendo que o jogador pode baixa-lo para qualquer uma das três plataformas e ainda ganha a trilha sonora oficial e a versão digital do manual.&lt;/p&gt;
+Ainda não conhece Oniken? Então essa é mais uma chance, o game está a venda no &amp;lt;a href=”http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/tags/desura&quot;&gt;desura&lt;/a&gt;.com/games/oniken” target=”_blank”&amp;gt;Desura&amp;lt;/a&amp;gt;
+ por U$4,99, disponível para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/windows&quot;&gt;Windows&lt;/a&gt;, Linux e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/mac&quot;&gt;Mac&lt;/a&gt;, sendo que o jogador pode baixa-lo para qualquer uma das três plataformas e ainda ganha a &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/trilha-sonora&quot;&gt;trilha sonora&lt;/a&gt; oficial e a versão digital do manual.&lt;/p&gt;
 
 </content>
  </entry>
@@ -141,17 +141,17 @@ Ainda não conhece Oniken? Então essa é mais uma chance, o game está a venda 
    <id>/jogosdaqui.github.io-staging//2012/11/21/oniken-recebe-versao-para-mac-e-linux</id>
    <content type="html">&lt;p&gt;O game brasileiro &lt;a href=&quot;http://oniken.net&quot; target=&quot;_blank&quot;&gt;Oniken&lt;/a&gt;
 , do grupo independente &lt;a href=&quot;http://joymasher.com &quot; target=&quot;_blank&quot;&gt;JoyMasher&lt;/a&gt;
-, que foi lançado em junho para Windows, recebe versões para Mac e Linux.&lt;/p&gt;
+, que foi lançado em junho para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/windows&quot;&gt;Windows&lt;/a&gt;, recebe versões para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/mac&quot;&gt;Mac&lt;/a&gt; e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/linux&quot;&gt;Linux&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;O jogo se passa em um futuro pós-apocalíptico em que uma guerra mundial praticamente destrói toda a raça humana. Os poucos sobreviventes são oprimidos por uma grande organização militar chamada Oniken. O jogador toma o papel de Zaku, um mercenário ninja que aceita tomar parte do movimento de resistência.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;A proposta do selo JoyMasher é proporcionar games com o estilo das gerações 8 e 16 bits. Oniken é exatamente isso, começando pela narrativa da tela de introdução que, provavelmente, levará jogadores mais &quot;experientes&quot; ao sentimento de nostalgia.&lt;/p&gt;
+&lt;p&gt;A proposta do selo &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/joymasher&quot;&gt;JoyMasher&lt;/a&gt; é proporcionar games com o estilo das gerações 8 e 16 bits. Oniken é exatamente isso, começando pela narrativa da tela de introdução que, provavelmente, levará jogadores mais &quot;experientes&quot; ao sentimento de nostalgia.&lt;/p&gt;
 
 &lt;p&gt;Oniken lembra muito games de plataforma e de ação da época do NES e do Mega Drive, como Ninja Gaiden e Strider, tanto pelos gráficos, sons e a dificuldade, mesmo assim consegue ter seu estilo e originalidade. Um deleite pra quem curte games retrô ou pra quem viveu a década de 80.&lt;/p&gt;
 
-&lt;p&gt;O jogo foi desenvolvido por Danilo Dias e Pedro Paiva e está à venda no site &lt;a href=&quot;http://www.desura.com/games/oniken&quot; target=&quot;_blank&quot;&gt;Desura&lt;/a&gt;
+&lt;p&gt;O jogo foi desenvolvido por Danilo Dias e Pedro Paiva e está à venda no site &amp;lt;a href=”http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/tags/desura&quot;&gt;desura&lt;/a&gt;.com/games/oniken” target=”_blank”&amp;gt;Desura&amp;lt;/a&amp;gt;
 , sendo que a versão Windows já está disponível e as versões para Linux e Mac serão lançadas amanhã, dia 22/11.&lt;/p&gt;
 
 &lt;center&gt;
@@ -177,7 +177,7 @@ Ainda não conhece Oniken? Então essa é mais uma chance, o game está a venda 
 , anunciou a pré-venda do seu mais novo game: &lt;a href=&quot;http://studiominiboss.com/out-there-somewhere/?lang=pt&quot; target=&quot;_blank&quot;&gt;Out There Somewhere&lt;/a&gt;
 , um puzzle-platformer para PC.&lt;/p&gt;
 
-&lt;p&gt;Pelas imagens e videos disponibilizados até o momento o jogo promete, tendo um capricho estético que já é marca registrada da MiniBoss, além de mostrar uma jogabilidade no melhor estilo dos games para PC dos anos 90 e com uma inovadora mecânica de teletransporte.&lt;/p&gt;
+&lt;p&gt;Pelas imagens e videos disponibilizados até o momento o jogo promete, tendo um capricho estético que já é marca registrada da &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/miniboss&quot;&gt;MiniBoss&lt;/a&gt;, além de mostrar uma jogabilidade no melhor estilo dos games para PC dos anos 90 e com uma inovadora mecânica de teletransporte.&lt;/p&gt;
 
 &lt;center&gt;
         &lt;iframe src=&quot;https://www.youtube.com/embed/XLpnW7FfUXk &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -185,7 +185,7 @@ Ainda não conhece Oniken? Então essa é mais uma chance, o game está a venda 
 
 &lt;p&gt;Confira abaixo algumas imagens conceituais do jogo e algumas screenshots enviadas pela MiniBoss Studio:&lt;/p&gt;
 
-&lt;p&gt;A pré-venda já está acontecendo e você pode garantir a sua cópia de Out There Somewhere, por US$4,99, através do site &lt;a href=&quot;http://www.desura.com/&quot; target=&quot;_blank&quot;&gt;Desura&lt;/a&gt;
+&lt;p&gt;A pré-venda já está acontecendo e você pode garantir a sua cópia de Out There Somewhere, por US$4,99, através do site &amp;lt;a href=”http://www.&lt;a href=&quot;/jogosdaqui.github.io-staging/tags/desura&quot;&gt;desura&lt;/a&gt;.com/” target=”_blank”&amp;gt;Desura&amp;lt;/a&amp;gt;
  e pelo próprio &lt;a href=&quot;http://studiominiboss.com&quot; target=&quot;_blank&quot;&gt;blog do estúdio&lt;/a&gt;
 .&lt;/p&gt;
 

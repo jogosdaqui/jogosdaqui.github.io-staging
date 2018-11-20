@@ -3,7 +3,7 @@
  <title>jogosdaqui - playlore</title>
  <link href="/jogosdaqui.github.io-staging//tags/playlore/index.xml" rel="self"/>
  <link href="/jogosdaqui.github.io-staging/tag/playlore.html"/>
- <updated>2018-11-18T21:22:50-02:00</updated>
+ <updated>2018-11-20T08:05:23-02:00</updated>
  <id>/jogosdaqui.github.io-staging/tag/playlore.html</id>
  <author>
    <name>jogosdaqui</name>
@@ -14,13 +14,13 @@
    <link href="/jogosdaqui.github.io-staging//2015/04/22/entrevista-claudio-lins"/>
    <updated>2015-04-22T00:00:00-03:00</updated>
    <id>/jogosdaqui.github.io-staging//2015/04/22/entrevista-claudio-lins</id>
-   <content type="html">&lt;p&gt;O jogosdaqui entrevistou o gamedev brasileiro Claudio Lins, desenvolvedor do game Doomed’n Damned e que agora está trabalhando no seu novo jogo, o Super Doomed’n Damned que será lançado Xbox One, Wii U e PC&lt;/p&gt;
+   <content type="html">&lt;p&gt;O jogosdaqui entrevistou o gamedev brasileiro Claudio Lins, desenvolvedor do game Doomed’n Damned e que agora está trabalhando no seu novo jogo, o Super Doomed’n Damned que será lançado &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/xbox&quot;&gt;Xbox&lt;/a&gt; One, Wii U e PC&lt;/p&gt;
 
 &lt;h2 id=&quot;fale-um-pouco-da-tua-trajetória-como-chegaste-ao-gamedev&quot;&gt;Fale um pouco da tua trajetória, como chegaste ao gamedev?&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Claudio: Eu estou trabalhando com games já há alguns anos, desde 99. E durante esse tempo trabalhei em cerca de 30 jogos pra diferentes plataformas. Tive uma empresa no Brasil com 3 outros sócios de 2002 a 2009 chamada Preloud Studios e trabalhei em outras empresas no Brasil como a Musigames e a Playlore, como também em empresas na Europa.&lt;/p&gt;
+  &lt;p&gt;Claudio: Eu estou trabalhando com games já há alguns anos, desde 99. E durante esse tempo trabalhei em cerca de 30 jogos pra diferentes plataformas. Tive uma empresa no Brasil com 3 outros sócios de 2002 a 2009 chamada &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/preloud&quot;&gt;Preloud&lt;/a&gt; Studios e trabalhei em outras empresas no Brasil como a &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/musigames&quot;&gt;Musigames&lt;/a&gt; e a &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/playlore&quot;&gt;Playlore&lt;/a&gt;, como também em empresas na Europa.&lt;/p&gt;
 
-  &lt;p&gt;Há um pouco mais de um ano abri a Arc-gen games aqui em Helsinki na Finlandia. Basicamente é uma empresa de um homem só. Ano passado terminei o Doomed’n Damned pra PC e Mac, feito na Construct 2, e esse ano estou fazendo o Super Doomed’n Damned para Steam, Wii U e Xbox One com uma empresa parceira de Barcelona chamada Dolores Entertainment.&lt;/p&gt;
+  &lt;p&gt;Há um pouco mais de um ano abri a Arc-gen games aqui em Helsinki na Finlandia. Basicamente é uma empresa de um homem só. Ano passado terminei o Doomed’n Damned pra PC e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/mac&quot;&gt;Mac&lt;/a&gt;, feito na Construct 2, e esse ano estou fazendo o Super Doomed’n Damned para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/steam&quot;&gt;Steam&lt;/a&gt;, Wii U e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/xbox-one&quot;&gt;Xbox One&lt;/a&gt; com uma empresa parceira de Barcelona chamada Dolores Entertainment.&lt;/p&gt;
 
   &lt;p&gt;Quando você aplica para consoles, eles olham o projeto e as pessoas envolvidas. O portfólio prévio dos membros é tao importante quanto o jogo proposto. Se eles aprovarem e gostarem do seu jogo, você está apto para desenvolver para o console. Tanto a Nintendo quanto a Microsoft tiveram processos bem parecidos e foi super tranquilo trabalhar com os dois.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -52,7 +52,7 @@
 
 &lt;h2 id=&quot;como-foi-a-vendagem-do-jogo-atingiu-as-expectativas&quot;&gt;Como foi a vendagem do jogo? Atingiu as expectativas?&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Claudio: Eu não tinha nenhuma expectativa real de quanto o jogo poderia vender de verdade. É muito difícil ter uma ideia sólida de quanto se espera das vendas de um jogo indie, desconhecido, sem grana pra marketing e fora do Steam. No geral estou satisfeito com as vendas na Humble Store, Desura e dos bundles. Mais importante que a grana, que não foi lá essas coisas, foi alcance e a repercursão que o jogo gerou. Eu acredito que sem o jogo original seria bem mais complicado convencer a Microsoft ou a Nintendo de fazer as versões console. No geral os números de D’n D foram bem bons para um jogo com tão pouco recurso&lt;/p&gt;
+  &lt;p&gt;Claudio: Eu não tinha nenhuma expectativa real de quanto o jogo poderia vender de verdade. É muito difícil ter uma ideia sólida de quanto se espera das vendas de um jogo indie, desconhecido, sem grana pra marketing e fora do Steam. No geral estou satisfeito com as vendas na &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/humble-store&quot;&gt;Humble Store&lt;/a&gt;, Desura e dos bundles. Mais importante que a grana, que não foi lá essas coisas, foi alcance e a repercursão que o jogo gerou. Eu acredito que sem o jogo original seria bem mais complicado convencer a Microsoft ou a Nintendo de fazer as versões console. No geral os números de D’n D foram bem bons para um jogo com tão pouco recurso&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;center&gt;
@@ -81,14 +81,14 @@
 
 &lt;h2 id=&quot;quais-as-diferenças-no-desenvolvimento-com-o-jogo-anterior&quot;&gt;Quais as diferenças no desenvolvimento com o jogo anterior?&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Claudio: Hoje em dia estou trabalhando com um programador da Dolores. Daniel Navarro, é um cara com bastante experiência em desenvolvimento em consoles, PC e mobile, e isso tem ajudado muito na velocidade do desenvolvimento. No primeiro jogo muitas vezes eu fiquei preso em programação ou levei muito tempo para fazer alguma coisa que um programador de verdade levaria bem menos tempo. Sou formado em Design e sempre trabalhei como Designer ou Producer. Programação é algo que sempre foi meio “side quest” pra mim. Então, ter alguém para trabalhar mais no código me ajudou muito a focar no restante do conteúdo, coisa que no primeiro jogo eu tive que fazer tudo.&lt;/p&gt;
+  &lt;p&gt;Claudio: Hoje em dia estou trabalhando com um programador da Dolores. Daniel Navarro, é um cara com bastante experiência em desenvolvimento em consoles, PC e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/mobile&quot;&gt;mobile&lt;/a&gt;, e isso tem ajudado muito na velocidade do desenvolvimento. No primeiro jogo muitas vezes eu fiquei preso em programação ou levei muito tempo para fazer alguma coisa que um programador de verdade levaria bem menos tempo. Sou formado em Design e sempre trabalhei como Designer ou Producer. Programação é algo que sempre foi meio “side quest” pra mim. Então, ter alguém para trabalhar mais no código me ajudou muito a focar no restante do conteúdo, coisa que no primeiro jogo eu tive que fazer tudo.&lt;/p&gt;
 
   &lt;p&gt;Se falando de tecnologia, a Unity abriu muitas portas. Hoje é possível fazer coisas que eu não teria como fazer no jogo anterior. E hoje o jogo tem que rodar em todas as plataformas, logo os testes levam mais tempo, coisa que eu não precisava me preocupar na primeira versão.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;o-jogo-será-publicado-para-xbox-one-wii-u-e-pc-alguma-probabilidade-de-sair-para-ps4&quot;&gt;O jogo será publicado para Xbox One, Wii U e PC. Alguma probabilidade de sair para PS4?&lt;/h2&gt;
+&lt;h2 id=&quot;o-jogo-será-publicado-para-xbox-one-wii-u-e-pc-alguma-probabilidade-de-sair-para-ps4&quot;&gt;O jogo será publicado para Xbox One, Wii U e PC. Alguma probabilidade de sair para &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/ps4&quot;&gt;PS4&lt;/a&gt;?&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Claudio: Eu estou tentando PS4 e PSVita, mas esses processos levam tempo. No momento eu não posso prometer, mas sim, eu gostaria bastante de lançar para plataformas Sony também&lt;/p&gt;
+  &lt;p&gt;Claudio: Eu estou tentando PS4 e &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/psvita&quot;&gt;PSVita&lt;/a&gt;, mas esses processos levam tempo. No momento eu não posso prometer, mas sim, eu gostaria bastante de lançar para plataformas Sony também&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;center&gt;
@@ -101,7 +101,7 @@
 
   &lt;p&gt;Eu acredito muito que o meio indie nacional vai continuar mandando bem como tem feito. Foco, sem querer dominar o mundo, projetos pequenos/médios e por ai vai. Acho que quando a ideia é legal e o pessoal empolgado, grana não é mais um problema tao grande para fazer o jogo virar realidade. E a facilidade de publicar o jogo no mercado, assim como o acesso as ferramentas, é muito mais fácil que antigamente.&lt;/p&gt;
 
-  &lt;p&gt;Não acho que os jogos nacionais devem tentar se espelhar nos Norte Americanos, nos AAA ou nos Japoneses. Mas sim continuar com essa identidade que eles estão criando de jogos indie com estilo e foco. Posso citar alguns amigos como o pessoal da Joymasher, Behold, entre outros estúdios que estão fazendo muita coisa legal. A ideia não é dominar o mundo com um mega titulo, a ideia é conquistar um espaço e um nicho fiel. É nisso que eu acredito.&lt;/p&gt;
+  &lt;p&gt;Não acho que os jogos nacionais devem tentar se espelhar nos Norte Americanos, nos AAA ou nos Japoneses. Mas sim continuar com essa identidade que eles estão criando de jogos indie com estilo e foco. Posso citar alguns amigos como o pessoal da &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/joymasher&quot;&gt;Joymasher&lt;/a&gt;, Behold, entre outros estúdios que estão fazendo muita coisa legal. A ideia não é dominar o mundo com um mega titulo, a ideia é conquistar um espaço e um nicho fiel. É nisso que eu acredito.&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
  </entry>
