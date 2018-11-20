@@ -374,6 +374,12 @@ footer {
   padding: 0;
 }
 
+.post-info {
+  font-style: italic;
+  font-size: 11px;
+  text-align: right;
+}
+
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
