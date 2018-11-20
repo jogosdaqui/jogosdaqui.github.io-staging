@@ -4851,7 +4851,7 @@
     {
       "title"    : "Banana Joe",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "mobile",
       "url"      : "/jogosdaqui.github.io-staging/2005/10/12/banana-joe",
       "date"     : "2005-10-12 00:00:00 -0300"
     } ,
@@ -4883,7 +4883,7 @@
     {
       "title"    : "R/C Racing",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "mra, press-release, advergame",
       "url"      : "/jogosdaqui.github.io-staging/2005/10/10/rc-racing",
       "date"     : "2005-10-10 00:00:00 -0300"
     } ,
@@ -4923,7 +4923,7 @@
     {
       "title"    : "Arena de Rodeio",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "mra, press-release, advergame",
       "url"      : "/jogosdaqui.github.io-staging/2005/10/06/arena-de-rodeio",
       "date"     : "2005-10-06 00:00:00 -0300"
     } ,
@@ -4979,7 +4979,7 @@
     {
       "title"    : "Othello",
       "category" : "",
-      "tags"     : "continuum",
+      "tags"     : "continuum, tabuleiro",
       "url"      : "/jogosdaqui.github.io-staging/2005/10/01/othello",
       "date"     : "2005-10-01 00:00:00 -0300"
     } ,
@@ -4987,7 +4987,7 @@
     {
       "title"    : "Impacto Alpha",
       "category" : "",
-      "tags"     : "oniria",
+      "tags"     : "oniria-entertainment, tiro",
       "url"      : "/jogosdaqui.github.io-staging/2005/10/01/impacto-alpha",
       "date"     : "2005-10-01 00:00:00 -0300"
     } ,
@@ -5003,7 +5003,7 @@
     {
       "title"    : "Smart Panda",
       "category" : "",
-      "tags"     : "leandro-correia",
+      "tags"     : "leandro-correia, infantil",
       "url"      : "/jogosdaqui.github.io-staging/2005/09/30/smart-panda",
       "date"     : "2005-09-30 00:00:00 -0300"
     } ,
