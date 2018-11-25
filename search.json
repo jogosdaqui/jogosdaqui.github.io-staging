@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Seleção de games brasileiros para iOS e Android #1",
+      "category" : "",
+      "tags"     : "ios, android, rockhead-games, aquiris-game-studio, mgaia-studio, demo-reel",
+      "url"      : "/jogosdaqui.github.io-staging/2018/11/26/selecao-de-games-brasileiros-para-ios-e-android-1",
+      "date"     : "2018-11-26 00:00:00 -0200"
+    } ,
+  
+    {
       "title"    : "Games brasileiros de corrida",
       "category" : "",
       "tags"     : "corrida, locz-games, icon-games, perceptum, leandro-correia, mra, palmSoft-tecnologia, mdev, initia-tecnologia, meantime, lúmen-technology, edward-multimídia, microways, odin-game-studio, division-five, aquiris-game-studio",
@@ -81,10 +89,10 @@
     } ,
   
     {
-      "title"    : "Jogos Vorazes ganha game no estilo Super Trunfo",
+      "title"    : "Jogos Vorazes - Card Game",
       "category" : "",
       "tags"     : "flux-game-studio, ios, android, windows-phone, cartas",
-      "url"      : "/jogosdaqui.github.io-staging/2015/11/19/jogos-vorazes-ganha-game-de-cartas",
+      "url"      : "/jogosdaqui.github.io-staging/2015/11/19/jogos-vorazes-card-game",
       "date"     : "2015-11-19 00:00:00 -0200"
     } ,
   
@@ -1083,7 +1091,7 @@
     {
       "title"    : "Tank Invaders atinge mais de 300 mil downloads",
       "category" : "",
-      "tags"     : "ios, windows-phone, windows, mgaia-studio",
+      "tags"     : "ios, android, windows-phone, mgaia-studio",
       "url"      : "/jogosdaqui.github.io-staging/2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads",
       "date"     : "2015-04-15 00:00:00 -0300"
     } ,

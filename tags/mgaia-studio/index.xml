@@ -3,11 +3,32 @@
  <title>jogosdaqui - mgaia-studio</title>
  <link href="/jogosdaqui.github.io-staging//tags/mgaia-studio/index.xml" rel="self"/>
  <link href="/jogosdaqui.github.io-staging/tag/mgaia-studio.html"/>
- <updated>2018-11-25T13:00:45-02:00</updated>
+ <updated>2018-11-25T13:53:31-02:00</updated>
  <id>/jogosdaqui.github.io-staging/tag/mgaia-studio.html</id>
  <author>
    <name>jogosdaqui</name>
  </author>
+ 
+ <entry>
+   <title>Seleção de games brasileiros para iOS e Android #1</title>
+   <link href="/jogosdaqui.github.io-staging//2018/11/26/selecao-de-games-brasileiros-para-ios-e-android-1"/>
+   <updated>2018-11-26T00:00:00-02:00</updated>
+   <id>/jogosdaqui.github.io-staging//2018/11/26/selecao-de-games-brasileiros-para-ios-e-android-1</id>
+   <content type="html">&lt;p&gt;Criamos esse demo reel abaixo com uma seleção de 3 incríveis games brasileiros disponíveis na para iOS e Android, confira:&lt;/p&gt;
+
+&lt;center&gt;
+        &lt;iframe src=&quot;https://www.youtube.com/embed/1geWiHlg2rw &quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+      &lt;/center&gt;
+
+&lt;p&gt;Conheça mais sobre os games:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/05/14/starlit-adventures&quot;&gt;Starlit Adventures&lt;/a&gt; (&lt;a href=&quot;https://itunes.apple.com/br/app/starlit-adventures/id960404802?mt=8&quot;&gt;App Store&lt;/a&gt; / &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.rockhead.starlit&amp;amp;hl=pt_BR&quot;&gt;Google Play&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/2015/07/31/teaser-de-gameplay-de-horizon-chase&quot;&gt;Horizon Chase&lt;/a&gt; (&lt;a href=&quot;https://itunes.apple.com/br/app/horizon-chase-world-tour/id991018252?mt=8&quot;&gt;App Store&lt;/a&gt; / &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.aquiris.horizonchase&amp;amp;hl=pt_BR&quot;&gt;Google Play&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/jogosdaqui.github.io-staging/2015/04/08/tank-invaders&quot;&gt;Tank Invaders&lt;/a&gt; (&lt;a href=&quot;https://itunes.apple.com/br/app/tank-invaders-guerra-ao-terror-gr%C3%A1tis/id815229338?mt=8&quot;&gt;App Store&lt;/a&gt; / &lt;a href=&quot;https://play.google.com/store/apps/details?id=br.com.mothergaia.tank&amp;amp;hl=pt_BR&quot;&gt;Google Play&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Imagens da semana #13</title>
@@ -342,13 +363,15 @@
    <id>/jogosdaqui.github.io-staging//2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads</id>
    <content type="html">&lt;p&gt;Como diria o General Rogers: “Temos novidades do campo de batalha, soldado!”.&lt;/p&gt;
 
-&lt;p&gt;Na semana passada falamos de &lt;a href=&quot;/jogosdaqui.github.io-staging/2015/04/08/tank-invaders&quot;&gt;Tank Invaders&lt;/a&gt;
- da Mgaia Studio e parece que o game vem agradando os donos de dispositivos móveis, pois ele atingiu a marca de mais de 300.000 downloads desde seu lançamento.&lt;/p&gt;
+&lt;p&gt;Na semana passada falamos de &lt;a href=&quot;/jogosdaqui.github.io-staging/2015/04/08/tank-invaders&quot;&gt;Tank Invaders&lt;/a&gt; da Mgaia Studio e parece que o game vem agradando os donos de dispositivos móveis, pois ele atingiu a marca de mais de 300.000 downloads desde seu lançamento.&lt;/p&gt;
 
-&lt;p&gt;A Mgaia tentou uma estratégia diferente de lançamento, iniciando o primeiro lançamento pelo Windows Phone e percebeu que ainda existe uma carência de jogos de qualidade naquela app store. Os dados abaixo demonstram que os usuários do OS da Microsoft realmente gostaram do jogo.&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&quot;/jogosdaqui.github.io-staging/tags/mgaia-studio&quot;&gt;Mgaia Studio&lt;/a&gt; tentou uma estratégia diferente de lançamento, iniciando o primeiro lançamento pelo Windows Phone e percebeu que ainda existe uma carência de jogos de qualidade naquela app store. Os dados abaixo demonstram que os usuários do OS da Microsoft realmente gostaram do jogo.&lt;/p&gt;
 
 &lt;p&gt;Downloads do game até o momento:&lt;/p&gt;
 
+&lt;center&gt;
+        &lt;img src=&quot;/jogosdaqui.github.io-staging/assets/2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads/downloads.png &quot; /&gt;
+      &lt;/center&gt;
 </content>
  </entry>
  
