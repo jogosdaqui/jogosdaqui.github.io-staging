@@ -153,6 +153,15 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
+li {
+  margin: 1px 0;
+  background-image: url(/assets/list-item.png);
+  list-style-type: none;
+  background-position: 0 5px;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+}
+
 p a, li a, div > a {
   text-decoration: underline;
 }
@@ -854,6 +863,7 @@ ul.pager li {
   border-radius: 10%;
   padding: 5px;
   margin: 5px;
+  background-image: none;
 }
 
 ul.paper li a {
@@ -866,6 +876,10 @@ ul.pager li.selected {
 
 .highlight-box {
   width: 87%;
+}
+
+.lslide, .lSPager li {
+  background-image: none;
 }
 
 .highlight-box-title {
