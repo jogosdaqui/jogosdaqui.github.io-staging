@@ -539,7 +539,8 @@ Provavelmente o maior game (em tempo de desenvolvimento e orçamento) já produz
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -580,7 +581,8 @@ Provavelmente o maior game (em tempo de desenvolvimento e orçamento) já produz
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -621,7 +623,8 @@ Provavelmente o maior game (em tempo de desenvolvimento e orçamento) já produz
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -662,7 +665,8 @@ Provavelmente o maior game (em tempo de desenvolvimento e orçamento) já produz
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -703,7 +707,8 @@ Provavelmente o maior game (em tempo de desenvolvimento e orçamento) já produz
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -744,7 +749,8 @@ Provavelmente o maior game (em tempo de desenvolvimento e orçamento) já produz
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -785,7 +791,8 @@ Provavelmente o maior game (em tempo de desenvolvimento e orçamento) já produz
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

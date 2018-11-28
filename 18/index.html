@@ -90,6 +90,39 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2014/05/05/choo-choo-like-a-hobo">Choo Choo Like a Hobo</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+    
+  
+    
+      <img src="/jogosdaqui.github.io-staging/assets/2014/05/05/choo-choo-like-a-hobo/ChooChooLikeAHobo_logo.jpg" style="max-height: 200px;max-width: 100%;"/> 
+      
+
+</center>
+ 
+    
+    Choo Choo Like a Hobo é um jogo simples sobre um mendigo viajando para a cidade da sopa (é sua comida favorita). Quando ele não consegue dinheiro para a passagem, ele pega o seu trole de vara e sai loucamente pelos trilhos em busca de seu destino. Só que os...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2014/05/05/choo-choo-like-a-hobo" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2014/05/04/super-flappy-soccer-ball">Super Flappy Soccer Ball</a></h1>
 
     <div class="entry">
@@ -188,6 +221,21 @@
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2014/04/28/dash-games">DASH GAMES</a></h1>
@@ -218,21 +266,6 @@
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -392,34 +425,6 @@
     <a href="/jogosdaqui.github.io-staging/2013/06/17/v-de-vinagre" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2013/06/13/documentario-industria-de-games-no-brasil">Documentário "Indústria de Games no Brasil"</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-
-</center>
- 
-    
-    O vídeo tem cerca 30 minutos e conta com a participação de: Jeferson Valadares (EA Games) Carla Denise Castanho (Organizadora do SBGames 2012) Moacir Avelino Alves Junior (Presidente da ACI Games) Cleber Cristiano Prodanov (Secretário de Ciência, Inovação e Desenvolvimento Tecnológio do RS) Fred Vasconcelos (Vice presidente de Relações Institucionais...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2013/06/13/documentario-industria-de-games-no-brasil" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -503,7 +508,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -544,7 +550,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -585,7 +592,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -626,7 +634,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -667,7 +676,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -708,7 +718,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -749,7 +760,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

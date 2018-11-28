@@ -90,6 +90,51 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2005/09/23/jokenpo">JoKenPo</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <img src="/jogosdaqui.github.io-staging/assets/2005/09/23/jokenpo/logo.gif" style="max-height: 200px;max-width: 100%;"/> 
+      
+
+</center>
+ 
+    
+    Quem não conhece a famosa brincadeira pedra-papel-tesoura? Pois a Nology mais uma vez inovou e criou o JoKenPo, baseado no conceito desta brincadeira. Você será um dos personagens da trinca e seu objetivo é caçar todos os demais personagens que estão andando em um labirinto 3D. Se você for uma...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2005/09/23/jokenpo" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2005/09/23/hello">Hello!</a></h1>
 
     <div class="entry">
@@ -203,6 +248,21 @@
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2005/09/22/o-monstruario">O Monstruário</a></h1>
@@ -233,21 +293,6 @@
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -420,37 +465,6 @@
     <a href="/jogosdaqui.github.io-staging/2005/09/22/der-pferderennstall" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2005/09/21/taikodom">Taikodom</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-    
-      <img src="/jogosdaqui.github.io-staging/assets/2005/09/21/taikodom/logo.jpg" style="max-height: 200px;max-width: 100%;"/> 
-      
-
-</center>
- 
-    
-    Taikodom é um Massively Multiplayer Online Game (MMO) baseado no universo desenvolvido pela Hoplon e o escritor de ficção científica Gerson Lodi-Ribeiro. É um game de ação em escala real, onde os jogadores terão a liberdade para pilotar naves, se organizar em corporações, enfim viver. Viver em um mundo novo...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2005/09/21/taikodom" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -534,7 +548,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -575,7 +590,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -616,7 +632,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -657,7 +674,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -698,7 +716,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -739,7 +758,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -780,7 +800,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

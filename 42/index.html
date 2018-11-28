@@ -90,6 +90,34 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2006/03/28/entrevista-palmsoft-tecnologia">Entrevista PalmSoft Tecnologia</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+
+</center>
+ 
+    
+    A PalmSoft Tecnologia é uma empresa catarinense desenvolvedora de inúmeros jogos para celular, entre eles estão: os famosos Crimson After Dusk e PalmSoft Drag Racer. O jogosdaqui entrevistou Dennis Kerr Coelho, 25 anos, diretor técnico da PalmSoft Tecnologia. Como surgiu a empresa? Dennis: A PalmSoft surgiu em 2002, e, inicialmente,...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2006/03/28/entrevista-palmsoft-tecnologia" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2006/03/27/primeiro-brasileiro-no-espaco">Primeiro brasileiro no espaço</a></h1>
 
     <div class="entry">
@@ -178,6 +206,21 @@
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2006/03/27/capoeira">Capoeira</a></h1>
@@ -213,21 +256,6 @@
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -382,37 +410,6 @@
     <a href="/jogosdaqui.github.io-staging/2006/03/24/gladiarena" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2006/03/24/fighters-of-caribbean">Fighters of Caribbean</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-    
-      <img src="/jogosdaqui.github.io-staging/assets/2006/03/24/fighters-of-caribbean/PalmSoft_FightersOfCaribbean_logo.gif" style="max-height: 200px;max-width: 100%;"/> 
-      
-
-</center>
- 
-    
-    Um jogo cercado por carnificina e combates de vida ou morte, onde apenas um poderá sobreviver. Você pode escolher entre quatro personagens, cada um com suas habilidades características, pontos fortes e fracos. Com três níveis de dificuldade e um modo suicida, o maior desafio do jogo, Fighters of Caribbean proporcionará...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2006/03/24/fighters-of-caribbean" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -496,7 +493,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -537,7 +535,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -578,7 +577,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -619,7 +619,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -660,7 +661,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -701,7 +703,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -742,7 +745,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

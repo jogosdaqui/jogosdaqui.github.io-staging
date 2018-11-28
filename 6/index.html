@@ -90,6 +90,41 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2015/07/15/lancamento-de-odallus-the-dark-call">Lançamento de Odallus: The Dark Call</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+    
+  
+    
+  
+    
+      <img src="/jogosdaqui.github.io-staging/assets/2015/07/15/lancamento-de-odallus-the-dark-call/logo.png" style="max-height: 200px;max-width: 100%;"/> 
+      
+
+</center>
+ 
+    
+    Dos mesmos produtores de Oniken, chega as prateleiras virtuais o mais novo game da gamedev brasileira JoyMasher, Odallus: The Dark Call será lançado hoje para Steam , GOG e Humble Store. Preços promocionais A JoyMasher deu uma atenção toda especial aos gamers brasileiros, pois além de disponibilizar os diálogos do...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2015/07/15/lancamento-de-odallus-the-dark-call" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/07/previa-de-unnamed-fiasco">Prévia de Unnamed Fiasco</a></h1>
 
     <div class="entry">
@@ -213,6 +248,21 @@
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/07/03/surge-a-game-academy-escola-online-focada-em-games">Surge a Game Academy, escola online focada em games</a></h1>
@@ -247,21 +297,6 @@
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -438,60 +473,6 @@
     <a href="/jogosdaqui.github.io-staging/2015/06/20/previa-de-dog-duty-da-zanardi-liza" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2015/06/17/previa-de-peronio-pop-up-book-da-ovni-studios">Prévia de Peronio Pop-Up Book da Ovni Studios</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-</center>
- 
-    
-    A primeira evidência histórica de livros pop-up remonta para o ano 1240 quando o monge beneditino Matthew Paris criou tal artefato para ajudar outros monges a calcular os dias santos. Nos séculos seguintes livros pop-up foram utilizados por adultos para ilustrar teorias, ensinar anatomia, fazer predições astronômicas e criar códigos...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2015/06/17/previa-de-peronio-pop-up-book-da-ovni-studios" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -575,7 +556,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -616,7 +598,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -657,7 +640,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -698,7 +682,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -739,7 +724,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -780,7 +766,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -821,7 +808,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

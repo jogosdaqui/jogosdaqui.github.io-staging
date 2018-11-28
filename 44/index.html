@@ -90,6 +90,34 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2006/03/20/hoplon-a-primeira-empresa-brasileira-palestrante-na-cdg">Hoplon, a primeira empresa brasileira palestrante na CDG</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+
+</center>
+ 
+    
+    A tecnologia brasileira ganha destaque na GDC (Game Developers Conference 2006), que acontece nos dias 20 a 24 de março, em San Jose, na Califórnia. O presidente da Hoplon Infotainment , desenvolvedora do game Taikodon , Tarquínio Teles vai falar no dia 22, sobre a parceria entre a empresa catarinense...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2006/03/20/hoplon-a-primeira-empresa-brasileira-palestrante-na-cdg" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2006/03/19/ryudragon-entra-na-6a-era">Ryudragon entra na 6Âª Era</a></h1>
 
     <div class="entry">
@@ -192,6 +220,21 @@
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2006/03/14/truco-mais-um-jogo-no-gametrack">Truco, mais um jogo no Gametrack</a></h1>
@@ -221,21 +264,6 @@
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -410,34 +438,6 @@
     <a href="/jogosdaqui.github.io-staging/2006/03/11/prazos-de-inscricoes-no-jogosbr" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2006/03/11/jogosbr-inscricoes-e-regras">JogosBR :: Inscrições e regras</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-
-</center>
- 
-    
-    O prazo final para inscrição no Concurso de Idéias Originais para Jogos Eletrônicos, inserido na edição 2005/06 do JogosBR, foi prorrogado para 11 de março. Já as inscrições para os concursos de Desenvolvimento de Demos Jogáveis e de Jogos Completos podem ser feitas a partir de 16 de março até...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2006/03/11/jogosbr-inscricoes-e-regras" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -521,7 +521,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -562,7 +563,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -603,7 +605,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -644,7 +647,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -685,7 +689,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -726,7 +731,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -767,7 +773,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

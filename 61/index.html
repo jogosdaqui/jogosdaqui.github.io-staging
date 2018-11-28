@@ -90,6 +90,45 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2005/10/18/rain-of-fire">Rain of Fire</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <img src="/jogosdaqui.github.io-staging/assets/2005/10/18/rain-of-fire/logo.gif" style="max-height: 200px;max-width: 100%;"/> 
+      
+
+</center>
+ 
+    
+    Num passado longínquo, Piros, o deus do fogo, apaixona-se por uma camponesa da vila de Valfa. Mas Jasmin trai sua confiança caindo de amores por um mortal. Com sede de vingança, Piros lança uma maldição: a cada 500 anos os Dragões Vermelhos cospem fogo afim de destruir o povoado. O...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2005/10/18/rain-of-fire" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2005/10/18/preservacao">PreservAÇÃO</a></h1>
 
     <div class="entry">
@@ -188,6 +227,21 @@ Cada ganhador receberá 1 número serial Gold oferecido pela TILT online.
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2005/10/17/projeto-experimental-de-software-livre-da-tilt-online">Projeto experimental de Software Livre da TILT online</a></h1>
@@ -215,21 +269,6 @@ Cada ganhador receberá 1 número serial Gold oferecido pela TILT online.
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -439,55 +478,6 @@ Cada ganhador receberá 1 número serial Gold oferecido pela TILT online.
     <a href="/jogosdaqui.github.io-staging/2005/10/13/shadows-of-malquidious" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2005/10/13/futsim">FutSim</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <img src="/jogosdaqui.github.io-staging/assets/2005/10/13/futsim/logo.gif" style="max-height: 200px;max-width: 100%;"/> 
-      
-
-</center>
- 
-    
-    O FutSim é um jogo online onde o usuário assume o papel de um técnico de um clube de futebol. Único jogo do gênero no mundo onde os usuários podem ver as suas partidas ao vivo, também é o primeiro jogo com milhares de jogadores simultâneos (massively multiplayer online game)...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2005/10/13/futsim" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -571,7 +561,8 @@ Cada ganhador receberá 1 número serial Gold oferecido pela TILT online.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -612,7 +603,8 @@ Cada ganhador receberá 1 número serial Gold oferecido pela TILT online.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -653,7 +645,8 @@ Cada ganhador receberá 1 número serial Gold oferecido pela TILT online.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -694,7 +687,8 @@ Cada ganhador receberá 1 número serial Gold oferecido pela TILT online.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -735,7 +729,8 @@ Cada ganhador receberá 1 número serial Gold oferecido pela TILT online.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -776,7 +771,8 @@ Cada ganhador receberá 1 número serial Gold oferecido pela TILT online.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -817,7 +813,8 @@ Cada ganhador receberá 1 número serial Gold oferecido pela TILT online.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

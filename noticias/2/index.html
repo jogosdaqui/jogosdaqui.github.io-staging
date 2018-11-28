@@ -92,6 +92,41 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2015/09/30/xmile-e-playmove-firmam-parceria">Xmile e Playmove firmam parceria</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+    
+  
+    
+  
+    
+      <img src="/jogosdaqui.github.io-staging/assets/2015/09/30/xmile-e-playmove-firmam-parceria/logo.png" style="max-height: 200px;max-width: 100%;"/> 
+      
+
+</center>
+ 
+    
+    Em julho passado falamos aqui no jogosdaqui que a catarinense PlayMove estava abrindo o cadastro para empresas interessadas em produzir jogos para sua PlayTable, primeira mesa digital com jogos educativos do Brasil. Xmile e Playmove A primeira empresa a firmar essa parceria é também outra catarinense, a Xmile, empresa de...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2015/09/30/xmile-e-playmove-firmam-parceria" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/04/ballistic-overkill-devtalk-02">Ballistic Overkill - DevTalk #02</a></h1>
 
     <div class="entry">
@@ -183,6 +218,21 @@
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/18/bundle-de-30-games-brasileiros-totalmente-gratuitos">Bundle de 30 games brasileiros totalmente gratuitos</a></h1>
@@ -210,21 +260,6 @@
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -399,37 +434,6 @@ Playthrough Chroma Squad
     <a href="/jogosdaqui.github.io-staging/2015/07/31/crowdfunding-de-99vidas-o-jogo" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2015/07/24/gamedev-brasileira-arrecada-mais-de-us-78-000-em-campanha-de-crowdsourcing">Gamedev brasileira arrecada mais de US$ 78.000 em campanha de crowdsourcing</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-    
-      <img src="/jogosdaqui.github.io-staging/assets/2015/07/24/gamedev-brasileira-arrecada-mais-de-us-78-000-em-campanha-de-crowdsourcing/logo.jpg" style="max-height: 200px;max-width: 100%;"/> 
-      
-
-</center>
- 
-    
-    A paranaense Reiza Studios , empresa brasileira especializada em games de corrida, como Stock Car e Formula Truck acabou de ultrapassar o objetivo de US$ 78.000 de sua campanha de crowdsourcing no Indiegogo: https://www.indiegogo.com/projects/reiza-simracing-bonanza A empresa conseguiu recentemente um acordo com a fabricande da engine ISIMotor que é utilizada em...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2015/07/24/gamedev-brasileira-arrecada-mais-de-us-78-000-em-campanha-de-crowdsourcing" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -516,7 +520,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -557,7 +562,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -598,7 +604,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -639,7 +646,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -680,7 +688,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -721,7 +730,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -762,7 +772,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

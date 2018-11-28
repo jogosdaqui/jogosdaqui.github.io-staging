@@ -92,6 +92,50 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2005/12/15/primeiras-imagens-de-os-conquistadores">Primeiras imagens de "Os Conquistadores"</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+</center>
+ 
+    
+    A Dynamic Games liberou as primeiras imagens do jogo “Os Conquistadores”.
+
+Em Os Conquistadores você jogará na pele do 1° rei de Portugal, D. Afonso Henrique. O jogo promete muita ação em batalhas épicas.
+
+Aprecie 6 imagens do jogo em desenvolvimento:
+
+
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2005/12/15/primeiras-imagens-de-os-conquistadores" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2005/12/15/novas-imagens-de-taikodom">Novas imagens de Taikodom</a></h1>
 
     <div class="entry">
@@ -185,6 +229,21 @@ Veja a matéria neste link
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2005/12/09/netherdeep">Netherdeep</a></h1>
@@ -215,21 +274,6 @@ Veja a matéria neste link
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -389,34 +433,6 @@ Confira aqui The Game Producer…
     <a href="/jogosdaqui.github.io-staging/2005/12/01/pequeno-guardiao-do-tempo" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2005/11/30/winguel-novo-jogo-nacional">Winguel, novo jogo Nacional</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-
-</center>
- 
-    
-    A empresa gaúcha Espaço informática está apresentando um novo jogo que será lançado na Europa e Brasil no primeiro trimestre de 2006. O jogo chama-se Winguel na verdade é um centro de atividades com cinco jogos, além de materiais extra como impressões e papéis de parede.Na história do jogo, Winguel...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2005/11/30/winguel-novo-jogo-nacional" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -503,7 +519,8 @@ Confira aqui The Game Producer…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -544,7 +561,8 @@ Confira aqui The Game Producer…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -585,7 +603,8 @@ Confira aqui The Game Producer…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -626,7 +645,8 @@ Confira aqui The Game Producer…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -667,7 +687,8 @@ Confira aqui The Game Producer…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -708,7 +729,8 @@ Confira aqui The Game Producer…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -749,7 +771,8 @@ Confira aqui The Game Producer…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

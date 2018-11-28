@@ -90,6 +90,37 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2015/05/17/games-brasileiros-finalistas-no-big-festival-2015">Games brasileiros finalistas no BIG Festival 2015</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+    
+      <img src="/jogosdaqui.github.io-staging/assets/2015/05/17/games-brasileiros-finalistas-no-big-festival-2015/logo.jpg" style="max-height: 200px;max-width: 100%;"/> 
+      
+
+</center>
+ 
+    
+    A organização do BIG Festival, primeiro e único festival de jogos independentes da América Latina, revelou durante a semana os finalistas da edição de 2015. Apesar de ser um evento de âmbito continental, o festival, por ser realizado no Brasil, tem uma categoria chamada “Revelação Brasil”, que privilegia os games...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2015/05/17/games-brasileiros-finalistas-no-big-festival-2015" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/16/xiii-seja-semana-de-entretenimento-jogos-e-animacao">XIII SEJA (Semana de Entretenimento, Jogos e  Animação)</a></h1>
 
     <div class="entry">
@@ -178,6 +209,21 @@
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/05/14/starlit-adventures">Starlit Adventures</a></h1>
@@ -208,21 +254,6 @@
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -394,34 +425,6 @@
     <a href="/jogosdaqui.github.io-staging/2015/05/13/previa-de-horizon-chase-da-aquiris-game-studio" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2015/05/12/entrevista-alessandro-martinello-diretor-criativo-de-toren">Entrevista: Alessandro Martinello, diretor criativo de Toren</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-
-</center>
- 
-    
-    Depois de anos de espera, o dia chegou: Toren da gaúcha Swordtales será lançado hoje, 12 de maio de 2015, para PC e PS4. Certamente um dia que entrará para a história do gamedev brasileiro. Resolvemos deixar a análise do game para outro momento, uma porque hoje será um dia...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2015/05/12/entrevista-alessandro-martinello-diretor-criativo-de-toren" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -505,7 +508,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -546,7 +550,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -587,7 +592,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -628,7 +634,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -669,7 +676,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -710,7 +718,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -751,7 +760,8 @@
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

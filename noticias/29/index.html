@@ -92,6 +92,34 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2006/02/08/newsabragames-fevereiro-2006">NewsAbragames - Fevereiro/2006</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+
+</center>
+ 
+    
+    Está no ar mais uma edição da NewsAbragames.A newsletter deste mês da Associação Brasileira das Desenvolvedoras de Jogos Eletrônicos, traz uma review sobre o jogo Die Pferbebande da empresa Oniria Entertainment , os destaques na imprensa, informações sobre o Concurso JogosBR , o lançamento da versão beta do jogo Imagem...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2006/02/08/newsabragames-fevereiro-2006" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2006/02/03/mdev-jogos-para-celular">MDEV: jogos para celular</a></h1>
 
     <div class="entry">
@@ -181,6 +209,21 @@ Rally dos Sertões 2005 é o primeiro jogo da MDEV listado no jogosdaqui.
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2006/01/25/hoplon-ganha-premio-da-ibm-brasil">Hoplon ganha prêmio da IBM Brasil</a></h1>
@@ -211,21 +254,6 @@ Rally dos Sertões 2005 é o primeiro jogo da MDEV listado no jogosdaqui.
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -373,34 +401,6 @@ Confira mais detalhes no site do jogo…
     <a href="/jogosdaqui.github.io-staging/2006/01/17/faca-parte-da-batalha-tecnologica-de-warbots" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2006/01/16/palmsoft-lanca-tres-jogos-em-janeiro">PalmSoft lança três jogos em janeiro</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-
-</center>
- 
-    
-    A PalmSoft Tecnologia, empresa catarinense que desenvolve jogos para celular, está com três novidades. A primeira delas Shadows of Malquidious , RPG que ficou entre os 20 melhores jogos em um concurso da Sony Ericsson, e que começa a ser comercializado no Brasil. Nele, o jogador é envolvido em um...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2006/01/16/palmsoft-lanca-tres-jogos-em-janeiro" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -487,7 +487,8 @@ Confira mais detalhes no site do jogo…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -528,7 +529,8 @@ Confira mais detalhes no site do jogo…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -569,7 +571,8 @@ Confira mais detalhes no site do jogo…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -610,7 +613,8 @@ Confira mais detalhes no site do jogo…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -651,7 +655,8 @@ Confira mais detalhes no site do jogo…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -692,7 +697,8 @@ Confira mais detalhes no site do jogo…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -733,7 +739,8 @@ Confira mais detalhes no site do jogo…
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

@@ -90,6 +90,43 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2015/04/10/calango-for-kids">Calango For Kids</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+    
+  
+    
+  
+    
+  
+    
+      <img src="/jogosdaqui.github.io-staging/assets/2015/04/10/calango-for-kids/logo.png" style="max-height: 200px;max-width: 100%;"/> 
+      
+
+</center>
+ 
+    
+    Ao ver o game Calango For Kids, da gaúcha Tinfoil Hat Studios, me lembrei do slogan do SciCast: Porque a ciência tem que ser divertida Pois foi exatamente esse o mote da equipe da Tinfoil ao desenvolver o jogo infantil que ajuda crianças a aprender matemática de forma divertida. A...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2015/04/10/calango-for-kids" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/09/previa-de-gryphon-knight-epic">Prévia de Gryphon Knight Epic</a></h1>
 
     <div class="entry">
@@ -245,6 +282,21 @@
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/04/06/imagens-da-semana-1">Imagens da semana #1</a></h1>
@@ -289,21 +341,6 @@
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -478,34 +515,6 @@ Confira o teaser trailer abaixo:
     <a href="/jogosdaqui.github.io-staging/2015/03/30/splitplay-dobra-de-tamanho-em-apenas-um-fim-de-semana" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2015/03/30/manifesto-games-vence-concurso-nacional">Manifesto Games vence concurso nacional</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-
-</center>
- 
-    
-    A brasileira Manifesto Games, que possui escritórios em Recife e São Paulo, foi a grande vencedora do Prêmio de Desenvolvimento de Jogos de Educação Financeira do SEBRAE. Um total de 223 jogos concorriam aos R$ 380 mil em prêmios que foram distribuídos para 5 selecionados sendo 3 do RS, 2...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2015/03/30/manifesto-games-vence-concurso-nacional" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -589,7 +598,8 @@ Confira o teaser trailer abaixo:
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -630,7 +640,8 @@ Confira o teaser trailer abaixo:
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -671,7 +682,8 @@ Confira o teaser trailer abaixo:
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -712,7 +724,8 @@ Confira o teaser trailer abaixo:
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -753,7 +766,8 @@ Confira o teaser trailer abaixo:
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -794,7 +808,8 @@ Confira o teaser trailer abaixo:
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -835,7 +850,8 @@ Confira o teaser trailer abaixo:
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

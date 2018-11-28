@@ -90,6 +90,37 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2015/08/29/games-brasileiros-em-crowdfunding">Games brasileiros em crowdfunding</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+    
+      <img src="/jogosdaqui.github.io-staging/assets/2015/08/29/games-brasileiros-em-crowdfunding/logo.png" style="max-height: 200px;max-width: 100%;"/> 
+      
+
+</center>
+ 
+    
+    Curioso sobre quais games brasileiros estão em crowdfunding? Fizemos uma lista dos games que conhecemos que estão em campanha atualmente. Confira: Magic Master A campanha do game que mistura elementos de tower defense e de beat’em up combinados com uma estética sombria está em suas últimas horas. Acesse o Kickante...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2015/08/29/games-brasileiros-em-crowdfunding" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/26/reord">ReOrd</a></h1>
 
     <div class="entry">
@@ -191,6 +222,21 @@
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/08/20/racketboy-da-double-dash-studios">RacketBoy da Double Dash Studios</a></h1>
@@ -227,21 +273,6 @@
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -407,43 +438,6 @@ Playthrough Chroma Squad
     <a href="/jogosdaqui.github.io-staging/2015/07/31/teaser-de-gameplay-de-horizon-chase" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2015/07/31/crowdfunding-de-99vidas-o-jogo">Crowdfunding de 99Vidas o jogo</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-    
-  
-    
-  
-    
-  
-    
-      <img src="/jogosdaqui.github.io-staging/assets/2015/07/31/crowdfunding-de-99vidas-o-jogo/logo.png" style="max-height: 200px;max-width: 100%;"/> 
-      
-
-</center>
- 
-    
-    O que Final Fight, Double Dragon e Streets of Rage tem em comum com o novo projeto da brasileira QUByte Interactive? Todos eles são games do estilo beat’em up, grandes clássicos e referências para qualquer game do gênero. 99Vidas o jogo é uma parceria entre a gamedev brasileira QUByte Interactive...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2015/07/31/crowdfunding-de-99vidas-o-jogo" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -527,7 +521,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -568,7 +563,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -609,7 +605,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -650,7 +647,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -691,7 +689,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -732,7 +731,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -773,7 +773,8 @@ Playthrough Chroma Squad
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             

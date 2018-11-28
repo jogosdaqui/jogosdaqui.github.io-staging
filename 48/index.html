@@ -90,6 +90,40 @@
     
     <article class="post">
 
+    <h1><a href="/jogosdaqui.github.io-staging/2006/02/11/voce-sera-um-guerreiro">Você será um guerreiro</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+    
+  
+    
+  
+    
+  
+
+</center>
+ 
+    
+    Hugo Tiberius é o seu nome, a sua missão é lutar por glória, fama e fortuna em várias arenas.Esse é Gladiarena, jogo em desenvolvimento pela PalmSoft Tecnologia . Gladiarena é um jogo de ação para celular com visual 2D onde o jogador tem uma visão aérea do cenário e personagens....
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2006/02/11/voce-sera-um-guerreiro" class="button">Leia mais</a>
+    </article>
+
+    
+    
+    <article class="post">
+
     <h1><a href="/jogosdaqui.github.io-staging/2006/02/11/tilt-online-fecha-parceria">TILT online fecha parceria</a></h1>
 
     <div class="entry">
@@ -185,6 +219,21 @@
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2006/02/05/star-athletes">Star Athletes</a></h1>
@@ -224,21 +273,6 @@
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -419,45 +453,6 @@ Rally dos Sertões 2005 é o primeiro jogo da MDEV listado no jogosdaqui.
     <a href="/jogosdaqui.github.io-staging/2006/01/31/show-de-bola" class="button">Leia mais</a>
     </article>
 
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2006/01/31/shangai">Shangai</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <img src="/jogosdaqui.github.io-staging/assets/2006/01/31/shangai/logo.jpg" style="max-height: 200px;max-width: 100%;"/> 
-      
-
-</center>
- 
-    
-    Com Shangai você pode jogar o clássico dominó chinês diretamente na internet.Na primeira vez que você vê o tabuleiro, o jogo pode parecer complexo, mas na verdade é simples. A regra básica é clicar em 2 peças idênticas para removê-las, apenas as peças totalmente visíveis e não bloqueadas por outras...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2006/01/31/shangai" class="button">Leia mais</a>
-    </article>
-
 </div>
 
 <!-- Pagination links -->
@@ -541,7 +536,8 @@ Rally dos Sertões 2005 é o primeiro jogo da MDEV listado no jogosdaqui.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -582,7 +578,8 @@ Rally dos Sertões 2005 é o primeiro jogo da MDEV listado no jogosdaqui.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -623,7 +620,8 @@ Rally dos Sertões 2005 é o primeiro jogo da MDEV listado no jogosdaqui.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -664,7 +662,8 @@ Rally dos Sertões 2005 é o primeiro jogo da MDEV listado no jogosdaqui.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -705,7 +704,8 @@ Rally dos Sertões 2005 é o primeiro jogo da MDEV listado no jogosdaqui.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -746,7 +746,8 @@ Rally dos Sertões 2005 é o primeiro jogo da MDEV listado no jogosdaqui.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
@@ -787,7 +788,8 @@ Rally dos Sertões 2005 é o primeiro jogo da MDEV listado no jogosdaqui.
     <script>
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
-                var title = post.title.replace('&#39;', "'");
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
                 $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
