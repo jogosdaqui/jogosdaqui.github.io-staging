@@ -1075,7 +1075,7 @@
     {
       "title"    : "Dino Zone",
       "category" : "News",
-      "tags"     : "ios, android, cat-nigiri, rts",
+      "tags"     : "ios, android, cat-nigiri, tower-defense",
       "url"      : "/jogosdaqui.github.io-staging/2015/04/16/dino-zone",
       "date"     : "2015-04-16 00:00:00 -0300"
     } ,
@@ -1162,8 +1162,8 @@
   
     {
       "title"    : "Street Skates",
-      "category" : "News",
-      "tags"     : "android",
+      "category" : "Game",
+      "tags"     : "android, skate",
       "url"      : "/jogosdaqui.github.io-staging/2015/04/02/street-skates",
       "date"     : "2015-04-02 00:00:00 -0300"
     } ,
@@ -3323,7 +3323,7 @@
     {
       "title"    : "Fruzzle ganha expansão",
       "category" : "News",
-      "tags"     : "icon-games",
+      "tags"     : "icon-games, puzzle",
       "url"      : "/jogosdaqui.github.io-staging/2006/03/26/fruzzle-ganha-expansao",
       "date"     : "2006-03-26 00:00:00 -0300"
     } ,
@@ -3387,7 +3387,7 @@
     {
       "title"    : "Fruzzle",
       "category" : "Game",
-      "tags"     : "icon-games",
+      "tags"     : "icon-games, puzzle",
       "url"      : "/jogosdaqui.github.io-staging/2006/03/22/fruzzle",
       "date"     : "2006-03-22 00:00:00 -0300"
     } ,
@@ -3395,7 +3395,7 @@
     {
       "title"    : "Fruzzle, o sapo da ICON Games",
       "category" : "News",
-      "tags"     : "icon-games",
+      "tags"     : "icon-games, puzzle",
       "url"      : "/jogosdaqui.github.io-staging/2006/03/22/fruzzle-o-sapo-da-icon-games",
       "date"     : "2006-03-22 00:00:00 -0300"
     } ,
@@ -3554,8 +3554,8 @@
   
     {
       "title"    : "Prévia de Fruzzle",
-      "category" : "Preview",
-      "tags"     : "icon-games, previa",
+      "category" : "News",
+      "tags"     : "icon-games, previa, puzzle",
       "url"      : "/jogosdaqui.github.io-staging/2006/03/07/previa-de-fruzzle",
       "date"     : "2006-03-07 00:00:00 -0300"
     } ,
@@ -3563,7 +3563,7 @@
     {
       "title"    : "Fruzzle",
       "category" : "Preview",
-      "tags"     : "icon-games",
+      "tags"     : "icon-games, puzzle",
       "url"      : "/jogosdaqui.github.io-staging/2006/03/07/fruzzle",
       "date"     : "2006-03-07 00:00:00 -0300"
     } ,
@@ -5571,7 +5571,7 @@
     {
       "title"    : "Mensalão, o Jogo",
       "category" : "Game",
-      "tags"     : "",
+      "tags"     : "titl",
       "url"      : "/jogosdaqui.github.io-staging/2005/08/27/mensalao-o-jogo",
       "date"     : "2005-08-27 00:00:00 -0300"
     } ,

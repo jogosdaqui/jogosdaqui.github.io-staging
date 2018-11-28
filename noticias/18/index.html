@@ -77,30 +77,6 @@
           <div class="site-info">
               <p class="site-description">STAGING STAGING STAGING STAGING STAGING STAGING</p>
             </div>  
-          <!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="Pesquisa...">
-<ul id="results-container"></ul>
-
-<!-- script pointing to jekyll-search.js -->
-<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
-
-<script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json',
-      fuzzy: false,
-      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
-      templateMiddleware: function(prop, value, template) {
-        if (prop === 'title') {
-          return value.replace(/&amp;#39;/g, "'")
-        }
-      },
-      noResultsText: 'Nenhum resultado encontrado',
-      limit: 30
-    })
-</script>
-
         </header>
       </div>
     </div>
@@ -111,34 +87,6 @@
   <div class="entry">
     <div class="posts">
  
-
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2006/08/02/advergames-migram-para-a-tv">Advergames migram para a TV</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-
-</center>
- 
-    
-    Diversas empresas investem em advergames para promover suas marcas e produtos. Para a Copa de 2002, a Devworks desenvolveu o game “Pebolim “ que esteve em destaque no site da Kaiser. O jogo em 3D imitava uma mesa de pebolim e permitia que o internauta representasse o Brasil em jogos...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2006/08/02/advergames-migram-para-a-tv" class="button">Leia mais</a>
-    </article>
 
     
     
@@ -228,21 +176,6 @@
 
     
     
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
-    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2006/07/25/conheca-o-grand-pri">Conheça o Grand Pri</a></h1>
@@ -270,6 +203,21 @@
     </article>
 
     
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
     
     <article class="post">
 
@@ -413,6 +361,37 @@
     <a href="/jogosdaqui.github.io-staging/2006/06/29/petrakas-malabares-da-simplesware-games" class="button">Leia mais</a>
     </article>
 
+    
+    
+    <article class="post">
+
+    <h1><a href="/jogosdaqui.github.io-staging/2006/06/21/brutomemo-druids-battle-of-magic">BrutoMemo, Druids: Battle of Magic</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+
+</center>
+ 
+    
+    Druids: Battle of Magic, é o primeiro jogo comercial da empresa BrutoMemo. Fundada em 2005, difundiu seis de seus jogos gratuitos em seu site.  A empresa tem mais dois jogos em andamento para serem finalizados este ano.
+
+Veja o novo jogo da BrutoMemo…
+
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2006/06/21/brutomemo-druids-battle-of-magic" class="button">Leia mais</a>
+    </article>
+
 </div>
 
 <!-- Pagination links -->
@@ -462,6 +441,36 @@
 </script>
 
 <br>
+          <!-- HTML elements for search -->
+<div class="highlight-box">
+    <div class="highlight-box-title">Busca</div>
+    <hr>
+    <input type="text" id="search-input">
+    <ul id="results-container"></ul>
+    <br>
+    <br>
+</div>
+
+<!-- script pointing to jekyll-search.js -->
+<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
+
+<script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      fuzzy: false,
+      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
+      noResultsText: 'Nenhum resultado encontrado',
+      limit: 30
+    })
+</script>
+
           <div class="highlight-box">
     <div class="highlight-box-title">Jogos em destaque</div>
     <hr>
@@ -470,7 +479,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos em destaque']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -511,7 +520,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos iOS']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -552,7 +561,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos Android']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -593,7 +602,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos Windows']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -634,7 +643,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Documentários']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -675,7 +684,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Entrevistas']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -716,7 +725,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Eventos']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {

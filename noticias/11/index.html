@@ -77,30 +77,6 @@
           <div class="site-info">
               <p class="site-description">STAGING STAGING STAGING STAGING STAGING STAGING</p>
             </div>  
-          <!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="Pesquisa...">
-<ul id="results-container"></ul>
-
-<!-- script pointing to jekyll-search.js -->
-<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
-
-<script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json',
-      fuzzy: false,
-      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
-      templateMiddleware: function(prop, value, template) {
-        if (prop === 'title') {
-          return value.replace(/&amp;#39;/g, "'")
-        }
-      },
-      noResultsText: 'Nenhum resultado encontrado',
-      limit: 30
-    })
-</script>
-
         </header>
       </div>
     </div>
@@ -111,40 +87,6 @@
   <div class="entry">
     <div class="posts">
  
-
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2013/03/11/crazy-bitsy-spider-kids-mode">Crazy Bitsy Spider - Kids Mode</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-    
-  
-    
-  
-    
-  
-
-</center>
- 
-    
-    A brasileira Dead Mushroom atualizou seu action puzzle Crazy Bitsy Spider e a atualização vem acompanhada de um novo modo de jogo, chamado “Kids Mode”. O modo vem com dois jogos especialmente pensados para crianças, envolvendo atividades simples, seguras e descontraídas. Os pequenos jogadores podem se divertir conectando pontos com...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2013/03/11/crazy-bitsy-spider-kids-mode" class="button">Leia mais</a>
-    </article>
 
     
     
@@ -250,21 +192,6 @@
 
     
     
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
-    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2013/01/23/tribot">TriboT</a></h1>
@@ -303,6 +230,21 @@
     </article>
 
     
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
     
     <article class="post">
 
@@ -467,6 +409,38 @@
     <a href="/jogosdaqui.github.io-staging/2012/11/14/ballistic-entra-em-fase-de-beta-teste-2" class="button">Leia mais</a>
     </article>
 
+    
+    
+    <article class="post">
+
+    <h1><a href="/jogosdaqui.github.io-staging/2012/11/07/vrum-aprendendo-sobre-o-transito">VRUM - Aprendendo sobre o trânsito</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+    
+  
+    
+  
+
+</center>
+ 
+    
+    &gt; "O primeiro game comercial brasileiro voltado para a educação no trânsito" este é o mote de VRUM da empresa brasileira ThinkBox Games . Ao criar o game a ThinkBox tinha como objetivo possibilitar que os jogadores entendessem e enfrentassem os desafios do trânsito, objetivando um game que, além de...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2012/11/07/vrum-aprendendo-sobre-o-transito" class="button">Leia mais</a>
+    </article>
+
 </div>
 
 <!-- Pagination links -->
@@ -516,6 +490,36 @@
 </script>
 
 <br>
+          <!-- HTML elements for search -->
+<div class="highlight-box">
+    <div class="highlight-box-title">Busca</div>
+    <hr>
+    <input type="text" id="search-input">
+    <ul id="results-container"></ul>
+    <br>
+    <br>
+</div>
+
+<!-- script pointing to jekyll-search.js -->
+<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
+
+<script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      fuzzy: false,
+      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
+      noResultsText: 'Nenhum resultado encontrado',
+      limit: 30
+    })
+</script>
+
           <div class="highlight-box">
     <div class="highlight-box-title">Jogos em destaque</div>
     <hr>
@@ -524,7 +528,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos em destaque']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -565,7 +569,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos iOS']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -606,7 +610,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos Android']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -647,7 +651,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos Windows']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -688,7 +692,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Documentários']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -729,7 +733,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Entrevistas']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -770,7 +774,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Eventos']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {

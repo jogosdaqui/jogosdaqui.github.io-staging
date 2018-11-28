@@ -77,30 +77,6 @@
           <div class="site-info">
               <p class="site-description">STAGING STAGING STAGING STAGING STAGING STAGING</p>
             </div>  
-          <!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="Pesquisa...">
-<ul id="results-container"></ul>
-
-<!-- script pointing to jekyll-search.js -->
-<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
-
-<script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json',
-      fuzzy: false,
-      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
-      templateMiddleware: function(prop, value, template) {
-        if (prop === 'title') {
-          return value.replace(/&amp;#39;/g, "'")
-        }
-      },
-      noResultsText: 'Nenhum resultado encontrado',
-      limit: 30
-    })
-</script>
-
         </header>
       </div>
     </div>
@@ -111,34 +87,6 @@
   <div class="entry">
     <div class="posts">
  
-
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2006/04/14/newsabragames-abril-2006">NewsAbragames - Abril/2006</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-
-</center>
- 
-    
-    No ar a última edição da NewsAbragames (newsletter mensal da Abragames - Associação Brasileira das Desenvolvedoras de Jogos Eletrônicos). A edição de abril conta com a review do jogo de palavras cruzadas Coquetel da Délirus, os destaques da mídia no mês de março, a agenda de eventos sobre jogos para...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2006/04/14/newsabragames-abril-2006" class="button">Leia mais</a>
-    </article>
 
     
     
@@ -231,21 +179,6 @@
 
     
     
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
-    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2006/04/11/melhorias-no-jogosdaqui">Melhorias no jogosdaqui</a></h1>
@@ -273,6 +206,21 @@
     </article>
 
     
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
     
     <article class="post">
 
@@ -419,6 +367,35 @@
     <a href="/jogosdaqui.github.io-staging/2006/03/30/jogosbr-prazo-final" class="button">Leia mais</a>
     </article>
 
+    
+    
+    <article class="post">
+
+    <h1><a href="/jogosdaqui.github.io-staging/2006/03/27/primeiro-brasileiro-no-espaco">Primeiro brasileiro no espaço</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+
+</center>
+ 
+    
+    Para celebrar a primeira viagem espacial de um brasileiro, protagonizada por Marcos Pontes no próximo 30 de março, preparamos uma lista dos jogos que também nos levam ao espaço.Confira o especial…
+
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2006/03/27/primeiro-brasileiro-no-espaco" class="button">Leia mais</a>
+    </article>
+
 </div>
 
 <!-- Pagination links -->
@@ -468,6 +445,36 @@
 </script>
 
 <br>
+          <!-- HTML elements for search -->
+<div class="highlight-box">
+    <div class="highlight-box-title">Busca</div>
+    <hr>
+    <input type="text" id="search-input">
+    <ul id="results-container"></ul>
+    <br>
+    <br>
+</div>
+
+<!-- script pointing to jekyll-search.js -->
+<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
+
+<script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      fuzzy: false,
+      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
+      noResultsText: 'Nenhum resultado encontrado',
+      limit: 30
+    })
+</script>
+
           <div class="highlight-box">
     <div class="highlight-box-title">Jogos em destaque</div>
     <hr>
@@ -476,7 +483,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos em destaque']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -517,7 +524,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos iOS']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -558,7 +565,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos Android']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -599,7 +606,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos Windows']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -640,7 +647,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Documentários']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -681,7 +688,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Entrevistas']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -722,7 +729,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Eventos']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {

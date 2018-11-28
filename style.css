@@ -832,16 +832,23 @@ code {
 }
 
 #search-input {
-  float: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  height: 18px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  padding: 16px 9px;
 }
 
 #results-container {
-  position: absolute;
   background: white;
-  margin: 0;
-  margin-top: 40px;
-  padding-right: 10px;
   z-index: 99999999;
+  word-break: break-word;
+  margin-top: 1px;
+  padding-left: 5px !important;
+  position: absolute;
 }
 
 .menu-item {

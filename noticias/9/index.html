@@ -77,30 +77,6 @@
           <div class="site-info">
               <p class="site-description">STAGING STAGING STAGING STAGING STAGING STAGING</p>
             </div>  
-          <!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="Pesquisa...">
-<ul id="results-container"></ul>
-
-<!-- script pointing to jekyll-search.js -->
-<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
-
-<script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json',
-      fuzzy: false,
-      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
-      templateMiddleware: function(prop, value, template) {
-        if (prop === 'title') {
-          return value.replace(/&amp;#39;/g, "'")
-        }
-      },
-      noResultsText: 'Nenhum resultado encontrado',
-      limit: 30
-    })
-</script>
-
         </header>
       </div>
     </div>
@@ -111,42 +87,6 @@
   <div class="entry">
     <div class="posts">
  
-
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2014/05/12/game-da-aquiris-fazendo-bonito-na-app-store">Game da Aquiris fazendo bonito na App Store</a></h1>
-
-    <div class="entry">
-     
- 
-
-
-
-
-
-
-<center>
- 
-  
-    
-      <img src="/jogosdaqui.github.io-staging/assets/2014/05/12/game-da-aquiris-fazendo-bonito-na-app-store/logo.png" style="max-height: 200px;max-width: 100%;"/> 
-      
-
-</center>
- 
-    
-    Carton Network Superstar Soccer
-, desenvolvido pela Aquiris Game Studio
-, atingiu o primeiro lugar geral em diversas App Stores da América Latina:
-
-O jogo foi lançado semana passada para iOS.
-
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2014/05/12/game-da-aquiris-fazendo-bonito-na-app-store" class="button">Leia mais</a>
-    </article>
 
     
     
@@ -245,21 +185,6 @@ O jogo foi lançado semana passada para iOS.
 
     
     
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
-    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2014/04/30/sos-mata-atlantica-o-jogo">SOS Mata Atlântica - O Jogo</a></h1>
@@ -295,6 +220,21 @@ O jogo foi lançado semana passada para iOS.
     </article>
 
     
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
     
     <article class="post">
 
@@ -453,6 +393,38 @@ O jogo foi lançado semana passada para iOS.
     <a href="/jogosdaqui.github.io-staging/2013/06/10/soccer-free-kicks" class="button">Leia mais</a>
     </article>
 
+    
+    
+    <article class="post">
+
+    <h1><a href="/jogosdaqui.github.io-staging/2013/06/03/demo-do-mr-bree-no-greenlight">Demo do Mr. Bree+ no Greenlight</a></h1>
+
+    <div class="entry">
+     
+ 
+
+
+
+
+
+
+<center>
+ 
+  
+    
+  
+    
+  
+
+</center>
+ 
+    
+    O time da TawStudio deu mais um importante passo na sua campanha no Greenlight para levar o game Mr. Bree+ ao Steam. Dessa vez a equipe liberou um demo para que a comunidade possa avaliar o jogo e assim dar o sinal verde para a entrada na plataforma da Valve....
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2013/06/03/demo-do-mr-bree-no-greenlight" class="button">Leia mais</a>
+    </article>
+
 </div>
 
 <!-- Pagination links -->
@@ -502,6 +474,36 @@ O jogo foi lançado semana passada para iOS.
 </script>
 
 <br>
+          <!-- HTML elements for search -->
+<div class="highlight-box">
+    <div class="highlight-box-title">Busca</div>
+    <hr>
+    <input type="text" id="search-input">
+    <ul id="results-container"></ul>
+    <br>
+    <br>
+</div>
+
+<!-- script pointing to jekyll-search.js -->
+<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
+
+<script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      fuzzy: false,
+      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
+      noResultsText: 'Nenhum resultado encontrado',
+      limit: 30
+    })
+</script>
+
           <div class="highlight-box">
     <div class="highlight-box-title">Jogos em destaque</div>
     <hr>
@@ -510,7 +512,7 @@ O jogo foi lançado semana passada para iOS.
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos em destaque']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -551,7 +553,7 @@ O jogo foi lançado semana passada para iOS.
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos iOS']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -592,7 +594,7 @@ O jogo foi lançado semana passada para iOS.
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos Android']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -633,7 +635,7 @@ O jogo foi lançado semana passada para iOS.
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos Windows']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -674,7 +676,7 @@ O jogo foi lançado semana passada para iOS.
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Documentários']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -715,7 +717,7 @@ O jogo foi lançado semana passada para iOS.
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Entrevistas']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -756,7 +758,7 @@ O jogo foi lançado semana passada para iOS.
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Eventos']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {

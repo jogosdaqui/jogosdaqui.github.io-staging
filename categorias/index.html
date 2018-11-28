@@ -75,30 +75,6 @@
           <div class="site-info">
               <p class="site-description">STAGING STAGING STAGING STAGING STAGING STAGING</p>
             </div>  
-          <!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="Pesquisa...">
-<ul id="results-container"></ul>
-
-<!-- script pointing to jekyll-search.js -->
-<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
-
-<script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json',
-      fuzzy: false,
-      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
-      templateMiddleware: function(prop, value, template) {
-        if (prop === 'title') {
-          return value.replace(/&amp;#39;/g, "'")
-        }
-      },
-      noResultsText: 'Nenhum resultado encontrado',
-      limit: 30
-    })
-</script>
-
         </header>
       </div>
     </div>
@@ -153,6 +129,8 @@
             <li><a href="/2015/04/10/calango-for-kids">Calango For Kids</a></li>
         
             <li><a href="/2015/04/08/tank-invaders">Tank Invaders</a></li>
+        
+            <li><a href="/2015/04/02/street-skates">Street Skates</a></li>
         
             <li><a href="/2015/03/26/letra-de-ouro">Letra de Ouro</a></li>
         
@@ -648,8 +626,6 @@
         
             <li><a href="/2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads">Tank Invaders atinge mais de 300 mil downloads</a></li>
         
-            <li><a href="/2015/04/02/street-skates">Street Skates</a></li>
-        
             <li><a href="/2015/04/01/teaser-trailer-de-full-metal-wars">Teaser Trailer de Full Metal Wars</a></li>
         
             <li><a href="/2015/03/31/the-tap-masters">The Tap Masters</a></li>
@@ -1050,6 +1026,8 @@
         
             <li><a href="/2006/03/09/jogosdaqui-e-destaque-no-estadao">jogosdaqui é destaque no Estadão</a></li>
         
+            <li><a href="/2006/03/07/previa-de-fruzzle">Prévia de Fruzzle</a></li>
+        
             <li><a href="/2006/03/06/winguel-na-europa-mars-to-earth">Winguel na Europa: Mars to Earth</a></li>
         
             <li><a href="/2006/03/06/nova-enquete">Nova enquete</a></li>
@@ -1426,8 +1404,6 @@
         
             <li><a href="/2006/03/27/brincando-com-a-memoria">Brincando com a Memória</a></li>
         
-            <li><a href="/2006/03/07/previa-de-fruzzle">Prévia de Fruzzle</a></li>
-        
             <li><a href="/2006/03/07/fruzzle">Fruzzle</a></li>
         
             <li><a href="/2006/02/24/previa-de-golden-west-bang-bang">Prévia de Golden West - Bang! Bang!</a></li>
@@ -1569,6 +1545,36 @@
 </script>
 
 <br>
+          <!-- HTML elements for search -->
+<div class="highlight-box">
+    <div class="highlight-box-title">Busca</div>
+    <hr>
+    <input type="text" id="search-input">
+    <ul id="results-container"></ul>
+    <br>
+    <br>
+</div>
+
+<!-- script pointing to jekyll-search.js -->
+<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
+
+<script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      fuzzy: false,
+      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'title') {
+          return value.replace(/&amp;#39;/g, "'")
+        }
+      },
+      noResultsText: 'Nenhum resultado encontrado',
+      limit: 30
+    })
+</script>
+
           <div class="highlight-box">
     <div class="highlight-box-title">Jogos em destaque</div>
     <hr>
@@ -1577,7 +1583,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos em destaque']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -1618,7 +1624,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos iOS']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -1659,7 +1665,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos Android']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -1700,7 +1706,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Jogos Windows']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -1741,7 +1747,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Documentários']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -1782,7 +1788,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Entrevistas']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
@@ -1823,7 +1829,7 @@
         $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
             function addItem(post) {
                 var title = post.title.replace('&#39;', "'");
-                $("[list='Eventos']").append("<li><a href='/jogosdaqui.github.io-staging" + post.url + "'>" + title + "</a></li>");
+                $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
             }
             
             var posts = $(json).filter(function (i,p) {
