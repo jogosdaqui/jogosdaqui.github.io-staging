@@ -195,7 +195,7 @@
     {
       "title"    : "Rock Life",
       "category" : "Game",
-      "tags"     : "ios, android, windows-phone, windows, zeeppo-games",
+      "tags"     : "ios, android, windows-phone, zeeppo-games",
       "url"      : "/jogosdaqui.github.io-staging/2015/09/09/rock-life",
       "date"     : "2015-09-09 00:00:00 -0300"
     } ,
@@ -243,7 +243,7 @@
     {
       "title"    : "ReOrd",
       "category" : "Game",
-      "tags"     : "ios, android, windows-phone, windows, puzzle, unity3d",
+      "tags"     : "ios, android, windows-phone, puzzle, unity3d",
       "url"      : "/jogosdaqui.github.io-staging/2015/08/26/reord",
       "date"     : "2015-08-26 00:00:00 -0300"
     } ,
@@ -1475,7 +1475,7 @@
     {
       "title"    : "Master of Words",
       "category" : "Game",
-      "tags"     : "ios, android, windows-phone, windows, rockhead-games",
+      "tags"     : "ios, android, windows-phone, rockhead-games",
       "url"      : "/jogosdaqui.github.io-staging/2013/05/20/master-of-words",
       "date"     : "2013-05-20 00:00:00 -0300"
     } ,
@@ -4179,7 +4179,7 @@
     {
       "title"    : "Show do Milhão 2006",
       "category" : "Game",
-      "tags"     : "show-do-milhao",
+      "tags"     : "green-land-studios, show-do-milhao, quiz",
       "url"      : "/jogosdaqui.github.io-staging/2005/12/14/show-do-milhao-2006",
       "date"     : "2005-12-14 00:00:00 -0200"
     } ,
@@ -5283,7 +5283,7 @@
     {
       "title"    : "Vbikes",
       "category" : "Game",
-      "tags"     : "",
+      "tags"     : "green-land-studios",
       "url"      : "/jogosdaqui.github.io-staging/2005/09/20/vbikes",
       "date"     : "2005-09-20 00:00:00 -0300"
     } ,
@@ -5291,7 +5291,7 @@
     {
       "title"    : "Vampiromania",
       "category" : "Game",
-      "tags"     : "",
+      "tags"     : "green-land-studios",
       "url"      : "/jogosdaqui.github.io-staging/2005/09/20/vampiromania",
       "date"     : "2005-09-20 00:00:00 -0300"
     } ,
@@ -5323,7 +5323,7 @@
     {
       "title"    : "Terra - Destino Final",
       "category" : "Game",
-      "tags"     : "",
+      "tags"     : "green-land-studios",
       "url"      : "/jogosdaqui.github.io-staging/2005/09/20/terra-destino-final",
       "date"     : "2005-09-20 00:00:00 -0300"
     } ,
@@ -5435,7 +5435,7 @@
     {
       "title"    : "Contato",
       "category" : "Game",
-      "tags"     : "",
+      "tags"     : "green-land-studios",
       "url"      : "/jogosdaqui.github.io-staging/2005/09/20/contato",
       "date"     : "2005-09-20 00:00:00 -0300"
     } ,
@@ -5451,7 +5451,7 @@
     {
       "title"    : "Casa dos Artistas",
       "category" : "Game",
-      "tags"     : "",
+      "tags"     : "green-land-studios, reality-show",
       "url"      : "/jogosdaqui.github.io-staging/2005/09/20/casa-dos-artistas",
       "date"     : "2005-09-20 00:00:00 -0300"
     } ,
@@ -5507,7 +5507,7 @@
     {
       "title"    : "Big Brother Brasil 3D On-Line",
       "category" : "Game",
-      "tags"     : "reality-show",
+      "tags"     : "green-land-studios, reality-show",
       "url"      : "/jogosdaqui.github.io-staging/2005/09/19/big-brother-brasil-3d-on-line",
       "date"     : "2005-09-19 00:00:00 -0300"
     } ,
@@ -5539,7 +5539,7 @@
     {
       "title"    : "Acquaria O Jogo",
       "category" : "Game",
-      "tags"     : "",
+      "tags"     : "green-land-studios",
       "url"      : "/jogosdaqui.github.io-staging/2005/09/19/acquaria-o-jogo",
       "date"     : "2005-09-19 00:00:00 -0300"
     } ,
