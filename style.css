@@ -870,6 +870,10 @@ nav.greedy button.hidden {
   border-right: 0.5rem solid #ff9900 !important;
 }
 
+nav.greedy button {
+  color: white;
+}
+
 nav.greedy li {
   list-style-type: none !important;
   background: #ff9900 !important;
