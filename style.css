@@ -852,11 +852,21 @@ code {
 }
 
 .menu-item {
-  color: #ff9900;
+  color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+nav.greedy, nav.greedy button {
+  background: #ff9900 !important;
+  border-radius: 3px;
+}
+
+nav.greedy li {
+  list-style-type: none !important;
+  background: #ff9900 !important;
 }
 
 ul.pager {
@@ -904,6 +914,7 @@ ul.pager li.selected {
   min-width: 85px;
   text-transform: uppercase;
   white-space: nowrap;
+  z-index: -9999;
 }
 
 .highlight-box-title:after {
