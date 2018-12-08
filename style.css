@@ -862,7 +862,7 @@ code {
 
 nav.greedy, nav.greedy button {
   background: #ff9900 !important;
-  border-radius: 50px;
+  border-radius: 3px;
 }
 
 nav.greedy li {
