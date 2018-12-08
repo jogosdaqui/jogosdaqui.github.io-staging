@@ -259,7 +259,7 @@ img {
 
 .site-info {
   float: left;
-  min-width: 70%;
+  min-width: 100%;
   margin-left: 20px;
 }
 @media screen and (max-width: 640px) {
@@ -286,6 +286,7 @@ img {
   color: #666;
   font-size: 16px;
   margin-bottom: 0px;
+  text-align: center;
 }
 @media screen and (max-width: 640px) {
   .site-description {
@@ -867,6 +868,14 @@ nav.greedy, nav.greedy button {
 nav.greedy li {
   list-style-type: none !important;
   background: #ff9900 !important;
+}
+
+nav.greedy button::after {
+  background: white !important;
+  color: #ff9900 !important;
+  border-radius: 20% !important;
+  border-width: 1px;
+  border-style: solid;
 }
 
 ul.pager {
