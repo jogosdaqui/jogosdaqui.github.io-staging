@@ -244,7 +244,6 @@ img {
 
 .site-avatar {
   float: left;
-  margin-right: 15px;
 }
 @media screen and (max-width: 640px) {
   .site-avatar {
@@ -865,9 +864,24 @@ nav.greedy, nav.greedy button {
   border-radius: 3px;
 }
 
+nav.greedy button.hidden {
+  background: #ff9900 !important;
+  border-right: 0.5rem solid #ff9900 !important;
+}
+
 nav.greedy li {
   list-style-type: none !important;
   background: #ff9900 !important;
+  border-radius: 3px;
+}
+
+nav.greedy ul.links {
+  justify-content: flex-start !important;
+  padding-left: 0px !important;
+}
+
+nav.greedy ul.hidden-links li {
+  padding: 10px !important;
 }
 
 nav.greedy button::after {
