@@ -48,6 +48,7 @@ Essa é apresentação do projeto de pesquisa onde o psicólogo e doutorando da 
     <![endif]-->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/jogosdaqui.github.io-staging/style.css" />
@@ -72,7 +73,7 @@ Essa é apresentação do projeto de pesquisa onde o psicólogo e doutorando da 
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2013-05-09T00:00:00-03:00" />
 <script type="application/ld+json">
-{"datePublished":"2013-05-09T00:00:00-03:00","description":"“O Projeto Neumann consiste no desenvolvimento de um jogo para treinamento cognitivo de crianças e adolescentes com dificuldades de se concentrar, que os ajudará a controlar seus impulsos motores e comportamentais, educando-os a respeito do foco atencional e do planejamento e organização das suas tarefas cotidianas.” Essa é apresentação do projeto de pesquisa onde o psicólogo e doutorando da Unifesp, Thiago Rivero é o responsável. O projeto conta com a parceria da Universidade Federal de Minas Gerais e pesquisadores da Duke University (EUA).","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/2013/05/09/projeto-neuman-concorre-ao-indie-crash-3"},"url":"https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/2013/05/09/projeto-neuman-concorre-ao-indie-crash-3","headline":"Projeto Neuman concorre ao Indie Crash 3","dateModified":"2013-05-09T00:00:00-03:00","@context":"http://schema.org"}</script>
+{"headline":"Projeto Neuman concorre ao Indie Crash 3","dateModified":"2013-05-09T00:00:00-03:00","datePublished":"2013-05-09T00:00:00-03:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/2013/05/09/projeto-neuman-concorre-ao-indie-crash-3"},"url":"https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/2013/05/09/projeto-neuman-concorre-ao-indie-crash-3","description":"“O Projeto Neumann consiste no desenvolvimento de um jogo para treinamento cognitivo de crianças e adolescentes com dificuldades de se concentrar, que os ajudará a controlar seus impulsos motores e comportamentais, educando-os a respeito do foco atencional e do planejamento e organização das suas tarefas cotidianas.” Essa é apresentação do projeto de pesquisa onde o psicólogo e doutorando da Unifesp, Thiago Rivero é o responsável. O projeto conta com a parceria da Universidade Federal de Minas Gerais e pesquisadores da Duke University (EUA).","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -137,7 +138,7 @@ Essa é apresentação do projeto de pesquisa onde o psicólogo e doutorando da 
 
 
 
-    <div class="post-info"><i class="fas fa-newspaper"></i>  Notícia</div>
+    <div class="post-info"><i class='fas fa-newspaper'></i> Notícia</div>
 
       
        
@@ -268,29 +269,14 @@ Essa é apresentação do projeto de pesquisa onde o psicólogo e doutorando da 
     <div class="highlight-box-title">Busca</div>
     <hr>
     <input type="text" id="search-input">
-    <ul id="results-container"></ul>
-    <br>
-    <br>
 </div>
 
-<!-- script pointing to jekyll-search.js -->
-<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
-
 <script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json',
-      fuzzy: false,
-      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
-      templateMiddleware: function(prop, value, template) {
-        if (prop === 'title') {
-          return value.replace(/&amp;#39;/g, "'")
-        }
-      },
-      noResultsText: 'Nenhum resultado encontrado',
-      limit: 30
-    })
+    $('#search-input').keyup(function(e) {
+      if(e.keyCode == 13) {
+        window.location.href = "/pesquisa?q=" + $('#search-input').val();
+      }
+    });
 </script>
 
           <div class="highlight-box">

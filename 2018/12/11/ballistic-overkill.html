@@ -39,6 +39,7 @@
     <![endif]-->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/jogosdaqui.github.io-staging/style.css" />
@@ -64,7 +65,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-12-11T00:00:00-02:00" />
 <script type="application/ld+json">
-{"datePublished":"2018-12-11T00:00:00-02:00","description":"Quando falamos de Ballistic em 2012 o game era um Free2Play para navegadores, ainda em fase beta.","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/2018/12/11/ballistic-overkill"},"url":"https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/2018/12/11/ballistic-overkill","author":{"@type":"Person","name":"Diego Giacomelli"},"headline":"Ballistic Overkill","dateModified":"2018-12-11T00:00:00-02:00","@context":"http://schema.org"}</script>
+{"headline":"Ballistic Overkill","dateModified":"2018-12-11T00:00:00-02:00","datePublished":"2018-12-11T00:00:00-02:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/2018/12/11/ballistic-overkill"},"url":"https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/2018/12/11/ballistic-overkill","author":{"@type":"Person","name":"Diego Giacomelli"},"description":"Quando falamos de Ballistic em 2012 o game era um Free2Play para navegadores, ainda em fase beta.","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -137,7 +138,7 @@
 
 
 
-    <div class="post-info"><i class="fas fa-gamepad"></i>  Jogo desenvolvido por Aquiris Game Studio</div>
+    <div class="post-info"><i class='fas fa-gamepad'></i> Jogo desenvolvido por Aquiris Game Studio</div>
 
       
    
@@ -149,7 +150,7 @@
  
       <div class="post-info"><i class="fas fa-heart"></i> <a href="/jogosdaqui.github.io-staging/colabore" title="Melhore esse post ou escreva um novo">Colabore você também</a></div>
     </div>
-    <p>Quando falamos de <a href="/jogosdaqui.github.io-staging/2012/11/14/ballistic-entra-em-fase-de-beta-teste-2">Ballistic em 2012</a> o game era um Free2Play para navegadores, ainda em fase beta.</p>
+    <p>Quando falamos de <a href="{ site.baseurl }/2012/11/14/ballistic-entra-em-fase-de-beta-teste-2">Ballistic em 2012</a> o game era um Free2Play para navegadores, ainda em fase beta.</p>
 
 <p>Ballistic Overkill foi redesenhado visando uma nova experiência para rodar em Windows, Mac e Linux.</p>
 
@@ -168,7 +169,7 @@
 <h2 id="características">Características</h2>
 
 <ul>
-  <li>Maid de 80 armas, pistolas, lançadores de granadas, SMGs, rifles de precisão, katanas, etc.</li>
+  <li>Maid de 80 arams, de pistolas, lançadores de granadas, SMGs, rifles de precisão, katanas, etc.</li>
   <li>7 classes. Cada um com suas forças e fraquezas particulares.</li>
   <li>10 mapas. Um museu, um parque corporativo, um shopping e até mesmo um hospital e uma fábrica abandonados. Eles vêm em todos os tamanhos, mas todos eles têm sua própria atmosfera, personalidade e um design que os torna únicos para jogar.</li>
   <li>4 modos de jogo. Todos os mapas têm vários modos de jogo disponíveis: Team Deathmatch, gratuito para todos, ponto de captura, King of the Hill.</li>
@@ -344,29 +345,14 @@
     <div class="highlight-box-title">Busca</div>
     <hr>
     <input type="text" id="search-input">
-    <ul id="results-container"></ul>
-    <br>
-    <br>
 </div>
 
-<!-- script pointing to jekyll-search.js -->
-<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
-
 <script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json',
-      fuzzy: false,
-      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
-      templateMiddleware: function(prop, value, template) {
-        if (prop === 'title') {
-          return value.replace(/&amp;#39;/g, "'")
-        }
-      },
-      noResultsText: 'Nenhum resultado encontrado',
-      limit: 30
-    })
+    $('#search-input').keyup(function(e) {
+      if(e.keyCode == 13) {
+        window.location.href = "/pesquisa?q=" + $('#search-input').val();
+      }
+    });
 </script>
 
           <div class="highlight-box">

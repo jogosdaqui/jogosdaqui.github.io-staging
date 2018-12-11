@@ -33,6 +33,7 @@
     <![endif]-->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/jogosdaqui.github.io-staging/style.css" />
@@ -55,7 +56,7 @@
 <meta property="og:url" content="https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/categorias/" />
 <meta property="og:site_name" content="jogosdaqui (STAGING)" />
 <script type="application/ld+json">
-{"description":"STAGING STAGING STAGING STAGING STAGING STAGING","@type":"WebPage","url":"https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/categorias/","headline":"Categorias","@context":"http://schema.org"}</script>
+{"headline":"Categorias","@type":"WebPage","url":"https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/categorias/","description":"STAGING STAGING STAGING STAGING STAGING STAGING","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -640,6 +641,8 @@
             <li><a href="/2015/05/07/splitplay-um-ano-em-numeros">SplitPlay, um ano em números</a></li>
         
             <li><a href="/2015/05/07/fan-arts-de-chroma-squad">Fan arts de Chroma Squad</a></li>
+        
+            <li><a href="/2015/05/05/turbolink-aprovado-no-steam-greenlight">TurboLink aprovado no Steam Greenlight</a></li>
         
             <li><a href="/2015/05/05/revelado-novo-game-da-qubyte-interactive-recruits">Revelado novo game da QUByte Interactive: Recruits</a></li>
         
@@ -1381,8 +1384,6 @@
         
             <li><a href="/2015/05/13/previa-de-horizon-chase-da-aquiris-game-studio">Prévia de Horizon Chase da Aquiris Game Studio</a></li>
         
-            <li><a href="/2015/05/05/turbolink-aprovado-no-steam-greenlight">TurboLink aprovado no Steam Greenlight</a></li>
-        
             <li><a href="/2015/04/27/previa-de-starlit-adventures">Prévia de Starlit Adventures</a></li>
         
             <li><a href="/2015/04/14/turbolink-no-square-enix-collective">TurboLink no Square Enix Collective</a></li>
@@ -1585,29 +1586,14 @@
     <div class="highlight-box-title">Busca</div>
     <hr>
     <input type="text" id="search-input">
-    <ul id="results-container"></ul>
-    <br>
-    <br>
 </div>
 
-<!-- script pointing to jekyll-search.js -->
-<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
-
 <script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json',
-      fuzzy: false,
-      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
-      templateMiddleware: function(prop, value, template) {
-        if (prop === 'title') {
-          return value.replace(/&amp;#39;/g, "'")
-        }
-      },
-      noResultsText: 'Nenhum resultado encontrado',
-      limit: 30
-    })
+    $('#search-input').keyup(function(e) {
+      if(e.keyCode == 13) {
+        window.location.href = "/pesquisa?q=" + $('#search-input').val();
+      }
+    });
 </script>
 
           <div class="highlight-box">

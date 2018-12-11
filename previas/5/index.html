@@ -33,6 +33,7 @@
     <![endif]-->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/jogosdaqui.github.io-staging/style.css" />
@@ -57,7 +58,7 @@
 <link rel="prev" href="https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/previas/4/index.html" />
 <link rel="next" href="https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/previas/6/index.html" />
 <script type="application/ld+json">
-{"description":"STAGING STAGING STAGING STAGING STAGING STAGING","@type":"WebPage","url":"https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/previas/5/","headline":"jogosdaqui (STAGING)","@context":"http://schema.org"}</script>
+{"headline":"jogosdaqui (STAGING)","@type":"WebPage","url":"https://jogosdaqui.github.io/jogosdaqui.github.io-staging/jogosdaqui.github.io-staging/previas/5/","description":"STAGING STAGING STAGING STAGING STAGING STAGING","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -94,25 +95,6 @@
   <div class="entry">
     <div class="posts">
  
-
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2006/05/10/incorporated">Incorporated</a></h1>
-
-    <div class="entry">
-    
-
-
-
- 
-    
-    A empresa Interama foi formada a partir do projeto “Emprego Maluco”, um dos projetos vencedores para produção de uma demo jogável do JogosBR do ano passado.Incorporated era conhecido na época da aprovação do JogosBR como “Emprego Maluco”, porém o nome foi alterado por razões comerciais e de direitos autorais.Este é...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2006/05/10/incorporated" class="button">Leia mais</a>
-    </article>
 
     
     
@@ -181,21 +163,6 @@
 
     
     
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
-    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2006/03/27/brincando-com-a-memoria">Brincando com a Memória</a></h1>
@@ -214,6 +181,21 @@
     </article>
 
     
+    
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
     
     <article class="post">
 
@@ -321,6 +303,25 @@
     <a href="/jogosdaqui.github.io-staging/2006/02/22/previa-de-danger-mission" class="button">Leia mais</a>
     </article>
 
+    
+    
+    <article class="post">
+
+    <h1><a href="/jogosdaqui.github.io-staging/2006/02/21/danger-mission">Danger Mission</a></h1>
+
+    <div class="entry">
+    
+
+
+
+ 
+    
+    Danger Mission é um jogo de tiro em 1aª pessoa que está sendo desenvolvido pela WD Studio. O jogo tem previsão de lançamento para o segundo semestre de 2006.A história do jogo começa quando um cientista é sequestrado por um grupo terrorista e obrigado a criar um vírus mortal e...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2006/02/21/danger-mission" class="button">Leia mais</a>
+    </article>
+
 </div>
 
 <!-- Pagination links -->
@@ -375,29 +376,14 @@
     <div class="highlight-box-title">Busca</div>
     <hr>
     <input type="text" id="search-input">
-    <ul id="results-container"></ul>
-    <br>
-    <br>
 </div>
 
-<!-- script pointing to jekyll-search.js -->
-<script src="/jogosdaqui.github.io-staging/libs/simple-jekyll-search.min.js"></script>
-
 <script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json',
-      fuzzy: false,
-      searchResultTemplate: '<li><a href="/jogosdaqui.github.io-staging{url}">{title}</a></li>',
-      templateMiddleware: function(prop, value, template) {
-        if (prop === 'title') {
-          return value.replace(/&amp;#39;/g, "'")
-        }
-      },
-      noResultsText: 'Nenhum resultado encontrado',
-      limit: 30
-    })
+    $('#search-input').keyup(function(e) {
+      if(e.keyCode == 13) {
+        window.location.href = "/pesquisa?q=" + $('#search-input').val();
+      }
+    });
 </script>
 
           <div class="highlight-box">
