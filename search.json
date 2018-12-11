@@ -12,6 +12,14 @@
     } ,
     
     {
+      "title"    : "Bad Rats: A Vingança dos Ratos",
+      "category" : "Game",
+      "tags"     : "invent4, puzzle, steam, windows, press release",
+      "url"      : "/jogosdaqui.github.io-staging/2018/12/11/bat-rats-a-vinganca-dos-ratos",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
       "title"    : "Magenta Arcade",
       "category" : "Game",
       "tags"     : "long hat house, tiro, android, press release",
@@ -406,7 +414,7 @@
     {
       "title"    : "Hipercubo",
       "category" : "Game",
-      "tags"     : "ios, sbgames, evento, studio avante",
+      "tags"     : "studio avante, ios, sbgames, evento",
       "url"      : "/jogosdaqui.github.io-staging/2012/08/08/hipercubo",
       "author"   : "Diego Giacomelli"
     } ,
@@ -558,7 +566,7 @@
     {
       "title"    : "Limões na Copa",
       "category" : "Game",
-      "tags"     : "microways",
+      "tags"     : "microways, advergame",
       "url"      : "/jogosdaqui.github.io-staging/2006/06/06/limoes-na-copa",
       "author"   : ""
     } ,
@@ -598,7 +606,7 @@
     {
       "title"    : "Penalty Cup",
       "category" : "Game",
-      "tags"     : "meantime",
+      "tags"     : "meantime, mobile, esporte, futebol",
       "url"      : "/jogosdaqui.github.io-staging/2006/05/11/penalty-cup",
       "author"   : ""
     } ,
@@ -862,7 +870,7 @@
     {
       "title"    : "Os Conquistadores",
       "category" : "Game",
-      "tags"     : "dynamic games",
+      "tags"     : "dynamic games, acao",
       "url"      : "/jogosdaqui.github.io-staging/2006/01/02/os-conquistadores",
       "author"   : ""
     } ,
@@ -950,7 +958,7 @@
     {
       "title"    : "WAR",
       "category" : "Game",
-      "tags"     : "gametrack",
+      "tags"     : "devworks game technology, gametrack, tabuleiro, estrategia",
       "url"      : "/jogosdaqui.github.io-staging/2005/11/28/war",
       "author"   : ""
     } ,
@@ -1006,7 +1014,7 @@
     {
       "title"    : "Pato Possante",
       "category" : "Game",
-      "tags"     : "gametrack",
+      "tags"     : "devworks game technology, gametrack, corrida",
       "url"      : "/jogosdaqui.github.io-staging/2005/11/19/pato-possante",
       "author"   : ""
     } ,
@@ -1038,7 +1046,7 @@
     {
       "title"    : "Pebolim 3D",
       "category" : "Game",
-      "tags"     : "gametrack",
+      "tags"     : "devworks game technology, gametrack, esporte, futebol",
       "url"      : "/jogosdaqui.github.io-staging/2005/11/13/pebolim-3d",
       "author"   : ""
     } ,
@@ -1046,7 +1054,7 @@
     {
       "title"    : "Casseta &amp; Planeta - Quebra-Cabeça",
       "category" : "Game",
-      "tags"     : "meantime, puzzle",
+      "tags"     : "meantime, puzzle, mobile",
       "url"      : "/jogosdaqui.github.io-staging/2005/11/07/casseta-planeta-quebra-cabeca",
       "author"   : ""
     } ,
@@ -1078,7 +1086,7 @@
     {
       "title"    : "Casseta &amp; Planeta - Jogo da Memória",
       "category" : "Game",
-      "tags"     : "meantime",
+      "tags"     : "meantime, puzzle, mobile",
       "url"      : "/jogosdaqui.github.io-staging/2005/10/31/casseta-planeta-jogo-da-memoria",
       "author"   : ""
     } ,
@@ -1246,7 +1254,7 @@
     {
       "title"    : "Adventures of Zaak - The Little Wiz",
       "category" : "Game",
-      "tags"     : "meantime",
+      "tags"     : "meantime, mobile, aventura",
       "url"      : "/jogosdaqui.github.io-staging/2005/10/11/adventures-of-zaak-the-little-wiz",
       "author"   : ""
     } ,
@@ -1494,7 +1502,7 @@
     {
       "title"    : "Christmas Magic",
       "category" : "Game",
-      "tags"     : "",
+      "tags"     : "espaco informatica, aventura",
       "url"      : "/jogosdaqui.github.io-staging/2005/09/20/christmas-magic",
       "author"   : ""
     } ,
@@ -1622,7 +1630,7 @@
     {
       "title"    : "Torpedo",
       "category" : "Game",
-      "tags"     : "",
+      "tags"     : "tilt",
       "url"      : "/jogosdaqui.github.io-staging/2005/09/20/torpedo",
       "author"   : ""
     } ,
@@ -1954,9 +1962,9 @@
     {
       "title"    : "Crowdfunding de Satellite Rush",
       "category" : "News",
-      "tags"     : "splitplay, video, crowdfunding, kimeric labs, roguelike, demo",
+      "tags"     : "kimeric labs, crowdfunding, roguelike, splitplay, video",
       "url"      : "/jogosdaqui.github.io-staging/2015/07/21/crowdfunding-de-satellite-rush",
-      "author"   : ""
+      "author"   : "Diego Giacomelli"
     } ,
     
     {
@@ -2130,9 +2138,9 @@
     {
       "title"    : "Campanha do TurboLink no Collective está chegando ao fim",
       "category" : "News",
-      "tags"     : "steam, video, greenlight, crowdfunding, division five",
+      "tags"     : "division five, crowdfunding",
       "url"      : "/jogosdaqui.github.io-staging/2015/05/10/campanha-do-turbolink-no-collective-esta-chegando-ao-fim",
-      "author"   : ""
+      "author"   : "Diego Giacomelli"
     } ,
     
     {
@@ -2276,6 +2284,14 @@
       "category" : "News",
       "tags"     : "ios, android, windows phone, mgaia studio",
       "url"      : "/jogosdaqui.github.io-staging/2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "TurboLink no Square Enix Collective",
+      "category" : "News",
+      "tags"     : "crowdfunding, division five",
+      "url"      : "/jogosdaqui.github.io-staging/2015/04/14/turbolink-no-square-enix-collective",
       "author"   : "Diego Giacomelli"
     } ,
     
@@ -3472,6 +3488,14 @@
     } ,
     
     {
+      "title"    : "Prévia: Incorporated, demo do JogosBR 2004/2005",
+      "category" : "News",
+      "tags"     : "interama, jogosbr",
+      "url"      : "/jogosdaqui.github.io-staging/2006/05/10/previa-incorporated-demo-do-jogosbr-2004-2005",
+      "author"   : ""
+    } ,
+    
+    {
       "title"    : "GameGol oficial para junho",
       "category" : "News",
       "tags"     : "o2 games",
@@ -4032,6 +4056,14 @@
     } ,
     
     {
+      "title"    : "Prévia de Show de Bola",
+      "category" : "News",
+      "tags"     : "meantime, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2006/01/31/previa-de-show-de-bola",
+      "author"   : ""
+    } ,
+    
+    {
       "title"    : "Continuação de Tank Mission 2",
       "category" : "News",
       "tags"     : "palmsoft tecnologia, mobile",
@@ -4482,7 +4514,7 @@
     {
       "title"    : "Show de Bola, novo jogo da Meantime",
       "category" : "News",
-      "tags"     : "meantime",
+      "tags"     : "meantime, esporte, futebol",
       "url"      : "/jogosdaqui.github.io-staging/2005/10/18/show-de-bola-novo-jogo-da-meantime",
       "author"   : ""
     } ,
@@ -4662,9 +4694,9 @@
     {
       "title"    : "RacketBoy da Double Dash Studios",
       "category" : "Preview",
-      "tags"     : "linux, mac, windows, video, double dash, crowdfunding, demo",
+      "tags"     : "double dash, linux, mac, windows, video, crowdfunding, demo, previa",
       "url"      : "/jogosdaqui.github.io-staging/2015/08/20/racketboy-da-double-dash-studios",
-      "author"   : ""
+      "author"   : "Diego Giacomelli"
     } ,
     
     {
@@ -4768,14 +4800,6 @@
       "category" : "Preview",
       "tags"     : "android, psvita, rockhead games, powerup, evento, previa",
       "url"      : "/jogosdaqui.github.io-staging/2015/04/27/previa-de-starlit-adventures",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "TurboLink no Square Enix Collective",
-      "category" : "Preview",
-      "tags"     : "crowdfunding, division five, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/04/14/turbolink-no-square-enix-collective",
       "author"   : ""
     } ,
     
@@ -4942,7 +4966,7 @@
     {
       "title"    : "Incorporated",
       "category" : "Preview",
-      "tags"     : "demo, jogosbr",
+      "tags"     : "interama, jogosbr, demo, previa",
       "url"      : "/jogosdaqui.github.io-staging/2006/05/10/incorporated",
       "author"   : ""
     } ,
@@ -4952,14 +4976,6 @@
       "category" : "Preview",
       "tags"     : "",
       "url"      : "/jogosdaqui.github.io-staging/2006/05/10/novo-video-de-estradas-esburacadas",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia: Incorporated, demo do JogosBR 2004/2005",
-      "category" : "Preview",
-      "tags"     : "demo, previa, jogosbr",
-      "url"      : "/jogosdaqui.github.io-staging/2006/05/10/previa-incorporated-demo-do-jogosbr-2004-2005",
       "author"   : ""
     } ,
     
@@ -5052,17 +5068,9 @@
     } ,
     
     {
-      "title"    : "Prévia de Show de Bola",
-      "category" : "Preview",
-      "tags"     : "meantime, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2006/01/31/previa-de-show-de-bola",
-      "author"   : ""
-    } ,
-    
-    {
       "title"    : "Show de Bola",
       "category" : "Preview",
-      "tags"     : "meantime",
+      "tags"     : "meantime, mobile, esporte, futebol",
       "url"      : "/jogosdaqui.github.io-staging/2006/01/31/show-de-bola",
       "author"   : ""
     } ,
@@ -5126,7 +5134,7 @@
     {
       "title"    : "Primeiras imagens de Gods of The Virtual Boards",
       "category" : "Preview",
-      "tags"     : "devworks game technology",
+      "tags"     : "devworks game technology, tabuleiro, previa",
       "url"      : "/jogosdaqui.github.io-staging/2005/10/22/primeiras-imagens-de-gods-of-the-virtual-boards",
       "author"   : ""
     } 
