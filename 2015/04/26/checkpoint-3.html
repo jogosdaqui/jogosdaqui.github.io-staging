@@ -246,17 +246,25 @@ Evento do Museu do Videogame Itinerante, onde os jogadores podem conhecer e joga
 <br>
           <!-- HTML elements for search -->
 <div class="highlight-box">
-    <div class="highlight-box-title">Busca</div>
+    <div class="highlight-box-title">Pesquisa</div>
     <hr>
-    <input type="text" id="search-input">
+    <input type="text" id="search-input"><input id="search-button" type="submit" value=">" class="button">
 </div>
 
 <script>
     $('#search-input').keyup(function(e) {
       if(e.keyCode == 13) {
-        window.location.href = "/jogosdaqui.github.io-staging/pesquisa?q=" + $('#search-input').val();
+        goToSearch();
       }
     });
+
+    $('#search-button').click(function() {
+      goToSearch();
+    });
+
+    function goToSearch() {
+      window.location.href = "/jogosdaqui.github.io-staging/pesquisa?q=" + $('#search-input').val();
+    }
 </script>
 
           <div class="highlight-box">

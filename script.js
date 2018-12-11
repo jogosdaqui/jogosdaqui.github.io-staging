@@ -34,5 +34,8 @@ let jd = {
             case 'Promo':
                 return "Promoções";
         }
-    }
+    },
+    escapeRegex: function escapeRegex(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+      }
 }
