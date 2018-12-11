@@ -103,7 +103,7 @@ $('#search-result-title').text("Resultado da pesquisa por \"" + query + "\"");
 var regex = new RegExp(query, "i");
 var resultElement = $("#search-result");
 
-$.getJSON("/search.json", function(json) {
+$.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
     var lastCategory = null;
     var lastCategoryElement = null;
 
@@ -156,7 +156,7 @@ function hasQuery(post, regex) {
 <script>
     $('#search-input').keyup(function(e) {
       if(e.keyCode == 13) {
-        window.location.href = "/pesquisa?q=" + $('#search-input').val();
+        window.location.href = /jogosdaqui.github.io-staging "/pesquisa?q=" + $('#search-input').val();
       }
     });
 </script>
