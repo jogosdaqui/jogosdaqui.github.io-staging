@@ -368,9 +368,19 @@ nav a {
 .post-thumb-logo {
   margin-right: 215px;
 }
+@media screen and (max-width: 640px) {
+  .post-thumb-logo {
+    margin-right: 115px;
+  }
+}
 
 .post-thumb img {
   width: 200px;
+}
+@media screen and (max-width: 640px) {
+  .post-thumb img {
+    width: 100px;
+  }
 }
 
 .post-thumb a {
