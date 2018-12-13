@@ -354,6 +354,46 @@ nav a {
   background-color: #eee;
 }
 
+.post-thumb {
+  margin-bottom: 0px;
+}
+
+.post-thumb-text-container {
+  margin-right: 250px;
+}
+
+.post-thumb img {
+  max-height: 150px;
+  max-width: 200px;
+  min-width: 100px;
+  float: right;
+  border-radius: 10px;
+}
+
+.post-thumb a {
+  text-decoration: none !important;
+}
+.post-thumb a:hover, .post-thumb a:active {
+  text-decoration: underline;
+}
+
+.post-thumb hr {
+  border-width: 2px;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ff7200;
+  margin-top: 0.1em;
+  padding: 0;
+  width: 25%;
+}
+
+.post-thumb p {
+  min-height: 100px;
+  text-decoration: none;
+  margin: 0px !important;
+}
+
 footer {
   padding: 20px 0;
   text-align: center;
