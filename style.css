@@ -86,12 +86,10 @@ body {
   display: inline-block;
   vertical-align: top;
   width: 70%;
-  min-width: 600px;
 }
 @media screen and (max-width: 640px) {
   .content-container {
     width: 100%;
-    min-width: 70%;
   }
 }
 
