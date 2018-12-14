@@ -1,4 +1,4 @@
-var jd = {
+let jd = {
     getIcon: function getIcon(post) {
         switch(post.category) {
             case 'News':
