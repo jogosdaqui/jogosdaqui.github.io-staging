@@ -109,7 +109,7 @@ Trailer de Mikura Going Home
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
@@ -181,7 +181,7 @@ Trailer de Mikura Going Home
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/11/11/mikura-going-home/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/11/11/mikura-going-home/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -665,5 +665,11 @@ Trailer de Mikura Going Home
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+  }); 
+  </script>
   </body>
 </html>

@@ -31,7 +31,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
@@ -94,7 +94,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/07/04/chroma-squad-tactical-rpg-003-do-a-barrel-roll/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/07/04/chroma-squad-tactical-rpg-003-do-a-barrel-roll/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -121,7 +121,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/07/03/surge-a-game-academy-escola-online-focada-em-games/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/07/03/surge-a-game-academy-escola-online-focada-em-games/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -148,7 +148,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/07/02/versao-beta-de-odallus-the-dark-call/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/07/02/versao-beta-de-odallus-the-dark-call/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -175,7 +175,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/06/30/souking-nova-loja-de-games-brasileiros/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/06/30/souking-nova-loja-de-games-brasileiros/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -217,7 +217,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/06/13/lancada-versao-pc-de-carcara-asas-da-justica/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/06/13/lancada-versao-pc-de-carcara-asas-da-justica/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -263,7 +263,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/06/05/playthrough-chroma-squad-tactical-rpg-002/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/06/05/playthrough-chroma-squad-tactical-rpg-002/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -300,7 +300,7 @@ Playthrough Chroma Squad
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/27/fan-arts-de-toren-da-swordtales/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/05/27/fan-arts-de-toren-da-swordtales/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -327,7 +327,7 @@ Playthrough Chroma Squad
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/22/ballistic-overkill-desenvolvedores-falam-sobre-o-game/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/05/22/ballistic-overkill-desenvolvedores-falam-sobre-o-game/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -354,7 +354,7 @@ Playthrough Chroma Squad
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/21/simulador-vrum-da-think-box-com-realidade-virtual/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/05/21/simulador-vrum-da-think-box-com-realidade-virtual/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -785,5 +785,11 @@ Playthrough Chroma Squad
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+  }); 
+  </script>
   </body>
 </html>

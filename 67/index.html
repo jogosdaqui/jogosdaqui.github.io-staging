@@ -31,7 +31,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
@@ -202,7 +202,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/24/shoot-the-chief/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/24/shoot-the-chief/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -229,7 +229,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/24/a-fantastica-aventura-de-tales/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/24/a-fantastica-aventura-de-tales/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -256,7 +256,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/23/super-popcorn-machine/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/23/super-popcorn-machine/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -283,7 +283,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/23/koko-arena/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/23/koko-arena/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -310,7 +310,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/23/jokenpo/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/23/jokenpo/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -738,5 +738,11 @@
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+  }); 
+  </script>
   </body>
 </html>

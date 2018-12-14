@@ -31,7 +31,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
@@ -94,7 +94,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/12/09/zoo/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/12/09/zoo/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -121,7 +121,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/12/07/aero-battle/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/12/07/aero-battle/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -148,7 +148,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/11/28/war/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/11/28/war/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -209,7 +209,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/11/25/moscao-killer/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/11/25/moscao-killer/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -236,7 +236,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/11/23/ryudragon/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/11/23/ryudragon/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -263,7 +263,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/11/23/garatuja/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/11/23/garatuja/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -290,7 +290,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/11/21/nishi-aqua-fight/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/11/21/nishi-aqua-fight/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -317,7 +317,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/11/21/bola-de-gude/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/11/21/bola-de-gude/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -344,7 +344,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/11/19/pato-possante/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/11/19/pato-possante/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -775,5 +775,11 @@
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+  }); 
+  </script>
   </body>
 </html>

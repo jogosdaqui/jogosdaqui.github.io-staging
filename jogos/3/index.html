@@ -31,7 +31,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
@@ -94,7 +94,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/11/11/mikura-going-home/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/11/11/mikura-going-home/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -121,7 +121,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/11/04/jankentris/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/11/04/jankentris/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -148,7 +148,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/10/22/war-dogs/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/10/22/war-dogs/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -175,7 +175,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/10/16/max-quiz/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/10/16/max-quiz/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -217,7 +217,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/10/07/zombiezoid-zenith/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/10/07/zombiezoid-zenith/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -244,7 +244,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/09/25/pixuleco-o-jogo/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/09/25/pixuleco-o-jogo/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -271,7 +271,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/09/09/rock-life/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/09/09/rock-life/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -298,7 +298,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/08/26/reord/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/08/26/reord/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -325,7 +325,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/30/a-cidade-dos-que-descem-pela-escada-terceiro-andar/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/05/30/a-cidade-dos-que-descem-pela-escada-terceiro-andar/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -352,7 +352,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/28/carcara-asas-da-justica/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/05/28/carcara-asas-da-justica/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -783,5 +783,11 @@
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+  }); 
+  </script>
   </body>
 </html>

@@ -76,7 +76,7 @@ Mais informações no site oficial do evento: http://www.bigfestival.com.br
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
@@ -148,7 +148,7 @@ Mais informações no site oficial do evento: http://www.bigfestival.com.br
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/03/27/big-festival-2015/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/03/27/big-festival-2015/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -633,5 +633,11 @@ Inscrições para o BIG Starter: até 15/05/15.</p>
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+  }); 
+  </script>
   </body>
 </html>

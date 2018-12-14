@@ -31,7 +31,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
@@ -92,7 +92,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/08/29/games-brasileiros-em-crowdfunding/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/08/29/games-brasileiros-em-crowdfunding/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -119,7 +119,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/08/26/reord/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/08/26/reord/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -146,7 +146,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/08/25/game-brasileiro-paper-cat-ajuda-ongs/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/08/25/game-brasileiro-paper-cat-ajuda-ongs/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -173,7 +173,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/08/24/odallus-the-dark-call-primeiras-impressoes/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/08/24/odallus-the-dark-call-primeiras-impressoes/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -215,7 +215,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/08/20/racketboy-da-double-dash-studios/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/08/20/racketboy-da-double-dash-studios/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -261,7 +261,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/08/14/horizon-chase-se-aproxima-do-grid-de-largada/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/08/14/horizon-chase-se-aproxima-do-grid-de-largada/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -288,7 +288,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/08/07/chroma-squad-tactical-rpg-004-potencial-ilimitado/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/08/07/chroma-squad-tactical-rpg-004-potencial-ilimitado/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -325,7 +325,7 @@ Playthrough Chroma Squad
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/08/06/games-brasileiros-com-desconto/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/08/06/games-brasileiros-com-desconto/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -352,7 +352,7 @@ Playthrough Chroma Squad
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/07/31/teaser-de-gameplay-de-horizon-chase/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2015/07/31/teaser-de-gameplay-de-horizon-chase/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -780,5 +780,11 @@ Playthrough Chroma Squad
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+  }); 
+  </script>
   </body>
 </html>

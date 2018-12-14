@@ -31,7 +31,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
@@ -92,7 +92,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/23/hello/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/23/hello/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -119,7 +119,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/23/cookie-chef/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/23/cookie-chef/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -146,7 +146,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/22/transportando-o-brasil/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/22/transportando-o-brasil/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -173,7 +173,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/22/o-monstruario/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/22/o-monstruario/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -234,7 +234,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/22/jogo-das-trairas/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/22/jogo-das-trairas/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -280,7 +280,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/22/die-pferdebande/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/22/die-pferdebande/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -307,7 +307,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/22/der-pferderennstall/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/22/der-pferderennstall/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -334,7 +334,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2005/09/21/taikodom/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img data-src="/jogosdaqui.github.io-staging/assets/2005/09/21/taikodom/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -762,5 +762,11 @@
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+  }); 
+  </script>
   </body>
 </html>
