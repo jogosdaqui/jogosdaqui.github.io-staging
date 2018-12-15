@@ -28,8 +28,12 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   <script>
+   gallerySlider = null;
+   </script>
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/jquery.waypoints.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/shortcuts/inview.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
     <link rel="stylesheet" href="/jogosdaqui.github.io-staging/libs/fontawesome/css/all.min.css" />
@@ -91,7 +95,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2018/12/15/snail-racers/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2018/12/15/snail-racers/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -118,7 +122,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2018/12/14/newsletter-abragames-27/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2018/12/14/newsletter-abragames-27/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -145,7 +149,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2018/12/14/corre-chico/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2018/12/14/corre-chico/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -172,7 +176,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2018/12/14/brasileiros-indicados-ao-unity-awards-2018/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2018/12/14/brasileiros-indicados-ao-unity-awards-2018/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -214,7 +218,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2018/12/13/games-da-semana-1/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2018/12/13/games-da-semana-1/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -241,7 +245,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2018/12/13/games-brasileiros-vencedores-no-brazil-game-awards/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2018/12/13/games-brasileiros-vencedores-no-brazil-game-awards/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -268,7 +272,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2018/12/13/bil-bolha/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2018/12/13/bil-bolha/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -295,7 +299,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2018/12/12/ballistic-overkill-ganha-atualizacao-com-modo-juggernaut-e-novas-skins/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2018/12/12/ballistic-overkill-ganha-atualizacao-com-modo-juggernaut-e-novas-skins/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -322,7 +326,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2018/12/12/bad-rats-a-vinganca-dos-ratos/logo.gif" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2018/12/12/bad-rats-a-vinganca-dos-ratos/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -349,7 +353,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2018/12/11/ballistic-overkill/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2018/12/11/ballistic-overkill/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -751,5 +755,11 @@
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    new LazyLoad({
+      elements_selector: ".lazy" 
+    }); 
+  </script>
   </body>
 </html>

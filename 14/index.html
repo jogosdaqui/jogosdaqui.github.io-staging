@@ -31,8 +31,12 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   <script>
+   gallerySlider = null;
+   </script>
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/jquery.waypoints.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/shortcuts/inview.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
     <link rel="stylesheet" href="/jogosdaqui.github.io-staging/libs/fontawesome/css/all.min.css" />
@@ -113,7 +117,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/06/nova-coluna-no-jogosdaqui-insert-coins/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/06/nova-coluna-no-jogosdaqui-insert-coins/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -140,7 +144,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/06/insert-coins-gryphon-knight-epic-gameplay-e-entrevista/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/06/insert-coins-gryphon-knight-epic-gameplay-e-entrevista/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -201,7 +205,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/05/revelado-novo-game-da-qubyte-interactive-recruits/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/05/revelado-novo-game-da-qubyte-interactive-recruits/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -247,7 +251,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/04/imagens-da-semana-5/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/04/imagens-da-semana-5/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -293,7 +297,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/02/checkpoint-4/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/02/checkpoint-4/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -320,7 +324,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/01/brazil-gets-unreal/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/01/brazil-gets-unreal/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -722,5 +726,11 @@
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    new LazyLoad({
+      elements_selector: ".lazy" 
+    }); 
+  </script>
   </body>
 </html>

@@ -31,8 +31,12 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   <script>
+   gallerySlider = null;
+   </script>
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/jquery.waypoints.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/shortcuts/inview.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
     <link rel="stylesheet" href="/jogosdaqui.github.io-staging/libs/fontawesome/css/all.min.css" />
@@ -94,7 +98,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/10/22/war-dogs/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/10/22/war-dogs/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -121,7 +125,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/10/16/max-quiz/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/10/16/max-quiz/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -148,7 +152,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/10/07/zombiezoid-zenith/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/10/07/zombiezoid-zenith/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -175,7 +179,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/10/05/chroma-squad-tactical-rpg-005-pulando-a-cerca/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/10/05/chroma-squad-tactical-rpg-005-pulando-a-cerca/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -227,7 +231,7 @@ Playthrough Chroma Squad
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/09/30/xmile-e-playmove-firmam-parceria/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/09/30/xmile-e-playmove-firmam-parceria/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -254,7 +258,7 @@ Playthrough Chroma Squad
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/09/25/pixuleco-o-jogo/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/09/25/pixuleco-o-jogo/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -281,7 +285,7 @@ Playthrough Chroma Squad
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/09/22/1o-hackajam/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/09/22/1o-hackajam/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -308,7 +312,7 @@ Playthrough Chroma Squad
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/09/14/imagens-da-semana-13/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/09/14/imagens-da-semana-13/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -335,7 +339,7 @@ Playthrough Chroma Squad
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/09/09/rock-life/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/09/09/rock-life/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -362,7 +366,7 @@ Playthrough Chroma Squad
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/09/04/ballistic-overkill-devtalk-02/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/09/04/ballistic-overkill-devtalk-02/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -764,5 +768,11 @@ Playthrough Chroma Squad
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    new LazyLoad({
+      elements_selector: ".lazy" 
+    }); 
+  </script>
   </body>
 </html>

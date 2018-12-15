@@ -31,8 +31,12 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   <script>
+   gallerySlider = null;
+   </script>
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/jquery.waypoints.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/shortcuts/inview.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
     <link rel="stylesheet" href="/jogosdaqui.github.io-staging/libs/fontawesome/css/all.min.css" />
@@ -94,7 +98,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/25/imagens-da-semana-8/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/25/imagens-da-semana-8/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -140,7 +144,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/22/checkpoint-7/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/22/checkpoint-7/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -167,7 +171,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/22/ballistic-overkill-desenvolvedores-falam-sobre-o-game/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/22/ballistic-overkill-desenvolvedores-falam-sobre-o-game/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -209,7 +213,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/21/simulador-vrum-da-think-box-com-realidade-virtual/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/21/simulador-vrum-da-think-box-com-realidade-virtual/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -236,7 +240,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/21/porcunipine/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/21/porcunipine/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -263,7 +267,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/21/porcunipine-lancado-no-steam/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/21/porcunipine-lancado-no-steam/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -290,7 +294,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/20/sky-high-chickens/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/20/sky-high-chickens/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -317,7 +321,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/20/novidades-de-horizon-chase/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/20/novidades-de-horizon-chase/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -344,7 +348,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/05/19/previa-de-cannibal-da-gametek/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/05/19/previa-de-cannibal-da-gametek/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -746,5 +750,11 @@
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    new LazyLoad({
+      elements_selector: ".lazy" 
+    }); 
+  </script>
   </body>
 </html>

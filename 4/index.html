@@ -31,8 +31,12 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   <script>
+   gallerySlider = null;
+   </script>
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/jquery.waypoints.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/shortcuts/inview.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
     <link rel="stylesheet" href="/jogosdaqui.github.io-staging/libs/fontawesome/css/all.min.css" />
@@ -94,7 +98,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2016/01/22/alkimya-acaba-de-ser-greenlit/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2016/01/22/alkimya-acaba-de-ser-greenlit/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -121,7 +125,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/12/29/sheep-master/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/12/29/sheep-master/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -148,7 +152,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/12/10/qasir-al-wasat-chega-para-pc-mac-linux/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/12/10/qasir-al-wasat-chega-para-pc-mac-linux/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -175,7 +179,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/12/09/sheep-dreams-are-made-of-this/logo.webp" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/12/09/sheep-dreams-are-made-of-this/logo.webp" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -217,7 +221,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/12/02/pesadelo-regressao/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/12/02/pesadelo-regressao/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -244,7 +248,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/11/19/jogos-vorazes-card-game/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/11/19/jogos-vorazes-card-game/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -271,7 +275,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/11/11/mikura-going-home/logo.jpg" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/11/11/mikura-going-home/logo.jpg" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -298,7 +302,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/11/04/jankentris/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/11/04/jankentris/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -325,7 +329,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/10/26/finalistas-do-festival-de-jogos-independentes-do-sbgames-2015/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/10/26/finalistas-do-festival-de-jogos-independentes-do-sbgames-2015/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -352,7 +356,7 @@
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2015/10/23/side-quest-da-miris-mind-no-greenlight/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/10/23/side-quest-da-miris-mind-no-greenlight/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -754,5 +758,11 @@
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    new LazyLoad({
+      elements_selector: ".lazy" 
+    }); 
+  </script>
   </body>
 </html>

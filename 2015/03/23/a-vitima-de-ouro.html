@@ -55,8 +55,12 @@ Confira aqui dicas para zerar A Vítima de Ouro
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   <script>
+   gallerySlider = null;
+   </script>
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/jquery.waypoints.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/shortcuts/inview.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
     <link rel="stylesheet" href="/jogosdaqui.github.io-staging/libs/fontawesome/css/all.min.css" />
@@ -163,21 +167,21 @@ Confira aqui dicas para zerar A Vítima de Ouro
 
 
 
-<h2>Galeria de imagens</h2>
+<h2 id="gallery-title">Galeria de imagens</h2>
 <center>
   
   <ul id="lightSlider">
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2015/03/23/a-vitima-de-ouro/SplitPlay.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2015/03/23/a-vitima-de-ouro/SplitPlay.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/03/23/a-vitima-de-ouro/SplitPlay.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2015/03/23/a-vitima-de-ouro/a_vitima_de_ouro_12.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2015/03/23/a-vitima-de-ouro/a_vitima_de_ouro_12.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/03/23/a-vitima-de-ouro/a_vitima_de_ouro_12.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2015/03/23/a-vitima-de-ouro/a_vitima_de_ouro_8.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2015/03/23/a-vitima-de-ouro/a_vitima_de_ouro_8.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2015/03/23/a-vitima-de-ouro/a_vitima_de_ouro_8.png" alt="Screenshot do post"/>        
         </li>
     
   </ul>
@@ -188,23 +192,36 @@ Confira aqui dicas para zerar A Vítima de Ouro
 
 
 <script type="text/javascript">
-  $(document).ready(function() {
-   $('#lightSlider').lightSlider({
-        gallery: true,
-        pager: true,
-        controls: false,
-        thumbItem: 8,
-        item: 1,
-        loop: false,
-        slideMargin: 0,
-        autoWidth: true,
-        adaptiveHeight: true,
-        mode: "fade",
-        useCSS: true,
-        cssEasing: 'ease',
-        easing: 'linear'
-    });
+var initialized = false;
+var inview = new Waypoint.Inview({
+  element: document.getElementById('gallery-title'),
+  enter: function(direction) {
+    console.log('gallery enter on view')
+    initializeGallery();
+  }
+});
+
+function initializeGallery() {
+  if(initialized) return;
+  initialized = true;
+
+  console.log("starting gallery..");
+  $('#lightSlider').lightSlider({
+    gallery: true,
+    pager: true,
+    controls: false,
+    thumbItem: 8,
+    item: 1,
+    loop: false,
+    slideMargin: 0,
+    autoWidth: true,
+    adaptiveHeight: true,
+    mode: "fade",
+    useCSS: true,
+    cssEasing: 'ease',
+    easing: 'linear'
   });
+}
 </script>
 
 
@@ -641,5 +658,11 @@ Confira aqui dicas para zerar A Vítima de Ouro
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    new LazyLoad({
+      elements_selector: ".lazy" 
+    }); 
+  </script>
   </body>
 </html>

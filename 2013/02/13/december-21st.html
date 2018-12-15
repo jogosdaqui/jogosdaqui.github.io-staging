@@ -46,8 +46,12 @@ Na história desse game com desafios estilo Sokoban, os Maias fizeram uma previs
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   <script>
+   gallerySlider = null;
+   </script>
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/jquery.waypoints.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/shortcuts/inview.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
     <link rel="stylesheet" href="/jogosdaqui.github.io-staging/libs/fontawesome/css/all.min.css" />
@@ -118,7 +122,7 @@ Na história desse game com desafios estilo Sokoban, os Maias fizeram uma previs
   
     <center>
    
-    <img src="/jogosdaqui.github.io-staging/assets/2013/02/13/december-21st/logo.png" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+    <img src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2013/02/13/december-21st/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
   
     </center>
    
@@ -160,21 +164,21 @@ Na história desse game com desafios estilo Sokoban, os Maias fizeram uma previs
 
 
 
-<h2>Galeria de imagens</h2>
+<h2 id="gallery-title">Galeria de imagens</h2>
 <center>
   
   <ul id="lightSlider">
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2013/02/13/december-21st/21st_01.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2013/02/13/december-21st/21st_01.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2013/02/13/december-21st/21st_01.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2013/02/13/december-21st/21st_02.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2013/02/13/december-21st/21st_02.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2013/02/13/december-21st/21st_02.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2013/02/13/december-21st/21st_03.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2013/02/13/december-21st/21st_03.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2013/02/13/december-21st/21st_03.png" alt="Screenshot do post"/>        
         </li>
     
   </ul>
@@ -185,23 +189,36 @@ Na história desse game com desafios estilo Sokoban, os Maias fizeram uma previs
 
 
 <script type="text/javascript">
-  $(document).ready(function() {
-   $('#lightSlider').lightSlider({
-        gallery: true,
-        pager: true,
-        controls: false,
-        thumbItem: 8,
-        item: 1,
-        loop: false,
-        slideMargin: 0,
-        autoWidth: true,
-        adaptiveHeight: true,
-        mode: "fade",
-        useCSS: true,
-        cssEasing: 'ease',
-        easing: 'linear'
-    });
+var initialized = false;
+var inview = new Waypoint.Inview({
+  element: document.getElementById('gallery-title'),
+  enter: function(direction) {
+    console.log('gallery enter on view')
+    initializeGallery();
+  }
+});
+
+function initializeGallery() {
+  if(initialized) return;
+  initialized = true;
+
+  console.log("starting gallery..");
+  $('#lightSlider').lightSlider({
+    gallery: true,
+    pager: true,
+    controls: false,
+    thumbItem: 8,
+    item: 1,
+    loop: false,
+    slideMargin: 0,
+    autoWidth: true,
+    adaptiveHeight: true,
+    mode: "fade",
+    useCSS: true,
+    cssEasing: 'ease',
+    easing: 'linear'
   });
+}
 </script>
 
 
@@ -640,5 +657,11 @@ Na história desse game com desafios estilo Sokoban, os Maias fizeram uma previs
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    new LazyLoad({
+      elements_selector: ".lazy" 
+    }); 
+  </script>
   </body>
 </html>

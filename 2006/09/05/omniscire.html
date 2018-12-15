@@ -43,8 +43,12 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+   <script>
+   gallerySlider = null;
+   </script>
     <script src="/jogosdaqui.github.io-staging/libs/jquery.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/jquery.waypoints.min.js"></script>
+    <script src="/jogosdaqui.github.io-staging/libs/Waypoints/shortcuts/inview.min.js"></script>
     <script src="/jogosdaqui.github.io-staging/script.js"></script>
     
     <link rel="stylesheet" href="/jogosdaqui.github.io-staging/libs/fontawesome/css/all.min.css" />
@@ -139,125 +143,125 @@
 
 
 
-<h2>Galeria de imagens</h2>
+<h2 id="gallery-title">Galeria de imagens</h2>
 <center>
   
   <ul id="lightSlider">
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_676.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_676.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_676.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_677.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_677.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_677.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_678.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_678.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_678.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_679.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_679.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_679.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_680.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_680.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_680.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_681.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_681.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_681.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_682.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_682.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_682.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_683.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_683.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_683.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_684.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_684.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_684.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_685.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_685.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_685.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_686.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_686.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_686.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_687.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_687.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_687.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_688.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_688.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_688.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_689.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_689.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_689.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_690.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_690.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_690.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_691.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_691.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_691.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_692.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_692.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_692.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_693.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_693.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_693.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_694.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_694.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_694.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_695.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_695.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_695.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_696.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_696.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_696.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_697.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_697.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_697.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_698.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_698.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_698.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_699.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_699.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_699.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_700.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_700.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_700.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_701.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_701.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_701.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_702.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_702.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_702.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_703.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_703.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_703.png" alt="Screenshot do post"/>        
         </li>
     
         <li data-thumb="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_704.png">
-          <img src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_704.png" alt="Screenshot do post"/>        
+          <img class="lazy" src="/jogosdaqui.github.io-staging/assets/jogosdaqui-avatar-grayscale.png" data-src="/jogosdaqui.github.io-staging/assets/2006/09/05/omniscire/Screenshot_704.png" alt="Screenshot do post"/>        
         </li>
     
   </ul>
@@ -268,23 +272,36 @@
 
 
 <script type="text/javascript">
-  $(document).ready(function() {
-   $('#lightSlider').lightSlider({
-        gallery: true,
-        pager: true,
-        controls: false,
-        thumbItem: 8,
-        item: 1,
-        loop: false,
-        slideMargin: 0,
-        autoWidth: true,
-        adaptiveHeight: true,
-        mode: "fade",
-        useCSS: true,
-        cssEasing: 'ease',
-        easing: 'linear'
-    });
+var initialized = false;
+var inview = new Waypoint.Inview({
+  element: document.getElementById('gallery-title'),
+  enter: function(direction) {
+    console.log('gallery enter on view')
+    initializeGallery();
+  }
+});
+
+function initializeGallery() {
+  if(initialized) return;
+  initialized = true;
+
+  console.log("starting gallery..");
+  $('#lightSlider').lightSlider({
+    gallery: true,
+    pager: true,
+    controls: false,
+    thumbItem: 8,
+    item: 1,
+    loop: false,
+    slideMargin: 0,
+    autoWidth: true,
+    adaptiveHeight: true,
+    mode: "fade",
+    useCSS: true,
+    cssEasing: 'ease',
+    easing: 'linear'
   });
+}
 </script>
 
 
@@ -723,5 +740,11 @@
 	<!-- End Google Analytics -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+    <script>
+    new LazyLoad({
+      elements_selector: ".lazy" 
+    }); 
+  </script>
   </body>
 </html>
