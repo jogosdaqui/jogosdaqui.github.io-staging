@@ -225,7 +225,7 @@ O Taikodom já está a mais de 20 meses em produção. Passou por testes fechado
 
 <br>
           <!-- HTML elements for search -->
-<div class="highlight-box search-box">
+<div class="highlight-box">
     <div class="highlight-box-title">Pesquisa</div>
     <hr>
     <input type="text" id="search-input"><input id="search-button" type="submit" value=">" class="button">
@@ -252,47 +252,37 @@ O Taikodom já está a mais de 20 meses em produção. Passou por testes fechado
     <hr>
     <ul list="Jogos em destaque">
     <script>
-        $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Jogos em destaque')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
+        $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
+            function addItem(post) {
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
+                $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
+            }
+            
+            var posts = $(json).filter(function (i,p) {
+                var selected = true;
 
-                            if ('Game' != '')
-                                selected = p.category == 'Game';
-                    
-                            if (selected && '' != '')
-                                selected = $.inArray('', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
+                if ('Game' != '')
+                    selected = p.category == 'Game';
+        
+                if (selected && '' != '')
+                    selected = $.inArray('', p.tags.split(', ')) != -1;
+                
+                return selected;
             });
+
+            var indexes = [];
+
+            for(var i = 0; i < 3 && i < posts.length; i++)
+            {
+                
+                do {
+                    var index = Math.floor(Math.random() * posts.length);
+                } while($.inArray(index, indexes) != -1)
+
+                indexes.push(index);
+                addItem(posts[index]);
+            }        
         });
         
     </script>
@@ -304,47 +294,37 @@ O Taikodom já está a mais de 20 meses em produção. Passou por testes fechado
     <hr>
     <ul list="Jogos iOS">
     <script>
-        $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Jogos iOS')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
+        $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
+            function addItem(post) {
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
+                $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
+            }
+            
+            var posts = $(json).filter(function (i,p) {
+                var selected = true;
 
-                            if ('Game' != '')
-                                selected = p.category == 'Game';
-                    
-                            if (selected && 'ios' != '')
-                                selected = $.inArray('ios', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
+                if ('Game' != '')
+                    selected = p.category == 'Game';
+        
+                if (selected && 'ios' != '')
+                    selected = $.inArray('ios', p.tags.split(', ')) != -1;
+                
+                return selected;
             });
+
+            var indexes = [];
+
+            for(var i = 0; i < 3 && i < posts.length; i++)
+            {
+                
+                do {
+                    var index = Math.floor(Math.random() * posts.length);
+                } while($.inArray(index, indexes) != -1)
+
+                indexes.push(index);
+                addItem(posts[index]);
+            }        
         });
         
     </script>
@@ -356,47 +336,37 @@ O Taikodom já está a mais de 20 meses em produção. Passou por testes fechado
     <hr>
     <ul list="Jogos Android">
     <script>
-        $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Jogos Android')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
+        $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
+            function addItem(post) {
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
+                $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
+            }
+            
+            var posts = $(json).filter(function (i,p) {
+                var selected = true;
 
-                            if ('Game' != '')
-                                selected = p.category == 'Game';
-                    
-                            if (selected && 'android' != '')
-                                selected = $.inArray('android', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
+                if ('Game' != '')
+                    selected = p.category == 'Game';
+        
+                if (selected && 'android' != '')
+                    selected = $.inArray('android', p.tags.split(', ')) != -1;
+                
+                return selected;
             });
+
+            var indexes = [];
+
+            for(var i = 0; i < 3 && i < posts.length; i++)
+            {
+                
+                do {
+                    var index = Math.floor(Math.random() * posts.length);
+                } while($.inArray(index, indexes) != -1)
+
+                indexes.push(index);
+                addItem(posts[index]);
+            }        
         });
         
     </script>
@@ -408,47 +378,37 @@ O Taikodom já está a mais de 20 meses em produção. Passou por testes fechado
     <hr>
     <ul list="Jogos Windows">
     <script>
-        $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Jogos Windows')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
+        $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
+            function addItem(post) {
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
+                $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
+            }
+            
+            var posts = $(json).filter(function (i,p) {
+                var selected = true;
 
-                            if ('Game' != '')
-                                selected = p.category == 'Game';
-                    
-                            if (selected && 'windows' != '')
-                                selected = $.inArray('windows', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
+                if ('Game' != '')
+                    selected = p.category == 'Game';
+        
+                if (selected && 'windows' != '')
+                    selected = $.inArray('windows', p.tags.split(', ')) != -1;
+                
+                return selected;
             });
+
+            var indexes = [];
+
+            for(var i = 0; i < 3 && i < posts.length; i++)
+            {
+                
+                do {
+                    var index = Math.floor(Math.random() * posts.length);
+                } while($.inArray(index, indexes) != -1)
+
+                indexes.push(index);
+                addItem(posts[index]);
+            }        
         });
         
     </script>
@@ -460,47 +420,37 @@ O Taikodom já está a mais de 20 meses em produção. Passou por testes fechado
     <hr>
     <ul list="Documentários">
     <script>
-        $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Documentários')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
+        $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
+            function addItem(post) {
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
+                $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
+            }
+            
+            var posts = $(json).filter(function (i,p) {
+                var selected = true;
 
-                            if ('' != '')
-                                selected = p.category == '';
-                    
-                            if (selected && 'documentario' != '')
-                                selected = $.inArray('documentario', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
+                if ('' != '')
+                    selected = p.category == '';
+        
+                if (selected && 'documentario' != '')
+                    selected = $.inArray('documentario', p.tags.split(', ')) != -1;
+                
+                return selected;
             });
+
+            var indexes = [];
+
+            for(var i = 0; i < 3 && i < posts.length; i++)
+            {
+                
+                do {
+                    var index = Math.floor(Math.random() * posts.length);
+                } while($.inArray(index, indexes) != -1)
+
+                indexes.push(index);
+                addItem(posts[index]);
+            }        
         });
         
     </script>
@@ -512,47 +462,37 @@ O Taikodom já está a mais de 20 meses em produção. Passou por testes fechado
     <hr>
     <ul list="Entrevistas">
     <script>
-        $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Entrevistas')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
+        $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
+            function addItem(post) {
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
+                $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
+            }
+            
+            var posts = $(json).filter(function (i,p) {
+                var selected = true;
 
-                            if ('Interview' != '')
-                                selected = p.category == 'Interview';
-                    
-                            if (selected && '' != '')
-                                selected = $.inArray('', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
+                if ('Interview' != '')
+                    selected = p.category == 'Interview';
+        
+                if (selected && '' != '')
+                    selected = $.inArray('', p.tags.split(', ')) != -1;
+                
+                return selected;
             });
+
+            var indexes = [];
+
+            for(var i = 0; i < 3 && i < posts.length; i++)
+            {
+                
+                do {
+                    var index = Math.floor(Math.random() * posts.length);
+                } while($.inArray(index, indexes) != -1)
+
+                indexes.push(index);
+                addItem(posts[index]);
+            }        
         });
         
     </script>
@@ -564,47 +504,37 @@ O Taikodom já está a mais de 20 meses em produção. Passou por testes fechado
     <hr>
     <ul list="Eventos">
     <script>
-        $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Eventos')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
+        $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
+            function addItem(post) {
+                var title = post.title.replace(/&#39;/g, "'")
+                title = title.replace(/&amp;#39;/g, "'")
+                $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
+            }
+            
+            var posts = $(json).filter(function (i,p) {
+                var selected = true;
 
-                            if ('Event' != '')
-                                selected = p.category == 'Event';
-                    
-                            if (selected && '' != '')
-                                selected = $.inArray('', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
+                if ('Event' != '')
+                    selected = p.category == 'Event';
+        
+                if (selected && '' != '')
+                    selected = $.inArray('', p.tags.split(', ')) != -1;
+                
+                return selected;
             });
+
+            var indexes = [];
+
+            for(var i = 0; i < 3 && i < posts.length; i++)
+            {
+                
+                do {
+                    var index = Math.floor(Math.random() * posts.length);
+                } while($.inArray(index, indexes) != -1)
+
+                indexes.push(index);
+                addItem(posts[index]);
+            }        
         });
         
     </script>
