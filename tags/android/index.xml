@@ -3,7 +3,7 @@
  <title>jogosdaqui - android</title>
  <link href="/jogosdaqui.github.io-staging//tags/android/index.xml" rel="self"/>
  <link href="/jogosdaqui.github.io-staging/tag/android.html"/>
- <updated>2018-12-17T20:41:00-02:00</updated>
+ <updated>2018-12-18T08:36:33-02:00</updated>
  <id>/jogosdaqui.github.io-staging/tag/android.html</id>
  <author>
    <name>jogosdaqui</name>
@@ -300,7 +300,7 @@ Terminada a partida, o jogador vencedor ganha uma nova carta aleatória do monte
 &lt;p&gt;O jogo conta com diversas fases, com direito a chefões e fases bônus.&lt;/p&gt;
 
 &lt;center&gt;
-        &lt;img src=&quot;/jogosdaqui.github.io-staging/assets/2015/11/11/mikura-going-home/QuadroAQuadro_Mikura.png &quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/jogosdaqui.github.io-staging/assets/2015/11/11/mikura-going-home/QuadroAQuadro_Mikura.png &quot; /&gt;
       &lt;/center&gt;
 
 &lt;h2 id=&quot;plataforma&quot;&gt;Plataforma&lt;/h2&gt;
@@ -1017,7 +1017,7 @@ Warlock’s Tower - PC&lt;/p&gt;
 &lt;p&gt;Downloads do game até o momento:&lt;/p&gt;
 
 &lt;center&gt;
-        &lt;img src=&quot;/jogosdaqui.github.io-staging/assets/2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads/downloads.png &quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/jogosdaqui.github.io-staging/assets/2015/04/15/tank-invaders-atinge-mais-de-300-mil-downloads/downloads.png &quot; /&gt;
       &lt;/center&gt;
 </content>
  </entry>

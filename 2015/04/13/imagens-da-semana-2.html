@@ -184,48 +184,7 @@ Gabriel Naro, sound designer da Mgaia Studio, liberou uma screenshot do game Tin
 
 
 // INCLUDE: custom
-let jd = {
-    getIcon: function getIcon(post) {
-        switch(post.category) {
-            case 'News':
-                return "<i class='fas fa-newspaper'></i>";
-            case 'Preview':
-                return "<i class='fas fa-eye'></i>";
-            case 'Game':
-                return "<i class='fas fa-gamepad'></i>";
-            case 'Interview':
-                return "<i class='fas fa-comments'></i>";
-            case 'Event':
-                return "<i class='fas fa-chalkboard-teacher'></i>";
-            case 'Column':
-                return "<i class='fas fa-comment-alt'></i>";
-            case 'Promo':
-                return "<i class='fas fa-money-bill-alt'></i>";
-        }
-    },
-    getCategory: function getCategory(post) {
-        switch(post.category) {
-            case 'News':
-                return "Notícias";
-            case 'Preview':
-                return "Prévias";
-            case 'Game':
-                return "Jogos";
-            case 'Interview':
-                return "Entrevistas";
-            case 'Event':
-                return "Eventos";
-            case 'Column':
-                return "Colunas";
-            case 'Promo':
-                return "Promoções";
-        }
-    },
-    escapeRegex: function escapeRegex(string) {
-        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
-      }
-}
-
+var jd={getIcon:function(e){switch(e.category){case"News":return"<i class='fas fa-newspaper'></i>";case"Preview":return"<i class='fas fa-eye'></i>";case"Game":return"<i class='fas fa-gamepad'></i>";case"Interview":return"<i class='fas fa-comments'></i>";case"Event":return"<i class='fas fa-chalkboard-teacher'></i>";case"Column":return"<i class='fas fa-comment-alt'></i>";case"Promo":return"<i class='fas fa-money-bill-alt'></i>"}},getCategory:function(e){switch(e.category){case"News":return"Notícias";case"Preview":return"Prévias";case"Game":return"Jogos";case"Interview":return"Entrevistas";case"Event":return"Eventos";case"Column":return"Colunas";case"Promo":return"Promoções"}},escapeRegex:function(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")},initializeHightlightBox:function(e,t,r){new Waypoint.Inview({element:$(".highlight-box-title:contains("+e+")")[0],enter:function(n){$("[list='"+e+"'] li").length>0||$.getJSON("/jogosdaqui.github.io-staging/search.json",function(n){for(var a,i,o=$(n).filter(function(e,n){var a=!0;return""!=t&&(a=n.category==t),a&&""!=r&&(a=-1!=$.inArray(r,n.tags.split(", "))),a}),c=[],l=0;l<3&&l<o.length;l++){do{var g=Math.floor(Math.random()*o.length)}while(-1!=$.inArray(g,c));c.push(g),a=o[g],i=void 0,i=(i=a.title.replace(/&#39;/g,"'")).replace(/&amp;#39;/g,"'"),$("[list='"+e+"']").append("<li><a href='"+a.url+"'>"+i+"</a></li>")}})}})}};
 
 // INCLUDE: greedynav
 $(function(){var n,e,i,d=$("nav.greedy button"),t=$("nav.greedy .links"),o=$("nav.greedy .hidden-links"),c=0,l=0,r=[];function s(){n=t.width()-10,e=t.children().length,r[e-1]>n?(t.children().last().prependTo(o),e-=1,s()):n>r[e]&&(o.children().first().appendTo(t),e+=1,s()),d.attr("count",c-e),e===c?d.addClass("hidden"):d.removeClass("hidden")}t.children().outerWidth(function(n,e){l+=e,c+=1,r.push(l)}),$(window).resize(function(){s()}),d.on("click",function(){o.toggleClass("hidden"),clearTimeout(i)}),o.on("mouseleave",function(){i=setTimeout(function(){o.addClass("hidden")},1e3)}).on("mouseenter",function(){clearTimeout(i)}),s()});
@@ -321,49 +280,49 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
     <h2 id="1">#1</h2>
 <p><a href="https://twitter.com/g1/status/585017153042194432">O game de plataforma old-school Super Doomed’n Damned, desenvolvido pelo brasileiro Claudio Lins em parceria com uma empresa espanhola, deve ser lançado ainda em 2015 para Xbox One, Wii U e PC</a></p>
 <center>
-        <img src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/SuperDoomednDamned.png " />
+        <img class="lazy" src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/SuperDoomednDamned.png " />
       </center>
 
 <h2 id="2">#2</h2>
 <p><a href="https://twitter.com/CatNigiri/status/585081682451103745">O gato-mascote-logo da brasileira Cat Nigiri apareceu como um easter egg no jogo em desenvolvimento Chroma Squad da também brasileira Behold Studios</a></p>
 <center>
-        <img src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/CatNigiriChromaSquad.png " />
+        <img class="lazy" src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/CatNigiriChromaSquad.png " />
       </center>
 
 <h2 id="3">#3</h2>
 <p>Na terceira imagem ficamos com outra bela arte do game Toren da Swordtales, agora é a vez de The Magician</p>
 <center>
-        <img src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/TorenTheMagician.jpg " />
+        <img class="lazy" src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/TorenTheMagician.jpg " />
       </center>
 
 <h2 id="4">#4</h2>
 <p><a href="https://twitter.com/SaeKawaii_xD/status/585863634879909888">A equipe da Behold Studio lembrando da campanha para promover o lançamento do Chroma Squad no Thunderclap</a></p>
 <center>
-        <img src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/ChromaSquadThunderClap.png " />
+        <img class="lazy" src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/ChromaSquadThunderClap.png " />
       </center>
 
 <h2 id="5">#5</h2>
 <p><a href="https://twitter.com/ReizaStudios/status/585882344562814978">A Reiza Studios lança seu game de corrida, o Copa Petrobras de Marcas, no Steam</a></p>
 <center>
-        <img src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/CopaPetrobrasMarcas.jpg " />
+        <img class="lazy" src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/CopaPetrobrasMarcas.jpg " />
       </center>
 
 <h2 id="6">#6</h2>
 <p><a href="https://twitter.com/OdinGameStudio/status/586603400860540928">A Odin Game Studio liberou novas imagens do game em desenvolvimento Better Later Than Dead. Conheça mais no game no post Novos vídeos de Better late than DEAD e Police Tactics</a></p>
 <center>
-        <img src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/BetterLaterThanDead.jpg " />
+        <img class="lazy" src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/BetterLaterThanDead.jpg " />
       </center>
 
 <h2 id="7">#7</h2>
 <p><a href="https://twitter.com/BigGreenPillow/status/586688542379810816">A Big Green Pillow lança um novo update de seu game Porcunipine</a></p>
 <center>
-        <img src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/Porcunipine.png " />
+        <img class="lazy" src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/Porcunipine.png " />
       </center>
 
 <h2 id="8">#8</h2>
 <p><a href="https://twitter.com/narolol/status/587000919541342208">Gabriel Naro, sound designer da Mgaia Studio, liberou uma screenshot do game Tiny Empire que ainda está em desenvolvimento e será lançado para iOS, Android e Windows Phone</a></p>
 <center>
-        <img src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/TinyEmpireMap.png " />
+        <img class="lazy" src="/jogosdaqui.github.io-staging/assets/2015/04/13/imagens-da-semana-2/TinyEmpireMap.png " />
       </center>
 
     
@@ -475,48 +434,8 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
     <ul list="Jogos em destaque">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Jogos em destaque')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('Game' != '')
-                                selected = p.category == 'Game';
-                    
-                            if (selected && '' != '')
-                                selected = $.inArray('', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Jogos em destaque', 'Game', '');
+        });        
     </script>
     </ul>
 </div>
@@ -527,48 +446,8 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
     <ul list="Jogos iOS">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Jogos iOS')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('Game' != '')
-                                selected = p.category == 'Game';
-                    
-                            if (selected && 'ios' != '')
-                                selected = $.inArray('ios', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Jogos iOS', 'Game', 'ios');
+        });        
     </script>
     </ul>
 </div>
@@ -579,48 +458,8 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
     <ul list="Jogos Android">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Jogos Android')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('Game' != '')
-                                selected = p.category == 'Game';
-                    
-                            if (selected && 'android' != '')
-                                selected = $.inArray('android', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Jogos Android', 'Game', 'android');
+        });        
     </script>
     </ul>
 </div>
@@ -631,48 +470,8 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
     <ul list="Jogos Windows">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Jogos Windows')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('Game' != '')
-                                selected = p.category == 'Game';
-                    
-                            if (selected && 'windows' != '')
-                                selected = $.inArray('windows', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Jogos Windows', 'Game', 'windows');
+        });        
     </script>
     </ul>
 </div>
@@ -683,48 +482,8 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
     <ul list="Documentários">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Documentários')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('' != '')
-                                selected = p.category == '';
-                    
-                            if (selected && 'documentario' != '')
-                                selected = $.inArray('documentario', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Documentários', '', 'documentario');
+        });        
     </script>
     </ul>
 </div>
@@ -735,48 +494,8 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
     <ul list="Entrevistas">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Entrevistas')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('Interview' != '')
-                                selected = p.category == 'Interview';
-                    
-                            if (selected && '' != '')
-                                selected = $.inArray('', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Entrevistas', 'Interview', '');
+        });        
     </script>
     </ul>
 </div>
@@ -787,48 +506,8 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
     <ul list="Eventos">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Eventos')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('Event' != '')
-                                selected = p.category == 'Event';
-                    
-                            if (selected && '' != '')
-                                selected = $.inArray('', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Eventos', 'Event', '');
+        });        
     </script>
     </ul>
 </div>

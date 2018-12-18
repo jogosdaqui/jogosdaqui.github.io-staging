@@ -178,48 +178,7 @@ Fófuu de Bruno Tachinardi
 
 
 // INCLUDE: custom
-let jd = {
-    getIcon: function getIcon(post) {
-        switch(post.category) {
-            case 'News':
-                return "<i class='fas fa-newspaper'></i>";
-            case 'Preview':
-                return "<i class='fas fa-eye'></i>";
-            case 'Game':
-                return "<i class='fas fa-gamepad'></i>";
-            case 'Interview':
-                return "<i class='fas fa-comments'></i>";
-            case 'Event':
-                return "<i class='fas fa-chalkboard-teacher'></i>";
-            case 'Column':
-                return "<i class='fas fa-comment-alt'></i>";
-            case 'Promo':
-                return "<i class='fas fa-money-bill-alt'></i>";
-        }
-    },
-    getCategory: function getCategory(post) {
-        switch(post.category) {
-            case 'News':
-                return "Notícias";
-            case 'Preview':
-                return "Prévias";
-            case 'Game':
-                return "Jogos";
-            case 'Interview':
-                return "Entrevistas";
-            case 'Event':
-                return "Eventos";
-            case 'Column':
-                return "Colunas";
-            case 'Promo':
-                return "Promoções";
-        }
-    },
-    escapeRegex: function escapeRegex(string) {
-        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
-      }
-}
-
+var jd={getIcon:function(e){switch(e.category){case"News":return"<i class='fas fa-newspaper'></i>";case"Preview":return"<i class='fas fa-eye'></i>";case"Game":return"<i class='fas fa-gamepad'></i>";case"Interview":return"<i class='fas fa-comments'></i>";case"Event":return"<i class='fas fa-chalkboard-teacher'></i>";case"Column":return"<i class='fas fa-comment-alt'></i>";case"Promo":return"<i class='fas fa-money-bill-alt'></i>"}},getCategory:function(e){switch(e.category){case"News":return"Notícias";case"Preview":return"Prévias";case"Game":return"Jogos";case"Interview":return"Entrevistas";case"Event":return"Eventos";case"Column":return"Colunas";case"Promo":return"Promoções"}},escapeRegex:function(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")},initializeHightlightBox:function(e,t,r){new Waypoint.Inview({element:$(".highlight-box-title:contains("+e+")")[0],enter:function(n){$("[list='"+e+"'] li").length>0||$.getJSON("/jogosdaqui.github.io-staging/search.json",function(n){for(var a,i,o=$(n).filter(function(e,n){var a=!0;return""!=t&&(a=n.category==t),a&&""!=r&&(a=-1!=$.inArray(r,n.tags.split(", "))),a}),c=[],l=0;l<3&&l<o.length;l++){do{var g=Math.floor(Math.random()*o.length)}while(-1!=$.inArray(g,c));c.push(g),a=o[g],i=void 0,i=(i=a.title.replace(/&#39;/g,"'")).replace(/&amp;#39;/g,"'"),$("[list='"+e+"']").append("<li><a href='"+a.url+"'>"+i+"</a></li>")}})}})}};
 
 // INCLUDE: greedynav
 $(function(){var n,e,i,d=$("nav.greedy button"),t=$("nav.greedy .links"),o=$("nav.greedy .hidden-links"),c=0,l=0,r=[];function s(){n=t.width()-10,e=t.children().length,r[e-1]>n?(t.children().last().prependTo(o),e-=1,s()):n>r[e]&&(o.children().first().appendTo(t),e+=1,s()),d.attr("count",c-e),e===c?d.addClass("hidden"):d.removeClass("hidden")}t.children().outerWidth(function(n,e){l+=e,c+=1,r.push(l)}),$(window).resize(function(){s()}),d.on("click",function(){o.toggleClass("hidden"),clearTimeout(i)}),o.on("mouseleave",function(){i=setTimeout(function(){o.addClass("hidden")},1e3)}).on("mouseenter",function(){clearTimeout(i)}),s()});
@@ -530,48 +489,8 @@ function initializeGallery() {
     <ul list="Jogos em destaque">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Jogos em destaque')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Jogos em destaque']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('Game' != '')
-                                selected = p.category == 'Game';
-                    
-                            if (selected && '' != '')
-                                selected = $.inArray('', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Jogos em destaque', 'Game', '');
+        });        
     </script>
     </ul>
 </div>
@@ -582,48 +501,8 @@ function initializeGallery() {
     <ul list="Jogos iOS">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Jogos iOS')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Jogos iOS']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('Game' != '')
-                                selected = p.category == 'Game';
-                    
-                            if (selected && 'ios' != '')
-                                selected = $.inArray('ios', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Jogos iOS', 'Game', 'ios');
+        });        
     </script>
     </ul>
 </div>
@@ -634,48 +513,8 @@ function initializeGallery() {
     <ul list="Jogos Android">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Jogos Android')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Jogos Android']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('Game' != '')
-                                selected = p.category == 'Game';
-                    
-                            if (selected && 'android' != '')
-                                selected = $.inArray('android', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Jogos Android', 'Game', 'android');
+        });        
     </script>
     </ul>
 </div>
@@ -686,48 +525,8 @@ function initializeGallery() {
     <ul list="Jogos Windows">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Jogos Windows')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Jogos Windows']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('Game' != '')
-                                selected = p.category == 'Game';
-                    
-                            if (selected && 'windows' != '')
-                                selected = $.inArray('windows', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Jogos Windows', 'Game', 'windows');
+        });        
     </script>
     </ul>
 </div>
@@ -738,48 +537,8 @@ function initializeGallery() {
     <ul list="Documentários">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Documentários')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Documentários']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('' != '')
-                                selected = p.category == '';
-                    
-                            if (selected && 'documentario' != '')
-                                selected = $.inArray('documentario', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Documentários', '', 'documentario');
+        });        
     </script>
     </ul>
 </div>
@@ -790,48 +549,8 @@ function initializeGallery() {
     <ul list="Entrevistas">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Entrevistas')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Entrevistas']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('Interview' != '')
-                                selected = p.category == 'Interview';
-                    
-                            if (selected && '' != '')
-                                selected = $.inArray('', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Entrevistas', 'Interview', '');
+        });        
     </script>
     </ul>
 </div>
@@ -842,48 +561,8 @@ function initializeGallery() {
     <ul list="Eventos">
     <script>
         $(document).ready(function() {
-            var initialized = false;
-            var inview = new Waypoint.Inview({
-                element: $(".highlight-box-title:contains('Eventos')")[0],
-                enter: function(direction) {
-                    if(initialized) return;
-                    initialized = true;
-                    $.getJSON("/jogosdaqui.github.io-staging/search.json", function(json) {
-                        function addItem(post) {
-                            var title = post.title.replace(/&#39;/g, "'")
-                            title = title.replace(/&amp;#39;/g, "'")
-                            $("[list='Eventos']").append("<li><a href='" + post.url + "'>" + title + "</a></li>");
-                        }
-                        
-                        var posts = $(json).filter(function (i,p) {
-                            var selected = true;
-
-                            if ('Event' != '')
-                                selected = p.category == 'Event';
-                    
-                            if (selected && '' != '')
-                                selected = $.inArray('', p.tags.split(', ')) != -1;
-                            
-                            return selected;
-                        });
-
-                        var indexes = [];
-
-                        for(var i = 0; i < 3 && i < posts.length; i++)
-                        {
-                            
-                            do {
-                                var index = Math.floor(Math.random() * posts.length);
-                            } while($.inArray(index, indexes) != -1)
-
-                            indexes.push(index);
-                            addItem(posts[index]);
-                        }        
-                    });
-                }
-            });
-        });
-        
+            jd.initializeHightlightBox('Eventos', 'Event', '');
+        });        
     </script>
     </ul>
 </div>
