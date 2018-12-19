@@ -43,7 +43,7 @@
 
 
 // INCLUDE: custom
-var jd={getIcon:function(e){switch(e.category){case"News":return"<i class='fas fa-newspaper'></i>";case"Preview":return"<i class='fas fa-eye'></i>";case"Game":return"<i class='fas fa-gamepad'></i>";case"Interview":return"<i class='fas fa-comments'></i>";case"Event":return"<i class='fas fa-chalkboard-teacher'></i>";case"Column":return"<i class='fas fa-comment-alt'></i>";case"Promo":return"<i class='fas fa-money-bill-alt'></i>"}},getCategory:function(e){switch(e.category){case"News":return"Notícias";case"Preview":return"Prévias";case"Game":return"Jogos";case"Interview":return"Entrevistas";case"Event":return"Eventos";case"Column":return"Colunas";case"Promo":return"Promoções"}},escapeRegex:function(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")},initializeHightlightBox:function(e,t,r){new Waypoint.Inview({element:$(".highlight-box-title:contains("+e+")")[0],enter:function(n){$("[list='"+e+"'] li").length>0||$.getJSON("/jogosdaqui.github.io-staging/search.json",function(n){for(var a,i,o=$(n).filter(function(e,n){var a=!0;return""!=t&&(a=n.category==t),a&&""!=r&&(a=-1!=$.inArray(r,n.tags.split(", "))),a}),c=[],l=0;l<3&&l<o.length;l++){do{var g=Math.floor(Math.random()*o.length)}while(-1!=$.inArray(g,c));c.push(g),a=o[g],i=void 0,i=(i=a.title.replace(/&#39;/g,"'")).replace(/&amp;#39;/g,"'"),$("[list='"+e+"']").append("<li><a href='"+a.url+"'>"+i+"</a></li>")}})}})}};
+var jd={getIcon:function(e){switch(e.category){case"News":return"<i class='fas fa-newspaper'></i>";case"Preview":return"<i class='fas fa-eye'></i>";case"Game":return"<i class='fas fa-gamepad'></i>";case"Interview":return"<i class='fas fa-comments'></i>";case"Event":return"<i class='fas fa-chalkboard-teacher'></i>";case"Column":return"<i class='fas fa-comment-alt'></i>";case"Promo":return"<i class='fas fa-money-bill-alt'></i>"}},getCategory:function(e){switch(e.category){case"News":return"Notícias";case"Preview":return"Prévias";case"Game":return"Jogos";case"Interview":return"Entrevistas";case"Event":return"Eventos";case"Column":return"Colunas";case"Promo":return"Promoções"}},escapeRegex:function(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")},initializeHightlightBox:function(e,t,r){new Waypoint.Inview({element:$(".highlight-box-title:contains("+e+")")[0],enter:function(n){$("[list='"+e+"'] li").length>0||$.getJSON("/jogosdaqui.github.io-staging/search.json",function(n){for(var a,o,c=$(n).filter(function(e,n){var a=!0;return""!=t&&(a=n.category==t),a&&""!=r&&(a=-1!=$.inArray(r,n.tags.split(", "))),a}),i=[],l=0;l<3&&l<c.length;l++){do{var u=Math.floor(Math.random()*c.length)}while(-1!=$.inArray(u,i));i.push(u),a=c[u],o=void 0,o=(o=a.title.replace(/&#39;/g,"'")).replace(/&amp;#39;/g,"'"),$("[list='"+e+"']").append("<li><a href='"+a.url+"'>"+o+"</a></li>")}})}})},removeAccents:function(e){return null==e?e:e.normalize("NFD").replace(/[\u0300-\u036f]/g,"")}};
 
 // INCLUDE: greedynav
 $(function(){var n,e,i,d=$("nav.greedy button"),t=$("nav.greedy .links"),o=$("nav.greedy .hidden-links"),c=0,l=0,r=[];function s(){n=t.width()-10,e=t.children().length,r[e-1]>n?(t.children().last().prependTo(o),e-=1,s()):n>r[e]&&(o.children().first().appendTo(t),e+=1,s()),d.attr("count",c-e),e===c?d.addClass("hidden"):d.removeClass("hidden")}t.children().outerWidth(function(n,e){l+=e,c+=1,r.push(l)}),$(window).resize(function(){s()}),d.on("click",function(){o.toggleClass("hidden"),clearTimeout(i)}),o.on("mouseleave",function(){i=setTimeout(function(){o.addClass("hidden")},1e3)}).on("mouseenter",function(){clearTimeout(i)}),s()});
@@ -98,6 +98,25 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
 
 <div class="posts">
  
+
+    
+    
+    <article class="post">
+
+    <h1><a href="/jogosdaqui.github.io-staging/2010/12/13/resultado-da-enquete-quais-games-desenvolvidos-no-brasil-voce-ja-jogou">Resultado da enquete "Quais games desenvolvidos no Brasil você já jogou?"</a></h1>
+
+    <div class="entry">
+    
+
+
+
+ 
+    
+    Nós, do jogosdaqui, conhecemos por volta de 200 games produzidos por empresas ou equipes indies brasileiras, mesmo conhecendo tantos games nacionais, sabíamos que existia muito mais por ai. O resultado da enquete ”Quais games desenvolvidos no Brasil você já jogou?” comprovou nosso pensamento, pois ao final da enquete, temos a citação...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2010/12/13/resultado-da-enquete-quais-games-desenvolvidos-no-brasil-voce-ja-jogou" class="button">Leia mais</a>
+    </article>
 
     
     
@@ -183,6 +202,21 @@ O game ainda está em fase beta, mas já está em destaque na home da Atari.com
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2010/11/23/em-desenvolvimento-macaco-grande-2">Em desenvolvimento: Macaco Grande</a></h1>
@@ -201,21 +235,6 @@ O game ainda está em fase beta, mas já está em destaque na home da Atari.com
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -340,25 +359,6 @@ Leia mais…
     </div>
 
     <a href="/jogosdaqui.github.io-staging/2007/01/17/ajude-o-fazendeiro-em-bunny-smash" class="button">Leia mais</a>
-    </article>
-
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2006/12/26/newsabragames-dezembro-2006">NewsAbragames Dezembro/2006</a></h1>
-
-    <div class="entry">
-    
-
-
-
- 
-    
-    A última NewsAbragames de 2006 já está no ar. Nesta edição podemos conferir as mensagens de final de ano de Marcelo Carvalho (presidente da Abragames) e André Penha (VP de comunicação e marketing).Veja a review do jogo Natu Táxi da Délirus Entertainment , a agenda de eventos e cursos, uma...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2006/12/26/newsabragames-dezembro-2006" class="button">Leia mais</a>
     </article>
 
 </div>

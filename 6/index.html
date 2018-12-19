@@ -43,7 +43,7 @@
 
 
 // INCLUDE: custom
-var jd={getIcon:function(e){switch(e.category){case"News":return"<i class='fas fa-newspaper'></i>";case"Preview":return"<i class='fas fa-eye'></i>";case"Game":return"<i class='fas fa-gamepad'></i>";case"Interview":return"<i class='fas fa-comments'></i>";case"Event":return"<i class='fas fa-chalkboard-teacher'></i>";case"Column":return"<i class='fas fa-comment-alt'></i>";case"Promo":return"<i class='fas fa-money-bill-alt'></i>"}},getCategory:function(e){switch(e.category){case"News":return"Notícias";case"Preview":return"Prévias";case"Game":return"Jogos";case"Interview":return"Entrevistas";case"Event":return"Eventos";case"Column":return"Colunas";case"Promo":return"Promoções"}},escapeRegex:function(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")},initializeHightlightBox:function(e,t,r){new Waypoint.Inview({element:$(".highlight-box-title:contains("+e+")")[0],enter:function(n){$("[list='"+e+"'] li").length>0||$.getJSON("/jogosdaqui.github.io-staging/search.json",function(n){for(var a,i,o=$(n).filter(function(e,n){var a=!0;return""!=t&&(a=n.category==t),a&&""!=r&&(a=-1!=$.inArray(r,n.tags.split(", "))),a}),c=[],l=0;l<3&&l<o.length;l++){do{var g=Math.floor(Math.random()*o.length)}while(-1!=$.inArray(g,c));c.push(g),a=o[g],i=void 0,i=(i=a.title.replace(/&#39;/g,"'")).replace(/&amp;#39;/g,"'"),$("[list='"+e+"']").append("<li><a href='"+a.url+"'>"+i+"</a></li>")}})}})}};
+var jd={getIcon:function(e){switch(e.category){case"News":return"<i class='fas fa-newspaper'></i>";case"Preview":return"<i class='fas fa-eye'></i>";case"Game":return"<i class='fas fa-gamepad'></i>";case"Interview":return"<i class='fas fa-comments'></i>";case"Event":return"<i class='fas fa-chalkboard-teacher'></i>";case"Column":return"<i class='fas fa-comment-alt'></i>";case"Promo":return"<i class='fas fa-money-bill-alt'></i>"}},getCategory:function(e){switch(e.category){case"News":return"Notícias";case"Preview":return"Prévias";case"Game":return"Jogos";case"Interview":return"Entrevistas";case"Event":return"Eventos";case"Column":return"Colunas";case"Promo":return"Promoções"}},escapeRegex:function(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")},initializeHightlightBox:function(e,t,r){new Waypoint.Inview({element:$(".highlight-box-title:contains("+e+")")[0],enter:function(n){$("[list='"+e+"'] li").length>0||$.getJSON("/jogosdaqui.github.io-staging/search.json",function(n){for(var a,o,c=$(n).filter(function(e,n){var a=!0;return""!=t&&(a=n.category==t),a&&""!=r&&(a=-1!=$.inArray(r,n.tags.split(", "))),a}),i=[],l=0;l<3&&l<c.length;l++){do{var u=Math.floor(Math.random()*c.length)}while(-1!=$.inArray(u,i));i.push(u),a=c[u],o=void 0,o=(o=a.title.replace(/&#39;/g,"'")).replace(/&amp;#39;/g,"'"),$("[list='"+e+"']").append("<li><a href='"+a.url+"'>"+o+"</a></li>")}})}})},removeAccents:function(e){return null==e?e:e.normalize("NFD").replace(/[\u0300-\u036f]/g,"")}};
 
 // INCLUDE: greedynav
 $(function(){var n,e,i,d=$("nav.greedy button"),t=$("nav.greedy .links"),o=$("nav.greedy .hidden-links"),c=0,l=0,r=[];function s(){n=t.width()-10,e=t.children().length,r[e-1]>n?(t.children().last().prependTo(o),e-=1,s()):n>r[e]&&(o.children().first().appendTo(t),e+=1,s()),d.attr("count",c-e),e===c?d.addClass("hidden"):d.removeClass("hidden")}t.children().outerWidth(function(n,e){l+=e,c+=1,r.push(l)}),$(window).resize(function(){s()}),d.on("click",function(){o.toggleClass("hidden"),clearTimeout(i)}),o.on("mouseleave",function(){i=setTimeout(function(){o.addClass("hidden")},1e3)}).on("mouseenter",function(){clearTimeout(i)}),s()});
@@ -96,6 +96,33 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
 
 <div class="posts">
  
+
+    
+    
+    <article class="post">
+
+    <h1><a href="/jogosdaqui.github.io-staging/2015/09/22/1o-hackajam">1º HackaJam</a></h1>
+
+    <div class="entry">
+    
+
+
+
+
+  
+    <center>
+   
+    <img src="/jogosdaqui.github.io-staging/assets/loading-image.png" data-src="/jogosdaqui.github.io-staging/assets/2015/09/22/1o-hackajam/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
+  
+    </center>
+   
+ 
+    
+    A Vertical Games da Associação Catarinense de Empresas de Tecnologia (ACATE) que concentra 17 empresas desenvolvedoras de jogos em Santa Catarina realizará no final de setembro uma mistura de Hackathon com GameJam. A GameJam na 1º HackaJam Os games serão avaliados pelos jurados de acordo com critérios como direção de...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2015/09/22/1o-hackajam" class="button">Leia mais</a>
+    </article>
 
     
     
@@ -180,6 +207,21 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2015/09/03/brazil-gets-unreal-porto-alegre-e-florianopolis">Brazil Gets Unreal - Porto Alegre, Curitiba e Florianópolis</a></h1>
@@ -206,21 +248,6 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -353,33 +380,6 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
     </div>
 
     <a href="/jogosdaqui.github.io-staging/2015/08/25/game-brasileiro-paper-cat-ajuda-ongs" class="button">Leia mais</a>
-    </article>
-
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2015/08/24/odallus-the-dark-call-primeiras-impressoes">Odallus - The Dark Call: primeiras impressões</a></h1>
-
-    <div class="entry">
-    
-
-
-
-
-  
-    <center>
-   
-    <img src="/jogosdaqui.github.io-staging/assets/loading-image.png" data-src="/jogosdaqui.github.io-staging/assets/2015/08/24/odallus-the-dark-call-primeiras-impressoes/logo.png" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
-  
-    </center>
-   
- 
-    
-    Falamos algumas vezes no jogosdaqui sobre o aclamado game de ação e exploração retrô da brasileira JoyMasher: Odallus - The Dark Call: Games brasileiros finalistas no BIG Festival 2015 Versão beta de Odallus - The Dark Call Lançamento de Odallus: The Dark Call Agora chegou a hora de conferirmos as...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2015/08/24/odallus-the-dark-call-primeiras-impressoes" class="button">Leia mais</a>
     </article>
 
 </div>

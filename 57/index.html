@@ -43,7 +43,7 @@
 
 
 // INCLUDE: custom
-var jd={getIcon:function(e){switch(e.category){case"News":return"<i class='fas fa-newspaper'></i>";case"Preview":return"<i class='fas fa-eye'></i>";case"Game":return"<i class='fas fa-gamepad'></i>";case"Interview":return"<i class='fas fa-comments'></i>";case"Event":return"<i class='fas fa-chalkboard-teacher'></i>";case"Column":return"<i class='fas fa-comment-alt'></i>";case"Promo":return"<i class='fas fa-money-bill-alt'></i>"}},getCategory:function(e){switch(e.category){case"News":return"Notícias";case"Preview":return"Prévias";case"Game":return"Jogos";case"Interview":return"Entrevistas";case"Event":return"Eventos";case"Column":return"Colunas";case"Promo":return"Promoções"}},escapeRegex:function(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")},initializeHightlightBox:function(e,t,r){new Waypoint.Inview({element:$(".highlight-box-title:contains("+e+")")[0],enter:function(n){$("[list='"+e+"'] li").length>0||$.getJSON("/jogosdaqui.github.io-staging/search.json",function(n){for(var a,i,o=$(n).filter(function(e,n){var a=!0;return""!=t&&(a=n.category==t),a&&""!=r&&(a=-1!=$.inArray(r,n.tags.split(", "))),a}),c=[],l=0;l<3&&l<o.length;l++){do{var g=Math.floor(Math.random()*o.length)}while(-1!=$.inArray(g,c));c.push(g),a=o[g],i=void 0,i=(i=a.title.replace(/&#39;/g,"'")).replace(/&amp;#39;/g,"'"),$("[list='"+e+"']").append("<li><a href='"+a.url+"'>"+i+"</a></li>")}})}})}};
+var jd={getIcon:function(e){switch(e.category){case"News":return"<i class='fas fa-newspaper'></i>";case"Preview":return"<i class='fas fa-eye'></i>";case"Game":return"<i class='fas fa-gamepad'></i>";case"Interview":return"<i class='fas fa-comments'></i>";case"Event":return"<i class='fas fa-chalkboard-teacher'></i>";case"Column":return"<i class='fas fa-comment-alt'></i>";case"Promo":return"<i class='fas fa-money-bill-alt'></i>"}},getCategory:function(e){switch(e.category){case"News":return"Notícias";case"Preview":return"Prévias";case"Game":return"Jogos";case"Interview":return"Entrevistas";case"Event":return"Eventos";case"Column":return"Colunas";case"Promo":return"Promoções"}},escapeRegex:function(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")},initializeHightlightBox:function(e,t,r){new Waypoint.Inview({element:$(".highlight-box-title:contains("+e+")")[0],enter:function(n){$("[list='"+e+"'] li").length>0||$.getJSON("/jogosdaqui.github.io-staging/search.json",function(n){for(var a,o,c=$(n).filter(function(e,n){var a=!0;return""!=t&&(a=n.category==t),a&&""!=r&&(a=-1!=$.inArray(r,n.tags.split(", "))),a}),i=[],l=0;l<3&&l<c.length;l++){do{var u=Math.floor(Math.random()*c.length)}while(-1!=$.inArray(u,i));i.push(u),a=c[u],o=void 0,o=(o=a.title.replace(/&#39;/g,"'")).replace(/&amp;#39;/g,"'"),$("[list='"+e+"']").append("<li><a href='"+a.url+"'>"+o+"</a></li>")}})}})},removeAccents:function(e){return null==e?e:e.normalize("NFD").replace(/[\u0300-\u036f]/g,"")}};
 
 // INCLUDE: greedynav
 $(function(){var n,e,i,d=$("nav.greedy button"),t=$("nav.greedy .links"),o=$("nav.greedy .hidden-links"),c=0,l=0,r=[];function s(){n=t.width()-10,e=t.children().length,r[e-1]>n?(t.children().last().prependTo(o),e-=1,s()):n>r[e]&&(o.children().first().appendTo(t),e+=1,s()),d.attr("count",c-e),e===c?d.addClass("hidden"):d.removeClass("hidden")}t.children().outerWidth(function(n,e){l+=e,c+=1,r.push(l)}),$(window).resize(function(){s()}),d.on("click",function(){o.toggleClass("hidden"),clearTimeout(i)}),o.on("mouseleave",function(){i=setTimeout(function(){o.addClass("hidden")},1e3)}).on("mouseenter",function(){clearTimeout(i)}),s()});
@@ -96,6 +96,25 @@ nav.greedy,nav.greedy h1{display:flex;align-items:center}nav.greedy button,nav.g
 
 <div class="posts">
  
+
+    
+    
+    <article class="post">
+
+    <h1><a href="/jogosdaqui.github.io-staging/2005/12/02/top-game-show-2006">Top Game Show 2006</a></h1>
+
+    <div class="entry">
+    
+
+
+
+ 
+    
+    O que é? A TGS 2006 - Top Game Show - marcará um diferencial no mundo dos negócios de jogos, ampliando o mercado de consumo, fortalecendo as marcas junto ao público-alvo, através de um evento diferenciado, interativo e gerador de negócios. O objetivo é promover a populariedade do mercado de...
+    </div>
+
+    <a href="/jogosdaqui.github.io-staging/2005/12/02/top-game-show-2006" class="button">Leia mais</a>
+    </article>
 
     
     
@@ -172,6 +191,21 @@ Leia mais…
 
     
     
+        <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4531139417583317"
+     data-ad-slot="3308598273"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br> 
+    
     <article class="post">
 
     <h1><a href="/jogosdaqui.github.io-staging/2005/11/30/winguel-novo-jogo-nacional">Winguel, novo jogo Nacional</a></h1>
@@ -190,21 +224,6 @@ Leia mais…
     </article>
 
     
-    
-        <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4531139417583317"
-     data-ad-slot="3308598273"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<br> 
     
     <article class="post">
 
@@ -308,33 +327,6 @@ Se você é apaixonado por jogos, precisa conferir a matéria neste link
     </div>
 
     <a href="/jogosdaqui.github.io-staging/2005/11/25/resultado-do-festival-de-jogos-independentes" class="button">Leia mais</a>
-    </article>
-
-    
-    
-    <article class="post">
-
-    <h1><a href="/jogosdaqui.github.io-staging/2005/11/25/moscao-killer">Moscão Killer</a></h1>
-
-    <div class="entry">
-    
-
-
-
-
-  
-    <center>
-   
-    <img src="/jogosdaqui.github.io-staging/assets/loading-image.png" data-src="/jogosdaqui.github.io-staging/assets/2005/11/25/moscao-killer/logo.gif" class="lazy" style="max-height: 200px;max-width: 100%;" alt="Logo do post"/> 
-  
-    </center>
-   
- 
-    
-    Elas estavam lá, em cima da mesa. Parecia tão fácil matá-las que propor um jogo foi quase irresistível: quem matar a última ganha. Então, você e o computador, munidos de uma poderosa arma laser, estão diante do desafio: que vença o melhor! Ok, mas para que facilitar se a gente...
-    </div>
-
-    <a href="/jogosdaqui.github.io-staging/2005/11/25/moscao-killer" class="button">Leia mais</a>
     </article>
 
 </div>
