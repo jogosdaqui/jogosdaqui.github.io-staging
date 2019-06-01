@@ -4,17 +4,17 @@
     
     
     {
-      "title"    : "Ships N&amp;#39; Battles",
+      "title"    : "Fluffy Horde",
       "category" : "Game",
-      "tags"     : "skahal studios, ios, android, mac, batalha naval, estratégia, multiplayer",
-      "url"      : "/jogosdaqui.github.io-staging/2019/01/16/ships-n-battles",
+      "tags"     : "turtle juice, rts, puzzle, team, windows",
+      "url"      : "/jogosdaqui.github.io-staging/2019/01/03/fluffy-horde",
       "author"   : "Diego Giacomelli"
     } ,
     
     {
       "title"    : "GUTS",
       "category" : "Game",
-      "tags"     : "flux game studio, luta",
+      "tags"     : "flux game studio, luta, windows, steam",
       "url"      : "/jogosdaqui.github.io-staging/2018/12/27/guts",
       "author"   : "Diego Giacomelli"
     } ,
@@ -1872,12 +1872,732 @@
     
     
     {
-      "title"    : "Game brasileiro vence no Unity Awards 2018",
-      "category" : "News",
-      "tags"     : "unity awards, lucas rizzotto",
-      "url"      : "/jogosdaqui.github.io-staging/2018/12/27/game-brasileiro-vence-no-unity-awards-2018",
+      "title"    : "Prévia de Monowheels VR",
+      "category" : "Preview",
+      "tags"     : "imgnation studios, virtual reality, corrida, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2018/12/26/previa-de-monowheels-vr",
       "author"   : "Diego Giacomelli"
     } ,
+    
+    {
+      "title"    : "Prévia de Tetragon",
+      "category" : "Preview",
+      "tags"     : "cafundo estudio, adventure, puzzle, unity3d, ancine, ios, android, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2018/12/18/previa-de-tetragon",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Pesadelo - Regressão",
+      "category" : "Preview",
+      "tags"     : "skyjaz, press release, steam, windows, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/12/02/pesadelo-regressao",
+      "author"   : "Skyjaz"
+    } ,
+    
+    {
+      "title"    : "Game brasileiro Paper Cat ajuda ONGs",
+      "category" : "Preview",
+      "tags"     : "mac, video, ilusis interactive, steam, greenlight, windows, mac, ps4, xbox one",
+      "url"      : "/jogosdaqui.github.io-staging/2015/08/25/game-brasileiro-paper-cat-ajuda-ongs",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "RacketBoy da Double Dash Studios",
+      "category" : "Preview",
+      "tags"     : "double dash, linux, mac, windows, video, crowdfunding, demo, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/08/20/racketboy-da-double-dash-studios",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Prévia de Relic Hunters Zero",
+      "category" : "Preview",
+      "tags"     : "linux, mac, steam, windows, video, rogue snail, previa, open source",
+      "url"      : "/jogosdaqui.github.io-staging/2015/07/30/previa-de-relic-hunters-zero",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Gryphon Knight Epic ganha data de lançamento",
+      "category" : "Preview",
+      "tags"     : "insert coins, steam, video, cyber rhino studios, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/07/28/gryphon-knight-epic-ganha-data-de-lancamento",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Fófuuu da Beltri Studio",
+      "category" : "Preview",
+      "tags"     : "ios, android, linux, mac, video, crowdfunding, beltri studio, big festival, evento, big starter, pernambuco, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/07/22/previa-de-fofuuu-da-beltri-studio",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Unnamed Fiasco",
+      "category" : "Preview",
+      "tags"     : "steam, video, xbox one, xbox, unnamed fiasco team, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/07/07/previa-de-unnamed-fiasco",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Dengue Over da Ilusis Interactive",
+      "category" : "Preview",
+      "tags"     : "ilusis interactive, big festival, evento, big starter, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/07/01/previa-de-dengue-over-da-ilusis-interactive",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Dog Duty da Zanardi &amp; Liza",
+      "category" : "Preview",
+      "tags"     : "video, psvita, big festival, evento, big starter, facebook, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/06/20/previa-de-dog-duty-da-zanardi-liza",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Peronio Pop-Up Book da Ovni Studios",
+      "category" : "Preview",
+      "tags"     : "ios, android, ovni studios, steam, video, ps4, big festival, evento, big starter, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/06/17/previa-de-peronio-pop-up-book-da-ovni-studios",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Massive Madness da Ninja Garage Studio",
+      "category" : "Preview",
+      "tags"     : "ninja garage studio, mac, windows, beatemump, roguelike, previa, video",
+      "url"      : "/jogosdaqui.github.io-staging/2015/06/16/previa-de-massive-madness-da-ninja-garage-studio",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Prévia de My Night Job da Webcore Games",
+      "category" : "Preview",
+      "tags"     : "steam, webcore, video, ps4, xbox one, big festival, big starter, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/06/10/previa-de-my-night-job-da-webcore-games",
+      "author"   : "Diego giacomelli"
+    } ,
+    
+    {
+      "title"    : "Prévia de Alkimya da Bad Minions",
+      "category" : "Preview",
+      "tags"     : "rpg, video, bad minions, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/26/previa-de-alkimya-da-bad-minions",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Prévia de Cannibal da GameTek",
+      "category" : "Preview",
+      "tags"     : "steam, video, greenlight, gametek, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/19/previa-de-cannibal-da-gametek",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Horizon Chase da Aquiris Game Studio",
+      "category" : "Preview",
+      "tags"     : "aquiris game studio, video, previa, corrida, trilha sonora",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/13/previa-de-horizon-chase-da-aquiris-game-studio",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Prévia de Starlit Adventures",
+      "category" : "Preview",
+      "tags"     : "android, psvita, rockhead games, powerup, evento, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/04/27/previa-de-starlit-adventures",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Gryphon Knight Epic",
+      "category" : "Preview",
+      "tags"     : "steam, greenlight, crowdfunding, cyber rhino studios, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2015/04/09/previa-de-gryphon-knight-epic",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Prévia de TurboLink",
+      "category" : "Preview",
+      "tags"     : "crowdfunding, division five, previa, corrida",
+      "url"      : "/jogosdaqui.github.io-staging/2015/04/03/previa-de-turbolink",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Prévia: Cannon Land",
+      "category" : "Preview",
+      "tags"     : "ios, video, currant cat, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2011/04/27/previa-cannon-land",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia: The Fish Dies in the End",
+      "category" : "Preview",
+      "tags"     : "ios, video, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2011/04/06/previa-the-fish-dies-in-the-end",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia: Legend Alive: rebirth of the angels",
+      "category" : "Preview",
+      "tags"     : "ios, video, dynamic light, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2011/03/16/previa-legend-alive-rebirth-of-the-angels",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Preview de Talbot&amp;#39;s Odissey",
+      "category" : "Preview",
+      "tags"     : "miniboss, demo, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2011/02/18/preview-de-talbots-odissey",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Shotguns&amp;#39;n Goblins",
+      "category" : "Preview",
+      "tags"     : "previa",
+      "url"      : "/jogosdaqui.github.io-staging/2007/01/18/previa-de-shotgunsn-goblins",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Shotguns&amp;#39;n Goblins - The Shaman&amp;#39;ll Die",
+      "category" : "Preview",
+      "tags"     : "",
+      "url"      : "/jogosdaqui.github.io-staging/2007/01/18/shotgunsn-goblins-the-shamanll-die",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Esquadrão Zumbi",
+      "category" : "Preview",
+      "tags"     : "demo",
+      "url"      : "/jogosdaqui.github.io-staging/2006/09/05/esquadrao-zumbi",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "OmniScire",
+      "category" : "Preview",
+      "tags"     : "oniria, rpg, oniria entertainment",
+      "url"      : "/jogosdaqui.github.io-staging/2006/09/05/omniscire",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de OmniScire",
+      "category" : "Preview",
+      "tags"     : "oniria, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2006/09/05/previa-de-omniscire",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "A Zombie Nightmare",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile",
+      "url"      : "/jogosdaqui.github.io-staging/2006/09/01/a-zombie-nightmare",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de A Zombie Nightmare",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2006/09/01/previa-de-a-zombie-nightmare",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Drag Racer Underground",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile",
+      "url"      : "/jogosdaqui.github.io-staging/2006/06/30/drag-racer-underground",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia da nova versão de Drag Racer",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2006/06/30/previa-da-nova-versao-de-drag-racer",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Imagens da produção do RPG Essence",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile, rpg",
+      "url"      : "/jogosdaqui.github.io-staging/2006/06/07/imagens-da-producao-do-rpg-essence",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Cat Fighters",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2006/05/31/previa-de-cat-fighters",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Cat Fighters",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile",
+      "url"      : "/jogosdaqui.github.io-staging/2006/05/24/cat-fighters",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "GameGol",
+      "category" : "Preview",
+      "tags"     : "o2 games",
+      "url"      : "/jogosdaqui.github.io-staging/2006/05/17/gamegol",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Estradas Esburacadas a toda velocidade",
+      "category" : "Preview",
+      "tags"     : "",
+      "url"      : "/jogosdaqui.github.io-staging/2006/05/12/estradas-esburacadas-a-toda-velocidade",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Incorporated",
+      "category" : "Preview",
+      "tags"     : "interama, jogosbr, demo, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2006/05/10/incorporated",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Novo vídeo de Estradas Esburacadas",
+      "category" : "Preview",
+      "tags"     : "",
+      "url"      : "/jogosdaqui.github.io-staging/2006/05/10/novo-video-de-estradas-esburacadas",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Pinogol 3D",
+      "category" : "Preview",
+      "tags"     : "devworks game technology, gametrack, esporte, futebol",
+      "url"      : "/jogosdaqui.github.io-staging/2006/04/26/pinogol-3d",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Estradas Esburacadas mostra seus carros",
+      "category" : "Preview",
+      "tags"     : "",
+      "url"      : "/jogosdaqui.github.io-staging/2006/03/29/estradas-esburacadas-mostra-seus-carros",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Brincando com a Memória",
+      "category" : "Preview",
+      "tags"     : "",
+      "url"      : "/jogosdaqui.github.io-staging/2006/03/27/brincando-com-a-memoria",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Capoeira",
+      "category" : "Preview",
+      "tags"     : "demo, jogosbr",
+      "url"      : "/jogosdaqui.github.io-staging/2006/03/27/capoeira",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Fruzzle",
+      "category" : "Preview",
+      "tags"     : "icon games, puzzle",
+      "url"      : "/jogosdaqui.github.io-staging/2006/03/07/fruzzle",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Golden West - Bang! Bang!",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile",
+      "url"      : "/jogosdaqui.github.io-staging/2006/02/24/golden-west-bang-bang",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Golden West - Bang! Bang!",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2006/02/24/previa-de-golden-west-bang-bang",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "WSG - Web Soccer Game",
+      "category" : "Preview",
+      "tags"     : "",
+      "url"      : "/jogosdaqui.github.io-staging/2006/02/23/wsg-web-soccer-game",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Danger Mission",
+      "category" : "Preview",
+      "tags"     : "previa, wd studio",
+      "url"      : "/jogosdaqui.github.io-staging/2006/02/22/previa-de-danger-mission",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Danger Mission",
+      "category" : "Preview",
+      "tags"     : "wd studio",
+      "url"      : "/jogosdaqui.github.io-staging/2006/02/21/danger-mission",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Você será um guerreiro",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile",
+      "url"      : "/jogosdaqui.github.io-staging/2006/02/11/voce-sera-um-guerreiro",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Show de Bola",
+      "category" : "Preview",
+      "tags"     : "meantime, mobile, esporte, futebol",
+      "url"      : "/jogosdaqui.github.io-staging/2006/01/31/show-de-bola",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Tank Mission 3",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile",
+      "url"      : "/jogosdaqui.github.io-staging/2006/01/29/tank-mission-3",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Fighters of Caribbean da PalmSoft",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2006/01/20/previa-de-fighters-of-caribbean-da-palmsoft",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Jet Thunder",
+      "category" : "Preview",
+      "tags"     : "",
+      "url"      : "/jogosdaqui.github.io-staging/2006/01/12/jet-thunder",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia: PalmSoft Drag Racer",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile",
+      "url"      : "/jogosdaqui.github.io-staging/2005/12/21/palmsoft-drag-racer",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de War of Malquidious da PalmSoft",
+      "category" : "Preview",
+      "tags"     : "palmsoft tecnologia, mobile, rpg, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2005/12/16/war-of-malquidious",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Winguel",
+      "category" : "Preview",
+      "tags"     : "espaco informatica, demo, previa, puzzle",
+      "url"      : "/jogosdaqui.github.io-staging/2005/12/07/previa-de-winguel",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Prévia de Bola de Gude",
+      "category" : "Preview",
+      "tags"     : "previa, icon games",
+      "url"      : "/jogosdaqui.github.io-staging/2005/11/16/previa-de-bola-de-gude",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Primeiras imagens de Gods of The Virtual Boards",
+      "category" : "Preview",
+      "tags"     : "devworks game technology, tabuleiro, previa",
+      "url"      : "/jogosdaqui.github.io-staging/2005/10/22/primeiras-imagens-de-gods-of-the-virtual-boards",
+      "author"   : ""
+    } 
+     
+    ,
+  
+    
+    
+    {
+      "title"    : "Games da semana #3",
+      "category" : "Column",
+      "tags"     : "games da semana, qubyte interactive, long hat house, among giants, cafundo estudio, mad mimic, aquiris game studio",
+      "url"      : "/jogosdaqui.github.io-staging/2018/12/24/games-da-semana-3",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #14",
+      "category" : "Column",
+      "tags"     : "imagens da semana, miniboss, ylun, imgnation studios, cafundo estudio, joymasher, ninja garage studio",
+      "url"      : "/jogosdaqui.github.io-staging/2018/12/22/imagens-da-semana-14",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Games da semana #2",
+      "category" : "Column",
+      "tags"     : "games da semana, long hat house, aquiris game studio, invent4 entertainment, imax games, arvore immersive experiencies, lucas rizzotto, icon games",
+      "url"      : "/jogosdaqui.github.io-staging/2018/12/17/games-da-semana-2",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Games da semana #1",
+      "category" : "Column",
+      "tags"     : "games da semana, dead mushroom, aquiris game studio, firecast studio, monsterbed game studio, among giants, mad mimic interactive, long hat house, demo reel, video",
+      "url"      : "/jogosdaqui.github.io-staging/2018/12/13/games-da-semana-1",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #13",
+      "category" : "Column",
+      "tags"     : "aquiris game studio, double dash, joymasher, iduna game studio, mgaia studio, black river studios, rogue snail, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/09/14/imagens-da-semana-13",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Odallus - The Dark Call: primeiras impressões",
+      "category" : "Column",
+      "tags"     : "insert coins, video, joymasher, column",
+      "url"      : "/jogosdaqui.github.io-staging/2015/08/24/odallus-the-dark-call-primeiras-impressoes",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Toren: primeiras impressões",
+      "category" : "Column",
+      "tags"     : "insert coins, video, swordtales, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/07/16/toren-primeiras-impresoes",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #12",
+      "category" : "Column",
+      "tags"     : "aquiris game studio, qubyte interactive, southbox game studio, prosperity games, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/06/22/imagens-da-semana-12",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #11",
+      "category" : "Column",
+      "tags"     : "miniboss, joymasher, reiza studios, ninja garage studio, mgaia studio, big green pillow, aquiris game studio, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/06/15/imagens-da-semana-11",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Checkpoint #9",
+      "category" : "Column",
+      "tags"     : "aquiris game studio, behold studios, insert coins, odin game studio, tilt, webcore, big festival, big starter, mgaia studio, contra labs, checkpoint, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/06/11/checkpoint-9",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #10",
+      "category" : "Column",
+      "tags"     : "chroma squad, behold studios, zanardi and liza, southbox game studio, gametek, aquiris game studio, ninja garage studio, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/06/08/imagens-da-semana-10",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #9",
+      "category" : "Column",
+      "tags"     : "aquiris game studio, ninja garage studio, mgaia studio, reiza studios, protomini multimedia, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/06/01/imagens-da-semana-9",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Checkpoint #8",
+      "category" : "Column",
+      "tags"     : "aquiris game studio, swordtales, supernova indie games, bad minions, gamepad, iduna game studio, crazy minds game studios, protomini multimedia, checkpoint, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/29/checkpoint-8",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #8",
+      "category" : "Column",
+      "tags"     : "aquiris game studio, joymasher, big green pillow, reiza studios, iduna game studio, mgaia studio, garage 227, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/25/imagens-da-semana-8",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Checkpoint #7",
+      "category" : "Column",
+      "tags"     : "aquiris game studio, behold studios, insert coins, odin game studio, cyber rhino studios, reiza studios, big festival, duak entertainment, contra labs, gamepolitan, thinkbox games, big green pillow, gametek, little leds, crazy minds game studios, protomini multimedia, rockhead games, checkpoint, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/22/checkpoint-7",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #7",
+      "category" : "Column",
+      "tags"     : "behold studios, chroma squad, qubyte interactive, joymasher, swordtales, ninja garage studio, iduna game studio, garage 227, rockhead games, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/18/imagens-da-semana-7",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Checkpoint #6",
+      "category" : "Column",
+      "tags"     : "aquiris game studio, behold studios, swordtales, big festival, garage 227, big green pillow, rockhead games, labindie, vortex game studios, division five, checkpoint, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/14/checkpoint-6",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #6",
+      "category" : "Column",
+      "tags"     : "aquiris game studio, odin game studio, joymasher, kimeric labs, cupcake sweet entertainment, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/11/imagens-da-semana-6",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Checkpoint #5",
+      "category" : "Column",
+      "tags"     : "behold studios, icon games, insert coins, splitplay, qubyte interactive, greenlight, swordtales, garage 227, division five, humble store, checkpoint, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/09/checkpoint-5",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Insert Coins: Gryphon Knight Epic - Gameplay e Entrevista",
+      "category" : "Column",
+      "tags"     : "insert coins, steam, video, greenlight, crowdfunding, cyber rhino studios, facebook",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/06/insert-coins-gryphon-knight-epic-gameplay-e-entrevista",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Nova coluna no jogosdaqui: Insert Coins",
+      "category" : "Column",
+      "tags"     : "insert coins, video, entrevista, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/06/nova-coluna-no-jogosdaqui-insert-coins",
+      "author"   : ""
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #5",
+      "category" : "Column",
+      "tags"     : "behold studios, odin game studio, joymasher, imgnation studios, bighut ames, swordtales, mgaia studio, vortex game studios, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/04/imagens-da-semana-5",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Checkpoint #4",
+      "category" : "Column",
+      "tags"     : "behold studios, insert coins, odin game studio, brazil gets unreal, qubyte interactive, garage 227, labindie, cupcake sweet entertainment, awoker games, bgs, checkpoint, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/05/02/checkpoint-4",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #4",
+      "category" : "Column",
+      "tags"     : "behold studios, qubyte interactive, mgaia studio, garage 227, vortex game studios, division five, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/04/27/imagens-da-semana-4",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Checkpoint #3",
+      "category" : "Column",
+      "tags"     : "behold studios, steam, adjogosrs, swordtales, checkpoint, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/04/26/checkpoint-3",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #3",
+      "category" : "Column",
+      "tags"     : "swordtales, aquiris game studio, behold studios, mgaia studios, invent4, reiza studios, garage 227, otus game studio, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/04/20/imagens-da-semana-3",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Checkpoint #2",
+      "category" : "Column",
+      "tags"     : "invent4, adjogosrs, axis game day, powerup, checkpoint, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/04/18/checkpoint-2",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Checkpoint #1",
+      "category" : "Column",
+      "tags"     : "odin game studio, division five, cat nigiri, taw studio, checkpoint, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/04/16/checkpoint-1",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #2",
+      "category" : "Column",
+      "tags"     : "arc gen, behold studios, odin game studio, reiza studios, swordtales, mgaia studio, big green pillow, cat nigiri, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/04/13/imagens-da-semana-2",
+      "author"   : "Diego Giacomelli"
+    } ,
+    
+    {
+      "title"    : "Imagens da semana #1",
+      "category" : "Column",
+      "tags"     : "behold studios, splitplay, ilusis interactive, joymasher, reiza studios, splitplay, swordtales, division five, imagens da semana, coluna",
+      "url"      : "/jogosdaqui.github.io-staging/2015/04/06/imagens-da-semana-1",
+      "author"   : "Diego Giacomelli"
+    } 
+     
+    ,
+  
+    
     
     {
       "title"    : "Games brasileiros concorrendo ao jogo do ano do Switch",
@@ -4829,734 +5549,6 @@
       "tags"     : "",
       "url"      : "/jogosdaqui.github.io-staging/2005/09/17/bem-vindo-ao-jogosdaqui",
       "author"   : ""
-    } 
-     
-    ,
-  
-    
-    
-    {
-      "title"    : "Prévia de Monowheels VR",
-      "category" : "Preview",
-      "tags"     : "imgnation studios, virtual reality, corrida, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2018/12/26/previa-de-monowheels-vr",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Prévia de Tetragon",
-      "category" : "Preview",
-      "tags"     : "cafundo estudio, adventure, puzzle, unity3d, ancine, ios, android, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2018/12/18/previa-de-tetragon",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Pesadelo - Regressão",
-      "category" : "Preview",
-      "tags"     : "skyjaz, press release, steam, windows, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/12/02/pesadelo-regressao",
-      "author"   : "Skyjaz"
-    } ,
-    
-    {
-      "title"    : "Game brasileiro Paper Cat ajuda ONGs",
-      "category" : "Preview",
-      "tags"     : "mac, video, ilusis interactive, steam, greenlight, windows, mac, ps4, xbox one",
-      "url"      : "/jogosdaqui.github.io-staging/2015/08/25/game-brasileiro-paper-cat-ajuda-ongs",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "RacketBoy da Double Dash Studios",
-      "category" : "Preview",
-      "tags"     : "double dash, linux, mac, windows, video, crowdfunding, demo, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/08/20/racketboy-da-double-dash-studios",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Prévia de Relic Hunters Zero",
-      "category" : "Preview",
-      "tags"     : "linux, mac, steam, windows, video, rogue snail, previa, open source",
-      "url"      : "/jogosdaqui.github.io-staging/2015/07/30/previa-de-relic-hunters-zero",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Gryphon Knight Epic ganha data de lançamento",
-      "category" : "Preview",
-      "tags"     : "insert coins, steam, video, cyber rhino studios, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/07/28/gryphon-knight-epic-ganha-data-de-lancamento",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Fófuuu da Beltri Studio",
-      "category" : "Preview",
-      "tags"     : "ios, android, linux, mac, video, crowdfunding, beltri studio, big festival, evento, big starter, pernambuco, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/07/22/previa-de-fofuuu-da-beltri-studio",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Unnamed Fiasco",
-      "category" : "Preview",
-      "tags"     : "steam, video, xbox one, xbox, unnamed fiasco team, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/07/07/previa-de-unnamed-fiasco",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Dengue Over da Ilusis Interactive",
-      "category" : "Preview",
-      "tags"     : "ilusis interactive, big festival, evento, big starter, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/07/01/previa-de-dengue-over-da-ilusis-interactive",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Dog Duty da Zanardi &amp; Liza",
-      "category" : "Preview",
-      "tags"     : "video, psvita, big festival, evento, big starter, facebook, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/06/20/previa-de-dog-duty-da-zanardi-liza",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Peronio Pop-Up Book da Ovni Studios",
-      "category" : "Preview",
-      "tags"     : "ios, android, ovni studios, steam, video, ps4, big festival, evento, big starter, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/06/17/previa-de-peronio-pop-up-book-da-ovni-studios",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Massive Madness da Ninja Garage Studio",
-      "category" : "Preview",
-      "tags"     : "ninja garage studio, mac, windows, beatemump, roguelike, previa, video",
-      "url"      : "/jogosdaqui.github.io-staging/2015/06/16/previa-de-massive-madness-da-ninja-garage-studio",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Prévia de My Night Job da Webcore Games",
-      "category" : "Preview",
-      "tags"     : "steam, webcore, video, ps4, xbox one, big festival, big starter, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/06/10/previa-de-my-night-job-da-webcore-games",
-      "author"   : "Diego giacomelli"
-    } ,
-    
-    {
-      "title"    : "Prévia de Alkimya da Bad Minions",
-      "category" : "Preview",
-      "tags"     : "rpg, video, bad minions, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/26/previa-de-alkimya-da-bad-minions",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Prévia de Cannibal da GameTek",
-      "category" : "Preview",
-      "tags"     : "steam, video, greenlight, gametek, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/19/previa-de-cannibal-da-gametek",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Horizon Chase da Aquiris Game Studio",
-      "category" : "Preview",
-      "tags"     : "aquiris game studio, video, previa, corrida, trilha sonora",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/13/previa-de-horizon-chase-da-aquiris-game-studio",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Prévia de Starlit Adventures",
-      "category" : "Preview",
-      "tags"     : "android, psvita, rockhead games, powerup, evento, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/04/27/previa-de-starlit-adventures",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Gryphon Knight Epic",
-      "category" : "Preview",
-      "tags"     : "steam, greenlight, crowdfunding, cyber rhino studios, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2015/04/09/previa-de-gryphon-knight-epic",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Prévia de TurboLink",
-      "category" : "Preview",
-      "tags"     : "crowdfunding, division five, previa, corrida",
-      "url"      : "/jogosdaqui.github.io-staging/2015/04/03/previa-de-turbolink",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Prévia: Cannon Land",
-      "category" : "Preview",
-      "tags"     : "ios, video, currant cat, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2011/04/27/previa-cannon-land",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia: The Fish Dies in the End",
-      "category" : "Preview",
-      "tags"     : "ios, video, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2011/04/06/previa-the-fish-dies-in-the-end",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia: Legend Alive: rebirth of the angels",
-      "category" : "Preview",
-      "tags"     : "ios, video, dynamic light, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2011/03/16/previa-legend-alive-rebirth-of-the-angels",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Preview de Talbot&amp;#39;s Odissey",
-      "category" : "Preview",
-      "tags"     : "miniboss, demo, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2011/02/18/preview-de-talbots-odissey",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Shotguns&amp;#39;n Goblins",
-      "category" : "Preview",
-      "tags"     : "previa",
-      "url"      : "/jogosdaqui.github.io-staging/2007/01/18/previa-de-shotgunsn-goblins",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Shotguns&amp;#39;n Goblins - The Shaman&amp;#39;ll Die",
-      "category" : "Preview",
-      "tags"     : "",
-      "url"      : "/jogosdaqui.github.io-staging/2007/01/18/shotgunsn-goblins-the-shamanll-die",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Esquadrão Zumbi",
-      "category" : "Preview",
-      "tags"     : "demo",
-      "url"      : "/jogosdaqui.github.io-staging/2006/09/05/esquadrao-zumbi",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "OmniScire",
-      "category" : "Preview",
-      "tags"     : "oniria, rpg, oniria entertainment",
-      "url"      : "/jogosdaqui.github.io-staging/2006/09/05/omniscire",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de OmniScire",
-      "category" : "Preview",
-      "tags"     : "oniria, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2006/09/05/previa-de-omniscire",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "A Zombie Nightmare",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile",
-      "url"      : "/jogosdaqui.github.io-staging/2006/09/01/a-zombie-nightmare",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de A Zombie Nightmare",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2006/09/01/previa-de-a-zombie-nightmare",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Drag Racer Underground",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile",
-      "url"      : "/jogosdaqui.github.io-staging/2006/06/30/drag-racer-underground",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia da nova versão de Drag Racer",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2006/06/30/previa-da-nova-versao-de-drag-racer",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Imagens da produção do RPG Essence",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile, rpg",
-      "url"      : "/jogosdaqui.github.io-staging/2006/06/07/imagens-da-producao-do-rpg-essence",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Cat Fighters",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2006/05/31/previa-de-cat-fighters",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Cat Fighters",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile",
-      "url"      : "/jogosdaqui.github.io-staging/2006/05/24/cat-fighters",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "GameGol",
-      "category" : "Preview",
-      "tags"     : "o2 games",
-      "url"      : "/jogosdaqui.github.io-staging/2006/05/17/gamegol",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Estradas Esburacadas a toda velocidade",
-      "category" : "Preview",
-      "tags"     : "",
-      "url"      : "/jogosdaqui.github.io-staging/2006/05/12/estradas-esburacadas-a-toda-velocidade",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Incorporated",
-      "category" : "Preview",
-      "tags"     : "interama, jogosbr, demo, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2006/05/10/incorporated",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Novo vídeo de Estradas Esburacadas",
-      "category" : "Preview",
-      "tags"     : "",
-      "url"      : "/jogosdaqui.github.io-staging/2006/05/10/novo-video-de-estradas-esburacadas",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Pinogol 3D",
-      "category" : "Preview",
-      "tags"     : "devworks game technology, gametrack, esporte, futebol",
-      "url"      : "/jogosdaqui.github.io-staging/2006/04/26/pinogol-3d",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Estradas Esburacadas mostra seus carros",
-      "category" : "Preview",
-      "tags"     : "",
-      "url"      : "/jogosdaqui.github.io-staging/2006/03/29/estradas-esburacadas-mostra-seus-carros",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Brincando com a Memória",
-      "category" : "Preview",
-      "tags"     : "",
-      "url"      : "/jogosdaqui.github.io-staging/2006/03/27/brincando-com-a-memoria",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Capoeira",
-      "category" : "Preview",
-      "tags"     : "demo, jogosbr",
-      "url"      : "/jogosdaqui.github.io-staging/2006/03/27/capoeira",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Fruzzle",
-      "category" : "Preview",
-      "tags"     : "icon games, puzzle",
-      "url"      : "/jogosdaqui.github.io-staging/2006/03/07/fruzzle",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Golden West - Bang! Bang!",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile",
-      "url"      : "/jogosdaqui.github.io-staging/2006/02/24/golden-west-bang-bang",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Golden West - Bang! Bang!",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2006/02/24/previa-de-golden-west-bang-bang",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "WSG - Web Soccer Game",
-      "category" : "Preview",
-      "tags"     : "",
-      "url"      : "/jogosdaqui.github.io-staging/2006/02/23/wsg-web-soccer-game",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Danger Mission",
-      "category" : "Preview",
-      "tags"     : "previa, wd studio",
-      "url"      : "/jogosdaqui.github.io-staging/2006/02/22/previa-de-danger-mission",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Danger Mission",
-      "category" : "Preview",
-      "tags"     : "wd studio",
-      "url"      : "/jogosdaqui.github.io-staging/2006/02/21/danger-mission",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Você será um guerreiro",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile",
-      "url"      : "/jogosdaqui.github.io-staging/2006/02/11/voce-sera-um-guerreiro",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Show de Bola",
-      "category" : "Preview",
-      "tags"     : "meantime, mobile, esporte, futebol",
-      "url"      : "/jogosdaqui.github.io-staging/2006/01/31/show-de-bola",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Tank Mission 3",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile",
-      "url"      : "/jogosdaqui.github.io-staging/2006/01/29/tank-mission-3",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Fighters of Caribbean da PalmSoft",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2006/01/20/previa-de-fighters-of-caribbean-da-palmsoft",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Jet Thunder",
-      "category" : "Preview",
-      "tags"     : "",
-      "url"      : "/jogosdaqui.github.io-staging/2006/01/12/jet-thunder",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia: PalmSoft Drag Racer",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile",
-      "url"      : "/jogosdaqui.github.io-staging/2005/12/21/palmsoft-drag-racer",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de War of Malquidious da PalmSoft",
-      "category" : "Preview",
-      "tags"     : "palmsoft tecnologia, mobile, rpg, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2005/12/16/war-of-malquidious",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Winguel",
-      "category" : "Preview",
-      "tags"     : "espaco informatica, demo, previa, puzzle",
-      "url"      : "/jogosdaqui.github.io-staging/2005/12/07/previa-de-winguel",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Prévia de Bola de Gude",
-      "category" : "Preview",
-      "tags"     : "previa, icon games",
-      "url"      : "/jogosdaqui.github.io-staging/2005/11/16/previa-de-bola-de-gude",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Primeiras imagens de Gods of The Virtual Boards",
-      "category" : "Preview",
-      "tags"     : "devworks game technology, tabuleiro, previa",
-      "url"      : "/jogosdaqui.github.io-staging/2005/10/22/primeiras-imagens-de-gods-of-the-virtual-boards",
-      "author"   : ""
-    } 
-     
-    ,
-  
-    
-    
-    {
-      "title"    : "Games da semana #3",
-      "category" : "Column",
-      "tags"     : "games da semana, qubyte interactive, long hat house, among giants, cafundo estudio, mad mimic, aquiris game studio",
-      "url"      : "/jogosdaqui.github.io-staging/2018/12/24/games-da-semana-3",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #14",
-      "category" : "Column",
-      "tags"     : "imagens da semana, miniboss, ylun, imgnation studios, cafundo estudio, joymasher, ninja garage studio",
-      "url"      : "/jogosdaqui.github.io-staging/2018/12/22/imagens-da-semana-14",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Games da semana #2",
-      "category" : "Column",
-      "tags"     : "games da semana, long hat house, aquiris game studio, invent4 entertainment, imax games, arvore immersive experiencies, lucas rizzotto, icon games",
-      "url"      : "/jogosdaqui.github.io-staging/2018/12/17/games-da-semana-2",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Games da semana #1",
-      "category" : "Column",
-      "tags"     : "games da semana, dead mushroom, aquiris game studio, firecast studio, monsterbed game studio, among giants, mad mimic interactive, long hat house, demo reel, video",
-      "url"      : "/jogosdaqui.github.io-staging/2018/12/13/games-da-semana-1",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #13",
-      "category" : "Column",
-      "tags"     : "aquiris game studio, double dash, joymasher, iduna game studio, mgaia studio, black river studios, rogue snail, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/09/14/imagens-da-semana-13",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Odallus - The Dark Call: primeiras impressões",
-      "category" : "Column",
-      "tags"     : "insert coins, video, joymasher, column",
-      "url"      : "/jogosdaqui.github.io-staging/2015/08/24/odallus-the-dark-call-primeiras-impressoes",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Toren: primeiras impressões",
-      "category" : "Column",
-      "tags"     : "insert coins, video, swordtales, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/07/16/toren-primeiras-impresoes",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #12",
-      "category" : "Column",
-      "tags"     : "aquiris game studio, qubyte interactive, southbox game studio, prosperity games, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/06/22/imagens-da-semana-12",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #11",
-      "category" : "Column",
-      "tags"     : "miniboss, joymasher, reiza studios, ninja garage studio, mgaia studio, big green pillow, aquiris game studio, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/06/15/imagens-da-semana-11",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Checkpoint #9",
-      "category" : "Column",
-      "tags"     : "aquiris game studio, behold studios, insert coins, odin game studio, tilt, webcore, big festival, big starter, mgaia studio, contra labs, checkpoint, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/06/11/checkpoint-9",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #10",
-      "category" : "Column",
-      "tags"     : "chroma squad, behold studios, zanardi and liza, southbox game studio, gametek, aquiris game studio, ninja garage studio, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/06/08/imagens-da-semana-10",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #9",
-      "category" : "Column",
-      "tags"     : "aquiris game studio, ninja garage studio, mgaia studio, reiza studios, protomini multimedia, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/06/01/imagens-da-semana-9",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Checkpoint #8",
-      "category" : "Column",
-      "tags"     : "aquiris game studio, swordtales, supernova indie games, bad minions, gamepad, iduna game studio, crazy minds game studios, protomini multimedia, checkpoint, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/29/checkpoint-8",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #8",
-      "category" : "Column",
-      "tags"     : "aquiris game studio, joymasher, big green pillow, reiza studios, iduna game studio, mgaia studio, garage 227, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/25/imagens-da-semana-8",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Checkpoint #7",
-      "category" : "Column",
-      "tags"     : "aquiris game studio, behold studios, insert coins, odin game studio, cyber rhino studios, reiza studios, big festival, duak entertainment, contra labs, gamepolitan, thinkbox games, big green pillow, gametek, little leds, crazy minds game studios, protomini multimedia, rockhead games, checkpoint, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/22/checkpoint-7",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #7",
-      "category" : "Column",
-      "tags"     : "behold studios, chroma squad, qubyte interactive, joymasher, swordtales, ninja garage studio, iduna game studio, garage 227, rockhead games, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/18/imagens-da-semana-7",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Checkpoint #6",
-      "category" : "Column",
-      "tags"     : "aquiris game studio, behold studios, swordtales, big festival, garage 227, big green pillow, rockhead games, labindie, vortex game studios, division five, checkpoint, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/14/checkpoint-6",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #6",
-      "category" : "Column",
-      "tags"     : "aquiris game studio, odin game studio, joymasher, kimeric labs, cupcake sweet entertainment, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/11/imagens-da-semana-6",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Checkpoint #5",
-      "category" : "Column",
-      "tags"     : "behold studios, icon games, insert coins, splitplay, qubyte interactive, greenlight, swordtales, garage 227, division five, humble store, checkpoint, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/09/checkpoint-5",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Insert Coins: Gryphon Knight Epic - Gameplay e Entrevista",
-      "category" : "Column",
-      "tags"     : "insert coins, steam, video, greenlight, crowdfunding, cyber rhino studios, facebook",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/06/insert-coins-gryphon-knight-epic-gameplay-e-entrevista",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Nova coluna no jogosdaqui: Insert Coins",
-      "category" : "Column",
-      "tags"     : "insert coins, video, entrevista, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/06/nova-coluna-no-jogosdaqui-insert-coins",
-      "author"   : ""
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #5",
-      "category" : "Column",
-      "tags"     : "behold studios, odin game studio, joymasher, imgnation studios, bighut ames, swordtales, mgaia studio, vortex game studios, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/04/imagens-da-semana-5",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Checkpoint #4",
-      "category" : "Column",
-      "tags"     : "behold studios, insert coins, odin game studio, brazil gets unreal, qubyte interactive, garage 227, labindie, cupcake sweet entertainment, awoker games, bgs, checkpoint, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/05/02/checkpoint-4",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #4",
-      "category" : "Column",
-      "tags"     : "behold studios, qubyte interactive, mgaia studio, garage 227, vortex game studios, division five, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/04/27/imagens-da-semana-4",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Checkpoint #3",
-      "category" : "Column",
-      "tags"     : "behold studios, steam, adjogosrs, swordtales, checkpoint, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/04/26/checkpoint-3",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #3",
-      "category" : "Column",
-      "tags"     : "swordtales, aquiris game studio, behold studios, mgaia studios, invent4, reiza studios, garage 227, otus game studio, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/04/20/imagens-da-semana-3",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Checkpoint #2",
-      "category" : "Column",
-      "tags"     : "invent4, adjogosrs, axis game day, powerup, checkpoint, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/04/18/checkpoint-2",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Checkpoint #1",
-      "category" : "Column",
-      "tags"     : "odin game studio, division five, cat nigiri, taw studio, checkpoint, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/04/16/checkpoint-1",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #2",
-      "category" : "Column",
-      "tags"     : "arc gen, behold studios, odin game studio, reiza studios, swordtales, mgaia studio, big green pillow, cat nigiri, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/04/13/imagens-da-semana-2",
-      "author"   : "Diego Giacomelli"
-    } ,
-    
-    {
-      "title"    : "Imagens da semana #1",
-      "category" : "Column",
-      "tags"     : "behold studios, splitplay, ilusis interactive, joymasher, reiza studios, splitplay, swordtales, division five, imagens da semana, coluna",
-      "url"      : "/jogosdaqui.github.io-staging/2015/04/06/imagens-da-semana-1",
-      "author"   : "Diego Giacomelli"
     } 
      
     ,
